@@ -15,3 +15,9 @@ GitHub Pages 选择 Deploy from a branch、main、/(root)。
 `archive-loader.js` 内的分类配置与 `categories.json` 应同步修改；后者也用于自动检查。检查只读取仓库，不提交或推送内容。
 
 秋游为完整轻量预览，其余 11 部为前 10 秒预览；完整原片未全部上传。未完成的分析和声音听辨保留原状态。公开版不含本机原片路径或私人联系信息。
+
+## 创作资源
+
+桌面侧栏和手机导航新增独立的「动效工具」入口：[`tools.html`](https://manman130696-dot.github.io/film-library/tools.html)。
+
+目前收录「开场实验室」可替换动效模板及使用说明。模板下载链接指向 ChatGPT 中的文件，需要登录有访问权限的账号；不改变文件的原有权限。工具页面不加载影片归档，不计入视频或案例数量。
