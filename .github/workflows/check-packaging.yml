@@ -1,0 +1,48 @@
+name: Check packaging design
+on:
+  push:
+    branches: [main, codex/packaging-design]
+    paths:
+      - packaging.html
+      - packaging/**
+      - tests/packaging-core.test.mjs
+      - index.html
+      - tools.html
+      - .github/scripts/check_packaging*
+      - .github/workflows/check-packaging.yml
+permissions:
+  contents: read
+jobs:
+  desktop:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --no-save --package-lock=false playwright
+      - run: npx playwright install --with-deps chromium
+      - run: node --test tests/packaging-core.test.mjs
+      - run: node .github/scripts/check_categories.cjs
+      - run: node .github/scripts/check_packaging.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: packaging-desktop
+          path: /tmp/packaging-desktop.png
+          if-no-files-found: ignore
+  models:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --no-save --package-lock=false @huggingface/transformers@3.8.1
+      - run: node .github/scripts/check_packaging_models.mjs

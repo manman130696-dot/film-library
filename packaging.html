@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#243e31">
+  <meta name="description" content="投入自己的片段，从满的片库寻找帮助理解、增加趣味的包装方向与真实对标。">
+  <title>包装设计 · 满的片库</title>
+  <link rel="stylesheet" href="packaging/styles.css">
+  <script src="archive-loader.js" defer></script>
+  <script type="module" src="packaging/app.mjs"></script>
+</head>
+<body>
+<header class="site-header"><a class="brand" href="index.html"><span class="brand-icon" aria-hidden="true">满</span><span>满的片库<small>影像灵感档案</small></span></a><nav aria-label="片库导航"><a href="index.html">全部作品</a><a href="tools.html">动效工具</a><a class="active" href="packaging.html" aria-current="page">包装设计</a></nav><button id="finish" class="button quiet" disabled>结束本次分析</button></header>
+<main>
+  <section class="intro"><div><p class="eyebrow">从真实案例，到你的表达</p><h1>给这段画面，找一个合适的包装。</h1><p>帮助观众看懂，也让表达更有趣。先看方向和片库对标，由你确定，再出提示词。</p></div><span class="session-badge">个人创作 · 本次会话</span></section>
+  <ol class="steps" aria-label="设计流程"><li class="current" id="step-input">投入片段</li><li id="step-directions">比较设计方向</li><li id="step-design">确定包装方案</li><li id="step-prompt">最后出提示词</li></ol>
+  <div class="workspace">
+    <aside class="source-panel panel">
+      <div class="panel-heading"><h2>你的片段</h2><span id="file-label" class="muted">仅在本机</span></div>
+      <label class="dropzone" id="dropzone" for="clip"><span class="upload-mark" aria-hidden="true">＋</span><strong>选择或拖入一个视频片段</strong><span>支持浏览器可播放的 MP4、MOV、WebM</span><input id="clip" type="file" accept="video/*,.mp4,.mov,.webm"></label>
+      <div id="source-wrap" hidden><video id="source" controls playsinline muted preload="metadata" aria-label="本次投入的视频片段"></video><p id="source-meta" class="small muted"></p><div class="range-row"><label>开始（秒）<input id="range-start" type="number" min="0" value="0" step="0.1"></label><label>结束（秒）<input id="range-end" type="number" min="0.1" value="15" step="0.1"></label><button id="play-range" class="button quiet" type="button">回看范围</button></div><p class="small muted">每次先看最多 30 秒；可修改范围，逐段找方向。</p></div>
+      <label class="field-label" for="note">补充说明 <span class="muted">可选</span></label><textarea id="note" rows="4" maxlength="1500" placeholder="例如：想让观众看清产品的两个不同用法，希望轻松一点。"></textarea>
+      <p class="small muted">只分析画面和你填写的文字，不听辨对白，不生成声音。</p>
+      <div class="privacy-note"><strong>素材留在本机</strong><p>不登录、不收费，不上传片段，也不自动加入公开片库。刷新或结束后，本次内容清除。</p></div>
+      <button class="button primary wide" id="analyze" disabled>分析画面，找设计方向</button>
+      <p class="small download-note">首次本机分析需下载模型文件（数百 MB，可能接近 1 GB），并占用本机内存和运算资源。速度取决于设备；下载完成后可复用模型。</p>
+      <p id="catalog-status" class="small muted" role="status">正在读取片库案例…</p>
+    </aside>
+    <section class="results-column" aria-label="包装设计工作区">
+      <section id="progress-panel" class="panel progress-panel" hidden aria-live="polite"><div class="progress-header"><h2>正在本机分析</h2><button id="cancel" class="button quiet">取消分析</button></div><progress aria-label="本机分析进行中"></progress><p id="progress-text">准备画面…</p><p class="small muted">分析基于抽取的关键画面；完整动态效果以原片回看为准。</p></section>
+      <section id="message-panel" class="panel message-panel"><span class="empty-icon" aria-hidden="true">✳</span><h2 id="message-title">先放入你正在剪的片段</h2><p id="message-text">有合适的片库案例，才提出设计方向。没有合适的，就直接告诉你。</p></section>
+      <section id="observations-panel" class="panel" hidden><div class="panel-heading"><h2>本次画面依据</h2><span id="observation-count" class="muted"></span></div><p class="small muted">本机小模型的画面描述可能有偏差。对照截图确认；可补充说明后重新分析。这里没有读取对白。</p><div id="frames" class="frames"></div></section>
+      <section id="directions-panel" hidden><div class="section-heading"><div><p class="eyebrow">有依据的选择</p><h2>包装设计方向 <span id="direction-count"></span></h2></div><p>先看对标，再选一个方向细化。</p></div><div id="directions" class="direction-list"></div></section>
+      <section id="editor-panel" class="panel editor-panel" hidden><div class="panel-heading"><h2>调整选定方案</h2><span id="confirmation-status" class="pill">待确定</span></div><p class="small muted">可直接改细节，也可以用文字提出调整意见。修改后需要重新确定方案。</p><form id="design-form"></form><label class="field-label" for="feedback">告诉我怎样调整</label><textarea id="feedback" rows="2" maxlength="1000" placeholder="例如：保留图形，文字收敛一点，趣味性再轻一些。"></textarea><button id="revise" class="button quiet">根据意见调整方向</button><div class="confirm-row"><button id="confirm" class="button primary">确定这份包装方案</button><span id="confirm-help" class="small muted">确定后才可以出提示词。</span></div><div class="prompt-options"><label for="tool">提示词用途（可选）<input id="tool" maxlength="100" placeholder="例如：图生视频，或具体制作工具"></label><button id="generate-prompt" class="button primary" disabled>输出制作提示词</button></div></section>
+      <section id="prompt-panel" class="panel" hidden><div class="panel-heading"><h2>已确定方案的制作提示词</h2><button id="copy-prompt" class="button quiet">复制提示词</button></div><textarea id="prompt" rows="16" readonly aria-label="制作提示词"></textarea><p class="small muted">对应当前确定的方案；修改方向或细节后，需要重新确定并输出。</p></section>
+    </section>
+  </div>
+  <footer><span>满的片库 · 包装设计</span><span>参考有出处，方案由你定。</span></footer>
+</main>
+<dialog id="reference-dialog"><div class="dialog-heading"><div><p class="eyebrow" id="reference-source"></p><h2 id="reference-title"></h2></div><button class="button quiet" id="close-reference" aria-label="关闭对标片段">关闭</button></div><video id="reference-video" controls playsinline muted preload="metadata" aria-label="片库对标片段"></video><div class="reference-controls"><span id="reference-range"></span><button id="replay-reference" class="button quiet">重播这段</button></div><p class="small muted">播放器按对标时间范围暂停；可手动回看原片其他可播放的位置。</p></dialog>
+<div id="toast" role="status" aria-live="polite"></div>
+</body></html>
