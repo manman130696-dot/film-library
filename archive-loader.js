@@ -1,0 +1,29 @@
+/* Read the original bundled archive without executing its scripts. */
+window.FILM_LIBRARY_READY = (async () => {
+  const config = {"categories":[{"name":"Vlog","description":"生活、旅行与日常记录","color":"#8baf88"},{"name":"视觉动效","description":"动态图形、动画、创意转场与合成","color":"#aa9ec4"},{"name":"纪录片","description":"人物、社会、自然与真实生活","color":"#8ba3b5"},{"name":"剧情短片","description":"故事、微电影与实验叙事","color":"#c79584"},{"name":"审美短片","description":"光影、氛围、摄影与情绪表达","color":"#c4a272"},{"name":"综艺包装","description":"花字、贴纸、节目片头与人物反应","color":"#c69bb1"},{"name":"商业与音乐影像","description":"产品、时尚、品牌广告、MV、舞蹈与节奏剪辑","color":"#98a77a"},{"name":"知识解说","description":"知识、评论、科技与操作演示","color":"#d8bb7a"}],"assignments":{"autumn":["Vlog","综艺包装","视觉动效","商业与音乐影像"],"appads":["知识解说","视觉动效"],"songmont":["商业与音乐影像","审美短片"],"whale":["知识解说","视觉动效"],"sapeur":["纪录片"],"home":["知识解说","视觉动效"],"capital":["知识解说"],"sail":["Vlog"],"harbin":["Vlog","纪录片"],"gold":["纪录片"],"africa":["Vlog","纪录片"],"deepseek":["知识解说"]}};
+  const response = await fetch(new URL('film-library-public/index.html', document.baseURI));
+  if (!response.ok) throw new Error('Archive HTTP ' + response.status);
+  const source = await response.text();
+  function read(variable) {
+    const start = source.indexOf('window.' + variable + '=');
+    if (start < 0) throw new Error('Missing archive data: ' + variable);
+    const from = start + variable.length + 8;
+    const end = source.indexOf(';</script>', from);
+    if (end < 0) throw new Error('Incomplete archive data: ' + variable);
+    return JSON.parse(source.slice(from, end));
+  }
+  const data = read('FILM_LIBRARY');
+  const prompts = read('FILM_PROMPTS');
+  const assets = read('FILM_ASSETS');
+  for (const video of data.videos) {
+    video.subjects = [...video.categories];
+    if (config.assignments[video.id]) video.categories = config.assignments[video.id];
+  }
+  data.categories = config.categories;
+  data.updatedAt = '2026-11-24';
+  window.FILM_LIBRARY = data;
+  window.FILM_PROMPTS = prompts;
+  window.FILM_ASSETS = assets;
+  window.FILM_LOCAL = {};
+})();
+
