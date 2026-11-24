@@ -75,7 +75,7 @@ function ensureWorker(){
   return worker;
 }
 function requestWorker(type,input){
-  const id=++runId;const active=ensureWorker();setBusy(true);
+  const active=ensureWorker();const id=++runId;setBusy(true);
   return new Promise((resolve,reject)=>{
     active.onmessage=({data})=>{if(data.id!==id||id!==runId)return;
       if(data.type==='progress'){$('#progress-text').textContent=data.message;return;}

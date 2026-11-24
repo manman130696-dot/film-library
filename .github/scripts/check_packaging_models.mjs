@@ -20,3 +20,5 @@ const revised=await revise({direction,caseRecord:realCase,feedback:'保持原参
 assert.equal(revised.caseId,realCase.id);assert.ok(revised.application.length>3);
 console.log('REAL LOCAL PROPOSAL:',JSON.stringify(revised));
 console.log('PASS real public-model inference: vision, embeddings, Chinese design and strict reference validation. CPU runtime; browser WASM performance remains device-dependent.');
+// Native ONNX sessions can retain runtime handles after successful assertions.
+process.exit(0);
