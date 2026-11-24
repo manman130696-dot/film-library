@@ -128,7 +128,7 @@ async function openReference(id){
   const c=findCase(id);if(!c)return;referenceCase=c;
   $('#reference-source').textContent=c.videoTitle;$('#reference-title').textContent=c.title;$('#reference-range').textContent=clock(c.start)+'—'+clock(c.end);
   $('#reference-dialog').showModal();
-  try{const loaded=waitEvent(reference,'loadedmetadata');reference.src=c.preview;reference.load();await loaded;if(referenceCase!==c)return;if(c.end>reference.duration+.05)throw Error('这个对标范围超出实际预览，暂时不能作为可播放参考。');reference.currentTime=c.start;await reference.play().catch(()=>{});}catch(e){toast(e.message);}
+  try{const loaded=waitEvent(reference,'loadedmetadata');reference.src=c.preview;reference.load();await loaded;if(referenceCase!==c)return;if(c.end>reference.duration+.05)throw Error('这个对标范围超出实际预览，暂时不能作为可播放参考。');reference.currentTime=c.start;await reference.play().catch(()=>{});}catch(e){if(referenceCase===c)toast(e.message);}
 }
 function closeReference(){reference.pause();reference.removeAttribute('src');reference.load();referenceCase=null;if($('#reference-dialog').open)$('#reference-dialog').close();}
 async function probePreview(url){
@@ -174,5 +174,9 @@ $('#reference-dialog').addEventListener('close',()=>{reference.pause();reference
 $('#replay-reference').addEventListener('click',()=>{if(referenceCase){reference.currentTime=referenceCase.start;reference.play().catch(()=>{});}});
 reference.addEventListener('timeupdate',()=>{if(referenceCase&&reference.currentTime>=referenceCase.end)reference.pause();});
 window.addEventListener('pagehide',()=>clearSession(false));
-window.addEventListener('pageshow',e=>{if(e.persisted)message('本次分析已清除','返回页面不会恢复之前投入的片段，请重新选择。');});
+window.addEventListener('pageshow',e=>{
+  if(e.persisted){clearSession(false);message('本次分析已清除','返回页面不会恢复之前投入的片段，请重新选择。');}
+  else if(!sourceURL)for(const id of ['clip','note','feedback','tool'])$('#'+id).value='';
+});
+clearSession(false);
 loadCatalog();

@@ -1,5 +1,21 @@
 const packagingPattern = /包装|花字|图形|字幕|贴纸|拼贴|抠像|字卡|标题|版式|边框|动效|MG|标注|图解|界面|视窗|窗口|照片墙|动态图/i;
 const textFields = ['title','understanding','fun','elements','placement','motion','application'];
+export const DRAFT_FIELDS=[['方向名称','title'],['理解作用','understanding'],['趣味方式','fun'],['视觉元素','elements'],['精确文案','copy'],['画面布局','placement'],['动作设计','motion'],['适配做法','application']];
+export function parseLocalDraft(text,caseId,range){
+  const raw=String(text||'').replace(/<think>[\s\S]*?<\/think>/g,'').trim();
+  if(/^(?:不合适|不适合|无合适|没有合适)/.test(raw.replace(/^[#*\s]+/,'')))return null;
+  const names=DRAFT_FIELDS.map(x=>x[0]).join('|');
+  const pattern=new RegExp('(?:^|\\n)\\s*[-#*\\d.、) ]{0,12}('+names+')(?:\\*\\*)?\\s*[：:]\\s*(?:\\*\\*)?','g');
+  const matches=[...raw.matchAll(pattern)];const result={caseId,start:range.start,end:range.end,copy:''};
+  for(let i=0;i<matches.length;i++){
+    const key=DRAFT_FIELDS.find(x=>x[0]===matches[i][1])[1];
+    result[key]=raw.slice(matches[i].index+matches[i][0].length,matches[i+1]?.index??raw.length).replace(/\n```\s*$/,'').trim();
+  }
+  const placeholders=new Set(['方向名称','观众需要理解的重点','具体趣味来源','视觉元素','保护主体的布局','进入、停留、退出的动作顺序','如何适配当前画面']);
+  for(const k of textFields)if(!result[k]||result[k].length<3||placeholders.has(result[k]))throw Error('本机模型没有写出完整的具体方案，请重试或补充说明。');
+  if(/^(?:无|无需文字|不添加文字)$/.test(result.copy))result.copy='';
+  return result;
+}
 export function buildCatalog(data, assets={}) {
   if (!Array.isArray(data?.videos)||!Array.isArray(data?.cases)) throw Error('片库数据不完整，请重新加载。');
   const videos = new Map(data.videos.map(v=>[v.id,v]));

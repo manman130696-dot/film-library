@@ -35,6 +35,8 @@ const assert=require('node:assert/strict');
   await page.locator('#note').fill('fixture-error');await page.locator('#analyze').click();await page.waitForFunction(()=>document.querySelector('#message-title').textContent==='本次分析没有完成');assert.match(await page.locator('#message-text').innerText(),/测试分析失败/);
   await page.locator('#finish').click();assert.equal(await page.locator('#source').getAttribute('src'),null);assert.equal(await page.locator('#note').inputValue(),'');assert.equal(await page.locator('#frames img').count(),0);assert.equal(await page.locator('#prompt').inputValue(),'');
   assert.deepEqual(await page.evaluate(()=>({local:localStorage.length,session:sessionStorage.length})),{local:0,session:0});
+  await page.locator('#note').fill('仅用于本次分析的说明');await page.reload();
+  assert.equal(await page.locator('#note').inputValue(),'');assert.equal(await page.locator('#source').getAttribute('src'),null);
   assert.deepEqual(uploads,[]);assert.deepEqual(errors,[]);
   await page.goto('http://127.0.0.1:8766/');assert.equal(await page.locator('.main-nav a[href="packaging.html"]').count(),1);
   await page.goto('http://127.0.0.1:8766/tools.html');assert.ok(await page.locator('a[href="packaging.html"]').count());
