@@ -7,6 +7,9 @@ on:
       - archive-loader.js
       - categories.json
       - .github/scripts/check_categories.cjs
+      - .github/scripts/check_cityride.cjs
+      - entries/cityride.json
+      - reports/cityride/online-report.html
       - .github/workflows/check-categories.yml
 permissions:
   contents: read
