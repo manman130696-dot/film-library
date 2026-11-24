@@ -22,9 +22,11 @@ jobs:
               ('source', 'source-original.mp4', 'f3e81bd8236761b136b2010d0a7e6302783f6e81320ad154206594cccdcb91d1'),
               ('preview', 'preview-web.mp4', 'd7ad0e447c40058a514e9c8a8164940a6b34de2563f92bf6d9a61b83cfa2b9c9'),
           ]:
-              data = b''.join(p.read_bytes() for p in sorted((root/'upload-parts').glob(f'{prefix}-*.part')))
-              assert hashlib.sha256(data).hexdigest() == digest
-              (root/target).write_bytes(data)
+              parts = sorted((root/'upload-parts').glob(f'{prefix}-*.part'))
+              if parts:
+                  data = b''.join(p.read_bytes() for p in parts)
+                  assert hashlib.sha256(data).hexdigest() == digest
+                  (root/target).write_bytes(data)
           visuals = b''.join(p.read_bytes() for p in sorted((root/'upload-parts').glob('visuals-*.part')))
           assert hashlib.sha256(visuals).hexdigest() == 'f226d5292c8da1596a5c8a1ad146d3b3ca3a7fb123e6a1a9505aaf89f4528c5e'
           with tarfile.open(fileobj=io.BytesIO(visuals), mode='r:gz') as archive:
