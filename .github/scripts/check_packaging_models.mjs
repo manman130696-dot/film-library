@@ -13,8 +13,9 @@ const progress=stage=>{const simplified=stage.split('：')[0];if(simplified!==la
 process.on('uncaughtException',error=>{console.error(error);if(error.generatedOutput)console.error('PUBLIC FIXTURE MODEL OUTPUT:',String(error.generatedOutput).slice(0,5000));process.exit(1);});
 const result=await analyze({frames:[{time:1,image:selected.image}],range:{start:0,end:5},note:'希望根据这个包装案例来做本片：'+selected.title+'。表达目的：'+selected.why,catalog:[realCase]},progress);
 assert.ok(result.observations[0].text.length>8);console.log('REAL VISION OBSERVATION:',result.observations[0].text);
-console.log('REAL RETRIEVAL:',result.candidateIds);assert.ok(Array.isArray(result.directions));
-const direction=result.directions[0]||{caseId:realCase.id,title:realCase.title,start:0,end:5,understanding:'用文字强调需要观众记住的重点',fun:'跟随画面轻微弹出增加趣味',elements:'短词和简洁图形',copy:'重点',placement:'主体旁空白，避开脸部',motion:'出现、停留读清、淡出',application:'保留主体并用文字标记用户提出的重点'};
+console.log('REAL RETRIEVAL:',result.candidateIds);console.log('REAL INITIAL PROPOSALS:',JSON.stringify(result.directions));assert.ok(Array.isArray(result.directions));
+// A user-selected, reference-based input also tests revision when matching returns no fit.
+const direction=result.directions[0]||{caseId:realCase.id,title:realCase.title,start:0,end:5,understanding:realCase.why,fun:realCase.motion,elements:realCase.structure,copy:'重点',placement:'主体旁空白，避开脸部',motion:realCase.motion,application:realCase.apply};
 const revised=await revise({direction,caseRecord:realCase,feedback:'保持原参考案例和设计方向，让文字更简洁。只返回一个完整方向。',range:{start:0,end:5},observations:result.observations,note:'当前帧和给定包装案例作为设计依据。'},progress);
 assert.equal(revised.caseId,realCase.id);assert.ok(revised.application.length>3);
 console.log('REAL LOCAL PROPOSAL:',JSON.stringify(revised));
