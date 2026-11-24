@@ -44,5 +44,5 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - run: npm install --no-save --package-lock=false @huggingface/transformers@3.8.1
+      - run: npm install --no-save --package-lock=false --onnxruntime-node-install-cuda=skip @huggingface/transformers@3.8.1
       - run: node .github/scripts/check_packaging_models.mjs
