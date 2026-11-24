@@ -40,7 +40,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add reports/cityride/source-original.mp4 reports/cityride/preview-web.mp4
-          git rm reports/cityride/upload-parts/*.part
+          git add reports/cityride/source-original.mp4 reports/cityride/preview-web.mp4 reports/cityride/frames reports/cityride/portraits
+          git rm reports/cityride/upload-parts/*.part reports/cityride/upload-parts/retry.trigger
           git commit -m 'Publish approved City Ride videos and remove upload parts'
           git push
