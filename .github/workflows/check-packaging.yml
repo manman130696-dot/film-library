@@ -44,5 +44,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - run: npm install --no-save --package-lock=false --onnxruntime-node-install-cuda=skip @huggingface/transformers@3.8.1
+      - run: npm install --no-save --package-lock=false --onnxruntime-node-install-cuda=skip @huggingface/transformers@3.8.1 playwright
+      - run: npx playwright install --with-deps chromium
       - run: node .github/scripts/check_packaging_models.mjs
+      - run: node .github/scripts/check_packaging_browser.cjs

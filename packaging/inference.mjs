@@ -1,4 +1,4 @@
-import {rankVectors,validateDirections} from './core.mjs';
+import {rankVectors,validateDirections,toLocalImageBlob} from './core.mjs';
 export const MODEL_IDS={vision:'HuggingFaceTB/SmolVLM-256M-Instruct',embedding:'Xenova/paraphrase-multilingual-MiniLM-L12-v2',draft:'onnx-community/Qwen2.5-0.5B-Instruct'};
 let sdkPromise,writer;
 const device=typeof process!=='undefined'&&process.versions?.node?'cpu':'wasm';
@@ -37,7 +37,7 @@ export async function analyze(input,progress=()=>{}){
     vision=await AutoModelForVision2Seq.from_pretrained(MODEL_IDS.vision,{device,dtype:{embed_tokens:'q4',vision_encoder:'q8',decoder_model_merged:'q4'},progress_callback:progressFor(progress,'下载画面模型')});
     for(let i=0;i<frames.length;i++){
       progress(`识别所选范围的第 ${i+1}/${frames.length} 张关键画面…`);
-      const image=await RawImage.fromURL(frames[i].image);
+      const image=await RawImage.fromBlob(toLocalImageBlob(frames[i].image));
       const prompt=processor.apply_chat_template([{role:'user',content:[{type:'image'},{type:'text',text:'Describe only visible people, objects, actions, text and composition in this image. Do not guess speech or sound.'}]}],{add_generation_prompt:true});
       const inputs=await processor(prompt,[image],{do_image_splitting:false});
       const ids=await vision.generate({...inputs,max_new_tokens:90,do_sample:false,repetition_penalty:1.1});

@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { buildCatalog, validateDirections, Session, makePrompt, rankVectors } from '../packaging/core.mjs';
+import { buildCatalog, validateDirections, Session, makePrompt, rankVectors, toLocalImageBlob } from '../packaging/core.mjs';
 
 const example = { id:'real', videoId:'film', start:2, end:4, title:'重点花字', tags:['包装'], structure:'文字位于人物右侧', motion:'文字逐字出现', why:'突出当前重点', apply:'用短词标记重点' };
 const proposal = { caseId:'real', title:'逐字重点提示', start:1, end:3, understanding:'把需要观众记住的重点变成可读文字', fun:'让短词随主体动作轻微弹出', elements:'短词与小型引导线', placement:'主体旁边空白处，避开脸部', motion:'依次出现，停留读清后淡出', application:'根据画面空白安排短词并保持主体清晰' };
@@ -40,4 +40,9 @@ test('final prompt preserves exact user text and selected case, excludes sound',
 test('semantic ranking is based on actual vectors, not a fixed result list',()=>{
  const out=rankVectors([1,0],[[0,1],[1,0],[0.5,0.5]]);
  assert.deepEqual(out.map(x=>x.index),[1,2,0]);
+});
+test('frame decoding stays local and rejects network addresses',async()=>{
+ const blob=toLocalImageBlob('data:image/jpeg;base64,AQID');
+ assert.equal(blob.type,'image/jpeg');assert.deepEqual([...new Uint8Array(await blob.arrayBuffer())],[1,2,3]);
+ assert.throws(()=>toLocalImageBlob('https://example.com/private-frame.jpg'),/本机/);
 });

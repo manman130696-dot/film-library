@@ -21,6 +21,12 @@ export function buildCatalog(data, assets={}) {
 export function rankVectors(query,vectors){
   return vectors.map((v,index)=>({index,score:v.reduce((sum,x,i)=>sum+x*(query[i]||0),0)})).sort((a,b)=>b.score-a.score);
 }
+export function toLocalImageBlob(data){
+  const match=typeof data==='string'&&/^data:(image\/(?:jpeg|png|webp));base64,([A-Za-z0-9+/=]+)$/.exec(data);
+  if(!match)throw Error('截图必须是本机生成的图片数据，不接受远程图片地址。');
+  let decoded;try{decoded=atob(match[2]);}catch{throw Error('本机截图数据不完整，请重新投入片段。');}
+  return new Blob([Uint8Array.from(decoded,c=>c.charCodeAt(0))],{type:match[1]});
+}
 export function validateDirections(text,candidates,range){
   let value;
   try{
