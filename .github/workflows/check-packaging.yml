@@ -34,17 +34,3 @@ jobs:
           name: packaging-desktop
           path: /tmp/packaging-desktop.png
           if-no-files-found: ignore
-  models:
-    runs-on: ubuntu-latest
-    timeout-minutes: 25
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          persist-credentials: false
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '22'
-      - run: npm install --no-save --package-lock=false --onnxruntime-node-install-cuda=skip @huggingface/transformers@3.8.1 playwright
-      - run: npx playwright install --with-deps chromium
-      - run: node .github/scripts/check_packaging_models.mjs
-      - run: node .github/scripts/check_packaging_browser.cjs
