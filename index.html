@@ -36,6 +36,10 @@
 /* Creative resources have their own navigation, outside video categories. */
 a.nav-button{text-decoration:none}.sidebar{overflow-y:auto}.resource-label{margin-top:24px}
 </style>
+<style>
+.intro-template-link{white-space:nowrap;font-size:14px}
+@media(max-width:700px){.topbar{gap:10px}.topbar-actions{gap:8px}.topbar-actions .prototype-tag{display:none}.intro-template-link{padding:9px 12px;min-height:39px}}
+</style>
 </head>
 <body>
 <svg class="icon-definitions" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><defs>
@@ -83,7 +87,7 @@ a.nav-button{text-decoration:none}.sidebar{overflow-y:auto}.resource-label{margi
 <div class="app-shell">
   <header class="topbar">
     <div class="breadcrumb"><span class="mobile-brand">片库</span><span>影像收藏</span><span class="breadcrumb-divider">/</span><strong id="view-name">全部作品</strong></div>
-    <div class="topbar-actions"><span class="updated">整理于 2026.11.24</span><span class="prototype-tag">公开片库</span></div>
+    <div class="topbar-actions"><a class="button button-dark intro-template-link" href="https://chatgpt.com/library?file_id=libfile_bd05a07e727481919611e126c899c305&amp;account_id=personal" target="_blank" rel="noopener noreferrer" aria-label="打开开场动效模板下载（需要登录有权限的 ChatGPT 账号）">开场动效模板</a><span class="updated">整理于 2026.11.24</span><span class="prototype-tag">公开片库</span></div>
   </header>
   <div class="prototype-mobile"><button class="nav-button active" data-view="videos">全部作品</button><button class="nav-button" data-view="cases">包装与 B 镜</button><button class="nav-button" data-view="saved">我的标记</button><a class="nav-button" href="tools.html">动效工具</a></div>
   <main id="main-content">
