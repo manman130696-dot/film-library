@@ -21,8 +21,12 @@ window.FILM_LIBRARY_READY = (async () => {
   }
   const addition = await fetch(new URL('entries/cityride.json', document.baseURI));
   if (!addition.ok) throw new Error('City Ride entry HTTP ' + addition.status);
-  const cityride = await addition.json();
-  if (!data.videos.some(video => video.id === cityride.id)) data.videos.unshift(cityride);
+  const {cases: cityCases = [], prompts: cityPrompts = [], ...cityride} = await addition.json();
+  const existing = data.videos.findIndex(video => video.id === cityride.id);
+  if (existing >= 0) data.videos.splice(existing, 1);
+  data.videos.unshift(cityride);
+  data.cases = [...cityCases, ...data.cases.filter(item => item.videoId !== cityride.id)];
+  prompts[cityride.id] = cityPrompts;
   data.categories = config.categories;
   data.updatedAt = '2026-11-24';
   window.FILM_LIBRARY = data;
@@ -30,4 +34,5 @@ window.FILM_LIBRARY_READY = (async () => {
   window.FILM_ASSETS = assets;
   window.FILM_LOCAL = {};
 })();
+
 

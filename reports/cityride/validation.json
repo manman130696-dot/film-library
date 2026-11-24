@@ -1,0 +1,23 @@
+{
+  "brand": "Fredtalk Shots",
+  "ok": true,
+  "shotCount": 114,
+  "windowCount": 127,
+  "sourceSeconds": 172.172172,
+  "errors": [],
+  "warnings": [
+    "engine: S02: 固定机位标注的画面差分较高；复核稳定背景与主体运动。",
+    "engine: S03: 固定机位标注的画面差分较高；复核稳定背景与主体运动。",
+    "engine: S33: 固定机位标注的画面差分较高；复核稳定背景与主体运动。",
+    "engine: S35: 固定机位标注的画面差分较高；复核稳定背景与主体运动。",
+    "engine: S85: 固定机位标注的画面差分较高；复核稳定背景与主体运动。",
+    "engine: S86: 固定机位标注的画面差分较高；复核稳定背景与主体运动。",
+    "engine: S92: 固定机位标注的画面差分较高；复核稳定背景与主体运动。",
+    "engine: S93: 固定机位标注的画面差分较高；复核稳定背景与主体运动。",
+    "engine: S99: 固定机位标注的画面差分较高；复核稳定背景与主体运动。",
+    "engine: S111: 固定机位标注的画面差分较高；复核稳定背景与主体运动。"
+  ],
+  "skippedMachineGates": [],
+  "visualReviewRequired": true,
+  "validationBoundary": "Machine checks cover measured source data, local assets, report structure and prompt timing. They do not verify visual identity, action interpretation, sound understanding or continuous playback; visual review is still required."
+}

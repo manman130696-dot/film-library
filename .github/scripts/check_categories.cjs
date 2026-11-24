@@ -75,9 +75,11 @@ const fs = require('node:fs');
     assert.equal(await cards.count(), 13);
     assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1), 'mobile page should not overflow');
     assert.deepEqual(errors, []);
+    await require('./check_cityride.cjs')(page);
     console.log('PASS: all categories, counts, combined search, detail notes, prompts, bundled previews, case filters and mobile layout');
   } finally {
     if (browser) await browser.close();
     server.kill();
   }
 })().catch(e => { console.error(e); process.exitCode = 1; });
+

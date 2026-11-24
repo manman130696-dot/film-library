@@ -171,7 +171,7 @@ a.nav-button{text-decoration:none}.sidebar{overflow-y:auto}.resource-label{margi
     const q=$('#search').value.trim().toLowerCase(), text=searchable(v)+' '+extra.toLowerCase();
     return (!q||text.includes(q))&&($('#status-filter').value==='all'||v.status===$('#status-filter').value)&&(direction==='all'||v.categories.includes(direction))&&(tag==='all'||tagPatterns[tag].test(text));
   }
-  function videoCard(v){return `<article class="video-card"><button class="card-open" data-open="${esc(v.id)}"><div class="card-poster"><img loading="lazy" src="${esc(asset(v.poster))}" alt="${esc(v.title)}${v.preview ? '原片画面' : '待分析临时封面'}"><span class="card-status ${esc(v.status)}">${esc(v.statusLabel)}</span><span class="duration">${v.duration == null ? '待测量' : clock(v.duration)}</span><span class="card-hover-play">${icon('play')}</span></div><div class="card-body"><span class="card-category">${esc(v.categories.join(' / '))}</span><h3>${esc(v.title)}</h3><p class="card-summary">${esc(v.subtitle)}</p></div></button><div class="card-footer"><div class="card-tags">${v.tags.slice(0,3).map(t=>`<span>${esc(t)}</span>`).join('')}</div><button class="bookmark-button ${isSaved(v.id)?'saved':''}" data-save="${esc(v.id)}" aria-label="${isSaved(v.id)?'取消标记':'标记'}${esc(v.title)}" aria-pressed="${isSaved(v.id)}">${icon('bookmark')}</button></div></article>`;}
+  function videoCard(v){return `<article class="video-card"><button class="card-open" data-open="${esc(v.id)}"><div class="card-poster"><img loading="lazy" src="${esc(asset(v.poster))}" alt="${esc(v.title)}${v.preview ? '原片画面' : '资料封面'}"><span class="card-status ${esc(v.status)}">${esc(v.statusLabel)}</span><span class="duration">${v.duration == null ? '待测量' : clock(v.duration)}</span><span class="card-hover-play">${icon('play')}</span></div><div class="card-body"><span class="card-category">${esc(v.categories.join(' / '))}</span><h3>${esc(v.title)}</h3><p class="card-summary">${esc(v.subtitle)}</p></div></button><div class="card-footer"><div class="card-tags">${v.tags.slice(0,3).map(t=>`<span>${esc(t)}</span>`).join('')}</div><button class="bookmark-button ${isSaved(v.id)?'saved':''}" data-save="${esc(v.id)}" aria-label="${isSaved(v.id)?'取消标记':'标记'}${esc(v.title)}" aria-pressed="${isSaved(v.id)}">${icon('bookmark')}</button></div></article>`;}
   function caseCard(c){const v=byId[c.videoId];return `<article class="video-card case-card"><button class="card-open" data-open="${esc(v.id)}" data-case="${esc(c.id)}"><div class="card-poster"><img loading="lazy" src="${esc(asset(c.image||v.poster))}" alt="${esc(c.title)}"><span class="duration">${clock(c.start)}–${clock(c.end)}</span><span class="card-hover-play">${icon('play')}</span></div><div class="card-body"><span class="card-category">${esc(c.tags.slice(0,3).join(' / '))}</span><h3>${esc(c.title)}</h3><p class="card-summary">${esc(c.why||c.structure)}</p><p class="case-source">${esc(v.title)}</p></div></button></article>`;}
   function render(){
     const labels={videos:'全部作品',cases:'包装与 B 镜',saved:'我的标记'};
@@ -195,7 +195,7 @@ a.nav-button{text-decoration:none}.sidebar{overflow-y:auto}.resource-label{margi
   function reset(){direction='all';tag='all';$('#search').value='';$('#status-filter').value='all';render();}
   function jump(time){
     const currentId=selected?.id, currentSource=player.src;
-    const t=Number(time)||0;const max=player.dataset.full==='true'?selected.duration:selected.previewDuration;
+    const t=Number(time)||0;if(!selected.preview&&player.dataset.full!=='true'){$('#playback-notice').hidden=false;$('#playback-notice').textContent='视频待确认公开；选择本地完整原片后即可按时间回看。';return;}const max=player.dataset.full==='true'?selected.duration:selected.previewDuration;
     if(t>=max){$('#playback-notice').hidden=false;$('#playback-notice').textContent=`当前播放的是前10秒预览，原片对应位置是 ${clock(t)}。可选择完整原片后跳转；右侧资料可直接查看。`;return;}
     const seek=()=>{if(!selected||selected.id!==currentId||player.src!==currentSource)return;if(Number.isFinite(player.duration)&&t>=player.duration){$('#playback-notice').hidden=false;$('#playback-notice').textContent='这个位置超出当前预览，选择完整原片后即可跳转。';return;}player.currentTime=t;player.play().catch(()=>{});};
     if(player.readyState)seek();else player.addEventListener('loadedmetadata',seek,{once:true});
@@ -250,9 +250,9 @@ ${c.apply||'根据新片的叙事重点调整元素、版式与节奏。'}
     const v=byId[id];if(!v)return;selected=v;promptIndex=0;tab=caseId?'cases':'overview';analysisMode='overview';player.dataset.fallback='false';
     $('#detail-title').textContent=v.title;$('#detail-subtitle').textContent=v.summary;$('#detail-categories').textContent=v.categories.join(' / ');$('#detail-eyebrow').textContent='我的片库 · 作品档案';
     $('#detail-tags').innerHTML=v.tags.map(t=>`<span>${esc(t)}</span>`).join('');$('#detail-preference').innerHTML=`<strong>我的偏好与使用边界</strong>${esc(v.preference)}`;
-    $('#playback-notice').hidden=true;player.poster=asset(v.poster);if(local[id]?.playback||v.preview)player.src=local[id]?.playback||asset(v.preview);else{player.removeAttribute('src');player.load();$('#playback-notice').hidden=false;$('#playback-notice').textContent='已登记风格偏好与 B 镜用途，原片待载入。可选择完整原片在本机回看；镜头时间点与分析尚未完成。';}player.dataset.full=String(!!local[id]?.playback||v.fullPreview);
-    $('#playback-label').textContent=!v.preview&&!local[id]?.playback?'原片待载入':local[id]?.playback?'本地完整视频':v.fullPreview?'完整轻量预览':'原片前10秒预览';
-    $('#open-original-report').disabled=!local[id]?.report;
+    $('#playback-notice').hidden=true;player.poster=asset(v.poster);if(local[id]?.playback||v.preview)player.src=local[id]?.playback||asset(v.preview);else{player.removeAttribute('src');player.load();$('#playback-notice').hidden=false;$('#playback-notice').textContent='逐镜观察、B 镜位置和提示词已整理。视频与截图待确认公开；可选择完整原片在本机回看。配乐与音效仍待实际试听。';}player.dataset.full=String(!!local[id]?.playback||v.fullPreview);
+    $('#playback-label').textContent=!v.preview&&!local[id]?.playback?'视频待确认公开':local[id]?.playback?'本地完整视频':v.fullPreview?'完整轻量预览':'原片前10秒预览';
+    $('#open-original-report').disabled=!(local[id]?.report||v.report);
     updateDetailSave();renderPanel();if(!detail.open)detail.showModal();
     if(caseId){const c=data.cases.find(c=>c.id===caseId);if(c)jump(c.start);requestAnimationFrame(()=>document.getElementById('case-'+caseId)?.scrollIntoView({block:'start'}));}
   }
@@ -281,10 +281,11 @@ ${c.apply||'根据新片的叙事重点调整元素、版式与节奏。'}
   $('#copy-detail').addEventListener('click',()=>copyText([selected.title,selected.summary,selected.preference,...(selected.topics||[]).map(t=>t.title+'\n'+t.observed+'\n'+t.meaning+'\n'+t.apply)].join('\n\n')));
   $('#choose-video').addEventListener('click',()=>$('#video-input').click());
   $('#video-input').addEventListener('change',e=>{const f=e.target.files[0];if(f){player.src=URL.createObjectURL(f);player.dataset.full='true';player.dataset.fallback='false';$('#playback-label').textContent='选择的完整原片';$('#playback-notice').hidden=true;}});
-  $('#open-original-report').addEventListener('click',()=>{if(local[selected.id]?.report)window.open(local[selected.id].report,'_blank','noopener');});
+  $('#open-original-report').addEventListener('click',()=>{const report=local[selected.id]?.report||selected.report;if(report)window.open(report,'_blank','noopener');});
   $('#export-catalog').addEventListener('click',()=>{const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify({videos:videos.map(v=>({title:v.title,status:v.statusLabel,categories:v.categories,tags:v.tags,preference:v.preference})),saved:[...saved]},null,2)],{type:'application/json'}));a.download='片库清单.json';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);});
   document.addEventListener('keydown',e=>{if(e.key==='/'&&!['INPUT','TEXTAREA'].includes(e.target.tagName)&&!detail.open){e.preventDefault();$('#search').focus();}});
   $('#hero-stats').innerHTML=`<div><strong>${videos.length}</strong><span>部作品</span></div><div><strong>${data.cases.length}</strong><span>个包装案例</span></div><div><strong>${videos.filter(v=>v.status!=='draft').length}</strong><span>部有研究笔记</span></div>`;
   $('#featured-image').src=asset(byId.autumn.poster);render();
 })();
 </script></body></html>
+

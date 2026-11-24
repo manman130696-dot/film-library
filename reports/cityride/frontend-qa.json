@@ -1,0 +1,16 @@
+{
+  "sourceRead": "passed",
+  "sourceSeconds": 172.172172,
+  "shotIntervals": 114,
+  "windows": 127,
+  "fullTimeDomainDecode": true,
+  "visualMethod": "源片 SHA-256 与元数据实测；0–172.172172 秒全时域解码采样，每 1 秒一帧共 172 张；查看全部镜头前后代表帧；开场逐源帧、球场与泡泡 0.1 秒加密；切点邻帧与窗边、宠物局部复核，PTS 映射保存在 review/。结构检查不代替连续动态审看与声音听辨。",
+  "audioPreserved": true,
+  "audioListened": false,
+  "asr": false,
+  "continuousVisualPlayback": false,
+  "browser": "本机连接失败；备用浏览器启动和端口受环境限制。线上文字页交由仓库浏览器检查。",
+  "desktop": "pending CI",
+  "mobile": "pending CI",
+  "publication": "Public text report only; source-derived images and videos await explicit publication approval"
+}
