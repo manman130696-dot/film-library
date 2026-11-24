@@ -4,7 +4,7 @@ const assert=require('node:assert/strict');
 (async()=>{
  const server=spawn('python3',['-m','http.server','8766','--bind','127.0.0.1'],{stdio:'ignore'});let browser;
  try{
-  for(let i=0;i<100;i++){try{if((await fetch('http://127.0.0.1:8766/packaging.html')).ok)break;}catch{}await new Promise(r=>setTimeout(r,100));}
+  for(let i=0;i<100;i++){try{if((await fetch('http://127.0.0.1:8766/packaging.html', {method:'HEAD'})).ok)break;}catch{}await new Promise(r=>setTimeout(r,100));}
   browser=await chromium.launch({headless:true});const page=await browser.newPage({viewport:{width:1440,height:1000}});const errors=[],uploads=[],modelRequests=[];
   page.on('pageerror',e=>errors.push(e.message));page.on('request',r=>{if(!['GET','HEAD'].includes(r.method()))uploads.push(r.url());if(/huggingface|jsdelivr/.test(r.url()))modelRequests.push(r.url());});
   await page.addInitScript(()=>{window.Worker=class{constructor(){throw Error('Assist mode must not create model workers');}};});

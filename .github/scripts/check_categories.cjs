@@ -12,7 +12,7 @@ const fs = require('node:fs');
   let browser;
   try {
     for (let i = 0; i < 100; i++) {
-      try { if ((await fetch('http://127.0.0.1:8765/')).ok) break; } catch {}
+      try { if ((await fetch('http://127.0.0.1:8765/', {method:'HEAD'})).ok) break; } catch {}
       await new Promise(r => setTimeout(r, 100));
     }
     browser = await chromium.launch({ headless: true });
