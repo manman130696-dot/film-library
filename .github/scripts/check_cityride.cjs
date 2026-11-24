@@ -22,7 +22,11 @@ module.exports = async function checkCityRide(page) {
   assert.equal(await page.locator('#shot-list .shot').count(),114);
   assert.equal(await page.locator('.camera-cue').count(),127);
   assert.equal(await page.locator('#broll tbody tr').count(),15);
-  assert.equal(await page.locator('#film').getAttribute('src'),null,'media remains unpublished');
+  assert.equal(await page.locator('#film').getAttribute('src'),'preview-web.mp4');
+  await page.locator('#film').evaluate(v => { v.muted=true; return v.play(); });
+  await page.waitForFunction(()=>document.querySelector('#film').currentTime>0.1);
+  await page.locator('#film').evaluate(v=>v.pause());
+  assert.equal(await page.locator('[data-source="source-original.mp4"]').count(),1);
   assert.ok(await page.locator('#prompt-text').inputValue() === JSON.parse(fs.readFileSync('reports/cityride/timed-camera-prompts.json','utf8')).timelinePrompt);
   await page.locator('#search').fill('zz-no-such-shot-zz');
   assert.equal(await page.locator('#shot-list .shot').count(),0);
