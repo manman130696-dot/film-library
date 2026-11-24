@@ -19,6 +19,10 @@ window.FILM_LIBRARY_READY = (async () => {
     video.subjects = [...video.categories];
     if (config.assignments[video.id]) video.categories = config.assignments[video.id];
   }
+  const addition = await fetch(new URL('entries/cityride.json', document.baseURI));
+  if (!addition.ok) throw new Error('City Ride entry HTTP ' + addition.status);
+  const cityride = await addition.json();
+  if (!data.videos.some(video => video.id === cityride.id)) data.videos.unshift(cityride);
   data.categories = config.categories;
   data.updatedAt = '2026-11-24';
   window.FILM_LIBRARY = data;

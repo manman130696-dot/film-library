@@ -1,0 +1,44 @@
+{
+  "id": "cityride",
+  "title": "城市中的艺术有很多面 · City Ride",
+  "subtitle": "喜欢的风格参考 · B 镜候选待逐镜筛选",
+  "summary": "用户提供的城市骑行影片，已登记偏好与用途。原片尚未完成读取，逐镜分析、声音听辨、片长和 B 镜时间点待补充。",
+  "preference": "用户原话：“我很喜欢这种风格”“这个片子有些镜头可以用作b镜”。待看片后确定具体风格维度与可用镜头，不代表每个镜头均已确认。",
+  "categories": [
+    "Vlog",
+    "商业与音乐影像"
+  ],
+  "subjects": [
+    "城市骑行",
+    "佳能 R50"
+  ],
+  "tags": [
+    "喜欢的风格",
+    "B镜候选",
+    "待拉片"
+  ],
+  "status": "draft",
+  "statusLabel": "待拉片",
+  "duration": null,
+  "previewDuration": 0,
+  "fullPreview": false,
+  "preview": null,
+  "poster": "assets/cityride-pending.svg",
+  "audioStatus": "尚未听辨",
+  "shots": [],
+  "topics": [],
+  "notes": [
+    {
+      "title": "片库标注",
+      "text": "已登记风格偏好及 B-roll 用途。分类暂据上传文件标题，看片后复核。"
+    },
+    {
+      "title": "后续分析范围",
+      "text": "全片逐镜分析；重点提炼风格与摄影、剪辑、动效方法。B-roll 需记录源镜号、起止时间、画面内容、叙事用途及重拍提示词。"
+    },
+    {
+      "title": "当前状态",
+      "text": "尚未完成原片读取与播放，未生成镜头、提示词或声音结论。可使用“选择完整原片”在本机回看。"
+    }
+  ]
+}
