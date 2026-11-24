@@ -1,0 +1,34 @@
+name: Restore approved City Ride source
+on:
+  push:
+    branches: [main]
+    paths: ['reports/cityride/upload-parts/**']
+permissions:
+  contents: write
+jobs:
+  restore:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Restore and verify approved videos
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import hashlib
+          root = Path('reports/cityride')
+          for prefix, target, digest in [
+              ('source', 'source-original.mp4', 'f3e81bd8236761b136b2010d0a7e6302783f6e81320ad154206594cccdcb91d1'),
+              ('preview', 'preview-web.mp4', 'd7ad0e447c40058a514e9c8a8164940a6b34de2563f92bf6d9a61b83cfa2b9c9'),
+          ]:
+              data = b''.join(p.read_bytes() for p in sorted((root/'upload-parts').glob(f'{prefix}-*.part')))
+              assert hashlib.sha256(data).hexdigest() == digest
+              (root/target).write_bytes(data)
+          PY
+      - name: Commit verified videos and remove upload parts
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add reports/cityride/source-original.mp4 reports/cityride/preview-web.mp4
+          git rm reports/cityride/upload-parts/*.part
+          git commit -m 'Publish approved City Ride videos and remove upload parts'
+          git push
