@@ -1,6 +1,7 @@
 const assert = require('node:assert/strict');
 const fs = require('node:fs');
 module.exports = async function checkCityRide(page) {
+  await page.context().grantPermissions(['clipboard-read','clipboard-write'],{origin:'http://127.0.0.1:8765'});
   const errors = [];
   page.on('pageerror', error => errors.push(error.message));
   await page.setViewportSize({width:1440,height:1000});
@@ -37,7 +38,9 @@ module.exports = async function checkCityRide(page) {
   assert.ok((await page.locator('#prompt-text').inputValue()).length>300);
   await page.locator('#prompt-tab-0').click();
   await page.locator('#copy-prompt').click();
+  await page.waitForFunction(()=>document.querySelector('#copy-prompt').dataset.copyState!=='idle');
   assert.equal(await page.locator('#copy-prompt').getAttribute('data-copy-state'),'success');
+  assert.equal(await page.evaluate(()=>navigator.clipboard.readText()),await page.locator('#prompt-text').inputValue());
   for (const width of [1440,390]) {
     await page.setViewportSize({width,height:1000});
     const metrics=await page.evaluate(()=>({overflow:document.documentElement.scrollWidth-innerWidth,overlap:[...document.querySelectorAll('.camera-cue')].some(c=>{const t=c.querySelector('.cue-time'),h=c.querySelector('h4');return t&&h&&t.getBoundingClientRect().bottom>h.getBoundingClientRect().top+.5})}));
