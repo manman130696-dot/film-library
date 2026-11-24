@@ -2,7 +2,7 @@
   "id": "cityride",
   "title": "城市中的艺术有很多面 · City Ride",
   "subtitle": "暖阳城市骑摄 · 15 组 B 镜 · 摄影与动效拆解",
-  "summary": "暖阳、红砖与绿荫、低位骑行，人物发现与相机拍摄结果交替。已整理114个镜头／复合包装段、15组B镜和127个摄影时间窗。在线先提供文字报告；视频和截图待确认公开，声音仍待试听。",
+  "summary": "暖阳、红砖与绿荫、低位骑行，人物发现与相机拍摄结果交替。已整理114个镜头／复合包装段、15组B镜和127个摄影时间窗。完整视频、截图和逐镜报告已公开；声音仍待试听。",
   "preference": "用户原话：“我很喜欢这种风格”“这个片子有些镜头可以用作b镜”。本次归纳：暖色城市生活感、人物稳定的跟拍、低机位细节、白边照片与圆角视窗。具体维度尚未逐项获得用户确认。",
   "categories": [
     "Vlog",
@@ -24,10 +24,10 @@
   "status": "partial",
   "statusLabel": "画面已拆解 · 声音待试听",
   "duration": 172.172172,
-  "previewDuration": 0,
-  "fullPreview": false,
-  "preview": null,
-  "poster": "assets/cityride-pending.svg",
+  "previewDuration": 172.172172,
+  "fullPreview": true,
+  "preview": "reports/cityride/preview-web.mp4",
+  "poster": "reports/cityride/frames/S09a.svg",
   "report": "reports/cityride/online-report.html",
   "audioStatus": "原片有音轨；未实际听辨，未做ASR。",
   "shots": [
@@ -9140,7 +9140,7 @@
         "B镜",
         "动作连接"
       ],
-      "image": "assets/cityride-pending.svg",
+      "image": "reports/cityride/frames/S11a.svg",
       "structure": "石板地面占大部，细车轮和踏动的鞋从边缘进入。",
       "typography": "保留原片已有字幕或边框；新作可重拍干净素材，避免覆盖已有信息。",
       "motion": "轮子由画外滚入，脚持续踩踏，地面纹理从轮旁流过。 低机位跟随车轮，背景地面相对滑动；动作并非相机自行旋转。",
@@ -9158,7 +9158,7 @@
         "B镜",
         "地点交代"
       ],
-      "image": "assets/cityride-pending.svg",
+      "image": "reports/cityride/frames/S13a.svg",
       "structure": "暗红通道与两侧灯笼形成前景框，亮处街道位于远端。",
       "typography": "保留原片已有字幕或边框；新作可重拍干净素材，避免覆盖已有信息。",
       "motion": "骑行者从通道尽头的亮处横穿，暗前景基本保持。 稳定框景借远处人物运动建立深度。",
@@ -9176,7 +9176,7 @@
         "B镜",
         "地点交代"
       ],
-      "image": "assets/cityride-pending.svg",
+      "image": "reports/cityride/frames/S14a.svg",
       "structure": "深色砖拱在前景围住亮院落，骑行者位于远处。",
       "typography": "保留原片已有字幕或边框；新作可重拍干净素材，避免覆盖已有信息。",
       "motion": "人物从拱门内的画面一侧骑到另一侧，院落仍清晰。 前景拱形固定，用人物的小尺度交代建筑空间。",
@@ -9194,7 +9194,7 @@
         "B镜",
         "动作细节"
       ],
-      "image": "assets/cityride-pending.svg",
+      "image": "reports/cityride/frames/S18a.svg",
       "structure": "粉色活动标签位于画面中央，车架和蓝天形成色块。",
       "typography": "保留原片已有字幕或边框；新作可重拍干净素材，避免覆盖已有信息。",
       "motion": "标签随骑行摆动，建筑从后景横向经过。 近物相对稳定、远景变化，突出附着车身的细节。",
@@ -9212,7 +9212,7 @@
         "B镜",
         "环境换气"
       ],
-      "image": "assets/cityride-pending.svg",
+      "image": "reports/cityride/frames/S19a.svg",
       "structure": "阳光穿过绿色叶片，树冠覆盖画面，天空从缝隙露出。",
       "typography": "保留原片已有字幕或边框；新作可重拍干净素材，避免覆盖已有信息。",
       "motion": "叶片与枝条随取景移过，接回骑行的人物。 抬头取树冠并轻移，不能据高像素变化认定剧烈抖动。",
@@ -9230,7 +9230,7 @@
         "B镜",
         "氛围定场"
       ],
-      "image": "assets/cityride-pending.svg",
+      "image": "reports/cityride/frames/S24a.svg",
       "structure": "红砖商业街与露台桌椅围成开阔路面，树梢透出太阳。",
       "typography": "保留原片已有字幕或边框；新作可重拍干净素材，避免覆盖已有信息。",
       "motion": "人物从街角远处骑入，长阴影与薄雾状眩光保持。 稳定大全景让人从小到大，光线本身承担氛围。",
@@ -9248,7 +9248,7 @@
         "B镜",
         "动作连接"
       ],
-      "image": "assets/cityride-pending.svg",
+      "image": "reports/cityride/frames/S33a.svg",
       "structure": "两只手压在蓝棕相接的布面上，白色细线构成图案。",
       "typography": "保留原片已有字幕或边框；新作可重拍干净素材，避免覆盖已有信息。",
       "motion": "手掌压下并向外抚平，布纹由鼓起变平。 机位贴近布面，动作完整性来自手与褶皱同步变化。",
@@ -9266,7 +9266,7 @@
         "B镜",
         "感官与情绪"
       ],
-      "image": "assets/cityride-pending.svg",
+      "image": "reports/cityride/frames/S40a.svg",
       "structure": "粉色上衣女孩拿泡泡玩具站在草坪，泡泡从她身前飘向绿篱。",
       "typography": "保留原片已有字幕或边框；新作可重拍干净素材，避免覆盖已有信息。",
       "motion": "她举着玩具转向，泡泡持续生成；相机向一侧跟泡泡，女孩离开画面而泡泡成为主体。 连续帧证实人物到泡泡的注意力转移是同镜平移，不额外加刀。",
@@ -9284,7 +9284,7 @@
         "B镜",
         "情绪过桥"
       ],
-      "image": "assets/cityride-pending.svg",
+      "image": "reports/cityride/frames/S52a.svg",
       "structure": "河面亮点、远岸与红色浮标形成纵深。",
       "typography": "保留原片已有字幕或边框；新作可重拍干净素材，避免覆盖已有信息。",
       "motion": "起初可读的水纹逐渐化成虚焦光斑，画面转柔。 机位基本保持，清晰度变化支持焦点转移，不是推进镜头的必然证据。",
@@ -9302,7 +9302,7 @@
         "B镜",
         "前后景层次"
       ],
-      "image": "assets/cityride-pending.svg",
+      "image": "reports/cityride/frames/S95a.svg",
       "structure": "粉色标签在左前景清楚，远处女子与车旁店门较虚。",
       "typography": "保留原片已有字幕或边框；新作可重拍干净素材，避免覆盖已有信息。",
       "motion": "后景人物抬臂与移动，前景标签保持位置，形成近静远动。 焦点偏向标签，主体层次倒置；不把后景模糊当人缺席。",
@@ -9320,7 +9320,7 @@
         "B镜",
         "包装式 B 镜"
       ],
-      "image": "assets/cityride-pending.svg",
+      "image": "reports/cityride/frames/S97a.svg",
       "structure": "黑底圆角窗内水面先虚后实，亮点密布并显出红色浮标。",
       "typography": "保留原片已有字幕或边框；新作可重拍干净素材，避免覆盖已有信息。",
       "motion": "焦点从柔光斑转为水纹，边框及点线装饰保持。 窗口内焦点转移与窗口外图形层是两种独立设计。",
@@ -9338,7 +9338,7 @@
         "B镜",
         "尺度打开"
       ],
-      "image": "assets/cityride-pending.svg",
+      "image": "reports/cityride/frames/S104a.svg",
       "structure": "几条长栈道斜跨平静水面，浅色桥面与倒影形成几何。",
       "typography": "保留原片已有字幕或边框；新作可重拍干净素材，避免覆盖已有信息。",
       "motion": "高机位沿栈道移动，微小骑行身影在桥面上行进。 航拍式缓移与水面静态形成速度对比，远景人物身份不可核实。",
@@ -9356,7 +9356,7 @@
         "B镜",
         "行进过桥"
       ],
-      "image": "assets/cityride-pending.svg",
+      "image": "reports/cityride/frames/S106a.svg",
       "structure": "浅灰小路纵向穿过深浅两片绿色植被，微小骑行者在中部。",
       "typography": "保留原片已有字幕或边框；新作可重拍干净素材，避免覆盖已有信息。",
       "motion": "骑行身影沿路推进，大片植被保持几何分区。 垂直俯拍把行动简化成线与点，主体身份无法靠此镜确认。",
@@ -9374,7 +9374,7 @@
         "B镜",
         "动作重音"
       ],
-      "image": "assets/cityride-pending.svg",
+      "image": "reports/cityride/frames/S111a.svg",
       "structure": "几片干叶在地面前景，车轮与鞋从上方和后方穿过。",
       "typography": "保留原片已有字幕或边框；新作可重拍干净素材，避免覆盖已有信息。",
       "motion": "车轮进入、越过镜头前方并骑远，落叶留在原处。 固定贴地机位用主体经过产生强烈近大远小。",
@@ -9392,7 +9392,7 @@
         "B镜",
         "情绪收束"
       ],
-      "image": "assets/cityride-pending.svg",
+      "image": "reports/cityride/frames/S114a.svg",
       "structure": "晚霞倒映在大水面，栈道横向延伸，微小骑行者沿桥通过。",
       "typography": "保留原片已有字幕或边框；新作可重拍干净素材，避免覆盖已有信息。",
       "motion": "航拍视角缓慢变化，人物缩小；活动标题随后叠入并保持到结束。 长段以缓移与图形叠字收束；当前抽帧未把视角渐变额外认作硬切。",
@@ -9411,7 +9411,7 @@
         "动效",
         "风格参考"
       ],
-      "image": "assets/cityride-pending.svg",
+      "image": "reports/cityride/frames/S45a.svg",
       "structure": "中心竖幅照片较大，四周同场球员照片按网格重复。",
       "typography": "边框与底板保持统一，字阶以画面原有排版为依据。",
       "motion": "侧边照片建立底板，中心大图改变动作阶段并压住背景。",
@@ -9429,7 +9429,7 @@
         "动效",
         "风格参考"
       ],
-      "image": "assets/cityride-pending.svg",
+      "image": "reports/cityride/frames/S57a.svg",
       "structure": "暖色木纹底上叠放多张白边人像照片，中央竖图最大。",
       "typography": "边框与底板保持统一，字阶以画面原有排版为依据。",
       "motion": "小图先形成横排与周边层次，大图叠入，人物的手向镜头伸近。",
@@ -9447,7 +9447,7 @@
         "动效",
         "风格参考"
       ],
-      "image": "assets/cityride-pending.svg",
+      "image": "reports/cityride/frames/S60a.svg",
       "structure": "白色相机镜头始终靠近中轴，商场背景呈环向模糊。",
       "typography": "边框与底板保持统一，字阶以画面原有排版为依据。",
       "motion": "相机相对稳定，周围场景旋转或径向扫动，随后人物从机身后出现。",
@@ -9465,7 +9465,7 @@
         "动效",
         "风格参考"
       ],
-      "image": "assets/cityride-pending.svg",
+      "image": "reports/cityride/frames/S80a.svg",
       "structure": "暖橙到珊瑚红的纹理底上，左侧写 EOS R50 创意辅助鱼眼效果，右侧白边宠物照片堆叠。",
       "typography": "EOS R50；创意辅助鱼眼效果；“大”一点（画面文字）。",
       "motion": "狗照先出现并更换，后接猫照；照片叠层与底色一起变化，产品文字保持阅读锚点。",
@@ -9483,7 +9483,7 @@
         "动效",
         "风格参考"
       ],
-      "image": "assets/cityride-pending.svg",
+      "image": "reports/cityride/frames/S98a.svg",
       "structure": "同一圆角边框内依次出现旋转木马、小狗、柳树边女子与拍摄动作。",
       "typography": "边框与底板保持统一，字阶以画面原有排版为依据。",
       "motion": "画面内容多次切换，边框保留；人物、宠物与城市细节形成回忆组。",
