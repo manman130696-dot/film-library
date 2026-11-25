@@ -32,6 +32,29 @@ window.FILM_LIBRARY_READY = (async () => {
     data.cases = [...entryCases, ...data.cases.filter(item => item.videoId !== video.id)];
     prompts[video.id] = entryPrompts;
   }
+  // Add one palette reference per film without replacing its original cases or prompts.
+  const paletteResponse = await fetch(new URL('entries/palette-references.json', document.baseURI));
+  if (!paletteResponse.ok) throw new Error('Palette references HTTP ' + paletteResponse.status);
+  const paletteData = await paletteResponse.json();
+  for (const reference of paletteData.references) {
+    const video = data.videos.find(item => item.id === reference.videoId);
+    if (!video) throw new Error('Missing palette film: ' + reference.videoId);
+    const groups = reference.groups.map(group => {
+      const original = data.cases.find(item => item.videoId === video.id && item.title === group.sourceTitle);
+      if (!original) throw new Error('Missing palette source: ' + video.id + ': ' + group.sourceTitle);
+      return {...group, sourceCaseId: original.id, image: original.image || video.poster, start: original.start, end: original.end};
+    });
+    const first = groups[0];
+    const apply = groups.map(group => `${group.name}\n对标：${group.sourceTitle}（${group.start}–${group.end}秒）\n近似参考色：${group.colors.map(color => `${color.role} ${color.hex}（${color.use}）`).join('；')}\n${group.proportions}\nB镜用法：${group.broll}\n制作提示词：${group.prompt}`).join('\n\n');
+    const palette = {
+      id: video.id + '-palette', videoId: video.id, kind: 'palette', title: reference.title,
+      tags: ['配色参考', '包装配色', 'B镜'], start: first.start, end: first.end, image: first.image,
+      structure: reference.summary, typography: groups.map(group => group.colors.map(color => color.role + ' ' + color.hex).join('；')).join(' / '),
+      motion: '本条整理配色；动作方法参照各组对应的原包装案例。', why: reference.summary,
+      apply: paletteData.note + '\n\n' + apply, palette: {note: paletteData.note, groups}
+    };
+    data.cases = [palette, ...data.cases.filter(item => item.id !== palette.id)];
+  }
   data.categories = config.categories;
   data.updatedAt = '2026-11-25';
   window.FILM_LIBRARY = data;

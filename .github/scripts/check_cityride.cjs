@@ -13,7 +13,7 @@ module.exports = async function checkCityRide(page) {
   assert.equal(await page.locator('#open-original-report').isEnabled(),true);
   assert.match(await page.locator('#detail-preference').innerText(),/我很喜欢这种风格/);
   await page.locator('[data-detail-tab="cases"]').click();
-  assert.equal(await page.locator('#detail-panel .detail-case').count(),20);
+  assert.equal(await page.locator('#detail-panel .detail-case:not(.palette-reference)').count(),20);
   await page.locator('[data-detail-tab="prompts"]').click();
   assert.equal(await page.locator('#prompt-variant option').count(),11);
   await page.locator('#detail-close').click();
@@ -23,10 +23,11 @@ module.exports = async function checkCityRide(page) {
   assert.equal(await page.locator('.camera-cue').count(),127);
   assert.equal(await page.locator('#broll tbody tr').count(),15);
   assert.equal(await page.locator('#film').getAttribute('src'),'preview-web.mp4');
-  await page.locator('#film').evaluate(v => { v.muted=true; return v.play(); });
+  await page.locator('#film').evaluate(v => {v.muted=true; return v.play();});
   await page.waitForFunction(()=>document.querySelector('#film').currentTime>0.1);
   await page.locator('#film').evaluate(v=>v.pause());
-  assert.equal(await page.locator('[data-source="source-original.mp4"]').count(),1);
+  const broken=await page.locator('#shot-list img').evaluateAll(imgs=>imgs.filter(i=>i.complete&&i.naturalWidth===0).map(i=>i.src));
+  assert.deepEqual(broken,[],'keyframes load');
   assert.ok(await page.locator('#prompt-text').inputValue() === JSON.parse(fs.readFileSync('reports/cityride/timed-camera-prompts.json','utf8')).timelinePrompt);
   await page.locator('#search').fill('zz-no-such-shot-zz');
   assert.equal(await page.locator('#shot-list .shot').count(),0);
