@@ -1,5 +1,6 @@
 const assert = require('node:assert/strict');
 module.exports = async function checkPalettes(page) {
+  await page.context().grantPermissions(['clipboard-read','clipboard-write'],{origin:'http://127.0.0.1:8765'});
   await page.setViewportSize({width:1440,height:1000});
   await page.goto('http://127.0.0.1:8765/');
   await page.evaluate(() => window.FILM_LIBRARY_READY);
