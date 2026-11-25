@@ -1,0 +1,59 @@
+name: Publish approved cognition gap reference
+on:
+  push:
+    branches: [main]
+    paths: ['reports/cognition-gap/upload-parts/**']
+permissions:
+  contents: write
+concurrency:
+  group: film-library-cognition-gap-publish
+  cancel-in-progress: false
+jobs:
+  restore:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify and unpack approved publication
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import hashlib, io, tarfile, json
+          root = Path('reports/cognition-gap/upload-parts')
+          parts = sorted(root.glob('bundle-*.part'))
+          assert len(parts) == 45, 'Incomplete upload'
+          data = b''.join(p.read_bytes() for p in parts)
+          assert len(data) == 33003590, 'Incorrect upload size'
+          assert hashlib.sha256(data).hexdigest() == '43a8c5c9d752fc2b04c68c0e251e90b152af3bfcf8a9699bb66266c445ce9dc5', 'Upload checksum mismatch'
+          allowed = set(json.loads('["archive-loader.js","entries/cognition-gap.json",".github/scripts/check_categories.cjs","reports/cognition-gap/case-frames/C01.svg","reports/cognition-gap/case-frames/C02.svg","reports/cognition-gap/case-frames/C03.svg","reports/cognition-gap/case-frames/C04.svg","reports/cognition-gap/case-frames/C05.svg","reports/cognition-gap/case-frames/C06.svg","reports/cognition-gap/case-frames/C07.svg","reports/cognition-gap/case-frames/C08.svg","reports/cognition-gap/case-frames/C09.svg","reports/cognition-gap/case-frames/C10.svg","reports/cognition-gap/case-frames/C11.svg","reports/cognition-gap/case-frames/C12.svg","reports/cognition-gap/case-frames/C13.svg","reports/cognition-gap/case-frames/C14.svg","reports/cognition-gap/case-frames/C15.svg","reports/cognition-gap/case-frames/C16.svg","reports/cognition-gap/case-frames/C17.svg","reports/cognition-gap/case-frames/C18.svg","reports/cognition-gap/case-frames/C19.svg","reports/cognition-gap/case-frames/C20.svg","reports/cognition-gap/case-frames/C21.svg","reports/cognition-gap/case-frames/C22.svg","reports/cognition-gap/online-report.html","reports/cognition-gap/poster.svg","reports/cognition-gap/preview.mp4"]'))
+          with tarfile.open(fileobj=io.BytesIO(data), mode='r:gz') as archive:
+              members = archive.getmembers()
+              assert {m.name for m in members} == allowed, 'Unexpected archive paths'
+              assert all(m.isfile() and not Path(m.name).is_absolute() and '..' not in Path(m.name).parts for m in members)
+              archive.extractall('.', members=members, filter='data')
+          PY
+      - name: Check the packaging data
+        run: |
+          node --test tests/packaging-core.test.mjs
+          node - <<'JS'
+          const fs = require('node:fs');
+          const assert = require('node:assert/strict');
+          const e = JSON.parse(fs.readFileSync('entries/cognition-gap.json','utf8'));
+          assert.equal(e.cases.length,22);
+          assert.equal(e.prompts.length,25);
+          assert.equal(e.fullPreview,true);
+          for (const c of e.cases) {
+            assert.ok(c.start >= 0 && c.end > c.start && c.end <= e.duration);
+            assert.ok(fs.existsSync(c.image));
+          }
+          for (const p of [e.preview,e.poster,e.report]) assert.ok(fs.existsSync(p));
+          new Function(fs.readFileSync('archive-loader.js','utf8'));
+          JS
+      - name: Commit the verified reference
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add archive-loader.js entries/cognition-gap.json reports/cognition-gap .github/scripts/check_categories.cjs
+          git rm reports/cognition-gap/upload-parts/bundle-*.part
+          git commit -m 'Publish approved cognition gap video, 22 packaging cases and prompts'
+          git push origin HEAD:main
