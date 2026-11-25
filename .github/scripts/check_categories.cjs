@@ -76,6 +76,7 @@ const fs = require('node:fs');
     assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1), 'mobile page should not overflow');
     assert.deepEqual(errors, []);
     await require('./check_cityride.cjs')(page);
+    await require('./check_cognition.cjs')(page);
     console.log('PASS: all categories, counts, combined search, detail notes, prompts, bundled previews, case filters and mobile layout');
   } finally {
     if (browser) await browser.close();

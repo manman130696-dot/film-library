@@ -8,8 +8,11 @@ on:
       - categories.json
       - .github/scripts/check_categories.cjs
       - .github/scripts/check_cityride.cjs
+      - .github/scripts/check_cognition.cjs
       - entries/cityride.json
+      - entries/cognition-gap.json
       - reports/cityride/online-report.html
+      - reports/cognition-gap/**
       - .github/workflows/check-categories.yml
 permissions:
   contents: read

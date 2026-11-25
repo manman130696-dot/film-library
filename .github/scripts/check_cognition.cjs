@@ -1,0 +1,57 @@
+const assert = require('node:assert/strict');
+const fs = require('node:fs');
+module.exports = async function checkCognition(page) {
+  const entry = JSON.parse(fs.readFileSync('entries/cognition-gap.json','utf8'));
+  const origin = 'http://127.0.0.1:8765';
+  const errors = [];
+  page.on('pageerror',e=>errors.push(e.message));
+  await page.context().grantPermissions(['clipboard-read','clipboard-write'],{origin});
+  await page.setViewportSize({width:1440,height:1000});
+  await page.goto(origin+'/');
+  await page.waitForFunction(()=>window.FILM_LIBRARY?.videos.some(v=>v.id==='cognition-gap'));
+  await page.locator('#search').fill('认知差');
+  assert.equal(await page.locator('#video-grid .video-card').count(),1);
+  await page.locator('[data-open="cognition-gap"]').click();
+  await page.waitForFunction(()=>document.querySelector('#detail-video').readyState>=1);
+  assert.ok(Math.abs(await page.locator('#detail-video').evaluate(v=>v.duration)-372.9)<.2);
+  await page.locator('#detail-video').evaluate(v=>{v.muted=true;return v.play()});
+  await page.waitForFunction(()=>document.querySelector('#detail-video').currentTime>.1);
+  await page.locator('#detail-video').evaluate(v=>v.pause());
+  await page.locator('[data-detail-tab="cases"]').click();
+  assert.equal(await page.locator('#detail-panel .detail-case').count(),22);
+  await page.locator('#case-cognition-gap-c08 [data-jump]').click();
+  await page.waitForFunction(()=>Math.abs(document.querySelector('#detail-video').currentTime-111.433333)<.2);
+  await page.locator('[data-detail-tab="prompts"]').click();
+  assert.equal(await page.locator('#prompt-variant option').count(),25);
+  await page.locator('#prompt-variant').selectOption('9');
+  assert.equal(await page.locator('#prompt-content').inputValue(),entry.prompts[9].text);
+  await page.locator('#detail-close').click();
+  const catalogCount=await page.evaluate(async()=>{
+    const {buildCatalog}=await import(new URL('packaging/core.mjs',location.href));
+    return buildCatalog(window.FILM_LIBRARY,window.FILM_ASSETS).cases.filter(c=>c.videoId==='cognition-gap').length;
+  });
+  assert.equal(catalogCount,22);
+  await page.goto(origin+'/reports/cognition-gap/online-report.html');
+  await page.waitForFunction(()=>document.querySelectorAll('#shot-list .shot').length===182);
+  assert.equal(await page.locator('.case-card').count(),22);
+  assert.equal(await page.locator('.camera-cue').count(),192);
+  await page.locator('[data-case-prompt="9"]').click();
+  assert.equal(await page.locator('#prompt-text').inputValue(),entry.prompts[9].text);
+  await page.locator('#copy-prompt').click();
+  await page.waitForFunction(()=>document.querySelector('#copy-prompt').dataset.copyState==='success');
+  assert.equal(await page.evaluate(()=>navigator.clipboard.readText()),entry.prompts[9].text);
+  const c08=page.locator('.case-card').filter({has:page.locator('[data-case-prompt="9"]')});
+  await c08.locator('[data-seek]').click();
+  await page.locator('#play-shot').click();
+  await page.waitForFunction(()=>document.querySelector('#film').paused&&document.querySelector('#film').currentTime>116,{},{timeout:12000});
+  assert.match(await page.locator('#current-title').innerText(),/三张时代概念卡/);
+  assert.ok(Math.abs(await page.locator('#film').evaluate(v=>v.currentTime)-116.266667)<.05);
+  for (const width of [1440,390]) {
+    await page.setViewportSize({width,height:1000});
+    const metrics=await page.evaluate(()=>({overflow:document.documentElement.scrollWidth-innerWidth,overlap:[...document.querySelectorAll('.camera-cue')].some(c=>{const t=c.querySelector('.cue-time'),h=c.querySelector('h4');return t&&h&&t.getBoundingClientRect().bottom>h.getBoundingClientRect().top+1})}));
+    assert.ok(metrics.overflow<=1,'cognition report overflow at '+width);
+    assert.equal(metrics.overlap,false,'cognition report time/title overlap at '+width);
+  }
+  assert.deepEqual(errors,[]);
+  console.log('PASS: cognition entry, complete playable preview, 22 cases, 25 prompts, catalog, copy and responsive report');
+};
