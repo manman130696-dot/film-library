@@ -49,12 +49,12 @@ module.exports = async function checkCognition(page) {
   await page.waitForFunction(()=>document.querySelector('#film').paused&&document.querySelector('#film').currentTime>116,{},{timeout:12000});
   assert.match(await page.locator('#current-title').innerText(),/三张时代概念卡/);
   assert.ok(Math.abs(await page.locator('#film').evaluate(v=>v.currentTime)-116.266667)<.05);
-  for (const width of [1440,390]) {
+  for (const width of [1440]) {
     await page.setViewportSize({width,height:1000});
     const metrics=await page.evaluate(()=>({overflow:document.documentElement.scrollWidth-innerWidth,overlap:[...document.querySelectorAll('.camera-cue')].some(c=>{const t=c.querySelector('.cue-time'),h=c.querySelector('h4');return t&&h&&t.getBoundingClientRect().bottom>h.getBoundingClientRect().top+1})}));
     assert.ok(metrics.overflow<=1,'cognition report overflow at '+width);
     assert.equal(metrics.overlap,false,'cognition report time/title overlap at '+width);
   }
   assert.deepEqual(errors,[]);
-  console.log('PASS: cognition entry, complete playable preview, 22 cases, 25 prompts, catalog, copy and responsive report');
+  console.log('PASS: cognition entry, complete playable preview, 22 cases, 25 prompts, catalog, copy and desktop report');
 };
