@@ -1,0 +1,1744 @@
+{
+  "source": "source-original.mp4",
+  "title": "CASETiFY｜奇想由她，妙趣生花",
+  "lang": "zh-CN",
+  "meta": {
+    "durationSeconds": 27.566667,
+    "fps": 30.0,
+    "width": 1080,
+    "height": 1920,
+    "aspect": 0.5625,
+    "codec": "h264",
+    "hasAudio": true,
+    "sourceSha256": "18071addc16eddebca7af969a260cc1593a0445c9418a80ae6c82fb0f0a52327"
+  },
+  "params": {
+    "threshold": 0.3,
+    "hz": 8.0,
+    "cutMethod": "ffmpeg-scene",
+    "motionMethod": "fredtalk-luma-delta-v2"
+  },
+  "seedCuts": [
+    6.433333,
+    6.9,
+    7.366667,
+    7.9,
+    8.433333,
+    8.933333,
+    9.433333,
+    9.966667,
+    10.466667,
+    19.966667,
+    20.233333,
+    20.5,
+    20.7,
+    20.933333,
+    21.166667,
+    21.4,
+    22.266667,
+    23.733333,
+    24.9,
+    26.866667
+  ],
+  "manualCuts": [],
+  "removedCuts": [],
+  "cast": [
+    {
+      "id": "A",
+      "name": "蓝帽白衫人物",
+      "entityType": "character",
+      "note": "以蓝色贝雷帽、浅色长发、白衬衫和前后画面关联。片名中的创作者署名仅作来源信息，不凭外观推断真实身份。",
+      "portrait": "portraits/A.jpg",
+      "portraitTime": 24.0,
+      "portraitSource": {
+        "width": 1080,
+        "height": 1920,
+        "coordinateBasis": "source pixels without auto rotation",
+        "crop": {
+          "x": 300,
+          "y": 280,
+          "width": 450,
+          "height": 650
+        }
+      },
+      "portraitNote": "原片 24.00 秒头肩局部裁切，已对照原帧。"
+    },
+    {
+      "id": "P",
+      "name": "生活照片中的人物合集",
+      "entityType": "group",
+      "note": "照片中的运动、旅行、居家与合影人物按一个素材集合记录；不声称各张照片必为同一个人。头像为 9.03 秒六人合影的真实局部。",
+      "portrait": "portraits/P.jpg",
+      "portraitTime": 9.033333,
+      "portraitSource": {
+        "width": 1080,
+        "height": 1920,
+        "coordinateBasis": "source pixels without auto rotation",
+        "crop": {
+          "x": 180,
+          "y": 800,
+          "width": 720,
+          "height": 460
+        }
+      },
+      "portraitNote": "群体索引，不是单人头像；照片身份未逐人核实。"
+    }
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "title": "脑袋里的奇想开花，再回到真实工作桌",
+      "start": 0.0,
+      "end": 6.433333,
+      "seconds": 6.433333,
+      "motion": 4.229,
+      "size": "close",
+      "category": "subject",
+      "camera": "static",
+      "transitionIn": "cut",
+      "subjects": [
+        "A"
+      ],
+      "principalSubjects": [
+        "A"
+      ],
+      "backgroundSubjects": [],
+      "castPresence": {
+        "A": "主要"
+      },
+      "frame": "奶油白底上，戴蓝帽的人物头部独立悬浮；上方加入小人物和多色花朵，后接白衫人物持机的工作桌画面。",
+      "fight": "人物先张口、微笑和转动视线；小人物与花朵在帽子上方陆续出现；约 3.7 秒整体缩成小点，再由花形边缘展开持机实拍；她查看手机，将手机立在桌上，并打开左侧的平板保护套。",
+      "beats": [
+        [
+          "约0–1.3秒",
+          "悬浮头部张口、笑与转眼，上方先保持留白。"
+        ],
+        [
+          "约1.3–3.7秒",
+          "小人物与多色花朵围绕帽子上方出现，主体头部保持中下位置。"
+        ],
+        [
+          "约3.7–4.2秒",
+          "头部拼贴缩到小点；花形轮廓放大，揭示人物持手机的桌景。"
+        ],
+        [
+          "约4.2–5.5秒",
+          "人物举手机查看，再用双手持机，麦克风位于右前方。"
+        ],
+        [
+          "约5.5–6.43秒",
+          "手机借支架立在桌上；手移向左侧平板套并将其打开。"
+        ]
+      ],
+      "cameraRead": "合成头部在近景尺度保持；图层缩放与花形遮罩负责空间变化。转入室内后构图基本固定，没有证据把图层缩放写成实机推拉。",
+      "spatial": "头部在竖幅中下区，上方留给想象元素；实拍中人物居中，平板在左前、手机在中前、麦克风在右前。",
+      "audio": "按用户要求跳过声音分析。",
+      "onscreenText": "无主要字卡；支架可见 ALEX 字样。",
+      "remake": "复刻设计：先锁住一个人物锚点，让花朵与小人物围绕其出现；以同一朵花的形状扩大揭示室内。预拍查看手机→立机→开平板的完整动作，产品图案前后一致。",
+      "note": "视觉依据：本镜 a/b 代表帧；review/full 每 0.5 秒全片采样。原混音未分析。另看 review/opening 3.5–6.6 秒、0.1 秒采样；花形扩张为合成遮罩，不加一刀硬切。",
+      "rhythm": "hook",
+      "rhythmNote": "先用不完整身体与表情制造视觉问题。",
+      "frames": {
+        "a": {
+          "src": "frames/S01a.jpg",
+          "time": 0.96,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 14848,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 0.9666666666666667,
+            "log": "[Parsed_showinfo_0 @ 0x12d005e50] n:   0 pts:  14848 pts_time:0.966667 duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1920 i:P iskey:0 type:B checksum:F93DE1B6 plane_checksum:[689F8BD1 8017FCC2 3CA95914] mean:[208 122 131] stdev:[45.2 10.1 11.5]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 0.966666667,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 0.96,
+            "sourceSha256": "18071addc16eddebca7af969a260cc1593a0445c9418a80ae6c82fb0f0a52327"
+          }
+        },
+        "b": {
+          "src": "frames/S01b.jpg",
+          "time": 5.47,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 84480,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 5.5,
+            "log": "[Parsed_showinfo_0 @ 0x149f06040] n:   0 pts:  84480 pts_time:5.5     duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1920 i:P iskey:0 type:B checksum:EA5EA128 plane_checksum:[31C33A75 11178935 A18DDD6F] mean:[175 95 142] stdev:[42.1 24.6 13.7]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 5.5,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 5.47,
+            "sourceSha256": "18071addc16eddebca7af969a260cc1593a0445c9418a80ae6c82fb0f0a52327"
+          }
+        }
+      }
+    },
+    {
+      "id": "S02",
+      "title": "工作桌被装进白边照片",
+      "start": 6.433333,
+      "end": 6.9,
+      "seconds": 0.466667,
+      "motion": 0.081,
+      "size": "medium",
+      "category": "archive",
+      "camera": "static",
+      "transitionIn": "cut",
+      "subjects": [
+        "A"
+      ],
+      "principalSubjects": [
+        "A"
+      ],
+      "backgroundSubjects": [],
+      "castPresence": {
+        "A": "主要"
+      },
+      "frame": "工作桌画面缩在一张竖向白边照片内，外面换成暖黄色软木纹底。",
+      "fight": "前镜的工作桌状态被框进照片，人物仍面向左侧设备；画面短暂保留，准备进入生活照片轮播。",
+      "beats": [
+        [
+          "6.43–6.90 秒",
+          "前镜的工作桌状态被框进照片，人物仍面向左侧设备；画面短暂保留，准备进入生活照片轮播。"
+        ]
+      ],
+      "cameraRead": "相机视觉保持；边框、底板替换和取景尺度变化构成编辑转场，不认定实际相机后拉。",
+      "spatial": "竖照片在画面中央略带倾斜；人物、平板与麦克风仍维持照片内部的前后关系。",
+      "audio": "按用户要求跳过声音分析。",
+      "onscreenText": "无独立字卡。",
+      "remake": "复刻设计：把前镜尾帧直接作为下一张照片内容，保留主体位置和色彩，用白边与软木背景改变观看层级。",
+      "note": "视觉依据：本镜 a/b 代表帧；review/full 每 0.5 秒全片采样。原混音未分析。",
+      "rhythm": "turn",
+      "rhythmNote": "观看层级从实景切换为照片。",
+      "frames": {
+        "a": {
+          "src": "frames/S02a.jpg",
+          "time": 6.5,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 99840,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 6.5,
+            "log": "[Parsed_showinfo_0 @ 0x1417073f0] n:   0 pts:  99840 pts_time:6.5     duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1920 i:P iskey:0 type:B checksum:BD0E83D6 plane_checksum:[FFB74B65 2AF09038 FCF0A82A] mean:[150 97 148] stdev:[44.6 21.5 15.3]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 6.5,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 6.5,
+            "sourceSha256": "18071addc16eddebca7af969a260cc1593a0445c9418a80ae6c82fb0f0a52327"
+          }
+        },
+        "b": {
+          "src": "frames/S02b.jpg",
+          "time": 6.83,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 104960,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 6.833333333333333,
+            "log": "[Parsed_showinfo_0 @ 0x12e806040] n:   0 pts: 104960 pts_time:6.833333 duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1920 i:P iskey:0 type:B checksum:18497581 plane_checksum:[F29183B6 36446B15 C32086A7] mean:[150 96 148] stdev:[44.6 21.6 15.3]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 6.833333333,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 6.83,
+            "sourceSha256": "18071addc16eddebca7af969a260cc1593a0445c9418a80ae6c82fb0f0a52327"
+          }
+        }
+      }
+    },
+    {
+      "id": "S03",
+      "title": "运动照片：平衡器上的身体支撑",
+      "start": 6.9,
+      "end": 7.366667,
+      "seconds": 0.466667,
+      "motion": 0.006,
+      "size": "wide",
+      "category": "archive",
+      "camera": "static",
+      "transitionIn": "cut",
+      "subjects": [
+        "P"
+      ],
+      "principalSubjects": [
+        "P"
+      ],
+      "backgroundSubjects": [],
+      "castPresence": {
+        "P": "主要"
+      },
+      "frame": "软木底上切换为横向运动照片，人物双手撑在蓝色半球形器械上，室内器械留作环境。",
+      "fight": "照片以内是已固定的支撑姿势；外层照片保持，不把静态照片写成完成了一次俯卧撑。",
+      "beats": [
+        [
+          "6.90–7.37 秒",
+          "照片以内是已固定的支撑姿势；外层照片保持，不把静态照片写成完成了一次俯卧撑。"
+        ]
+      ],
+      "cameraRead": "俯视式版面保持，照片内容替换；照片内部没有可核实的运镜。",
+      "spatial": "横照片居中，蓝色器械在照片下方，人物身体横向展开。",
+      "audio": "按用户要求跳过声音分析。",
+      "onscreenText": "无。",
+      "remake": "复刻设计：用一个动作峰值静帧代表一种生活状态；白边规格与前后照片保持同一套。",
+      "note": "视觉依据：本镜 a/b 代表帧；review/full 每 0.5 秒全片采样。原混音未分析。",
+      "rhythm": "build",
+      "rhythmNote": "内容替换增加生活维度，保持统一的版面框架。",
+      "frames": {
+        "a": {
+          "src": "frames/S03a.jpg",
+          "time": 6.97,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 107520,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 7.0,
+            "log": "[Parsed_showinfo_0 @ 0x13a104880] n:   0 pts: 107520 pts_time:7       duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1920 i:P iskey:0 type:B checksum:D0C7714B plane_checksum:[A9947538 C7EA320F E457C9F5] mean:[133 94 152] stdev:[36.5 17.7 15.8]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 7.0,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 6.97,
+            "sourceSha256": "18071addc16eddebca7af969a260cc1593a0445c9418a80ae6c82fb0f0a52327"
+          }
+        },
+        "b": {
+          "src": "frames/S03b.jpg",
+          "time": 7.3,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 112128,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 7.3,
+            "log": "[Parsed_showinfo_0 @ 0x106b04d50] n:   0 pts: 112128 pts_time:7.3     duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1920 i:P iskey:0 type:P checksum:F4834365 plane_checksum:[D8CC7486 B3591CBC 0443B214] mean:[133 94 152] stdev:[36.5 17.7 15.8]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 7.3,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 7.3,
+            "sourceSha256": "18071addc16eddebca7af969a260cc1593a0445c9418a80ae6c82fb0f0a52327"
+          }
+        }
+      }
+    },
+    {
+      "id": "S04",
+      "title": "海边照片：冲浪板与人物",
+      "start": 7.366667,
+      "end": 7.9,
+      "seconds": 0.533333,
+      "motion": 0.035,
+      "size": "wide",
+      "category": "archive",
+      "camera": "static",
+      "transitionIn": "cut",
+      "subjects": [
+        "P"
+      ],
+      "principalSubjects": [
+        "P"
+      ],
+      "backgroundSubjects": [],
+      "castPresence": {
+        "P": "主要"
+      },
+      "frame": "竖向白边照片内，人物站在水边，红色冲浪板斜穿身体前方。",
+      "fight": "保持人物扶板的静态画面；照片与背景的倾斜关系形成变化。",
+      "beats": [
+        [
+          "7.37–7.90 秒",
+          "保持人物扶板的静态画面；照片与背景的倾斜关系形成变化。"
+        ]
+      ],
+      "cameraRead": "版面相机保持，切换竖向照片产生尺度与构图差异。",
+      "spatial": "红板的斜线打破竖幅直线，海平线在照片后方。",
+      "audio": "按用户要求跳过声音分析。",
+      "onscreenText": "无。",
+      "remake": "复刻设计：接一张不同方向、不同主色的照片；保留白边与底板，让内容变化承担节奏。",
+      "note": "视觉依据：本镜 a/b 代表帧；review/full 每 0.5 秒全片采样。原混音未分析。",
+      "rhythm": "build",
+      "rhythmNote": "内容替换增加生活维度，保持统一的版面框架。",
+      "frames": {
+        "a": {
+          "src": "frames/S04a.jpg",
+          "time": 7.45,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 114688,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 7.466666666666667,
+            "log": "[Parsed_showinfo_0 @ 0x149f04370] n:   0 pts: 114688 pts_time:7.466667 duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1920 i:P iskey:0 type:B checksum:1309F5C0 plane_checksum:[42C26F73 78A552F7 66DE3356] mean:[151 103 147] stdev:[36.5 21.5 18.6]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 7.466666667,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 7.45,
+            "sourceSha256": "18071addc16eddebca7af969a260cc1593a0445c9418a80ae6c82fb0f0a52327"
+          }
+        },
+        "b": {
+          "src": "frames/S04b.jpg",
+          "time": 7.82,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 120320,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 7.833333333333333,
+            "log": "[Parsed_showinfo_0 @ 0x140f060d0] n:   0 pts: 120320 pts_time:7.833333 duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1920 i:P iskey:0 type:P checksum:C99D620A plane_checksum:[B9866A7B 0EA7031E A15BF462] mean:[151 103 147] stdev:[36.5 21.5 18.6]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 7.833333333,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 7.82,
+            "sourceSha256": "18071addc16eddebca7af969a260cc1593a0445c9418a80ae6c82fb0f0a52327"
+          }
+        }
+      }
+    },
+    {
+      "id": "S05",
+      "title": "居家照片：沙发与宠物",
+      "start": 7.9,
+      "end": 8.433333,
+      "seconds": 0.533333,
+      "motion": 0.013,
+      "size": "medium-wide",
+      "category": "archive",
+      "camera": "static",
+      "transitionIn": "cut",
+      "subjects": [
+        "P"
+      ],
+      "principalSubjects": [
+        "P"
+      ],
+      "backgroundSubjects": [],
+      "castPresence": {
+        "P": "主要"
+      },
+      "frame": "横向白边照片里，人物坐在橙色沙发上，右侧可见浅色宠物，后面是明亮色块墙面。",
+      "fight": "人物与宠物作为静态生活记录保持；不从单帧推断具体对话或情绪动机。",
+      "beats": [
+        [
+          "7.90–8.43 秒",
+          "人物与宠物作为静态生活记录保持；不从单帧推断具体对话或情绪动机。"
+        ]
+      ],
+      "cameraRead": "固定版面，以照片替换完成一次切换。",
+      "spatial": "沙发为横向基座，人物在左中，宠物在画面右侧，色块背景延续明亮调性。",
+      "audio": "按用户要求跳过声音分析。",
+      "onscreenText": "无。",
+      "remake": "复刻设计：让运动照片之后接生活场景，扩大人物维度；不为每张照片另加动画。",
+      "note": "视觉依据：本镜 a/b 代表帧；review/full 每 0.5 秒全片采样。原混音未分析。",
+      "rhythm": "build",
+      "rhythmNote": "内容替换增加生活维度，保持统一的版面框架。",
+      "frames": {
+        "a": {
+          "src": "frames/S05a.jpg",
+          "time": 7.98,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 122880,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 8.0,
+            "log": "[Parsed_showinfo_0 @ 0x127805750] n:   0 pts: 122880 pts_time:8       duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1920 i:P iskey:0 type:B checksum:9108E20C plane_checksum:[BEDACE4E A3739C61 226D774E] mean:[131 92 151] stdev:[35.1 13.8 11.2]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 8.0,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 7.98,
+            "sourceSha256": "18071addc16eddebca7af969a260cc1593a0445c9418a80ae6c82fb0f0a52327"
+          }
+        },
+        "b": {
+          "src": "frames/S05b.jpg",
+          "time": 8.35,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 128512,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 8.366666666666667,
+            "log": "[Parsed_showinfo_0 @ 0x160104880] n:   0 pts: 128512 pts_time:8.366667 duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1920 i:P iskey:0 type:P checksum:64F46C92 plane_checksum:[FF7B9438 9FD18098 730F57B3] mean:[131 92 151] stdev:[35.1 13.8 11.2]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 8.366666667,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 8.35,
+            "sourceSha256": "18071addc16eddebca7af969a260cc1593a0445c9418a80ae6c82fb0f0a52327"
+          }
+        }
+      }
+    },
+    {
+      "id": "S06",
+      "title": "自拍照片：两人同框",
+      "start": 8.433333,
+      "end": 8.933333,
+      "seconds": 0.5,
+      "motion": 0.085,
+      "size": "medium-close",
+      "category": "archive",
+      "camera": "static",
+      "transitionIn": "cut",
+      "subjects": [
+        "P"
+      ],
+      "principalSubjects": [
+        "P"
+      ],
+      "backgroundSubjects": [],
+      "castPresence": {
+        "P": "主要"
+      },
+      "frame": "竖向照片里，前方人物持手机，另一人在其后，两人形成前后错位的自拍构图。",
+      "fight": "照片保持两人靠近手机的瞬间；未展示拍照按键动作。",
+      "beats": [
+        [
+          "8.43–8.93 秒",
+          "照片保持两人靠近手机的瞬间；未展示拍照按键动作。"
+        ]
+      ],
+      "cameraRead": "外层画面保持，照片内机位不做动态判断。",
+      "spatial": "手机位于照片前方，两个人物前后叠置；不推断两人的私人关系。",
+      "audio": "按用户要求跳过声音分析。",
+      "onscreenText": "无。",
+      "remake": "复刻设计：以近距离合照补充社交维度；使用用户有权使用的照片，避免替画中人物设定关系。",
+      "note": "视觉依据：本镜 a/b 代表帧；review/full 每 0.5 秒全片采样。原混音未分析。",
+      "rhythm": "build",
+      "rhythmNote": "内容替换增加生活维度，保持统一的版面框架。",
+      "frames": {
+        "a": {
+          "src": "frames/S06a.jpg",
+          "time": 8.51,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 131072,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 8.533333333333333,
+            "log": "[Parsed_showinfo_0 @ 0x15977f540] n:   0 pts: 131072 pts_time:8.533333 duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1920 i:P iskey:0 type:B checksum:C4202F2E plane_checksum:[56050F49 D440B532 09976AA4] mean:[129 103 145] stdev:[43.9 20.5 17.7]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 8.533333333,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 8.51,
+            "sourceSha256": "18071addc16eddebca7af969a260cc1593a0445c9418a80ae6c82fb0f0a52327"
+          }
+        },
+        "b": {
+          "src": "frames/S06b.jpg",
+          "time": 8.86,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 136192,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 8.866666666666667,
+            "log": "[Parsed_showinfo_0 @ 0x13de1c980] n:   0 pts: 136192 pts_time:8.866667 duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1920 i:P iskey:0 type:B checksum:5C0B382A plane_checksum:[D7138992 679676C5 6F3E37C4] mean:[129 103 145] stdev:[43.9 20.5 17.7]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 8.866666667,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 8.86,
+            "sourceSha256": "18071addc16eddebca7af969a260cc1593a0445c9418a80ae6c82fb0f0a52327"
+          }
+        }
+      }
+    },
+    {
+      "id": "S07",
+      "title": "六人合影：一张照片容纳多种姿态",
+      "start": 8.933333,
+      "end": 9.433333,
+      "seconds": 0.5,
+      "motion": 0.036,
+      "size": "wide",
+      "category": "archive",
+      "camera": "static",
+      "transitionIn": "cut",
+      "subjects": [
+        "P"
+      ],
+      "principalSubjects": [
+        "P"
+      ],
+      "backgroundSubjects": [],
+      "castPresence": {
+        "P": "主要"
+      },
+      "frame": "横向白边照片中，六个人物在弧形建筑空间里以不同姿态站立。",
+      "fight": "整张合影保持静止，人物手臂与腿部形成各自的方向；没有连续舞蹈动作证据。",
+      "beats": [
+        [
+          "8.93–9.43 秒",
+          "整张合影保持静止，人物手臂与腿部形成各自的方向；没有连续舞蹈动作证据。"
+        ]
+      ],
+      "cameraRead": "固定外层版面；照片的建筑曲线是构图线条，不等同镜头环绕。",
+      "spatial": "六人横向排开，弧墙在后，照片横幅与前镜竖幅形成交替。",
+      "audio": "按用户要求跳过声音分析。",
+      "onscreenText": "无。",
+      "remake": "复刻设计：用一张人数更多的照片形成信息密度重音；保持读图时间，不要求看清每个人身份。",
+      "note": "视觉依据：本镜 a/b 代表帧；review/full 每 0.5 秒全片采样。原混音未分析。",
+      "rhythm": "build",
+      "rhythmNote": "内容替换增加生活维度，保持统一的版面框架。",
+      "frames": {
+        "a": {
+          "src": "frames/S07a.jpg",
+          "time": 9.01,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 138752,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 9.033333333333333,
+            "log": "[Parsed_showinfo_0 @ 0x139804500] n:   0 pts: 138752 pts_time:9.033333 duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1920 i:P iskey:0 type:P checksum:86184B02 plane_checksum:[C19E6EEB E7D4130A 51A3C8FE] mean:[124 97 151] stdev:[40.3 19.5 16.0]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 9.033333333,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 9.01,
+            "sourceSha256": "18071addc16eddebca7af969a260cc1593a0445c9418a80ae6c82fb0f0a52327"
+          }
+        },
+        "b": {
+          "src": "frames/S07b.jpg",
+          "time": 9.36,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 143872,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 9.366666666666667,
+            "log": "[Parsed_showinfo_0 @ 0x120e05390] n:   0 pts: 143872 pts_time:9.366667 duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1920 i:P iskey:0 type:P checksum:44ED7371 plane_checksum:[4B150C4F 71C2D397 CA14937C] mean:[124 97 151] stdev:[40.3 19.5 16.0]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 9.366666667,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 9.36,
+            "sourceSha256": "18071addc16eddebca7af969a260cc1593a0445c9418a80ae6c82fb0f0a52327"
+          }
+        }
+      }
+    },
+    {
+      "id": "S08",
+      "title": "户外照片：岩石上的坐姿",
+      "start": 9.433333,
+      "end": 9.966667,
+      "seconds": 0.533334,
+      "motion": 0.096,
+      "size": "medium-wide",
+      "category": "archive",
+      "camera": "static",
+      "transitionIn": "cut",
+      "subjects": [
+        "P"
+      ],
+      "principalSubjects": [
+        "P"
+      ],
+      "backgroundSubjects": [],
+      "castPresence": {
+        "P": "主要"
+      },
+      "frame": "竖照片中，人物坐在岩石上，树木形成深色背景，浅色上衣成为亮部。",
+      "fight": "照片内是一侧手臂抬起的静态姿势；不补写完整的起身或攀爬过程。",
+      "beats": [
+        [
+          "9.43–9.97 秒",
+          "照片内是一侧手臂抬起的静态姿势；不补写完整的起身或攀爬过程。"
+        ]
+      ],
+      "cameraRead": "外层固定，场景从建筑换到自然环境。",
+      "spatial": "人物在照片中下部，岩石承托身体，树林在后方形成纵深。",
+      "audio": "按用户要求跳过声音分析。",
+      "onscreenText": "无。",
+      "remake": "复刻设计：用自然景观换气，保持同一白边，不额外叠满装饰。",
+      "note": "视觉依据：本镜 a/b 代表帧；review/full 每 0.5 秒全片采样。原混音未分析。",
+      "rhythm": "build",
+      "rhythmNote": "内容替换增加生活维度，保持统一的版面框架。",
+      "frames": {
+        "a": {
+          "src": "frames/S08a.jpg",
+          "time": 9.51,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 146432,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 9.533333333333333,
+            "log": "[Parsed_showinfo_0 @ 0x124604530] n:   0 pts: 146432 pts_time:9.533333 duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1920 i:P iskey:0 type:B checksum:D5CEB2BD plane_checksum:[83B22B52 5417CAD7 D792BC85] mean:[121 106 142] stdev:[51.5 18.9 16.6]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 9.533333333,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 9.51,
+            "sourceSha256": "18071addc16eddebca7af969a260cc1593a0445c9418a80ae6c82fb0f0a52327"
+          }
+        },
+        "b": {
+          "src": "frames/S08b.jpg",
+          "time": 9.89,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 152064,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 9.9,
+            "log": "[Parsed_showinfo_0 @ 0x11ef06900] n:   0 pts: 152064 pts_time:9.9     duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1920 i:P iskey:0 type:B checksum:DF4BB27F plane_checksum:[E92A01E9 9B246692 04904A04] mean:[121 105 142] stdev:[51.6 18.9 16.6]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 9.9,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 9.89,
+            "sourceSha256": "18071addc16eddebca7af969a260cc1593a0445c9418a80ae6c82fb0f0a52327"
+          }
+        }
+      }
+    },
+    {
+      "id": "S09",
+      "title": "笑脸照片：以表情结束单张轮播",
+      "start": 9.966667,
+      "end": 10.466667,
+      "seconds": 0.5,
+      "motion": 0.057,
+      "size": "close",
+      "category": "archive",
+      "camera": "static",
+      "transitionIn": "cut",
+      "subjects": [
+        "P"
+      ],
+      "principalSubjects": [
+        "P"
+      ],
+      "backgroundSubjects": [],
+      "castPresence": {
+        "P": "主要"
+      },
+      "frame": "竖向白边肖像中，人物双手托在脸侧，笑容占据视觉中心。",
+      "fight": "笑脸照片保持；从大动作和多人场面收回一个清楚的面部状态。",
+      "beats": [
+        [
+          "9.97–10.47 秒",
+          "笑脸照片保持；从大动作和多人场面收回一个清楚的面部状态。"
+        ]
+      ],
+      "cameraRead": "固定照片版面；人像近景来自照片裁切，不能写成摄影机现场推近。",
+      "spatial": "人脸居中，深色背景与浅色衣服分出主次。",
+      "audio": "按用户要求跳过声音分析。",
+      "onscreenText": "无。",
+      "remake": "复刻设计：照片轮播最后放一张表情最鲜明的人像，让下一段照片总览拥有情感落点。",
+      "note": "视觉依据：本镜 a/b 代表帧；review/full 每 0.5 秒全片采样。原混音未分析。",
+      "rhythm": "payoff",
+      "rhythmNote": "前面出现的素材在产品或完整字序上得到回应。",
+      "frames": {
+        "a": {
+          "src": "frames/S09a.jpg",
+          "time": 10.04,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 154624,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 10.066666666666666,
+            "log": "[Parsed_showinfo_0 @ 0x12d780240] n:   0 pts: 154624 pts_time:10.066667 duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1920 i:P iskey:0 type:B checksum:57B767BC plane_checksum:[7BA939AD 7569762E 5B37B7D2] mean:[119 103 146] stdev:[51.9 19.3 14.8]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 10.066666667,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 10.04,
+            "sourceSha256": "18071addc16eddebca7af969a260cc1593a0445c9418a80ae6c82fb0f0a52327"
+          }
+        },
+        "b": {
+          "src": "frames/S09b.jpg",
+          "time": 10.39,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 159744,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 10.4,
+            "log": "[Parsed_showinfo_0 @ 0x15a805eb0] n:   0 pts: 159744 pts_time:10.4    duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1920 i:P iskey:0 type:B checksum:7A473687 plane_checksum:[33834762 620C4B27 FB42A3EF] mean:[119 103 146] stdev:[51.9 19.3 14.8]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 10.4,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 10.39,
+            "sourceSha256": "18071addc16eddebca7af969a260cc1593a0445c9418a80ae6c82fb0f0a52327"
+          }
+        }
+      }
+    },
+    {
+      "id": "S10",
+      "title": "照片铺开、手机扫过、翻面揭示照片壳",
+      "start": 10.466667,
+      "end": 19.966667,
+      "seconds": 9.5,
+      "motion": 5.078,
+      "size": "close",
+      "category": "product",
+      "camera": "static",
+      "transitionIn": "cut",
+      "subjects": [
+        "P"
+      ],
+      "principalSubjects": [],
+      "backgroundSubjects": [
+        "P"
+      ],
+      "castPresence": {
+        "P": "背景"
+      },
+      "frame": "俯视软木桌面，黄紫图案手机位于上方；白边照片分批铺开，白袖手部拿起手机划过照片，随后露出屏幕与照片拼贴手机壳。",
+      "fight": "照片先分批出现并有清空重排的跳步，再成三行；下方出现“每个日常”。白袖手拿起手机逐排划过，照片随之分批消失；上方换成“都值得被记录”。手机转向屏幕，另一只手指触屏，花朵短暂出现；手机再转背，揭示密集照片拼贴的壳面，旁边保留“从创意中”。",
+      "beats": [
+        [
+          "约10.47–12.5秒",
+          "手机横放上方，照片逐批出现、清空并重排，最后形成三行。"
+        ],
+        [
+          "约12.5–14秒",
+          "三行照片与“每个日常”保持；照片局部角度有跳步式变化。"
+        ],
+        [
+          "约14–15.8秒",
+          "白袖手拿起手机沿照片行扫过，照片相继消失。"
+        ],
+        [
+          "约15.8–17.3秒",
+          "文字换成“都值得被记录”；照片清空，手持手机转向屏幕。"
+        ],
+        [
+          "约17.3–18.5秒",
+          "另一只手指接近屏幕并点击，彩色花朵在周边出现后退出。"
+        ],
+        [
+          "约18.5–19.97秒",
+          "手机翻回背面，露出密集照片拼贴壳，随后略抬近供阅读。"
+        ]
+      ],
+      "cameraRead": "主体主要是照片替换、手部运动与手机翻面。背景纹理方向基本稳定，按固定俯拍记录；停格式跳步不能当成一条无剪接的物理搬运轨迹。",
+      "spatial": "手机先在上方，照片中段三行展开，文案在底部或上方留白；手从左下进入。翻面后屏幕与壳面成为中心信息。",
+      "audio": "按用户要求跳过声音分析。",
+      "onscreenText": "每个日常；都值得被记录；从创意中（按画面所见分散排列）。",
+      "remake": "复刻设计：固定俯拍，将手机经过的路径与照片消失的蒙版对齐；照片先完成阅读，再按行清除。翻面中间帧做产品图案切换，保证外框、镜头孔与手指接触连续；密集壳面由前段照片内容派生。",
+      "note": "视觉依据：本镜 a/b 代表帧；review/full 每 0.5 秒全片采样。原混音未分析。另看 review/board 10.3–19.98 秒、0.2 秒采样；白袖手部身份不足以确认为 A，不计入 A 的出场。照片消失的“收纳”是解释，未展示真实传输。",
+      "rhythm": "payoff",
+      "rhythmNote": "前面出现的素材在产品或完整字序上得到回应。",
+      "frames": {
+        "a": {
+          "src": "frames/S10a.jpg",
+          "time": 11.89,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 182784,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 11.9,
+            "log": "[Parsed_showinfo_0 @ 0x135604660] n:   0 pts: 182784 pts_time:11.9    duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1920 i:P iskey:0 type:P checksum:F33FC598 plane_checksum:[2F53E40D 55608EA1 AA7F52DB] mean:[149 84 153] stdev:[24.6 16.8 11.5]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 11.9,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 11.89,
+            "sourceSha256": "18071addc16eddebca7af969a260cc1593a0445c9418a80ae6c82fb0f0a52327"
+          }
+        },
+        "b": {
+          "src": "frames/S10b.jpg",
+          "time": 18.54,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 285184,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 18.566666666666666,
+            "log": "[Parsed_showinfo_0 @ 0x130604310] n:   0 pts: 285184 pts_time:18.566667 duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1920 i:P iskey:0 type:B checksum:EA6CE3C5 plane_checksum:[A95E3217 6EA6C055 FC31F14A] mean:[138 92 153] stdev:[30.9 13.6 10.6]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 18.566666667,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 18.54,
+            "sourceSha256": "18071addc16eddebca7af969a260cc1593a0445c9418a80ae6c82fb0f0a52327"
+          }
+        }
+      }
+    },
+    {
+      "id": "S11",
+      "title": "挂绳细节：先留出穿珠位置",
+      "start": 19.966667,
+      "end": 20.233333,
+      "seconds": 0.266666,
+      "motion": 0.092,
+      "size": "extreme-close",
+      "category": "product",
+      "camera": "static",
+      "transitionIn": "cut",
+      "subjects": [],
+      "principalSubjects": [],
+      "backgroundSubjects": [],
+      "castPresence": {},
+      "frame": "黑色斑点编织挂绳在软木面上盘出数个环，取景紧贴绳结和绳段。",
+      "fight": "挂绳保持盘绕；暂未出现完整姓名字母珠，先建立后续变化的对象。",
+      "beats": [
+        [
+          "19.97–20.23 秒",
+          "挂绳保持盘绕；暂未出现完整姓名字母珠，先建立后续变化的对象。"
+        ]
+      ],
+      "cameraRead": "近距离俯拍固定；镜内没有足够的连续视差证据支持实机运动。",
+      "spatial": "绳段交叉形成环与结，下方留出字母珠的展示空间。",
+      "audio": "按用户要求跳过声音分析。",
+      "onscreenText": "无。",
+      "remake": "复刻设计：先展示空挂绳局部，让观众记住珠子即将出现的落点。",
+      "note": "视觉依据：本镜 a/b 代表帧；review/full 每 0.5 秒全片采样。原混音未分析。review/beads 19.9–21.5 秒逐源帧区分停留与状态/取景跳切。",
+      "rhythm": "setup",
+      "rhythmNote": "先建立对象，再让状态发生改变。",
+      "frames": {
+        "a": {
+          "src": "frames/S11a.jpg",
+          "time": 20.01,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 307712,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 20.033333333333335,
+            "log": "[Parsed_showinfo_0 @ 0x1497052f0] n:   0 pts: 307712 pts_time:20.033333 duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1920 i:P iskey:0 type:B checksum:BC0424D8 plane_checksum:[92BA60D5 28073D7A F53E867A] mean:[120 106 141] stdev:[44.4 11.6 7.5]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 20.033333333,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 20.01,
+            "sourceSha256": "18071addc16eddebca7af969a260cc1593a0445c9418a80ae6c82fb0f0a52327"
+          }
+        },
+        "b": {
+          "src": "frames/S11b.jpg",
+          "time": 20.19,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 310272,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 20.2,
+            "log": "[Parsed_showinfo_0 @ 0x1439044d0] n:   0 pts: 310272 pts_time:20.2    duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1920 i:P iskey:0 type:P checksum:1DA79FD8 plane_checksum:[A59A9B3F 4D85975A 77116D30] mean:[120 106 141] stdev:[44.4 11.6 7.5]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 20.2,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 20.19,
+            "sourceSha256": "18071addc16eddebca7af969a260cc1593a0445c9418a80ae6c82fb0f0a52327"
+          }
+        }
+      }
+    },
+    {
+      "id": "S12",
+      "title": "蓝色 A 珠落在绳段上",
+      "start": 20.233333,
+      "end": 20.5,
+      "seconds": 0.266667,
+      "motion": 0.001,
+      "size": "extreme-close",
+      "category": "product",
+      "camera": "static",
+      "transitionIn": "cut",
+      "subjects": [],
+      "principalSubjects": [],
+      "backgroundSubjects": [],
+      "castPresence": {},
+      "frame": "相同软木与黑色挂绳构图中，新增一颗蓝色方形 A 字母珠。",
+      "fight": "通过跳切出现第一颗字母珠；没有展示手穿珠的过程。",
+      "beats": [
+        [
+          "20.23–20.50 秒",
+          "通过跳切出现第一颗字母珠；没有展示手穿珠的过程。"
+        ]
+      ],
+      "cameraRead": "机位视觉接近固定，用编辑替换状态制造一步到位的出现。",
+      "spatial": "A 珠在交叉绳段下侧，白色字母对蓝底清楚。",
+      "audio": "按用户要求跳过声音分析。",
+      "onscreenText": "A",
+      "remake": "复刻设计：第一颗珠子直接跳入落点，后续珠子沿同一读字方向递增；不要伪装成完整穿绳教程。",
+      "note": "视觉依据：本镜 a/b 代表帧；review/full 每 0.5 秒全片采样。原混音未分析。review/beads 19.9–21.5 秒逐源帧区分停留与状态/取景跳切。",
+      "rhythm": "beat",
+      "rhythmNote": "短镜只交代一个新增状态。",
+      "frames": {
+        "a": {
+          "src": "frames/S12a.jpg",
+          "time": 20.27,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 311808,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 20.3,
+            "log": "[Parsed_showinfo_0 @ 0x136005340] n:   0 pts: 311808 pts_time:20.3    duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1920 i:P iskey:0 type:B checksum:F5F30C14 plane_checksum:[C2CA448A EBB75F6D 14F3680E] mean:[111 109 139] stdev:[46.9 15.5 9.5]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 20.3,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 20.27,
+            "sourceSha256": "18071addc16eddebca7af969a260cc1593a0445c9418a80ae6c82fb0f0a52327"
+          }
+        },
+        "b": {
+          "src": "frames/S12b.jpg",
+          "time": 20.46,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 314368,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 20.466666666666665,
+            "log": "[Parsed_showinfo_0 @ 0x123706820] n:   0 pts: 314368 pts_time:20.466667 duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1920 i:P iskey:0 type:B checksum:2F940C5F plane_checksum:[39914459 E78C5FAB B09C684C] mean:[111 109 139] stdev:[46.9 15.5 9.5]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 20.466666667,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 20.46,
+            "sourceSha256": "18071addc16eddebca7af969a260cc1593a0445c9418a80ae6c82fb0f0a52327"
+          }
+        }
+      }
+    },
+    {
+      "id": "S13",
+      "title": "浅蓝 L 珠加入",
+      "start": 20.5,
+      "end": 20.7,
+      "seconds": 0.2,
+      "motion": 0.006,
+      "size": "extreme-close",
+      "category": "product",
+      "camera": "static",
+      "transitionIn": "cut",
+      "subjects": [],
+      "principalSubjects": [],
+      "backgroundSubjects": [],
+      "castPresence": {},
+      "frame": "蓝色 A 旁增加浅蓝色 L 方珠，黑绳从珠子附近穿过。",
+      "fight": "珠子由一颗变为两颗，位置与构图略有跳动；保持可读的 A、L 顺序。",
+      "beats": [
+        [
+          "20.50–20.70 秒",
+          "珠子由一颗变为两颗，位置与构图略有跳动；保持可读的 A、L 顺序。"
+        ]
+      ],
+      "cameraRead": "短镜固定式展示；构图差异来自切换，不写成源镜内平移。",
+      "spatial": "两珠在画面下中部，绳圈作为背景线条。",
+      "audio": "按用户要求跳过声音分析。",
+      "onscreenText": "A、L",
+      "remake": "复刻设计：按 A→L 的逻辑逐颗加入，产品材质和光向保持。",
+      "note": "视觉依据：本镜 a/b 代表帧；review/full 每 0.5 秒全片采样。原混音未分析。review/beads 19.9–21.5 秒逐源帧区分停留与状态/取景跳切。",
+      "rhythm": "beat",
+      "rhythmNote": "短镜只交代一个新增状态。",
+      "frames": {
+        "a": {
+          "src": "frames/S13a.jpg",
+          "time": 20.53,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 315392,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 20.533333333333335,
+            "log": "[Parsed_showinfo_0 @ 0x159f07610] n:   0 pts: 315392 pts_time:20.533333 duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1920 i:P iskey:0 type:B checksum:FD460F9E plane_checksum:[4C5C510F 15600B47 4C2EB339] mean:[110 109 139] stdev:[47.8 16.0 10.3]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 20.533333333,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 20.53,
+            "sourceSha256": "18071addc16eddebca7af969a260cc1593a0445c9418a80ae6c82fb0f0a52327"
+          }
+        },
+        "b": {
+          "src": "frames/S13b.jpg",
+          "time": 20.5,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 314880,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 20.5,
+            "log": "[Parsed_showinfo_0 @ 0x147804720] n:   0 pts: 314880 pts_time:20.5    duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1920 i:P iskey:0 type:P checksum:4C2FF15B plane_checksum:[B3053566 0FB709E5 5786B210] mean:[110 109 139] stdev:[47.8 16.0 10.3]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 20.5,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 20.5,
+            "sourceSha256": "18071addc16eddebca7af969a260cc1593a0445c9418a80ae6c82fb0f0a52327"
+          }
+        }
+      }
+    },
+    {
+      "id": "S14",
+      "title": "粉色 E 珠加入",
+      "start": 20.7,
+      "end": 20.933333,
+      "seconds": 0.233333,
+      "motion": null,
+      "size": "extreme-close",
+      "category": "product",
+      "camera": "static",
+      "transitionIn": "cut",
+      "subjects": [],
+      "principalSubjects": [],
+      "backgroundSubjects": [],
+      "castPresence": {},
+      "frame": "蓝、浅蓝与粉色字母珠组成 A、L、E，画面比上一镜略换取景位置。",
+      "fight": "第三颗粉色 E 珠出现，姓名信息继续接近完成。",
+      "beats": [
+        [
+          "20.70–20.93 秒",
+          "第三颗粉色 E 珠出现，姓名信息继续接近完成。"
+        ]
+      ],
+      "cameraRead": "固定式近距俯拍，通过硬切换到下一状态。",
+      "spatial": "三颗珠子沿绳段排列，背景结点仍可见。",
+      "audio": "按用户要求跳过声音分析。",
+      "onscreenText": "A、L、E",
+      "remake": "复刻设计：切换时允许轻微构图位移，保持字母的邻接关系，形成手作跳步感。",
+      "note": "视觉依据：本镜 a/b 代表帧；review/full 每 0.5 秒全片采样。原混音未分析。review/beads 19.9–21.5 秒逐源帧区分停留与状态/取景跳切。",
+      "rhythm": "beat",
+      "rhythmNote": "短镜只交代一个新增状态。",
+      "frames": {
+        "a": {
+          "src": "frames/S14a.jpg",
+          "time": 20.73,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 318464,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 20.733333333333334,
+            "log": "[Parsed_showinfo_0 @ 0x12e6051d0] n:   0 pts: 318464 pts_time:20.733333 duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1920 i:P iskey:0 type:B checksum:BEE32615 plane_checksum:[73CEB64C CEF0959A 99A2DA11] mean:[119 107 140] stdev:[46.7 16.3 10.4]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 20.733333333,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 20.73,
+            "sourceSha256": "18071addc16eddebca7af969a260cc1593a0445c9418a80ae6c82fb0f0a52327"
+          }
+        },
+        "b": {
+          "src": "frames/S14b.jpg",
+          "time": 20.9,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 321024,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 20.9,
+            "log": "[Parsed_showinfo_0 @ 0x137606820] n:   0 pts: 321024 pts_time:20.9    duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1920 i:P iskey:0 type:P checksum:CC55A617 plane_checksum:[F3875BAD 14E480D9 9D37C982] mean:[119 107 140] stdev:[46.7 16.3 10.4]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 20.9,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 20.9,
+            "sourceSha256": "18071addc16eddebca7af969a260cc1593a0445c9418a80ae6c82fb0f0a52327"
+          }
+        }
+      }
+    },
+    {
+      "id": "S15",
+      "title": "黄色 X 珠完成拼字",
+      "start": 20.933333,
+      "end": 21.166667,
+      "seconds": 0.233334,
+      "motion": 31.318,
+      "size": "extreme-close",
+      "category": "product",
+      "camera": "static",
+      "transitionIn": "cut",
+      "subjects": [],
+      "principalSubjects": [],
+      "backgroundSubjects": [],
+      "castPresence": {},
+      "frame": "浅蓝 L、粉色 E 与淡黄 X 为主要近距信息，A 在取景边侧或外侧。",
+      "fight": "X 珠加入，完整序列应由相邻镜理解；本镜并不要求每个字母都同时完整入框。",
+      "beats": [
+        [
+          "20.93–21.17 秒",
+          "X 珠加入，完整序列应由相邻镜理解；本镜并不要求每个字母都同时完整入框。"
+        ]
+      ],
+      "cameraRead": "固定式特写，以切换取景强调最后一颗珠子。",
+      "spatial": "字母珠处于绳结下方，亮色方珠与深色编织绳对比。",
+      "audio": "按用户要求跳过声音分析。",
+      "onscreenText": "L、E、X，A 非完整主要信息。",
+      "remake": "复刻设计：用最亮的一颗完成姓名，随后马上给总览核对完整字序。",
+      "note": "视觉依据：本镜 a/b 代表帧；review/full 每 0.5 秒全片采样。原混音未分析。review/beads 19.9–21.5 秒逐源帧区分停留与状态/取景跳切。已逐源帧复核：高差分来自切点邻域的产品状态/构图跳变，未发现足以确认镜内持续运镜的背景视差；保留固定标注与测量警示。",
+      "rhythm": "payoff",
+      "rhythmNote": "前面出现的素材在产品或完整字序上得到回应。",
+      "frames": {
+        "a": {
+          "src": "frames/S15a.jpg",
+          "time": 20.97,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 322560,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 21.0,
+            "log": "[Parsed_showinfo_0 @ 0x1341048a0] n:   0 pts: 322560 pts_time:21      duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1920 i:P iskey:0 type:B checksum:2C73E4FD plane_checksum:[8FD35A33 C42305AE 60BD851C] mean:[122 104 141] stdev:[46.0 13.5 9.1]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 21.0,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 20.97,
+            "sourceSha256": "18071addc16eddebca7af969a260cc1593a0445c9418a80ae6c82fb0f0a52327"
+          }
+        },
+        "b": {
+          "src": "frames/S15b.jpg",
+          "time": 21.13,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 324608,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 21.133333333333333,
+            "log": "[Parsed_showinfo_0 @ 0x135604c10] n:   0 pts: 324608 pts_time:21.133333 duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1920 i:P iskey:0 type:B checksum:AA229D10 plane_checksum:[6810130D FC27050B 987884F8] mean:[122 104 141] stdev:[46.0 13.5 9.1]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 21.133333333,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 21.13,
+            "sourceSha256": "18071addc16eddebca7af969a260cc1593a0445c9418a80ae6c82fb0f0a52327"
+          }
+        }
+      }
+    },
+    {
+      "id": "S16",
+      "title": "ALEX 全部入画",
+      "start": 21.166667,
+      "end": 21.4,
+      "seconds": 0.233333,
+      "motion": 41.282,
+      "size": "close",
+      "category": "product",
+      "camera": "static",
+      "transitionIn": "cut",
+      "subjects": [],
+      "principalSubjects": [],
+      "backgroundSubjects": [],
+      "castPresence": {},
+      "frame": "取景略宽，A、L、E、X 四颗彩色字母珠与挂绳交叉位置一同可读。",
+      "fight": "从局部完成态切到四珠同框，确认拼字结果；没有新增穿珠动作。",
+      "beats": [
+        [
+          "21.17–21.40 秒",
+          "从局部完成态切到四珠同框，确认拼字结果；没有新增穿珠动作。"
+        ]
+      ],
+      "cameraRead": "短促硬切改变取景尺度，非镜内连续拉远。",
+      "spatial": "四珠顺绳段斜排，黑绳在其后形成环形。",
+      "audio": "按用户要求跳过声音分析。",
+      "onscreenText": "ALEX",
+      "remake": "复刻设计：在逐颗状态后给一个完整结果镜，检查字序与首尾珠方向一致。",
+      "note": "视觉依据：本镜 a/b 代表帧；review/full 每 0.5 秒全片采样。原混音未分析。review/beads 19.9–21.5 秒逐源帧区分停留与状态/取景跳切。已逐源帧复核：高差分来自切点邻域的产品状态/构图跳变，未发现足以确认镜内持续运镜的背景视差；保留固定标注与测量警示。",
+      "rhythm": "payoff",
+      "rhythmNote": "前面出现的素材在产品或完整字序上得到回应。",
+      "frames": {
+        "a": {
+          "src": "frames/S16a.jpg",
+          "time": 21.2,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 325632,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 21.2,
+            "log": "[Parsed_showinfo_0 @ 0x13d604680] n:   0 pts: 325632 pts_time:21.2    duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1920 i:P iskey:0 type:B checksum:D49E623A plane_checksum:[D2A897C6 231BF6D2 2B88D384] mean:[119 105 141] stdev:[45.0 15.2 9.7]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 21.2,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 21.2,
+            "sourceSha256": "18071addc16eddebca7af969a260cc1593a0445c9418a80ae6c82fb0f0a52327"
+          }
+        },
+        "b": {
+          "src": "frames/S16b.jpg",
+          "time": 21.166667,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 325120,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 21.166666666666668,
+            "log": "[Parsed_showinfo_0 @ 0x11b604680] n:   0 pts: 325120 pts_time:21.166667 duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1920 i:P iskey:0 type:P checksum:E6668686 plane_checksum:[D26FE466 EBBC74D7 DE352D3A] mean:[119 105 141] stdev:[44.9 15.1 9.6]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 21.166666667,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 21.166667,
+            "sourceSha256": "18071addc16eddebca7af969a260cc1593a0445c9418a80ae6c82fb0f0a52327"
+          }
+        }
+      }
+    },
+    {
+      "id": "S17",
+      "title": "取景退开，挂绳成为完整图形",
+      "start": 21.4,
+      "end": 22.266667,
+      "seconds": 0.866667,
+      "motion": 7.078,
+      "size": "close",
+      "category": "product",
+      "camera": "zoom-out",
+      "transitionIn": "cut",
+      "subjects": [],
+      "principalSubjects": [],
+      "backgroundSubjects": [],
+      "castPresence": {},
+      "frame": "字母珠从近距信息退到小尺度，黑绳的两圈盘绕轮廓完整出现。",
+      "fight": "整幅挂绳取景持续变宽，珠子缩小，最后呈现可作为商品陈列的全貌。",
+      "beats": [
+        [
+          "21.40–22.27 秒",
+          "整幅挂绳取景持续变宽，珠子缩小，最后呈现可作为商品陈列的全貌。"
+        ]
+      ],
+      "cameraRead": "可见整体尺度缩小，呈拉远效果；实机后退与后期缩放无法仅凭画面可靠区分。",
+      "spatial": "挂绳居中偏下，四珠在圈内偏左，软木面留白增大。",
+      "audio": "按用户要求跳过声音分析。",
+      "onscreenText": "ALEX（尺度变小）。",
+      "remake": "复刻设计：用数字缩放或俯拍后拉均可，先保证字母可读，再让完整挂绳轮廓接上下一陈列镜。",
+      "note": "视觉依据：本镜 a/b 代表帧；review/full 每 0.5 秒全片采样。原混音未分析。review/beads 19.9–21.5 秒逐源帧区分停留与状态/取景跳切。",
+      "rhythm": "breath",
+      "rhythmNote": "取景放宽，给结果留阅读空间。",
+      "frames": {
+        "a": {
+          "src": "frames/S17a.jpg",
+          "time": 21.53,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 330752,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 21.533333333333335,
+            "log": "[Parsed_showinfo_0 @ 0x143105340] n:   0 pts: 330752 pts_time:21.533333 duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1920 i:P iskey:0 type:B checksum:6CE9D8AD plane_checksum:[8F894166 4E0DBAA3 5F6ADC95] mean:[126 101 144] stdev:[32.7 10.9 6.7]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 21.533333333,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 21.53,
+            "sourceSha256": "18071addc16eddebca7af969a260cc1593a0445c9418a80ae6c82fb0f0a52327"
+          }
+        },
+        "b": {
+          "src": "frames/S17b.jpg",
+          "time": 22.14,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 340480,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 22.166666666666668,
+            "log": "[Parsed_showinfo_0 @ 0x121f7fc10] n:   0 pts: 340480 pts_time:22.166667 duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1920 i:P iskey:0 type:P checksum:8E8DD321 plane_checksum:[36A3B061 6E65C49C ACD95E15] mean:[124 100 145] stdev:[27.6 8.8 5.4]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 22.166666667,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 22.14,
+            "sourceSha256": "18071addc16eddebca7af969a260cc1593a0445c9418a80ae6c82fb0f0a52327"
+          }
+        }
+      }
+    },
+    {
+      "id": "S18",
+      "title": "产品家族与错位花字共同陈列",
+      "start": 22.266667,
+      "end": 23.733333,
+      "seconds": 1.466666,
+      "motion": 5.96,
+      "size": "close",
+      "category": "product",
+      "camera": "static",
+      "transitionIn": "cut",
+      "subjects": [],
+      "principalSubjects": [],
+      "backgroundSubjects": [],
+      "castPresence": {},
+      "frame": "俯视桌上有黄紫平板套、照片手机壳和黑色字母挂绳；黑白描边字分散排出“探索多元自我”。",
+      "fight": "产品大体保持，文案逐字错位建立阅读路径；挂绳既是配件也是连结几件商品的线条。",
+      "beats": [
+        [
+          "22.27–23.73 秒",
+          "产品大体保持，文案逐字错位建立阅读路径；挂绳既是配件也是连结几件商品的线条。"
+        ]
+      ],
+      "cameraRead": "固定俯拍为主，局部图形的跳动不等同相机抖动。",
+      "spatial": "大平板在上方，手机在左下，挂绳盘绕右下；文字穿插留白，避开主要图案。",
+      "audio": "按用户要求跳过声音分析。",
+      "onscreenText": "探索多元自我",
+      "remake": "复刻设计：先定三件物品的尺度层级，再把六字分组排入空隙；描边、轻微旋转与少量色块呼应前文，不机械铺满。",
+      "note": "视觉依据：本镜 a/b 代表帧；review/full 每 0.5 秒全片采样。原混音未分析。",
+      "rhythm": "close",
+      "rhythmNote": "将信息集中到产品使用与品牌。",
+      "frames": {
+        "a": {
+          "src": "frames/S18a.jpg",
+          "time": 22.49,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 345600,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 22.5,
+            "log": "[Parsed_showinfo_0 @ 0x143606250] n:   0 pts: 345600 pts_time:22.5    duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1920 i:P iskey:0 type:B checksum:B4F693A1 plane_checksum:[E02408BA 97201F3B 64E26BAC] mean:[138 101 147] stdev:[44.2 16.9 11.9]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 22.5,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 22.49,
+            "sourceSha256": "18071addc16eddebca7af969a260cc1593a0445c9418a80ae6c82fb0f0a52327"
+          }
+        },
+        "b": {
+          "src": "frames/S18b.jpg",
+          "time": 23.51,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 361472,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 23.533333333333335,
+            "log": "[Parsed_showinfo_0 @ 0x14360f050] n:   0 pts: 361472 pts_time:23.533333 duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1920 i:P iskey:0 type:B checksum:461846E5 plane_checksum:[258B24ED 73261398 994E0E60] mean:[139 101 147] stdev:[44.2 17.0 12.0]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 23.533333333,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 23.51,
+            "sourceSha256": "18071addc16eddebca7af969a260cc1593a0445c9418a80ae6c82fb0f0a52327"
+          }
+        }
+      }
+    },
+    {
+      "id": "S19",
+      "title": "佩戴挂绳，回到真人使用",
+      "start": 23.733333,
+      "end": 24.9,
+      "seconds": 1.166667,
+      "motion": 7.236,
+      "size": "medium-wide",
+      "category": "subject",
+      "camera": "static",
+      "transitionIn": "cut",
+      "subjects": [
+        "A"
+      ],
+      "principalSubjects": [
+        "A"
+      ],
+      "backgroundSubjects": [],
+      "castPresence": {
+        "A": "主要"
+      },
+      "frame": "蓝帽白衫人物站在绿黄与粉色块墙前，黑绳斜跨身体，手中展示照片壳。",
+      "fight": "她低头把手机与挂绳连接位置整理好，手机从手持状态向身体一侧下垂；姿态从操作过渡到展示。",
+      "beats": [
+        [
+          "23.73–24.90 秒",
+          "她低头把手机与挂绳连接位置整理好，手机从手持状态向身体一侧下垂；姿态从操作过渡到展示。"
+        ]
+      ],
+      "cameraRead": "中远景固定，取景保留腰部和挂绳走向；没有可确认的跟拍位移。",
+      "spatial": "人物居中，绿背景在后，植物叶片在左边缘，手机在画面右下。",
+      "audio": "按用户要求跳过声音分析。",
+      "onscreenText": "即刻出发",
+      "remake": "复刻设计：拍清连接处的动作，再放手让重力带出佩戴结果；照片壳与上一段保持同一图案。",
+      "note": "视觉依据：本镜 a/b 代表帧；review/full 每 0.5 秒全片采样。原混音未分析。",
+      "rhythm": "close",
+      "rhythmNote": "将信息集中到产品使用与品牌。",
+      "frames": {
+        "a": {
+          "src": "frames/S19a.jpg",
+          "time": 23.91,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 367616,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 23.933333333333334,
+            "log": "[Parsed_showinfo_0 @ 0x130005190] n:   0 pts: 367616 pts_time:23.933333 duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1920 i:P iskey:0 type:B checksum:CB56DF9E plane_checksum:[4C7A0480 CBD3EC83 A6C5EE8C] mean:[157 103 125] stdev:[52.0 25.4 19.7]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 23.933333333,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 23.91,
+            "sourceSha256": "18071addc16eddebca7af969a260cc1593a0445c9418a80ae6c82fb0f0a52327"
+          }
+        },
+        "b": {
+          "src": "frames/S19b.jpg",
+          "time": 24.72,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 379904,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 24.733333333333334,
+            "log": "[Parsed_showinfo_0 @ 0x137f048a0] n:   0 pts: 379904 pts_time:24.733333 duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1920 i:P iskey:0 type:B checksum:0D746DB6 plane_checksum:[7A26FE2D E1C61410 3F855B6A] mean:[156 103 125] stdev:[52.1 25.3 19.6]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 24.733333333,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 24.72,
+            "sourceSha256": "18071addc16eddebca7af969a260cc1593a0445c9418a80ae6c82fb0f0a52327"
+          }
+        }
+      }
+    },
+    {
+      "id": "S20",
+      "title": "表情与口号定格收口",
+      "start": 24.9,
+      "end": 26.866667,
+      "seconds": 1.966667,
+      "motion": 8.262,
+      "size": "medium",
+      "category": "subject",
+      "camera": "static",
+      "transitionIn": "cut",
+      "subjects": [
+        "A"
+      ],
+      "principalSubjects": [
+        "A"
+      ],
+      "backgroundSubjects": [],
+      "castPresence": {
+        "A": "主要"
+      },
+      "frame": "人物一手靠近面侧，一手在腰侧，照片手机壳垂于胸腹下方；标题在蓝帽上方附近。",
+      "fight": "人物微转头、笑与张口，手指靠近脸侧；标题换位并逐渐落在右上，形成结束姿势。",
+      "beats": [
+        [
+          "24.90–26.87 秒",
+          "人物微转头、笑与张口，手指靠近脸侧；标题换位并逐渐落在右上，形成结束姿势。"
+        ]
+      ],
+      "cameraRead": "切入较近的中景，后续构图主要保持；人物自身表情与轻摆负责动感。",
+      "spatial": "蓝帽与亮绿墙构成主色对比，手机壳位于身体下中区，标题利用头侧空隙。",
+      "audio": "按用户要求跳过声音分析。",
+      "onscreenText": "奇想由她，妙趣生花（画面艺术字）。",
+      "remake": "复刻设计：产品已经解释完之后减少新信息，留一个鲜明表情；标题只避让脸部，不增加新的产品变化。",
+      "note": "视觉依据：本镜 a/b 代表帧；review/full 每 0.5 秒全片采样。原混音未分析。",
+      "rhythm": "close",
+      "rhythmNote": "将信息集中到产品使用与品牌。",
+      "frames": {
+        "a": {
+          "src": "frames/S20a.jpg",
+          "time": 25.2,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 387072,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 25.2,
+            "log": "[Parsed_showinfo_0 @ 0x11e61de00] n:   0 pts: 387072 pts_time:25.2    duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1920 i:P iskey:0 type:B checksum:43692B10 plane_checksum:[B9A86A07 0449F0C9 E794D022] mean:[170 109 125] stdev:[50.7 24.7 19.1]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 25.2,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 25.2,
+            "sourceSha256": "18071addc16eddebca7af969a260cc1593a0445c9418a80ae6c82fb0f0a52327"
+          }
+        },
+        "b": {
+          "src": "frames/S20b.jpg",
+          "time": 26.57,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 408576,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 26.6,
+            "log": "[Parsed_showinfo_0 @ 0x13be053b0] n:   0 pts: 408576 pts_time:26.6    duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1920 i:P iskey:0 type:B checksum:F4899A5C plane_checksum:[E215B08D EF7FC92F BB932091] mean:[168 107 126] stdev:[51.9 25.5 19.0]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 26.6,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 26.57,
+            "sourceSha256": "18071addc16eddebca7af969a260cc1593a0445c9418a80ae6c82fb0f0a52327"
+          }
+        }
+      }
+    },
+    {
+      "id": "S21",
+      "title": "奶油白底品牌尾卡",
+      "start": 26.866667,
+      "end": 27.566667,
+      "seconds": 0.7,
+      "motion": 0.0,
+      "size": "none",
+      "category": "text-card",
+      "camera": "static",
+      "transitionIn": "cut",
+      "subjects": [],
+      "principalSubjects": [],
+      "backgroundSubjects": [],
+      "castPresence": {},
+      "frame": "奶油白色画面中央偏下保留一枚轻微倾斜的黑色品牌小标签，周围大面积留白。",
+      "fight": "人物与桌面切走，只留下品牌标识保持到片尾。",
+      "beats": [
+        [
+          "26.87–27.57 秒",
+          "人物与桌面切走，只留下品牌标识保持到片尾。"
+        ]
+      ],
+      "cameraRead": "纯平面静止尾卡，无摄影机运动。",
+      "spatial": "小尺寸标识在竖幅中部偏下，倾斜角度延续贴纸感。",
+      "audio": "按用户要求跳过声音分析。",
+      "onscreenText": "CASETiFY",
+      "remake": "复刻设计：用自有品牌替换标识，延续开场奶油白底；让空白回收前段的视觉密度。",
+      "note": "视觉依据：本镜 a/b 代表帧；review/full 每 0.5 秒全片采样。原混音未分析。",
+      "rhythm": "close",
+      "rhythmNote": "将信息集中到产品使用与品牌。",
+      "frames": {
+        "a": {
+          "src": "frames/S21a.jpg",
+          "time": 26.97,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 414720,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 27.0,
+            "log": "[Parsed_showinfo_0 @ 0x108e055a0] n:   0 pts: 414720 pts_time:27      duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1920 i:P iskey:0 type:B checksum:DA927A5A plane_checksum:[FBFE3A1A BDD5564C C00DE9E5] mean:[223 123 129] stdev:[23.7 1.7 2.1]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 27.0,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 26.97,
+            "sourceSha256": "18071addc16eddebca7af969a260cc1593a0445c9418a80ae6c82fb0f0a52327"
+          }
+        },
+        "b": {
+          "src": "frames/S21b.jpg",
+          "time": 27.46,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 421888,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 27.466666666666665,
+            "log": "[Parsed_showinfo_0 @ 0x131604500] n:   0 pts: 421888 pts_time:27.466667 duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1920 i:P iskey:0 type:B checksum:C9B77AE3 plane_checksum:[BCB53A29 154656DC E86AE9CF] mean:[223 123 129] stdev:[23.7 1.7 2.1]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 27.466666667,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 27.46,
+            "sourceSha256": "18071addc16eddebca7af969a260cc1593a0445c9418a80ae6c82fb0f0a52327"
+          }
+        }
+      }
+    }
+  ],
+  "report": {
+    "title": "CASETiFY｜奇想由她，妙趣生花",
+    "actionLabel": "具体画面与动作过程",
+    "kicker": "FREDTALK SHOTS · 创意商业短片",
+    "headline": "让奇想开花，把生活装进产品",
+    "intro": "27.57 秒｜21 个实测镜头单元。重点：人物抠像、花形揭示、照片跳步、手机扫过收纳、翻面换壳、字母珠与错位花字。用户评价：“这个创意短片挺好的”。仅确认整体喜好；具体偏好维度尚未确认。本次按用户要求跳过声音。",
+    "audioFallback": "按用户要求跳过声音分析",
+    "peopleIntro": "按可见外观和画面作用建立索引；照片合集不是同一个人的身份结论。",
+    "cameraIntro": "时间窗覆盖全片；镜内合成变化与硬切分列。提示词是重新制作设计，数值不代表原工程参数。",
+    "promptIntro": "可复制的视觉制作方案，未生成新视频。拍摄与合成建议分开写；不提供声音指令。",
+    "shotHeading": "逐镜动作档案",
+    "peopleHeading": "先分清人物，再看空间关系",
+    "analysisHeading": "把观察拆成可用的关系",
+    "statsHeading": "镜头长度与景别分布",
+    "promptGuides": [
+      "先提供与本片对应的人物和场景参考，确认外观、数量与相对位置。",
+      "按时间窗安排镜头；同一动作窗内连续完成起势、应对、接触或状态变化。",
+      "生成后检查动作衔接、空间方向、人物身份与状态的跨镜连续性。"
+    ]
+  },
+  "media": [
+    {
+      "src": "source-original.mp4",
+      "label": "原片 · 1080×1920 · h264"
+    },
+    {
+      "src": "preview-h264.mp4",
+      "label": "兼容预览 · H.264 / AAC"
+    }
+  ],
+  "provenance": {
+    "library_file_id": "libfile_f1e97084091c81918d628ddcb3c3f786",
+    "file_id": "file_000000005cec81f6941cb09de5d42b88",
+    "originalFilename": "她让缤纷的奇想，由自我生花  创作者 @Alex绝对是个妞儿 以声音思辨 坚定表达自我 绽放女性敏锐独立的力量 #奇想由她妙趣生花  #CASETiFY.mp4"
+  }
+}
