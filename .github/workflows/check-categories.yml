@@ -9,6 +9,7 @@ on:
       - .github/scripts/check_categories.cjs
       - .github/scripts/check_cityride.cjs
       - .github/scripts/check_cognition.cjs
+      - .github/scripts/serve_preview.py
       - entries/cityride.json
       - entries/cognition-gap.json
       - reports/cityride/online-report.html

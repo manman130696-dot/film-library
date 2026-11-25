@@ -8,7 +8,7 @@ const fs = require('node:fs');
   const html = fs.readFileSync('index.html', 'utf8');
   for (const [, source] of html.matchAll(/<script\b[^>]*>([\s\S]*?)<\/script>/g)) new Function(source);
   new Function(fs.readFileSync('archive-loader.js', 'utf8'));
-  const server = spawn('python3', ['-m', 'http.server', '8765', '--bind', '127.0.0.1'], { stdio: 'ignore' });
+  const server = spawn('python3', ['.github/scripts/serve_preview.py'], { stdio: 'ignore' });
   let browser;
   try {
     for (let i = 0; i < 100; i++) {
