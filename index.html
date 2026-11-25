@@ -109,7 +109,7 @@ a.nav-button{text-decoration:none}.sidebar{overflow-y:auto}.resource-label{margi
         <label class="search-box"><svg><use href="#i-search"/></svg><input id="search" type="search" placeholder="搜索标题、花字、B镜或制作方法" aria-label="搜索片库"><kbd>/</kbd></label>
         <div class="toolbar-selects"><label class="select-wrap"><span class="sr-only">分析状态</span><select id="status-filter"><option value="all">全部状态</option><option value="report">有拉片报告</option><option value="partial">分段研究</option><option value="draft">素材与底稿</option></select></label><label class="select-wrap"><span class="sr-only">排序</span><select id="sort"><option value="recent">最近加入</option><option value="short">片长由短到长</option><option value="long">片长由长到短</option><option value="title">按标题排序</option></select></label></div>
       </div>
-      <div class="tag-toolbar" aria-label="用途筛选" id="tag-toolbar"><button class="active" data-tag="all">全部</button><button data-tag="片头">片头与开场</button><button data-tag="B镜">B 镜制作</button><button data-tag="包装">镜头包装</button><button data-tag="叙事">叙事与文案</button><button data-tag="动画">动画与动效</button><button data-tag="声音">音乐与音效</button></div>
+      <div class="tag-toolbar" aria-label="用途筛选" id="tag-toolbar"><button class="active" data-tag="all">全部</button><button data-tag="片头">片头与开场</button><button data-tag="B镜">B 镜制作</button><button data-tag="包装">镜头包装</button><button data-tag="叙事">叙事与文案</button><button data-tag="动画">动画与动效</button><button data-tag="节奏">剪辑节奏</button><button data-tag="声音">音乐与音效</button></div>
       <div class="filter-summary" id="filter-summary" hidden><span id="filter-summary-text"></span><button id="clear-filters">清空筛选</button></div>
       <div class="video-grid" id="video-grid"></div>
       <div class="empty-state" id="empty-state" hidden><svg><use href="#i-search"/></svg><h3>暂时没有匹配的内容</h3><p>换一个关键词，或清空筛选再看看。</p><button class="button button-dark" id="empty-clear">查看全部作品</button></div>
@@ -168,7 +168,7 @@ a.nav-button{text-decoration:none}.sidebar{overflow-y:auto}.resource-label{margi
   function isSaved(id){return saved.has(id);}
   function toggleSave(id){if(saved.has(id))saved.delete(id);else saved.add(id);try{localStorage.setItem('film-library-marks',JSON.stringify([...saved]));}catch{}render();if(selected)updateDetailSave();}
   function searchable(v){return [v.title,v.subtitle,v.summary,v.preference,...v.tags,...v.categories,...(v.subjects||[])].join(' ').toLowerCase();}
-  const tagPatterns={片头:/片头|开头|开场|钩子|片名|前奏/,B镜:/B\s*镜|辅助画面|解释|道具|资料|组合/i,包装:/包装|花字|版式|留白|标签|贴纸|抠像|边框|图卡/,叙事:/叙事|文案|递进|结构|观点|案例/,动画:/动画|动效|拼贴|MG|纸艺|拟人/i,声音:/音乐|音效|声音|配音|节奏/};
+  const tagPatterns={片头:/片头|开头|开场|钩子|片名|前奏/,B镜:/B\s*镜|辅助画面|解释|道具|资料|组合/i,包装:/包装|花字|版式|留白|标签|贴纸|抠像|边框|图卡/,叙事:/叙事|文案|递进|结构|观点|案例/,动画:/动画|动效|拼贴|MG|纸艺|拟人/i,节奏:/剪辑节奏|快慢对比|动作剪辑|结果揭晓/,声音:/音乐|音效|声音|配音/};
   function matches(v,extra=''){
     const q=$('#search').value.trim().toLowerCase(), text=searchable(v)+' '+extra.toLowerCase();
     return (!q||text.includes(q))&&($('#status-filter').value==='all'||v.status===$('#status-filter').value)&&(direction==='all'||v.categories.includes(direction))&&(tag==='all'||tagPatterns[tag].test(text));
@@ -251,7 +251,8 @@ ${c.apply||'根据新片的叙事重点调整元素、版式与节奏。'}
     panel.scrollTop=0;
   }
   function openVideo(id,caseId){
-    const v=byId[id];if(!v)return;selected=v;promptIndex=0;tab=caseId?'cases':'overview';analysisMode='overview';player.dataset.fallback='false';
+    const v=byId[id];if(!v)return;selected=v;
+    $$('.detail-tabs button').forEach(b=>{b.hidden=(v.excludedAnalysis||[]).includes(b.dataset.detailTab);});promptIndex=0;tab=caseId?'cases':'overview';analysisMode='overview';player.dataset.fallback='false';
     $('#detail-title').textContent=v.title;$('#detail-subtitle').textContent=v.summary;$('#detail-categories').textContent=v.categories.join(' / ');$('#detail-eyebrow').textContent='我的片库 · 作品档案';
     $('#detail-tags').innerHTML=v.tags.map(t=>`<span>${esc(t)}</span>`).join('');$('#detail-preference').innerHTML=`<strong>我的偏好与使用边界</strong>${esc(v.preference)}`;
     $('#playback-notice').hidden=true;player.poster=asset(v.poster);if(local[id]?.playback||v.preview)player.src=local[id]?.playback||asset(v.preview);else{player.removeAttribute('src');player.load();$('#playback-notice').hidden=false;$('#playback-notice').textContent='逐镜观察、B 镜位置和提示词已整理。视频与截图待确认公开；可选择完整原片在本机回看。配乐与音效仍待实际试听。';}player.dataset.full=String(!!local[id]?.playback||v.fullPreview);

@@ -7,7 +7,7 @@ module.exports = async function checkPalettes(page) {
   await page.waitForSelector('#video-grid [data-open]');
   const references = await page.evaluate(() => window.FILM_LIBRARY.cases.filter(c=>c.kind==='palette'));
   assert.deepEqual(references.map(c=>c.videoId).sort(),['africa','casetify','cityride','home','songmont','whale']);
-  assert.equal(await page.locator('#video-grid .video-card').count(),15,'adding palettes does not duplicate films');
+  assert.equal(await page.locator('#video-grid .video-card').count(),16,'adding palettes does not duplicate films');
   for (const c of references) {
     assert.ok(c.palette.groups.length>0);
     for (const g of c.palette.groups) {

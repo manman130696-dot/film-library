@@ -19,7 +19,7 @@ window.FILM_LIBRARY_READY = (async () => {
     video.subjects = [...video.categories];
     if (config.assignments[video.id]) video.categories = config.assignments[video.id];
   }
-  const entryPaths = ['entries/cityride.json', 'entries/cognition-gap.json', 'entries/casetify.json'];
+  const entryPaths = ['entries/cityride.json', 'entries/cognition-gap.json', 'entries/casetify.json', 'entries/five-digit-rhythm.json'];
   const additions = await Promise.all(entryPaths.map(async path => {
     const addition = await fetch(new URL(path, document.baseURI));
     if (!addition.ok) throw new Error('Film entry HTTP ' + addition.status + ': ' + path);
