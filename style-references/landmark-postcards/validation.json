@@ -1,0 +1,12 @@
+{
+  "brand": "Fredtalk Shots",
+  "ok": true,
+  "shotCount": 17,
+  "windowCount": 17,
+  "sourceSeconds": 26.8,
+  "errors": [],
+  "warnings": [],
+  "skippedMachineGates": [],
+  "visualReviewRequired": true,
+  "validationBoundary": "Machine checks cover measured source data, local assets, report structure and prompt timing. They do not verify visual identity, action interpretation, sound understanding or continuous playback; visual review is still required."
+}

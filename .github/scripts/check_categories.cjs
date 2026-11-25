@@ -102,6 +102,8 @@ const fs = require('node:fs');
     await require('./check_palettes.cjs')(page);
     await require('./check_cityride.cjs')(page);
     await require('./check_cognition.cjs')(page);
+    await require('./check_style_references.cjs')(page);
+    assert.deepEqual(errors, []);
     console.log('PASS: all categories, counts, combined search, detail notes, prompts, bundled previews, case filters and mobile layout');
   } finally {
     if (browser) await browser.close();

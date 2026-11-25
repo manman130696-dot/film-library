@@ -1,0 +1,1297 @@
+{
+  "source": "source-original.mp4",
+  "title": "风格照片动效技巧｜照片风格与综艺包装",
+  "lang": "zh-CN",
+  "meta": {
+    "durationSeconds": 26.8,
+    "fps": 27.761194029850746,
+    "width": 1080,
+    "height": 1440,
+    "aspect": 0.75,
+    "codec": "h264",
+    "hasAudio": true,
+    "sourceSha256": "65d78b6e8bb46f5d6e33eb19de2c9bcc56e9888d4525acf522cdc4c4953ba06c"
+  },
+  "params": {
+    "threshold": 0.3,
+    "hz": 8.0,
+    "cutMethod": "ffmpeg-scene",
+    "motionMethod": "fredtalk-luma-delta-v2"
+  },
+  "seedCuts": [
+    0.066667,
+    1.066667,
+    2.033333,
+    2.966667,
+    3.966667,
+    4.966667,
+    5.966667,
+    7.066667,
+    8.033333,
+    9.033333,
+    10.033333,
+    18.6
+  ],
+  "manualCuts": [
+    23.5,
+    24.0,
+    25.233333,
+    26.166667
+  ],
+  "removedCuts": [],
+  "cast": [],
+  "shots": [
+    {
+      "id": "S01",
+      "title": "四格预告：贴纸与实景配对",
+      "start": 0.0,
+      "end": 0.066667,
+      "seconds": 0.066667,
+      "motion": null,
+      "size": "none",
+      "category": "product",
+      "camera": "static",
+      "transitionIn": "cut",
+      "subjects": [],
+      "principalSubjects": [],
+      "backgroundSubjects": [],
+      "castPresence": {},
+      "frame": "四格拼版展示亭子、钟楼、粉色建筑和渡轮，上半为贴纸、下半为实景；两帧后进入单张展示。",
+      "fight": "四格拼版展示亭子、钟楼、粉色建筑和渡轮，上半为贴纸、下半为实景；两帧后进入单张展示。",
+      "beats": [
+        [
+          "0.000–0.067秒",
+          "四格拼版展示亭子、钟楼、粉色建筑和渡轮，上半为贴纸、下半为实景；两帧后进入单张展示。"
+        ]
+      ],
+      "cameraRead": "二维画面展示；没有可确认的实体摄影机运镜。照片内部的景深来自静态实景，不等同于推拉镜头。",
+      "spatial": "上部纯色底、居中小贴纸及小字，下部真实风景照片。",
+      "audio": "原混音保留；画面字幕可见，未实际听辨声音。",
+      "onscreenText": "四格预告：贴纸与实景配对",
+      "remake": "新作建议：保留主体轮廓、白描边、上下配对和主色背景；按本片信息决定是否增加贴纸入场。",
+      "note": "多地标共同预告一套统一卡片语法。；音轨未听辨。",
+      "rhythm": "hook",
+      "rhythmNote": "多地标共同预告一套统一卡片语法。",
+      "frames": {
+        "a": {
+          "src": "frames/S01a.jpg",
+          "time": 0.01,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 512,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 0.03333333333333333,
+            "log": "[Parsed_showinfo_0 @ 0x118706490] n:   0 pts:    512 pts_time:0.0333333 duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1440 i:P iskey:0 type:B checksum:DF751CFC plane_checksum:[2F4E12BB 20B778F3 0EB0913F] mean:[137 132 113] stdev:[42.5 17.2 32.8]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 0.033333333,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 0.01,
+            "sourceSha256": "65d78b6e8bb46f5d6e33eb19de2c9bcc56e9888d4525acf522cdc4c4953ba06c"
+          }
+        },
+        "b": {
+          "src": "frames/S01b.jpg",
+          "time": 0.0,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 0,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 0.0,
+            "log": "[Parsed_showinfo_0 @ 0x120f1b960] n:   0 pts:      0 pts_time:0       duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1440 i:P iskey:1 type:I checksum:8C811209 plane_checksum:[36C400F8 58DA81B8 48328F4A] mean:[137 132 113] stdev:[42.5 17.2 32.8]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 0.0,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 0.0,
+            "sourceSha256": "65d78b6e8bb46f5d6e33eb19de2c9bcc56e9888d4525acf522cdc4c4953ba06c"
+          }
+        }
+      }
+    },
+    {
+      "id": "S02",
+      "title": "香港渡轮：青色旅行卡",
+      "start": 0.066667,
+      "end": 1.066667,
+      "seconds": 1.0,
+      "motion": 0.016,
+      "size": "none",
+      "category": "product",
+      "camera": "static",
+      "transitionIn": "cut",
+      "subjects": [],
+      "principalSubjects": [],
+      "backgroundSubjects": [],
+      "castPresence": {},
+      "frame": "青色上半区中央放红白渡轮贴纸，下方为海面、渡轮与远山；小号白字写地点与年份。",
+      "fight": "青色上半区中央放红白渡轮贴纸，下方为海面、渡轮与远山；小号白字写地点与年份。",
+      "beats": [
+        [
+          "0.067–1.067秒",
+          "青色上半区中央放红白渡轮贴纸，下方为海面、渡轮与远山；小号白字写地点与年份。"
+        ]
+      ],
+      "cameraRead": "二维画面展示；没有可确认的实体摄影机运镜。照片内部的景深来自静态实景，不等同于推拉镜头。",
+      "spatial": "上部纯色底、居中小贴纸及小字，下部真实风景照片。",
+      "audio": "原混音保留；画面字幕可见，未实际听辨声音。",
+      "onscreenText": "香港渡轮：青色旅行卡",
+      "remake": "新作建议：保留主体轮廓、白描边、上下配对和主色背景；按本片信息决定是否增加贴纸入场。",
+      "note": "红白主体对青色底，轮廓与真实渡轮形成对应。；音轨未听辨。",
+      "rhythm": "setup",
+      "rhythmNote": "红白主体对青色底，轮廓与真实渡轮形成对应。",
+      "frames": {
+        "a": {
+          "src": "frames/S02a.jpg",
+          "time": 0.22,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 3584,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 0.23333333333333334,
+            "log": "[Parsed_showinfo_0 @ 0x14ae04500] n:   0 pts:   3584 pts_time:0.233333 duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1440 i:P iskey:0 type:B checksum:C5E645C4 plane_checksum:[60A48096 0B7FDF24 BD4DE5EC] mean:[137 147 89] stdev:[35.5 9.2 23.4]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 0.233333333,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 0.22,
+            "sourceSha256": "65d78b6e8bb46f5d6e33eb19de2c9bcc56e9888d4525acf522cdc4c4953ba06c"
+          }
+        },
+        "b": {
+          "src": "frames/S02b.jpg",
+          "time": 0.92,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 14336,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 0.9333333333333333,
+            "log": "[Parsed_showinfo_0 @ 0x150004960] n:   0 pts:  14336 pts_time:0.933333 duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1440 i:P iskey:0 type:B checksum:29BE8C47 plane_checksum:[858CF88D 0FC7CDF6 F501C5A6] mean:[137 147 89] stdev:[35.6 9.2 23.4]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 0.933333333,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 0.92,
+            "sourceSha256": "65d78b6e8bb46f5d6e33eb19de2c9bcc56e9888d4525acf522cdc4c4953ba06c"
+          }
+        }
+      }
+    },
+    {
+      "id": "S03",
+      "title": "冰岛红屋：酒红与冰蓝",
+      "start": 1.066667,
+      "end": 2.033333,
+      "seconds": 0.966666,
+      "motion": 0.02,
+      "size": "none",
+      "category": "product",
+      "camera": "static",
+      "transitionIn": "cut",
+      "subjects": [],
+      "principalSubjects": [],
+      "backgroundSubjects": [],
+      "castPresence": {},
+      "frame": "酒红底上放白描边的红色小屋，下半区为雪山与成片红屋；画面基本静止。",
+      "fight": "酒红底上放白描边的红色小屋，下半区为雪山与成片红屋；画面基本静止。",
+      "beats": [
+        [
+          "1.067–2.033秒",
+          "酒红底上放白描边的红色小屋，下半区为雪山与成片红屋；画面基本静止。"
+        ]
+      ],
+      "cameraRead": "二维画面展示；没有可确认的实体摄影机运镜。照片内部的景深来自静态实景，不等同于推拉镜头。",
+      "spatial": "上部纯色底、居中小贴纸及小字，下部真实风景照片。",
+      "audio": "原混音保留；画面字幕可见，未实际听辨声音。",
+      "onscreenText": "冰岛红屋：酒红与冰蓝",
+      "remake": "新作建议：保留主体轮廓、白描边、上下配对和主色背景；按本片信息决定是否增加贴纸入场。",
+      "note": "暖红识别点对冷色实景，房屋形状简化程度较高。；音轨未听辨。",
+      "rhythm": "build",
+      "rhythmNote": "暖红识别点对冷色实景，房屋形状简化程度较高。",
+      "frames": {
+        "a": {
+          "src": "frames/S03a.jpg",
+          "time": 1.21,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 18944,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 1.2333333333333334,
+            "log": "[Parsed_showinfo_0 @ 0x13fe04b30] n:   0 pts:  18944 pts_time:1.233333 duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1440 i:P iskey:0 type:P checksum:DD863C70 plane_checksum:[782E9B38 F4C9240D E3EE7D1C] mean:[108 132 148] stdev:[62.3 12.7 34.8]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 1.233333333,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 1.21,
+            "sourceSha256": "65d78b6e8bb46f5d6e33eb19de2c9bcc56e9888d4525acf522cdc4c4953ba06c"
+          }
+        },
+        "b": {
+          "src": "frames/S03b.jpg",
+          "time": 1.89,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 29184,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 1.9,
+            "log": "[Parsed_showinfo_0 @ 0x134e05e30] n:   0 pts:  29184 pts_time:1.9     duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1440 i:P iskey:0 type:P checksum:BE11138E plane_checksum:[F2EE7A61 31481D50 056F7BCE] mean:[108 132 148] stdev:[62.3 12.7 34.8]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 1.9,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 1.89,
+            "sourceSha256": "65d78b6e8bb46f5d6e33eb19de2c9bcc56e9888d4525acf522cdc4c4953ba06c"
+          }
+        }
+      }
+    },
+    {
+      "id": "S04",
+      "title": "新疆木屋：绿松石色与森林",
+      "start": 2.033333,
+      "end": 2.966667,
+      "seconds": 0.933334,
+      "motion": 0.112,
+      "size": "none",
+      "category": "product",
+      "camera": "static",
+      "transitionIn": "cut",
+      "subjects": [],
+      "principalSubjects": [],
+      "backgroundSubjects": [],
+      "castPresence": {},
+      "frame": "绿色上半区居中放木屋贴纸，下方是草地、树林和雪山中的木屋；两个区域的屋顶方向可互相辨认。",
+      "fight": "绿色上半区居中放木屋贴纸，下方是草地、树林和雪山中的木屋；两个区域的屋顶方向可互相辨认。",
+      "beats": [
+        [
+          "2.033–2.967秒",
+          "绿色上半区居中放木屋贴纸，下方是草地、树林和雪山中的木屋；两个区域的屋顶方向可互相辨认。"
+        ]
+      ],
+      "cameraRead": "二维画面展示；没有可确认的实体摄影机运镜。照片内部的景深来自静态实景，不等同于推拉镜头。",
+      "spatial": "上部纯色底、居中小贴纸及小字，下部真实风景照片。",
+      "audio": "原混音保留；画面字幕可见，未实际听辨声音。",
+      "onscreenText": "新疆木屋：绿松石色与森林",
+      "remake": "新作建议：保留主体轮廓、白描边、上下配对和主色背景；按本片信息决定是否增加贴纸入场。",
+      "note": "将孤立小屋的轮廓从复杂环境中提出。；音轨未听辨。",
+      "rhythm": "build",
+      "rhythmNote": "将孤立小屋的轮廓从复杂环境中提出。",
+      "frames": {
+        "a": {
+          "src": "frames/S04a.jpg",
+          "time": 2.17,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 33792,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 2.2,
+            "log": "[Parsed_showinfo_0 @ 0x11d8044c0] n:   0 pts:  33792 pts_time:2.2     duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1440 i:P iskey:0 type:B checksum:746F01AC plane_checksum:[34B98741 0407F899 500B81B4] mean:[105 134 103] stdev:[39.9 15.9 21.8]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 2.2,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 2.17,
+            "sourceSha256": "65d78b6e8bb46f5d6e33eb19de2c9bcc56e9888d4525acf522cdc4c4953ba06c"
+          }
+        },
+        "b": {
+          "src": "frames/S04b.jpg",
+          "time": 2.83,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 43520,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 2.8333333333333335,
+            "log": "[Parsed_showinfo_0 @ 0x1306054d0] n:   0 pts:  43520 pts_time:2.833333 duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1440 i:P iskey:0 type:B checksum:89D4D3CB plane_checksum:[DDCA93F3 6200E056 731A5F73] mean:[105 134 103] stdev:[40.0 15.9 21.8]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 2.833333333,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 2.83,
+            "sourceSha256": "65d78b6e8bb46f5d6e33eb19de2c9bcc56e9888d4525acf522cdc4c4953ba06c"
+          }
+        }
+      }
+    },
+    {
+      "id": "S05",
+      "title": "新加坡地标：青蓝与城市",
+      "start": 2.966667,
+      "end": 3.966667,
+      "seconds": 1.0,
+      "motion": 0.016,
+      "size": "none",
+      "category": "product",
+      "camera": "static",
+      "transitionIn": "cut",
+      "subjects": [],
+      "principalSubjects": [],
+      "backgroundSubjects": [],
+      "castPresence": {},
+      "frame": "青蓝底承托三塔与顶部连桥的建筑贴纸，下半为同一建筑群与水面环境。",
+      "fight": "青蓝底承托三塔与顶部连桥的建筑贴纸，下半为同一建筑群与水面环境。",
+      "beats": [
+        [
+          "2.967–3.967秒",
+          "青蓝底承托三塔与顶部连桥的建筑贴纸，下半为同一建筑群与水面环境。"
+        ]
+      ],
+      "cameraRead": "二维画面展示；没有可确认的实体摄影机运镜。照片内部的景深来自静态实景，不等同于推拉镜头。",
+      "spatial": "上部纯色底、居中小贴纸及小字，下部真实风景照片。",
+      "audio": "原混音保留；画面字幕可见，未实际听辨声音。",
+      "onscreenText": "新加坡地标：青蓝与城市",
+      "remake": "新作建议：保留主体轮廓、白描边、上下配对和主色背景；按本片信息决定是否增加贴纸入场。",
+      "note": "贴纸保留三塔与连桥，减少真实环境的复杂度。；音轨未听辨。",
+      "rhythm": "build",
+      "rhythmNote": "贴纸保留三塔与连桥，减少真实环境的复杂度。",
+      "frames": {
+        "a": {
+          "src": "frames/S05a.jpg",
+          "time": 3.12,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 48640,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 3.1666666666666665,
+            "log": "[Parsed_showinfo_0 @ 0x128704b30] n:   0 pts:  48640 pts_time:3.166667 duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1440 i:P iskey:0 type:P checksum:C3761171 plane_checksum:[D64A8138 39922CBC 015E636E] mean:[135 147 94] stdev:[35.9 16.4 23.4]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 3.166666667,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 3.12,
+            "sourceSha256": "65d78b6e8bb46f5d6e33eb19de2c9bcc56e9888d4525acf522cdc4c4953ba06c"
+          }
+        },
+        "b": {
+          "src": "frames/S05b.jpg",
+          "time": 3.82,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 58880,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 3.8333333333333335,
+            "log": "[Parsed_showinfo_0 @ 0x128604740] n:   0 pts:  58880 pts_time:3.833333 duration:   1024 duration_time:0.0666667 fmt:yuv420p cl:left sar:1/1 s:1080x1440 i:P iskey:0 type:P checksum:5AAFE3BA plane_checksum:[A9325F16 C23B1F04 835965A0] mean:[135 147 94] stdev:[35.9 16.4 23.4]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 3.833333333,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 3.82,
+            "sourceSha256": "65d78b6e8bb46f5d6e33eb19de2c9bcc56e9888d4525acf522cdc4c4953ba06c"
+          }
+        }
+      }
+    },
+    {
+      "id": "S06",
+      "title": "济南亭子：青绿与金黄",
+      "start": 3.966667,
+      "end": 4.966667,
+      "seconds": 1.0,
+      "motion": 0.042,
+      "size": "none",
+      "category": "product",
+      "camera": "static",
+      "transitionIn": "cut",
+      "subjects": [],
+      "principalSubjects": [],
+      "backgroundSubjects": [],
+      "castPresence": {},
+      "frame": "青绿色底上放金顶亭子贴纸，小字在下；实景中金色屋顶被垂柳和泉水包围，可见小尺度游人。",
+      "fight": "青绿色底上放金顶亭子贴纸，小字在下；实景中金色屋顶被垂柳和泉水包围，可见小尺度游人。",
+      "beats": [
+        [
+          "3.967–4.967秒",
+          "青绿色底上放金顶亭子贴纸，小字在下；实景中金色屋顶被垂柳和泉水包围，可见小尺度游人。"
+        ]
+      ],
+      "cameraRead": "二维画面展示；没有可确认的实体摄影机运镜。照片内部的景深来自静态实景，不等同于推拉镜头。",
+      "spatial": "上部纯色底、居中小贴纸及小字，下部真实风景照片。",
+      "audio": "原混音保留；画面字幕可见，未实际听辨声音。",
+      "onscreenText": "济南亭子：青绿与金黄",
+      "remake": "新作建议：保留主体轮廓、白描边、上下配对和主色背景；按本片信息决定是否增加贴纸入场。",
+      "note": "黄屋顶是主识别点，青绿底延续水与树的环境色。；音轨未听辨。",
+      "rhythm": "build",
+      "rhythmNote": "黄屋顶是主识别点，青绿底延续水与树的环境色。",
+      "frames": {
+        "a": {
+          "src": "frames/S06a.jpg",
+          "time": 4.12,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 64000,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 4.166666666666667,
+            "log": "[Parsed_showinfo_0 @ 0x1256044c0] n:   0 pts:  64000 pts_time:4.166667 duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1440 i:P iskey:0 type:P checksum:71FA1C3E plane_checksum:[0D501CE7 225EF3B0 2C180B98] mean:[108 126 96] stdev:[41.4 22.9 29.5]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 4.166666667,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 4.12,
+            "sourceSha256": "65d78b6e8bb46f5d6e33eb19de2c9bcc56e9888d4525acf522cdc4c4953ba06c"
+          }
+        },
+        "b": {
+          "src": "frames/S06b.jpg",
+          "time": 4.82,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 74240,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 4.833333333333333,
+            "log": "[Parsed_showinfo_0 @ 0x15871bf40] n:   0 pts:  74240 pts_time:4.833333 duration:   1024 duration_time:0.0666667 fmt:yuv420p cl:left sar:1/1 s:1080x1440 i:P iskey:0 type:P checksum:C133E597 plane_checksum:[6661F6F7 D379E7FE 48440693] mean:[108 126 96] stdev:[41.4 22.9 29.6]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 4.833333333,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 4.82,
+            "sourceSha256": "65d78b6e8bb46f5d6e33eb19de2c9bcc56e9888d4525acf522cdc4c4953ba06c"
+          }
+        }
+      }
+    },
+    {
+      "id": "S07",
+      "title": "青岛栈桥：海蓝与暖色亭顶",
+      "start": 4.966667,
+      "end": 5.966667,
+      "seconds": 1.0,
+      "motion": 0.023,
+      "size": "none",
+      "category": "product",
+      "camera": "static",
+      "transitionIn": "cut",
+      "subjects": [],
+      "principalSubjects": [],
+      "backgroundSubjects": [],
+      "castPresence": {},
+      "frame": "海蓝底上放长桥与亭顶的组合贴纸，下方为海湾、城市与桥亭实景。",
+      "fight": "海蓝底上放长桥与亭顶的组合贴纸，下方为海湾、城市与桥亭实景。",
+      "beats": [
+        [
+          "4.967–5.967秒",
+          "海蓝底上放长桥与亭顶的组合贴纸，下方为海湾、城市与桥亭实景。"
+        ]
+      ],
+      "cameraRead": "二维画面展示；没有可确认的实体摄影机运镜。照片内部的景深来自静态实景，不等同于推拉镜头。",
+      "spatial": "上部纯色底、居中小贴纸及小字，下部真实风景照片。",
+      "audio": "原混音保留；画面字幕可见，未实际听辨声音。",
+      "onscreenText": "青岛栈桥：海蓝与暖色亭顶",
+      "remake": "新作建议：保留主体轮廓、白描边、上下配对和主色背景；按本片信息决定是否增加贴纸入场。",
+      "note": "不只提取一座房子，把桥与亭的关系一起留下。；音轨未听辨。",
+      "rhythm": "build",
+      "rhythmNote": "不只提取一座房子，把桥与亭的关系一起留下。",
+      "frames": {
+        "a": {
+          "src": "frames/S07a.jpg",
+          "time": 5.12,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 79360,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 5.166666666666667,
+            "log": "[Parsed_showinfo_0 @ 0x1117042a0] n:   0 pts:  79360 pts_time:5.166667 duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1440 i:P iskey:0 type:P checksum:8228F752 plane_checksum:[ECBA50BA 5E9E9F0B 5642078D] mean:[112 152 94] stdev:[30.9 14.4 20.3]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 5.166666667,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 5.12,
+            "sourceSha256": "65d78b6e8bb46f5d6e33eb19de2c9bcc56e9888d4525acf522cdc4c4953ba06c"
+          }
+        },
+        "b": {
+          "src": "frames/S07b.jpg",
+          "time": 5.82,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 89600,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 5.833333333333333,
+            "log": "[Parsed_showinfo_0 @ 0x105f04090] n:   0 pts:  89600 pts_time:5.833333 duration:   1024 duration_time:0.0666667 fmt:yuv420p cl:left sar:1/1 s:1080x1440 i:P iskey:0 type:P checksum:2722FF0A plane_checksum:[AE6312FB 7F7EDECC 61B70D43] mean:[112 153 94] stdev:[30.1 14.2 20.1]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 5.833333333,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 5.82,
+            "sourceSha256": "65d78b6e8bb46f5d6e33eb19de2c9bcc56e9888d4525acf522cdc4c4953ba06c"
+          }
+        }
+      }
+    },
+    {
+      "id": "S08",
+      "title": "粉色建筑：同色呼应",
+      "start": 5.966667,
+      "end": 7.066667,
+      "seconds": 1.1,
+      "motion": 0.01,
+      "size": "none",
+      "category": "product",
+      "camera": "static",
+      "transitionIn": "cut",
+      "subjects": [],
+      "principalSubjects": [],
+      "backgroundSubjects": [],
+      "castPresence": {},
+      "frame": "粉色底上放圆顶、塔尖和拱廊的建筑贴纸，下半为临水粉色建筑；粉底与实景建筑颜色呼应。",
+      "fight": "粉色底上放圆顶、塔尖和拱廊的建筑贴纸，下半为临水粉色建筑；粉底与实景建筑颜色呼应。",
+      "beats": [
+        [
+          "5.967–7.067秒",
+          "粉色底上放圆顶、塔尖和拱廊的建筑贴纸，下半为临水粉色建筑；粉底与实景建筑颜色呼应。"
+        ]
+      ],
+      "cameraRead": "二维画面展示；没有可确认的实体摄影机运镜。照片内部的景深来自静态实景，不等同于推拉镜头。",
+      "spatial": "上部纯色底、居中小贴纸及小字，下部真实风景照片。",
+      "audio": "原混音保留；画面字幕可见，未实际听辨声音。",
+      "onscreenText": "粉色建筑：同色呼应",
+      "remake": "新作建议：保留主体轮廓、白描边、上下配对和主色背景；按本片信息决定是否增加贴纸入场。",
+      "note": "用同色系组织上下两区，白描边隔开贴纸与底色。；音轨未听辨。",
+      "rhythm": "build",
+      "rhythmNote": "用同色系组织上下两区，白描边隔开贴纸与底色。",
+      "frames": {
+        "a": {
+          "src": "frames/S08a.jpg",
+          "time": 6.13,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 94720,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 6.166666666666667,
+            "log": "[Parsed_showinfo_0 @ 0x111604090] n:   0 pts:  94720 pts_time:6.166667 duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1440 i:P iskey:0 type:P checksum:B08C88B3 plane_checksum:[25ED86CD AEE70664 C334FB73] mean:[148 130 142] stdev:[36.8 16.4 32.3]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 6.166666667,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 6.13,
+            "sourceSha256": "65d78b6e8bb46f5d6e33eb19de2c9bcc56e9888d4525acf522cdc4c4953ba06c"
+          }
+        },
+        "b": {
+          "src": "frames/S08b.jpg",
+          "time": 6.9,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 105984,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 6.9,
+            "log": "[Parsed_showinfo_0 @ 0x15ae18dc0] n:   0 pts: 105984 pts_time:6.9     duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1440 i:P iskey:0 type:B checksum:A7F52AC6 plane_checksum:[7A3F5B71 ECA9EEC0 D214E077] mean:[148 130 142] stdev:[36.8 16.4 32.3]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 6.9,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 6.9,
+            "sourceSha256": "65d78b6e8bb46f5d6e33eb19de2c9bcc56e9888d4525acf522cdc4c4953ba06c"
+          }
+        }
+      }
+    },
+    {
+      "id": "S09",
+      "title": "蓝白岛屿：蓝底白墙",
+      "start": 7.066667,
+      "end": 8.033333,
+      "seconds": 0.966666,
+      "motion": 0.042,
+      "size": "none",
+      "category": "product",
+      "camera": "static",
+      "transitionIn": "cut",
+      "subjects": [],
+      "principalSubjects": [],
+      "backgroundSubjects": [],
+      "castPresence": {},
+      "frame": "深蓝底上放白墙蓝顶建筑贴纸，下面是白色建筑、蓝色圆顶与海面。",
+      "fight": "深蓝底上放白墙蓝顶建筑贴纸，下面是白色建筑、蓝色圆顶与海面。",
+      "beats": [
+        [
+          "7.067–8.033秒",
+          "深蓝底上放白墙蓝顶建筑贴纸，下面是白色建筑、蓝色圆顶与海面。"
+        ]
+      ],
+      "cameraRead": "二维画面展示；没有可确认的实体摄影机运镜。照片内部的景深来自静态实景，不等同于推拉镜头。",
+      "spatial": "上部纯色底、居中小贴纸及小字，下部真实风景照片。",
+      "audio": "原混音保留；画面字幕可见，未实际听辨声音。",
+      "onscreenText": "蓝白岛屿：蓝底白墙",
+      "remake": "新作建议：保留主体轮廓、白描边、上下配对和主色背景；按本片信息决定是否增加贴纸入场。",
+      "note": "蓝白大色块形成清楚的旅行识别。；音轨未听辨。",
+      "rhythm": "build",
+      "rhythmNote": "蓝白大色块形成清楚的旅行识别。",
+      "frames": {
+        "a": {
+          "src": "frames/S09a.jpg",
+          "time": 7.21,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 111104,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 7.233333333333333,
+            "log": "[Parsed_showinfo_0 @ 0x157105cf0] n:   0 pts: 111104 pts_time:7.233333 duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1440 i:P iskey:0 type:P checksum:3A0D088D plane_checksum:[B4493260 BF5BFD03 29E1D90C] mean:[132 152 106] stdev:[47.7 17.6 16.2]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 7.233333333,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 7.21,
+            "sourceSha256": "65d78b6e8bb46f5d6e33eb19de2c9bcc56e9888d4525acf522cdc4c4953ba06c"
+          }
+        },
+        "b": {
+          "src": "frames/S09b.jpg",
+          "time": 7.89,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 121344,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 7.9,
+            "log": "[Parsed_showinfo_0 @ 0x13d706050] n:   0 pts: 121344 pts_time:7.9     duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1440 i:P iskey:0 type:P checksum:65349E19 plane_checksum:[93B5D100 43581A04 716FB306] mean:[132 152 106] stdev:[47.6 17.6 16.2]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 7.9,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 7.89,
+            "sourceSha256": "65d78b6e8bb46f5d6e33eb19de2c9bcc56e9888d4525acf522cdc4c4953ba06c"
+          }
+        }
+      }
+    },
+    {
+      "id": "S10",
+      "title": "青岛双塔：橙红与青海水",
+      "start": 8.033333,
+      "end": 9.033333,
+      "seconds": 1.0,
+      "motion": 0.081,
+      "size": "none",
+      "category": "product",
+      "camera": "static",
+      "transitionIn": "cut",
+      "subjects": [],
+      "principalSubjects": [],
+      "backgroundSubjects": [],
+      "castPresence": {},
+      "frame": "橙红上半区放双尖塔建筑贴纸，下方为临海城市；贴纸从城市中的局部建筑提炼而来。",
+      "fight": "橙红上半区放双尖塔建筑贴纸，下方为临海城市；贴纸从城市中的局部建筑提炼而来。",
+      "beats": [
+        [
+          "8.033–9.033秒",
+          "橙红上半区放双尖塔建筑贴纸，下方为临海城市；贴纸从城市中的局部建筑提炼而来。"
+        ]
+      ],
+      "cameraRead": "二维画面展示；没有可确认的实体摄影机运镜。照片内部的景深来自静态实景，不等同于推拉镜头。",
+      "spatial": "上部纯色底、居中小贴纸及小字，下部真实风景照片。",
+      "audio": "原混音保留；画面字幕可见，未实际听辨声音。",
+      "onscreenText": "青岛双塔：橙红与青海水",
+      "remake": "新作建议：保留主体轮廓、白描边、上下配对和主色背景；按本片信息决定是否增加贴纸入场。",
+      "note": "用暖底与冷色海水制造上下对比。；音轨未听辨。",
+      "rhythm": "build",
+      "rhythmNote": "用暖底与冷色海水制造上下对比。",
+      "frames": {
+        "a": {
+          "src": "frames/S10a.jpg",
+          "time": 8.18,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 125952,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 8.2,
+            "log": "[Parsed_showinfo_0 @ 0x14c005250] n:   0 pts: 125952 pts_time:8.2     duration:   1024 duration_time:0.0666667 fmt:yuv420p cl:left sar:1/1 s:1080x1440 i:P iskey:0 type:P checksum:A8CC4F47 plane_checksum:[D8CE3957 AD919F52 5DB7768F] mean:[125 117 153] stdev:[39.6 25.4 46.4]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 8.2,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 8.18,
+            "sourceSha256": "65d78b6e8bb46f5d6e33eb19de2c9bcc56e9888d4525acf522cdc4c4953ba06c"
+          }
+        },
+        "b": {
+          "src": "frames/S10b.jpg",
+          "time": 8.88,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 136704,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 8.9,
+            "log": "[Parsed_showinfo_0 @ 0x14c004f50] n:   0 pts: 136704 pts_time:8.9     duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1440 i:P iskey:0 type:B checksum:10F5221F plane_checksum:[6878D3AF F7C64116 AC910D4B] mean:[125 117 153] stdev:[39.7 25.3 46.3]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 8.9,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 8.88,
+            "sourceSha256": "65d78b6e8bb46f5d6e33eb19de2c9bcc56e9888d4525acf522cdc4c4953ba06c"
+          }
+        }
+      }
+    },
+    {
+      "id": "S11",
+      "title": "伦敦塔桥：棕色与城市",
+      "start": 9.033333,
+      "end": 10.033333,
+      "seconds": 1.0,
+      "motion": 0.065,
+      "size": "none",
+      "category": "product",
+      "camera": "static",
+      "transitionIn": "cut",
+      "subjects": [],
+      "principalSubjects": [],
+      "backgroundSubjects": [],
+      "castPresence": {},
+      "frame": "棕色底上放双塔桥轮廓贴纸，下方俯瞰河流、桥梁与密集城市建筑。",
+      "fight": "棕色底上放双塔桥轮廓贴纸，下方俯瞰河流、桥梁与密集城市建筑。",
+      "beats": [
+        [
+          "9.033–10.033秒",
+          "棕色底上放双塔桥轮廓贴纸，下方俯瞰河流、桥梁与密集城市建筑。"
+        ]
+      ],
+      "cameraRead": "二维画面展示；没有可确认的实体摄影机运镜。照片内部的景深来自静态实景，不等同于推拉镜头。",
+      "spatial": "上部纯色底、居中小贴纸及小字，下部真实风景照片。",
+      "audio": "原混音保留；画面字幕可见，未实际听辨声音。",
+      "onscreenText": "伦敦塔桥：棕色与城市",
+      "remake": "新作建议：保留主体轮廓、白描边、上下配对和主色背景；按本片信息决定是否增加贴纸入场。",
+      "note": "桥塔和跨河关系成为简化后仍可识别的形状。；音轨未听辨。",
+      "rhythm": "turn",
+      "rhythmNote": "桥塔和跨河关系成为简化后仍可识别的形状。",
+      "frames": {
+        "a": {
+          "src": "frames/S11a.jpg",
+          "time": 9.18,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 141312,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 9.2,
+            "log": "[Parsed_showinfo_0 @ 0x10de05ae0] n:   0 pts: 141312 pts_time:9.2     duration:   1024 duration_time:0.0666667 fmt:yuv420p cl:left sar:1/1 s:1080x1440 i:P iskey:0 type:P checksum:AB6B6A23 plane_checksum:[79033BA7 409C936C 3D0C9B01] mean:[108 117 142] stdev:[38.1 11.3 13.2]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 9.2,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 9.18,
+            "sourceSha256": "65d78b6e8bb46f5d6e33eb19de2c9bcc56e9888d4525acf522cdc4c4953ba06c"
+          }
+        },
+        "b": {
+          "src": "frames/S11b.jpg",
+          "time": 9.88,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 152064,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 9.9,
+            "log": "[Parsed_showinfo_0 @ 0x121f1ea70] n:   0 pts: 152064 pts_time:9.9     duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1440 i:P iskey:0 type:B checksum:C1E55ABB plane_checksum:[ED651AED 0A568777 AC61B848] mean:[108 117 142] stdev:[38.0 11.3 13.2]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 9.9,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 9.88,
+            "sourceSha256": "65d78b6e8bb46f5d6e33eb19de2c9bcc56e9888d4525acf522cdc4c4953ba06c"
+          }
+        }
+      }
+    },
+    {
+      "id": "S12",
+      "title": "制作教程：设置、上传与翻页提示卡",
+      "start": 10.033333,
+      "end": 18.6,
+      "seconds": 8.566667,
+      "motion": 0.078,
+      "size": "none",
+      "category": "product",
+      "camera": "static",
+      "transitionIn": "cut",
+      "subjects": [],
+      "principalSubjects": [],
+      "backgroundSubjects": [],
+      "castPresence": {},
+      "frame": "画面切到带黑色上下留白的网页录屏；光标指示图片生成选项与比例，再拖入图片；约17秒深灰提示词卡由窄边卷转展开并覆盖界面。",
+      "fight": "画面切到带黑色上下留白的网页录屏；光标指示图片生成选项与比例，再拖入图片；约17秒深灰提示词卡由窄边卷转展开并覆盖界面。",
+      "beats": [
+        [
+          "10.033–18.600秒",
+          "画面切到带黑色上下留白的网页录屏；光标指示图片生成选项与比例，再拖入图片；约17秒深灰提示词卡由窄边卷转展开并覆盖界面。"
+        ]
+      ],
+      "cameraRead": "二维画面展示；没有可确认的实体摄影机运镜。网页滚动、光标移动与查看器变化发生在固定录屏画框内。",
+      "spatial": "白色网页位于黑底中部，说明字幕位于下方；提示卡或大图查看器覆盖网页局部。",
+      "audio": "原混音保留；画面字幕可见，未实际听辨声音。",
+      "onscreenText": "制作教程：设置、上传与翻页提示卡",
+      "remake": "教程录屏按原片保留，不生成操作界面；风格复用只取成品卡片。",
+      "note": "界面操作与翻页属于教程呈现，风格画面不依赖此翻页。；音轨未听辨。",
+      "rhythm": "setup",
+      "rhythmNote": "界面操作与翻页属于教程呈现，风格画面不依赖此翻页。",
+      "frames": {
+        "a": {
+          "src": "frames/S12a.jpg",
+          "time": 11.32,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 174080,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 11.333333333333334,
+            "log": "[Parsed_showinfo_0 @ 0x144004f50] n:   0 pts: 174080 pts_time:11.333333 duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1440 i:P iskey:0 type:B checksum:4CC45DDE plane_checksum:[F98B38FB CDE6EDDE 3A2236F6] mean:[124 128 128] stdev:[106.3 1.7 2.6]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 11.333333333,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 11.32,
+            "sourceSha256": "65d78b6e8bb46f5d6e33eb19de2c9bcc56e9888d4525acf522cdc4c4953ba06c"
+          }
+        },
+        "b": {
+          "src": "frames/S12b.jpg",
+          "time": 17.31,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 266240,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 17.333333333333332,
+            "log": "[Parsed_showinfo_0 @ 0x149e1cb00] n:   0 pts: 266240 pts_time:17.333333 duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1440 i:P iskey:0 type:P checksum:29936570 plane_checksum:[DB7AFC4D 83C8B785 9F8EB180] mean:[85 128 129] stdev:[79.6 0.7 2.5]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 17.333333333,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 17.31,
+            "sourceSha256": "65d78b6e8bb46f5d6e33eb19de2c9bcc56e9888d4525acf522cdc4c4953ba06c"
+          }
+        }
+      }
+    },
+    {
+      "id": "S13",
+      "title": "生成结果：列表到单图查看",
+      "start": 18.6,
+      "end": 23.5,
+      "seconds": 4.9,
+      "motion": 0.284,
+      "size": "none",
+      "category": "product",
+      "camera": "static",
+      "transitionIn": "cut",
+      "subjects": [],
+      "principalSubjects": [],
+      "backgroundSubjects": [],
+      "castPresence": {},
+      "frame": "提示词已放入网页输入区，随后滚动到多张结果；约22.4秒打开青底金顶建筑的大图查看。",
+      "fight": "提示词已放入网页输入区，随后滚动到多张结果；约22.4秒打开青底金顶建筑的大图查看。",
+      "beats": [
+        [
+          "18.600–23.500秒",
+          "提示词已放入网页输入区，随后滚动到多张结果；约22.4秒打开青底金顶建筑的大图查看。"
+        ]
+      ],
+      "cameraRead": "二维画面展示；没有可确认的实体摄影机运镜。网页滚动、光标移动与查看器变化发生在固定录屏画框内。",
+      "spatial": "白色网页位于黑底中部，说明字幕位于下方；提示卡或大图查看器覆盖网页局部。",
+      "audio": "原混音保留；画面字幕可见，未实际听辨声音。",
+      "onscreenText": "生成结果：列表到单图查看",
+      "remake": "教程录屏按原片保留，不生成操作界面；风格复用只取成品卡片。",
+      "note": "先给操作输入，再展示一组结果与单图检查。；音轨未听辨。",
+      "rhythm": "payoff",
+      "rhythmNote": "先给操作输入，再展示一组结果与单图检查。",
+      "frames": {
+        "a": {
+          "src": "frames/S13a.jpg",
+          "time": 19.34,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 297472,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 19.366666666666667,
+            "log": "[Parsed_showinfo_0 @ 0x12a61ef80] n:   0 pts: 297472 pts_time:19.366667 duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1440 i:P iskey:0 type:B checksum:60604C0A plane_checksum:[83741C82 D8CAF303 2B7E3C76] mean:[120 128 128] stdev:[106.9 1.4 0.9]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 19.366666667,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 19.34,
+            "sourceSha256": "65d78b6e8bb46f5d6e33eb19de2c9bcc56e9888d4525acf522cdc4c4953ba06c"
+          }
+        },
+        "b": {
+          "src": "frames/S13b.jpg",
+          "time": 22.77,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 350208,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 22.8,
+            "log": "[Parsed_showinfo_0 @ 0x146104a00] n:   0 pts: 350208 pts_time:22.8    duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1440 i:P iskey:0 type:B checksum:3DC09EC0 plane_checksum:[982E2090 2F7F11FC 337F6C34] mean:[98 131 124] stdev:[90.7 8.8 12.4]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 22.8,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 22.77,
+            "sourceSha256": "65d78b6e8bb46f5d6e33eb19de2c9bcc56e9888d4525acf522cdc4c4953ba06c"
+          }
+        }
+      }
+    },
+    {
+      "id": "S14",
+      "title": "结果查看：红底雪屋",
+      "start": 23.5,
+      "end": 24.0,
+      "seconds": 0.5,
+      "motion": 0.039,
+      "size": "none",
+      "category": "product",
+      "camera": "static",
+      "transitionIn": "cut",
+      "subjects": [],
+      "principalSubjects": [],
+      "backgroundSubjects": [],
+      "castPresence": {},
+      "frame": "网页大图切换为红底小屋与雪地实景，四周仍保留查看器界面。",
+      "fight": "网页大图切换为红底小屋与雪地实景，四周仍保留查看器界面。",
+      "beats": [
+        [
+          "23.500–24.000秒",
+          "网页大图切换为红底小屋与雪地实景，四周仍保留查看器界面。"
+        ]
+      ],
+      "cameraRead": "二维画面展示；没有可确认的实体摄影机运镜。网页滚动、光标移动与查看器变化发生在固定录屏画框内。",
+      "spatial": "白色网页位于黑底中部，说明字幕位于下方；提示卡或大图查看器覆盖网页局部。",
+      "audio": "原混音保留；画面字幕可见，未实际听辨声音。",
+      "onscreenText": "结果查看：红底雪屋",
+      "remake": "教程录屏按原片保留，不生成操作界面；风格复用只取成品卡片。",
+      "note": "结果示例之一，单独记录以便回看。；音轨未听辨。",
+      "rhythm": "payoff",
+      "rhythmNote": "结果示例之一，单独记录以便回看。",
+      "frames": {
+        "a": {
+          "src": "frames/S14a.jpg",
+          "time": 23.57,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 362496,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 23.6,
+            "log": "[Parsed_showinfo_0 @ 0x12f806120] n:   0 pts: 362496 pts_time:23.6    duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1440 i:P iskey:0 type:B checksum:8CB11AC0 plane_checksum:[48391E7B B7189924 5CBA6312] mean:[97 128 134] stdev:[92.5 7.3 24.0]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 23.6,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 23.57,
+            "sourceSha256": "65d78b6e8bb46f5d6e33eb19de2c9bcc56e9888d4525acf522cdc4c4953ba06c"
+          }
+        },
+        "b": {
+          "src": "frames/S14b.jpg",
+          "time": 23.93,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 367616,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 23.933333333333334,
+            "log": "[Parsed_showinfo_0 @ 0x122605b30] n:   0 pts: 367616 pts_time:23.933333 duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1440 i:P iskey:0 type:P checksum:C85CC441 plane_checksum:[3E71C0CE A44E9966 5F3369FE] mean:[97 128 134] stdev:[92.5 7.3 24.0]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 23.933333333,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 23.93,
+            "sourceSha256": "65d78b6e8bb46f5d6e33eb19de2c9bcc56e9888d4525acf522cdc4c4953ba06c"
+          }
+        }
+      }
+    },
+    {
+      "id": "S15",
+      "title": "结果查看：浅蓝建筑",
+      "start": 24.0,
+      "end": 25.233333,
+      "seconds": 1.233333,
+      "motion": 0.309,
+      "size": "none",
+      "category": "product",
+      "camera": "static",
+      "transitionIn": "cut",
+      "subjects": [],
+      "principalSubjects": [],
+      "backgroundSubjects": [],
+      "castPresence": {},
+      "frame": "查看器切换到浅蓝底双塔建筑与实景；24.7秒短暂出现空白加载态后恢复。",
+      "fight": "查看器切换到浅蓝底双塔建筑与实景；24.7秒短暂出现空白加载态后恢复。",
+      "beats": [
+        [
+          "24.000–25.233秒",
+          "查看器切换到浅蓝底双塔建筑与实景；24.7秒短暂出现空白加载态后恢复。"
+        ]
+      ],
+      "cameraRead": "二维画面展示；没有可确认的实体摄影机运镜。网页滚动、光标移动与查看器变化发生在固定录屏画框内。",
+      "spatial": "白色网页位于黑底中部，说明字幕位于下方；提示卡或大图查看器覆盖网页局部。",
+      "audio": "原混音保留；画面字幕可见，未实际听辨声音。",
+      "onscreenText": "结果查看：浅蓝建筑",
+      "remake": "教程录屏按原片保留，不生成操作界面；风格复用只取成品卡片。",
+      "note": "加载空白属于界面状态，不单独当作风格或剪辑创意。；音轨未听辨。",
+      "rhythm": "payoff",
+      "rhythmNote": "加载空白属于界面状态，不单独当作风格或剪辑创意。",
+      "frames": {
+        "a": {
+          "src": "frames/S15a.jpg",
+          "time": 24.18,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 371712,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 24.2,
+            "log": "[Parsed_showinfo_0 @ 0x121804500] n:   0 pts: 371712 pts_time:24.2    duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1440 i:P iskey:0 type:B checksum:802BD7A0 plane_checksum:[E47426AE 63B31921 81BF97D1] mean:[111 130 125] stdev:[95.0 5.7 8.9]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 24.2,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 24.18,
+            "sourceSha256": "65d78b6e8bb46f5d6e33eb19de2c9bcc56e9888d4525acf522cdc4c4953ba06c"
+          }
+        },
+        "b": {
+          "src": "frames/S15b.jpg",
+          "time": 25.05,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 385024,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 25.066666666666666,
+            "log": "[Parsed_showinfo_0 @ 0x10df06a70] n:   0 pts: 385024 pts_time:25.066667 duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1440 i:P iskey:0 type:B checksum:D391950B plane_checksum:[878DE938 BC8C1097 D60F9B2D] mean:[107 130 125] stdev:[95.0 5.9 8.9]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 25.066666667,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 25.05,
+            "sourceSha256": "65d78b6e8bb46f5d6e33eb19de2c9bcc56e9888d4525acf522cdc4c4953ba06c"
+          }
+        }
+      }
+    },
+    {
+      "id": "S16",
+      "title": "结果查看：粉色建筑",
+      "start": 25.233333,
+      "end": 26.166667,
+      "seconds": 0.933334,
+      "motion": 0.014,
+      "size": "none",
+      "category": "product",
+      "camera": "static",
+      "transitionIn": "cut",
+      "subjects": [],
+      "principalSubjects": [],
+      "backgroundSubjects": [],
+      "castPresence": {},
+      "frame": "查看器切换为粉底建筑贴纸与照片，主体轮廓、底色和下半实景保持成套关系。",
+      "fight": "查看器切换为粉底建筑贴纸与照片，主体轮廓、底色和下半实景保持成套关系。",
+      "beats": [
+        [
+          "25.233–26.167秒",
+          "查看器切换为粉底建筑贴纸与照片，主体轮廓、底色和下半实景保持成套关系。"
+        ]
+      ],
+      "cameraRead": "二维画面展示；没有可确认的实体摄影机运镜。网页滚动、光标移动与查看器变化发生在固定录屏画框内。",
+      "spatial": "白色网页位于黑底中部，说明字幕位于下方；提示卡或大图查看器覆盖网页局部。",
+      "audio": "原混音保留；画面字幕可见，未实际听辨声音。",
+      "onscreenText": "结果查看：粉色建筑",
+      "remake": "教程录屏按原片保留，不生成操作界面；风格复用只取成品卡片。",
+      "note": "延续上图标下实景的稳定模板。；音轨未听辨。",
+      "rhythm": "payoff",
+      "rhythmNote": "延续上图标下实景的稳定模板。",
+      "frames": {
+        "a": {
+          "src": "frames/S16a.jpg",
+          "time": 25.37,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 390144,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 25.4,
+            "log": "[Parsed_showinfo_0 @ 0x13e67efb0] n:   0 pts: 390144 pts_time:25.4    duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1440 i:P iskey:0 type:P checksum:01435893 plane_checksum:[C83527B7 77421DB1 27A3132B] mean:[105 128 130] stdev:[94.1 5.8 10.8]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 25.4,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 25.37,
+            "sourceSha256": "65d78b6e8bb46f5d6e33eb19de2c9bcc56e9888d4525acf522cdc4c4953ba06c"
+          }
+        },
+        "b": {
+          "src": "frames/S16b.jpg",
+          "time": 26.03,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 399872,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 26.033333333333335,
+            "log": "[Parsed_showinfo_0 @ 0x14461f5f0] n:   0 pts: 399872 pts_time:26.033333 duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1440 i:P iskey:0 type:B checksum:40D22456 plane_checksum:[E9E8D243 DB243E80 B1681384] mean:[104 128 130] stdev:[94.5 5.8 10.8]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 26.033333333,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 26.03,
+            "sourceSha256": "65d78b6e8bb46f5d6e33eb19de2c9bcc56e9888d4525acf522cdc4c4953ba06c"
+          }
+        }
+      }
+    },
+    {
+      "id": "S17",
+      "title": "结果查看：渡轮收尾",
+      "start": 26.166667,
+      "end": 26.8,
+      "seconds": 0.633333,
+      "motion": 0.014,
+      "size": "none",
+      "category": "product",
+      "camera": "static",
+      "transitionIn": "cut",
+      "subjects": [],
+      "principalSubjects": [],
+      "backgroundSubjects": [],
+      "castPresence": {},
+      "frame": "网页查看器最后切换到青蓝底红白渡轮卡片，画面停在该结果结束。",
+      "fight": "网页查看器最后切换到青蓝底红白渡轮卡片，画面停在该结果结束。",
+      "beats": [
+        [
+          "26.167–26.800秒",
+          "网页查看器最后切换到青蓝底红白渡轮卡片，画面停在该结果结束。"
+        ]
+      ],
+      "cameraRead": "二维画面展示；没有可确认的实体摄影机运镜。网页滚动、光标移动与查看器变化发生在固定录屏画框内。",
+      "spatial": "白色网页位于黑底中部，说明字幕位于下方；提示卡或大图查看器覆盖网页局部。",
+      "audio": "原混音保留；画面字幕可见，未实际听辨声音。",
+      "onscreenText": "结果查看：渡轮收尾",
+      "remake": "教程录屏按原片保留，不生成操作界面；风格复用只取成品卡片。",
+      "note": "回到开头的渡轮题材形成视觉回扣。；音轨未听辨。",
+      "rhythm": "close",
+      "rhythmNote": "回到开头的渡轮题材形成视觉回扣。",
+      "frames": {
+        "a": {
+          "src": "frames/S17a.jpg",
+          "time": 26.26,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 403456,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 26.266666666666666,
+            "log": "[Parsed_showinfo_0 @ 0x1327665b0] n:   0 pts: 403456 pts_time:26.266667 duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1440 i:P iskey:0 type:B checksum:B03EE31B plane_checksum:[3E42ED70 DED5E6DE 3EC30EBE] mean:[105 130 124] stdev:[94.9 5.8 10.1]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 26.266666667,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 26.26,
+            "sourceSha256": "65d78b6e8bb46f5d6e33eb19de2c9bcc56e9888d4525acf522cdc4c4953ba06c"
+          }
+        },
+        "b": {
+          "src": "frames/S17b.jpg",
+          "time": 26.71,
+          "timeBasis": "requested-seek",
+          "decodedEvidence": {
+            "pts": 410624,
+            "timeBase": {
+              "num": 1,
+              "den": 15360
+            },
+            "sourcePtsTime": 26.733333333333334,
+            "log": "[Parsed_showinfo_0 @ 0x127e1f230] n:   0 pts: 410624 pts_time:26.733333 duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1080x1440 i:P iskey:0 type:P checksum:29711FEA plane_checksum:[5213D2A4 9937473A C2A005FD] mean:[38 129 127] stdev:[23.7 1.5 2.5]",
+            "method": "ffmpeg-showinfo",
+            "ptsTime": 26.733333333,
+            "sourceStartPtsTime": 0.0,
+            "inputSeekTime": 26.71,
+            "sourceSha256": "65d78b6e8bb46f5d6e33eb19de2c9bcc56e9888d4525acf522cdc4c4953ba06c"
+          }
+        }
+      }
+    }
+  ],
+  "report": {
+    "title": "照片风格技巧｜地标贴纸与真实风景",
+    "kicker": "Fredtalk Shots · 技巧与风格参考",
+    "headline": "把风景，变成一枚旅行纪念。",
+    "intro": "26.8秒技巧视频。前段为静态风格卡片，后段为操作教程。重点保存真实风格画面，并分别给出创意动效、综艺动效和B镜借用建议。",
+    "actionLabel": "画面与操作过程",
+    "peopleHeading": "主体与配对关系",
+    "peopleIntro": "主体是风景、地标贴纸及操作界面。实景中有小尺度游人，不承担连续人物叙事，不据此推断身份。",
+    "peopleNote": "未建立人物追踪表。",
+    "promptIntro": "以下为重新整理的设计提示词，不是原视频提示词逐字转录。教程界面保留，不生成。",
+    "cameraIntro": "时间窗覆盖全片；风格卡片为设计复用，录屏为原片保留。",
+    "audioFallback": "音轨保留，音乐与音效尚未听辨。",
+    "shotHeading": "逐镜动作档案",
+    "analysisHeading": "把观察拆成可用的关系",
+    "statsHeading": "镜头长度与景别分布",
+    "promptGuides": [
+      "先提供与本片对应的人物和场景参考，确认外观、数量与相对位置。",
+      "按时间窗安排镜头；同一动作窗内连续完成起势、应对、接触或状态变化。",
+      "生成后检查动作衔接、空间方向、人物身份与状态的跨镜连续性。"
+    ]
+  },
+  "media": [
+    {
+      "src": "preview.mp4",
+      "label": "完整兼容预览 · 26.8秒",
+      "details": "同轴H.264预览，保留原混音；未听辨声音。"
+    }
+  ]
+}

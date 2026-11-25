@@ -1,0 +1,58 @@
+const assert = require('node:assert/strict');
+const fs = require('node:fs');
+module.exports = async function checkStyleReferences(page) {
+  await page.setViewportSize({width:1440,height:1000});
+  await page.goto('http://127.0.0.1:8765/');
+  const link = page.locator('nav[aria-label="创作资源"] a[href="style-references.html"]');
+  await link.click();
+  await page.evaluate(() => window.STYLE_REFERENCES_READY);
+  assert.equal(await page.locator('.style-collection').count(), 1);
+  assert.equal(await page.locator('.sample-image').count(), 10);
+  const data = JSON.parse(fs.readFileSync('style-references/references.json', 'utf8'));
+  const entry = data.entries[0];
+  assert.equal((await page.locator('[data-prompt]').innerText()).trim(), entry.prompt);
+  assert.ok(await page.locator('[data-prompt]').isVisible(), 'prompt is directly in the visible description');
+  for (const use of ['创意动效', '综艺动效', 'B镜']) {
+    await page.locator(`[data-use="${use}"]`).click();
+    assert.equal(await page.locator('.style-collection').count(), 1);
+  }
+  await page.locator('#style-search').fill('没有这个风格');
+  assert.ok(await page.locator('#reference-empty').isVisible());
+  await page.locator('#reset-references').click();
+  await page.locator('#style-search').fill('粉色');
+  assert.equal(await page.locator('.style-collection').count(), 1);
+  await page.locator('#style-search').fill('');
+  await page.context().grantPermissions(['clipboard-read','clipboard-write']);
+  await page.locator('[data-copy][data-kind="prompt"]').click();
+  assert.equal(await page.evaluate(() => navigator.clipboard.readText()), entry.prompt);
+  await page.locator('[data-copy][data-kind="brollPrompt"]').click();
+  assert.equal(await page.evaluate(() => navigator.clipboard.readText()), entry.brollPrompt);
+  await page.locator('.sample-image').first().click();
+  assert.ok(await page.locator('#image-dialog').isVisible());
+  await page.locator('#image-full').evaluate(i=>i.decode());
+  assert.ok(await page.locator('#image-full').evaluate(i=>i.complete&&i.naturalWidth>0));
+  await page.keyboard.press('Escape');
+  assert.equal(await page.locator('#image-dialog').isVisible(), false);
+  const images = await page.locator('.sample-image img').evaluateAll(images => images.map(i=>({src:i.src,ok:i.complete&&i.naturalWidth>0})));
+  for (const image of images) { const response=await page.request.get(image.src);assert.ok(response.ok()); }
+  await page.locator('.source-details summary').click();
+  const video = page.locator('.source-details video');
+  await video.evaluate(v=>{v.muted=true;return v.play();});
+  await page.waitForFunction(()=>document.querySelector('.source-details video').ended,{},{timeout:40000});
+  assert.ok(Math.abs(await video.evaluate(v=>v.duration)-26.8)<.2);
+  await page.locator('.source-time').nth(4).click();
+  await page.waitForFunction(()=>document.querySelector('.source-details video').currentTime>=4);
+  await video.evaluate(v=>v.pause());
+  await page.screenshot({path:'/tmp/style-references-desktop.png',fullPage:true});
+  await page.setViewportSize({width:390,height:844});
+  assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));
+  await page.screenshot({path:'/tmp/style-references-mobile.png',fullPage:true});
+  await page.goto('http://127.0.0.1:8765/'+entry.report);
+  assert.equal(await page.locator('.camera-cue').count(), 17);
+  assert.ok(await page.evaluate(()=>[...document.querySelectorAll('.camera-cue')].every(c=>c.querySelector('.cue-time').getBoundingClientRect().bottom<=c.querySelector('h4').getBoundingClientRect().top+1)));
+  assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));
+  await page.locator('#film').evaluate(v=>{v.muted=true;return v.play();});
+  await page.waitForFunction(()=>document.querySelector('#film').currentTime>1);
+  await page.locator('#film').evaluate(v=>v.pause());
+  console.log('PASS: style resource navigation, 10 images, visible description prompts, usage filters, empty state, exact clipboard, image dialog, full video playback, source seek and report layout');
+};
