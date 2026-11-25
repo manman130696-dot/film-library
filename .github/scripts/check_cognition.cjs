@@ -20,7 +20,10 @@ module.exports = async function checkCognition(page) {
   await page.locator('[data-detail-tab="cases"]').click();
   assert.equal(await page.locator('#detail-panel .detail-case').count(),22);
   await page.locator('#case-cognition-gap-c08 [data-jump]').click();
-  await page.waitForFunction(()=>Math.abs(document.querySelector('#detail-video').currentTime-111.433333)<.2);
+  await page.locator('#detail-video').evaluate(v=>v.pause());
+  await page.waitForFunction(()=>!document.querySelector('#detail-video').seeking);
+  const caseTime=await page.locator('#detail-video').evaluate(v=>v.currentTime);
+  assert.ok(caseTime>=111.4&&caseTime<112.433333,'C08 playback starts in the selected case: '+caseTime);
   await page.locator('[data-detail-tab="prompts"]').click();
   assert.equal(await page.locator('#prompt-variant option').count(),25);
   await page.locator('#prompt-variant').selectOption('9');
