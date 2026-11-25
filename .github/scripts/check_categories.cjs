@@ -20,9 +20,9 @@ const fs = require('node:fs');
     const errors = [];
     page.on('pageerror', e => errors.push(e.message));
     await page.goto('http://127.0.0.1:8765/', { waitUntil: 'load' });
-    await page.waitForFunction(() => document.querySelectorAll('#video-grid .video-card').length === 13);
+    await page.waitForFunction(() => document.querySelectorAll('#video-grid .video-card').length === 14);
     const cards = page.locator('#video-grid .video-card');
-    assert.equal(await cards.count(), 13);
+    assert.equal(await cards.count(), 14);
     const integrity = await page.evaluate(() => ({
       assets: Object.keys(window.FILM_ASSETS).length,
       validAssets: Object.values(window.FILM_ASSETS).every(v => v.startsWith('data:') && v.length > 1000 && !v.includes('[embedded-media]')),
@@ -55,7 +55,7 @@ const fs = require('node:fs');
     assert.ok((await page.locator('#detail-video').getAttribute('src')).startsWith('data:video/'));
     await page.locator('#detail-close').click();
     await page.locator('#clear-filters').click();
-    assert.equal(await cards.count(), 13);
+    assert.equal(await cards.count(), 14);
     await page.locator('#search').fill('旅行');
     assert.ok((await cards.count()) >= 3, 'original subject terms remain searchable');
     await page.locator('#clear-filters').click();
@@ -63,7 +63,7 @@ const fs = require('node:fs');
     await page.locator('.category-nav button[data-direction="商业与音乐影像"]').click();
     assert.ok((await cards.count()) > 0, 'category applies to packaging cases');
     await page.locator('.main-nav [data-view="videos"]').click();
-    assert.equal(await cards.count(), 13);
+    assert.equal(await cards.count(), 14);
     await page.setViewportSize({ width: 390, height: 844 });
     const mobile = page.locator('.category-tabs');
     assert.equal(await mobile.isVisible(), true);
@@ -72,7 +72,7 @@ const fs = require('node:fs');
     await mobile.locator('[data-direction="剧情短片"]').click();
     assert.equal(await page.locator('#empty-state').isVisible(), true);
     await page.locator('#empty-clear').click();
-    assert.equal(await cards.count(), 13);
+    assert.equal(await cards.count(), 14);
     assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1), 'mobile page should not overflow');
     assert.deepEqual(errors, []);
     await require('./check_cityride.cjs')(page);
@@ -82,4 +82,5 @@ const fs = require('node:fs');
     server.kill();
   }
 })().catch(e => { console.error(e); process.exitCode = 1; });
+
 

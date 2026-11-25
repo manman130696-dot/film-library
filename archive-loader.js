@@ -19,16 +19,21 @@ window.FILM_LIBRARY_READY = (async () => {
     video.subjects = [...video.categories];
     if (config.assignments[video.id]) video.categories = config.assignments[video.id];
   }
-  const addition = await fetch(new URL('entries/cityride.json', document.baseURI));
-  if (!addition.ok) throw new Error('City Ride entry HTTP ' + addition.status);
-  const {cases: cityCases = [], prompts: cityPrompts = [], ...cityride} = await addition.json();
-  const existing = data.videos.findIndex(video => video.id === cityride.id);
-  if (existing >= 0) data.videos.splice(existing, 1);
-  data.videos.unshift(cityride);
-  data.cases = [...cityCases, ...data.cases.filter(item => item.videoId !== cityride.id)];
-  prompts[cityride.id] = cityPrompts;
+  const entryPaths = ['entries/cityride.json', 'entries/cognition-gap.json'];
+  const additions = await Promise.all(entryPaths.map(async path => {
+    const addition = await fetch(new URL(path, document.baseURI));
+    if (!addition.ok) throw new Error('Film entry HTTP ' + addition.status + ': ' + path);
+    return addition.json();
+  }));
+  for (const {cases: entryCases = [], prompts: entryPrompts = [], ...video} of additions) {
+    const existing = data.videos.findIndex(item => item.id === video.id);
+    if (existing >= 0) data.videos.splice(existing, 1);
+    data.videos.unshift(video);
+    data.cases = [...entryCases, ...data.cases.filter(item => item.videoId !== video.id)];
+    prompts[video.id] = entryPrompts;
+  }
   data.categories = config.categories;
-  data.updatedAt = '2026-11-24';
+  data.updatedAt = '2026-11-25';
   window.FILM_LIBRARY = data;
   window.FILM_PROMPTS = prompts;
   window.FILM_ASSETS = assets;
