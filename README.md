@@ -2,7 +2,7 @@
 
 ## 直接读取参考资料
 
-静态目录：[`read/`](https://manman130696-dot.github.io/film-library/read/)；结构化索引：[`read/index.json`](https://manman130696-dot.github.io/film-library/read/index.json)。目录与单片详情无需运行页面脚本，提供现有案例、原有截图、时间位置及可播放范围；新作建议与既有原片记录分开。此次不补写 12 维视觉标注。
+静态目录：[`read/`](https://manman130696-dot.github.io/film-library/read/)；结构化索引：[`read/index.json`](https://manman130696-dot.github.io/film-library/read/index.json)。目录与单片详情无需运行页面脚本，提供现有案例、原有截图、时间位置及可播放范围；新作建议与既有原片记录分开。视觉标注按具体片段补充，保留原帧依据、可借鉴范围与核验状态。图中「河道描线 → 抽象字标」已补齐适用标注；其他片段不据此标为已完成。
 
 源资料变动后执行 `node scripts/build-reading-index.mjs`，提交生成的 `read/`；`node scripts/build-reading-index.mjs --check` 检查是否与源资料一致。生成器沿用 `archive-loader.js` 的合并规则，不复制视频。检查流程会检测目录遗漏或过期。
 
@@ -52,3 +52,7 @@ City Ride 已经用户确认公开：172 秒完整预览、原片、114 个镜�
 ## 亚马逊地域视觉参考
 
 按用户指定归为「审美短片」。完整53.47秒视频、38个镜头与展示段、10组B镜与包装、5组配色（合并为一条配色参考）、45个视觉时间窗和9份提示词。原混音保留，本次未分析声音。
+
+## 作品档案与视觉标注
+
+作品档案保留播放器与原有拉片、包装案例、提示词及笔记，新增独立「视觉标注」入口、片段导航和标注检索。原片观察与新作建议分开展示；对已有案例补充 `visualAnnotations` 后，重建读取目录即可同步给检索与静态详情使用。视觉检索标签也用于作品与案例搜索。

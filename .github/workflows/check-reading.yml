@@ -1,8 +1,10 @@
 name: Check direct reading index
 on:
   push:
-    branches: [main]
+    branches: [main, codex/visual-reference]
     paths:
+      - 'visual-reference.mjs'
+      - 'visual-reference.css'
       - 'archive-loader.js'
       - 'film-library-public/index.html'
       - 'entries/**'
@@ -13,6 +15,8 @@ on:
       - '.github/workflows/check-reading.yml'
   pull_request:
     paths:
+      - 'visual-reference.mjs'
+      - 'visual-reference.css'
       - 'archive-loader.js'
       - 'film-library-public/index.html'
       - 'entries/**'

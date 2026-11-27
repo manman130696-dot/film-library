@@ -3,6 +3,7 @@ import { createHash } from 'node:crypto';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import path from 'node:path';
 import vm from 'node:vm';
+import { renderVisualAnnotations, annotationSearchText } from '../visual-reference.mjs';
 
 export const SITE = 'https://manman130696-dot.github.io/film-library/';
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -36,6 +37,8 @@ export async function loadLibrary(root = ROOT) {
   vm.runInNewContext(await get('archive-loader.js'), sandbox, { timeout: 10000 });
   await sandbox.window.FILM_LIBRARY_READY;
   const resources = JSON.parse(await get('style-references/references.json'));
+  await get('visual-reference.mjs');
+  await get('visual-reference.css');
   return {
     data: JSON.parse(JSON.stringify(sandbox.window.FILM_LIBRARY)),
     assets: sandbox.window.FILM_ASSETS, resources,
@@ -84,7 +87,7 @@ export function makeReadingFiles({ data, assets, resources, sources }) {
       ids.add(c.id);
       if (!Number.isFinite(c.start) || !Number.isFinite(c.end) || c.start < 0 || c.end <= c.start) throw Error('Invalid range: ' + c.id);
       const source = { ...c };
-      for (const k of ['image', 'structure', 'typography', 'motion', 'why', 'apply', 'palette']) delete source[k];
+      for (const k of ['image', 'structure', 'typography', 'motion', 'why', 'apply', 'palette', 'visualAnnotations']) delete source[k];
       const groups = c.palette?.groups?.map(g => ({
         ...g, image: image(g.image), preview_covers_range: !!v.preview && g.end <= limit + .02,
         observation: g.observation || '',
@@ -100,13 +103,18 @@ export function makeReadingFiles({ data, assets, resources, sources }) {
         adaptation_suggestion: c.apply || '',
         ...(groups ? { palette: { note: c.palette.note, groups } } : {}),
         evidence_status: 'existing_archive_record_not_reverified_by_this_build',
-        visual_annotations: null
+        visual_annotations: c.visualAnnotations ? {
+          ...c.visualAnnotations,
+          source: { ...c.visualAnnotations.source, report: absolute(c.visualAnnotations.source.report) },
+          evidenceFrames: c.visualAnnotations.evidenceFrames.map(f => ({ ...f, image: image(f.image) }))
+        } : null
       };
     });
     const preview = v.preview && !assets[v.preview] ? absolute(v.preview) : null;
     const record = {
       id: v.id, title: v.title, summary: v.summary || '', subtitle: v.subtitle || '',
       categories: v.categories || [], tags: v.tags || [], preference: v.preference || '',
+      visual_annotation_count: cases.filter(c => c.visual_annotations).length,
       duration: v.duration, preview_duration: v.preview ? limit : 0,
       viewer_url: viewer(v), report_url: v.report && !assets[v.report] ? absolute(v.report) : null,
       preview_url: preview, preview_access: preview ? 'direct_file' : v.preview ? 'existing_library_viewer' : 'unavailable',
@@ -131,18 +139,20 @@ export function makeReadingFiles({ data, assets, resources, sources }) {
   const index = {
     schema_version: 1, title: '满的片库 · 视觉参考读取入口', updated_at: data.updatedAt,
     source_digest: DIGEST(JSON.stringify(sources)), source_files: sources,
-    scope: 'Existing film-library records and reference images; no new visual analysis or 12-dimension annotation backfill.',
+    scope: 'Existing film-library records with selectively supplemented visual annotations; evidence and verification scope are recorded per annotated case.',
+    visual_annotation_count: films.reduce((n, v) => n + v.visual_annotation_count, 0),
     usage: ['先读本索引，根据标题、标签和已有描述选择影片，再读取对应详情。', '原片题材不必与分镜相同；对标视觉风格、包装、动效、审美和配色。', 'existing_record 是既有分析，未经本次重新审看；adaptation_suggestion 是新作建议。', 'visual_annotations 为 null 表示尚未补齐统一视觉标注，不表示没有视觉效果。', 'preview_covers_range 为 false 时仍可看截图和记录，但不能声称站内视频覆盖该段。', '技巧资源中的 B 镜动作属于新作建议，不可当作原片动效证据。'],
     film_count: films.length, case_count: data.cases.length, resource_count: resourceRecords.length,
     films: films.map(({ cases, ...v }) => ({ ...v, case_count: cases.length,
       cases: cases.map(c => ({ id: c.id, title: c.title, tags: c.tags, start: c.start, end: c.end, kind: c.kind || 'case',
-        details_url: c.details_url, search_excerpt: [c.existing_record.structure, c.existing_record.typography].filter(Boolean).join(' ').slice(0, 180) })) })),
+        details_url: c.details_url, visual_annotation_available: !!c.visual_annotations, visual_tags: c.visual_annotations?.searchTags || [], search_excerpt: [annotationSearchText(c.visual_annotations), c.existing_record.structure, c.existing_record.typography].filter(Boolean).join(' ').slice(0, 240) })) })),
     resources: resourceRecords
   };
   files.set('read/index.json', json(index));
-  files.set('read/index.html', page(index.title, `<h1>视觉参考目录</h1><p>${films.length} 部作品 · ${index.case_count} 条既有参考 · ${resourceRecords.length} 组创作资源</p><p>按影片查看包装、动效、审美与配色。这里整理已有资料，统一视觉标注尚待补齐。</p><p><a href="index.json">结构化索引 JSON</a> · <a href="README.md">读取说明</a></p>${films.map(v => `<section><h2><a href="films/${v.id}.html">${esc(v.title)}</a></h2><p>${esc(v.subtitle)}</p><p>${esc(v.summary)}</p><p class="tags">${esc([...v.categories, ...v.tags].join(' · '))}</p><p><a href="films/${v.id}.json">片段详情 JSON</a> · ${v.cases.length} 条参考</p>${v.cases.length ? `<ul>${v.cases.map(c => `<li><a href="films/${v.id}.html#${c.id}">${esc(c.title)}</a> <span>${clock(c.start)}–${clock(c.end)}</span> · ${esc((c.tags || []).join(' / '))}</li>`).join('')}</ul>` : '<p>当前条目没有独立包装案例，不据此推断不存在视觉效果。</p>'}</section>`).join('')}<h2>创作资源</h2>${resourceRecords.map(r => `<section><h3><a href="resources/${r.id}.html">${esc(r.title)}</a></h3><p>${esc(r.summary)}</p><p>${esc(r.note)}</p><a href="resources/${r.id}.json">资源详情 JSON</a></section>`).join('')}`, { stylesheet: 'styles.css', home: 'index.html' }));
+  files.set('read/index.html', page(index.title, `<h1>视觉参考目录</h1><p>${films.length} 部作品 · ${index.case_count} 条既有参考 · ${resourceRecords.length} 组创作资源</p><p>按影片查看包装、动效、审美与配色。已补 ${index.visual_annotation_count} 个片段的视觉标注，其余片段逐步补充。</p><p><a href="index.json">结构化索引 JSON</a> · <a href="README.md">读取说明</a></p>${films.map(v => `<section><h2><a href="films/${v.id}.html">${esc(v.title)}</a></h2><p>${esc(v.subtitle)}</p><p>${esc(v.summary)}</p><p class="tags">${esc([...v.categories, ...v.tags].join(' · '))}</p><p><a href="films/${v.id}.json">片段详情 JSON</a> · ${v.cases.length} 条参考</p>${v.cases.length ? `<ul>${v.cases.map(c => `<li><a href="films/${v.id}.html#${c.id}">${esc(c.title)}</a> <span>${clock(c.start)}–${clock(c.end)}</span> · ${esc((c.tags || []).join(' / '))}</li>`).join('')}</ul>` : '<p>当前条目没有独立包装案例，不据此推断不存在视觉效果。</p>'}</section>`).join('')}<h2>创作资源</h2>${resourceRecords.map(r => `<section><h3><a href="resources/${r.id}.html">${esc(r.title)}</a></h3><p>${esc(r.summary)}</p><p>${esc(r.note)}</p><a href="resources/${r.id}.json">资源详情 JSON</a></section>`).join('')}`, { stylesheet: 'styles.css', home: 'index.html' }));
   files.set('read/styles.css', 'body{margin:0;background:#f5f6f2;color:#232a25;font:16px/1.8 system-ui,"PingFang SC",sans-serif}header,main{max-width:1000px;margin:auto;padding:24px}header{display:flex;gap:28px;border-bottom:1px solid #dce3d8}a{color:#284638;text-underline-offset:3px}h1{font-size:2rem}h2{font-size:1.4rem}section,article{background:#fff;border:1px solid #dce3d8;border-radius:12px;padding:24px;margin:24px 0;scroll-margin-top:20px}p{white-space:pre-wrap;overflow-wrap:anywhere}.tags,figcaption,small{color:#53634f;font-size:.9rem}figure{margin:18px 0}img{display:block;max-width:min(100%,640px);max-height:560px;object-fit:contain}dt{font-weight:650;margin-top:14px}dd{margin-left:0;white-space:pre-wrap;overflow-wrap:anywhere}li{margin:8px 0}.notice{border-left:4px solid #8ba26e;padding-left:14px}code{overflow-wrap:anywhere}@media(max-width:700px){header,main{padding:18px}section,article{padding:18px}}\n');
-  files.set('read/README.md', `# 片库直接读取入口\n\n- 总目录：${SITE}read/\n- 结构化索引：${SITE}read/index.json\n- 按索引中的 details_json / details_html 读取单片资料；网页文字无需运行 JavaScript。\n- 图片为原有归档截图。影片内的 viewer_url 定位到既有片库的影片和案例；旧归档视频继续由原播放器提供，不复制视频到索引。\n- 无需登录、付费服务或手动导出。读取方仍需有访问这些公开网址的能力；入口存在不等于每次会话均可联网。\n- 所有描述复用已有资料，本次不新增或重新核实 12 维标注。existing_record 与 adaptation_suggestion 分开；空的 visual_annotations 表示待补。\n- preview_covers_range 明确该范围是否在公开预览内；图片有档案不代表视频范围可播放。\n- 维护：在仓库根目录运行 node scripts/build-reading-index.mjs；源资料变动后重建，并提交生成的 read/。\n- 检查：node --test tests/reading-index.test.mjs，然后 node scripts/build-reading-index.mjs --check。\n- 更新依据：source_digest 为实际输入文件摘要，更新时间沿用片库记录，不用构建时间冒充审看时间。\n`);
+  files.set('read/styles.css', '@import url("../visual-reference.css");\n' + files.get('read/styles.css'));
+  files.set('read/README.md', `# 片库直接读取入口\n\n- 总目录：${SITE}read/\n- 结构化索引：${SITE}read/index.json\n- 按索引中的 details_json / details_html 读取单片资料；网页文字无需运行 JavaScript。\n- 图片为原有归档截图。影片内的 viewer_url 定位到既有片库的影片和案例；旧归档视频继续由原播放器提供，不复制视频到索引。\n- 无需登录、付费服务或手动导出。读取方仍需有访问这些公开网址的能力；入口存在不等于每次会话均可联网。\n- 视觉标注按片段补充，核验依据随项保留。existing_record 与 adaptation_suggestion 分开；空的 visual_annotations 表示待补。\n- preview_covers_range 明确该范围是否在公开预览内；图片有档案不代表视频范围可播放。\n- 维护：在仓库根目录运行 node scripts/build-reading-index.mjs；源资料变动后重建，并提交生成的 read/。\n- 检查：node --test tests/reading-index.test.mjs，然后 node scripts/build-reading-index.mjs --check。\n- 更新依据：source_digest 为实际输入文件摘要，更新时间沿用片库记录，不用构建时间冒充审看时间。\n`);
   return { files, index };
 }
 
@@ -162,7 +172,7 @@ function jpegSize(bytes) {
 
 function filmPage(v) {
   const term = (name, value) => value ? `<dt>${esc(name)}</dt><dd>${esc(value)}</dd>` : '';
-  return page(v.title, `<h1>${esc(v.title)}</h1><p>${esc(v.subtitle)}</p><p>${esc(v.summary)}</p><p>${esc(v.preference)}</p><p><a href="${esc(v.details_json)}">本片 JSON</a> · <a href="${esc(v.viewer_url)}">打开片库作品</a>${v.report_url ? ` · <a href="${esc(v.report_url)}">原拉片报告</a>` : ''}</p><p class="notice">以下复用既有归档记录，本次没有重新审看或补齐 12 维视觉标注。原片观察与新作建议分别展示。</p>${v.cases.map(c => `<article id="${esc(c.id)}"><h2>${esc(c.title)}</h2><p>${clock(c.start)}–${clock(c.end)} · ${esc((c.tags || []).join(' / '))}</p>${c.image_url ? `<figure><a href="${esc(c.image_url)}"><img src="${esc(c.image_url)}" alt="${esc(c.title)}归档画面" loading="lazy"></a><figcaption>原有归档截图；单张截图不证明动态。</figcaption></figure>` : ''}<p><a href="${esc(c.viewer_url)}">在片库查看此案例</a></p><p>${c.preview_covers_range ? '该时间段在已登记的站内预览范围内。' : '该时间段未被已登记的站内预览完整覆盖；可查看截图和分析。'}</p><h3>既有原片记录</h3><dl>${term('构图与关系', c.existing_record.structure)}${term('文字与视觉描述', c.existing_record.typography)}${term('动作记录', c.existing_record.motion)}${term('既有作用解释', c.existing_record.why)}</dl>${c.adaptation_suggestion ? `<h3>新作适配建议</h3><p>${esc(c.adaptation_suggestion)}</p>` : ''}${c.palette ? `<h3>已有配色分组</h3><p>${esc(c.palette.note)}</p>${c.palette.groups.map(g => `<section><h4>${esc(g.name)}</h4><p>${esc(g.sourceTitle)} · ${clock(g.start)}–${clock(g.end)}</p><img src="${esc(g.image)}" alt="${esc(g.name)}配色画面" loading="lazy"><p>${esc(g.observation)}</p><ul>${g.colors.map(k => `<li>${esc(k.role)}：${esc(k.hex)} · ${esc(k.use)}</li>`).join('')}</ul><p>新作建议比例：${esc(g.proportions)}</p><p>新作 B 镜建议：${esc(g.broll)}</p><p>新作提示词：${esc(g.prompt)}</p></section>`).join('')}` : ''}</article>`).join('')}${v.cases.length ? '' : '<p>当前条目没有独立包装案例。</p>'}`);
+  return page(v.title, `<h1>${esc(v.title)}</h1><p>${esc(v.subtitle)}</p><p>${esc(v.summary)}</p><p>${esc(v.preference)}</p><p><a href="${esc(v.details_json)}">本片 JSON</a> · <a href="${esc(v.viewer_url)}">打开片库作品</a>${v.report_url ? ` · <a href="${esc(v.report_url)}">原拉片报告</a>` : ''}</p><p class="notice">既有原片记录、补充的视觉标注与新作建议分别展示。视觉标注的核验范围写在各项依据中。</p>${v.cases.map(c => `<article id="${esc(c.id)}"><h2>${esc(c.title)}</h2><p>${clock(c.start)}–${clock(c.end)} · ${esc((c.tags || []).join(' / '))}</p>${c.image_url ? `<figure><a href="${esc(c.image_url)}"><img src="${esc(c.image_url)}" alt="${esc(c.title)}归档画面" loading="lazy"></a><figcaption>原有归档截图；单张截图不证明动态。</figcaption></figure>` : ''}<p><a href="${esc(c.viewer_url)}">在片库查看此案例</a></p><p>${c.preview_covers_range ? '该时间段在已登记的站内预览范围内。' : '该时间段未被已登记的站内预览完整覆盖；可查看截图和分析。'}</p>${c.visual_annotations ? `<h3>视觉参考标注</h3>${renderVisualAnnotations(c.visual_annotations)}` : ''}<h3>既有原片记录</h3><dl>${term('构图与关系', c.existing_record.structure)}${term('文字与视觉描述', c.existing_record.typography)}${term('动作记录', c.existing_record.motion)}${term('既有作用解释', c.existing_record.why)}</dl>${c.adaptation_suggestion ? `<h3>新作适配建议</h3><p>${esc(c.adaptation_suggestion)}</p>` : ''}${c.palette ? `<h3>已有配色分组</h3><p>${esc(c.palette.note)}</p>${c.palette.groups.map(g => `<section><h4>${esc(g.name)}</h4><p>${esc(g.sourceTitle)} · ${clock(g.start)}–${clock(g.end)}</p><img src="${esc(g.image)}" alt="${esc(g.name)}配色画面" loading="lazy"><p>${esc(g.observation)}</p><ul>${g.colors.map(k => `<li>${esc(k.role)}：${esc(k.hex)} · ${esc(k.use)}</li>`).join('')}</ul><p>新作建议比例：${esc(g.proportions)}</p><p>新作 B 镜建议：${esc(g.broll)}</p><p>新作提示词：${esc(g.prompt)}</p></section>`).join('')}` : ''}</article>`).join('')}${v.cases.length ? '' : '<p>当前条目没有独立包装案例。</p>'}`);
 }
 
 function resourcePage(r) {

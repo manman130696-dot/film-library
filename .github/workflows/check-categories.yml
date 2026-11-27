@@ -1,10 +1,14 @@
 name: Check film categories
 on:
   push:
-    branches: [main, codex/film-categories, codex/film-palettes]
+    branches: [main, codex/film-categories, codex/film-palettes, codex/visual-reference]
     paths:
       - index.html
       - archive-loader.js
+      - visual-reference.mjs
+      - visual-reference.css
+      - entries/amazonia.json
+      - .github/scripts/check_visual_reference.cjs
       - categories.json
       - entries/palette-references.json
       - .github/scripts/check_palettes.cjs
@@ -33,3 +37,9 @@ jobs:
       - name: Check desktop and mobile behavior
         run: node .github/scripts/check_categories.cjs
 
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: visual-reference-screenshots
+          path: /tmp/visual-reference-*.png
+          if-no-files-found: ignore

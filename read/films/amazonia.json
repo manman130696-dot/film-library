@@ -14,6 +14,7 @@
     "品牌视觉"
   ],
   "preference": "用户原话：“这条视频是审美短片，同时看他的b镜以及包装设计，还有配色”。按审美短片收录；明确参考B镜、包装设计、配色。未将本次需求推广为用户喜欢全部元素或认可片中宣传事实。",
+  "visual_annotation_count": 1,
   "duration": 53.466667,
   "preview_duration": 53.466667,
   "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=amazonia",
@@ -214,21 +215,192 @@
       "tags": [
         "B镜",
         "镜头包装",
-        "从来源到概念"
+        "从来源到概念",
+        "卫星影像",
+        "有机曲线",
+        "轮廓描线",
+        "素材提炼"
       ],
       "details_url": "https://manman130696-dot.github.io/film-library/read/films/amazonia.html#amazonia-broll-01",
       "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=amazonia&case=amazonia-broll-01",
       "image_url": "https://manman130696-dot.github.io/film-library/reports/amazonia/frames/S01a.jpg",
       "preview_covers_range": true,
       "existing_record": {
-        "structure": "卫星图中的粉褐色河道占据前景，奶油黄线沿河弯逐渐显露；画面缩小后露出多张河道图，轮廓共同组成 Amazonia 字样；图像底板退去，留下深绿底上的文字。",
-        "typography": "流动字形作为共同识别；粗体文字用于地名、标题和名单；小字为来源与注释。中文烧录字幕单独理解。",
-        "motion": "卫星图中的粉褐色河道占据前景，奶油黄线沿河弯逐渐显露；画面缩小后露出多张河道图，轮廓共同组成 Amazonia 字样；图像底板退去，留下深绿底上的文字。",
+        "structure": "先以河道局部占满画面，再拉出版面，显露横向错位并排的卫星图卡与细小来源标注；最后撤去图卡与标注，只留下深绿底上的浅黄流动字标。",
+        "typography": "浅黄连续曲线沿河道弯折，逐步组成横向字标；图卡周围用细引线和小字标注来源。底部中文为成片解说字幕，单独记录；本段没有地名粗体标题。字体名称未核实。",
+        "motion": "约0–2.8秒：浅黄线逐渐显露，版面缩小并带出更多图卡。约2.8–5.3秒：各段河流轮廓组成完整字标，图卡与来源小字仍在。约5.3–7.27秒：图卡和标注退去，浅黄字标留在深绿底上停读。时间为既有镜内观察的约数，不是工程关键帧。",
         "why": "把素材中真实形状变成视觉符号，适合解释设计、灵感来源、地域特征。"
       },
       "adaptation_suggestion": "新作设计建议：先给真实纹理，再用路径遮罩描出轮廓，缩小拼成一个词；最后去掉底图，让观众看清提炼结果。",
       "evidence_status": "existing_archive_record_not_reverified_by_this_build",
-      "visual_annotations": null
+      "visual_annotations": {
+        "schemaVersion": 1,
+        "reviewedAt": "2026-11-27",
+        "summary": "以真实河流影像为依据，用浅黄有机曲线提炼轮廓；版面退远露出整组图卡，最后只留下深绿底上的流动字标。",
+        "source": {
+          "videoId": "amazonia",
+          "caseId": "amazonia-broll-01",
+          "start": 0,
+          "end": 7.266667,
+          "shotIds": [
+            "S01"
+          ],
+          "sourceSha256": "82583d76d1770af195b15105985e6a94b02b95dfdfa1ae1495a2654f5b94fb6f",
+          "report": "https://manman130696-dot.github.io/film-library/reports/amazonia/shots-report.html"
+        },
+        "borrowScope": [
+          "视觉风格",
+          "材质",
+          "配色",
+          "构图",
+          "动效",
+          "文字图形",
+          "版面缩放",
+          "画面衔接"
+        ],
+        "searchTags": [
+          "卫星影像",
+          "有机曲线",
+          "轮廓描线",
+          "素材提炼",
+          "图卡并置",
+          "深绿与奶油黄"
+        ],
+        "evidenceBasis": "本次核对归档原帧与0–7秒每0.5秒的源PTS连续采样；同时对照S01逐镜记录、前后代表帧及原有镜内分段。静态外观由原帧支持，动作顺序由连续采样与既有分析共同支持；本次没有重新连续播放或测量缓动参数。",
+        "evidenceFrames": [
+          {
+            "time": 1.1,
+            "image": "https://manman130696-dot.github.io/film-library/reports/amazonia/frames/S01a.jpg",
+            "caption": "提炼过程：浅黄曲线沿河道弯折，右侧图卡开始显露。"
+          },
+          {
+            "time": 6.2,
+            "image": "https://manman130696-dot.github.io/film-library/reports/amazonia/frames/S01b.jpg",
+            "caption": "结束状态：图卡与标注已退去，深绿底保留浅黄字标。"
+          }
+        ],
+        "dimensions": [
+          {
+            "key": "style",
+            "description": "卫星影像与平面矢量曲线叠合，再组织为带来源标注的图卡版面；视觉逻辑从真实轮廓逐步提炼为标志。",
+            "status": "archived_frames",
+            "tags": [
+              "摄影与图形叠合",
+              "资料图卡",
+              "有机曲线"
+            ]
+          },
+          {
+            "key": "subjects",
+            "description": "本段没有需要标注的人物造型。主要物件为河流影像图卡与圆润、连续弯折的线形字标。",
+            "status": "not_applicable",
+            "tags": []
+          },
+          {
+            "key": "texture",
+            "description": "底图保留林地颗粒与泥粉色河道的影像细节；浅黄曲线是边缘平滑的实色图形，结尾退为简洁色面。",
+            "status": "archived_frames",
+            "tags": [
+              "影像纹理",
+              "平滑实色线条"
+            ]
+          },
+          {
+            "key": "color",
+            "description": "开头为深绿林地、泥粉色河道与奶油黄描线；图卡展开时可见深棕底，结尾转为深绿底配浅黄字标。结尾近似参考色：深绿 #153214、奶油黄 #F8F1B9，沿用压缩成片取色记录，不代表官方标准。",
+            "status": "archived_frames",
+            "tags": [
+              "深绿",
+              "奶油黄",
+              "泥粉色",
+              "深棕"
+            ]
+          },
+          {
+            "key": "composition",
+            "description": "从大幅河道局部拉出横向图卡组；各卡片高低错位，线形字标横贯它们。细引线与小字分布周围，结尾用居中的字标和留白收束。",
+            "status": "archived_frames",
+            "tags": [
+              "局部到整体",
+              "横向构图",
+              "图卡错位",
+              "留白"
+            ]
+          },
+          {
+            "key": "animation",
+            "description": "约0–2.8秒：浅黄线逐渐显露，版面缩小并带出更多图卡。约2.8–5.3秒：各段河流轮廓组成完整字标，图卡与来源小字仍在。约5.3–7.27秒：图卡和标注退去，浅黄字标留在深绿底上停读。时间为既有镜内观察的约数，不是工程关键帧。",
+            "status": "sequence_and_record",
+            "tags": [
+              "路径显露",
+              "图卡展露",
+              "背景退去"
+            ]
+          },
+          {
+            "key": "rhythm",
+            "description": "先跟随局部描线，再通过整体版面退远增加信息；约5.5秒后的采样已进入字标停读状态，持续到本段末尾。整体为“显露—展开—停读”，不据此推定弹性、节拍或具体缓动曲线。",
+            "status": "sequence_and_record",
+            "tags": [
+              "连续显露",
+              "先动后停",
+              "停读"
+            ]
+          },
+          {
+            "key": "aesthetic",
+            "description": "审美归纳：自然、有机，同时具有资料研究的秩序感；影像纹理提供来源感，最后的双色留白让概念收束。",
+            "status": "interpretation",
+            "tags": [
+              "自然有机",
+              "资料感",
+              "克制收束"
+            ]
+          },
+          {
+            "key": "typography",
+            "description": "浅黄连续曲线沿河道弯折，逐步组成横向字标；图卡周围用细引线和小字标注来源。底部中文为成片解说字幕，单独记录；本段没有地名粗体标题。字体名称未核实。",
+            "status": "archived_frames",
+            "tags": [
+              "流动字标",
+              "细引线",
+              "来源小字"
+            ]
+          },
+          {
+            "key": "lighting",
+            "description": "浅黄图形以平面实色叠在影像上，没有可辨认的立体投影；结尾为平面双色关系。卫星影像自身的明暗不用于反推灯位。",
+            "status": "archived_frames",
+            "tags": [
+              "平面色块"
+            ]
+          },
+          {
+            "key": "camera",
+            "description": "可见的是整组图卡与字标的合成尺度变化，从局部退到整体；不是已经核实的真实摄影机拉升。",
+            "status": "sequence_and_record",
+            "tags": [
+              "版面缩放",
+              "局部到整体"
+            ]
+          },
+          {
+            "key": "transition",
+            "description": "本段内部由“河道影像＋描线”过渡到“图卡组＋完整字标”，再撤去图卡与来源标注，接到纯底字标停读。连续采样可确认前后状态，具体遮罩、透明度曲线与工程接法仍待核对。",
+            "status": "sequence_and_record",
+            "tags": [
+              "图层退场",
+              "保留字标",
+              "图像到图形"
+            ]
+          }
+        ],
+        "pending": [
+          "字体名称、原工程软件和缓动曲线未核实",
+          "采样不能证明每个源帧的精确状态，分段时间沿用历史观察约数",
+          "原混音保留，声音未听辨；本次适配建议不作为原片制作事实"
+        ]
+      }
     },
     {
       "id": "amazonia-broll-02",

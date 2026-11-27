@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { loadLibrary, makeReadingFiles, page, SITE } from '../scripts/build-reading-index.mjs';
+import { VISUAL_DIMENSIONS, annotationSearchText, renderVisualAnnotations } from '../visual-reference.mjs';
 
 const source = await loadLibrary();
 const result = makeReadingFiles(source);
@@ -75,4 +76,44 @@ test('static HTML is readable without JavaScript and escapes source text', () =>
   const html = page('<img src=x onerror=alert(1)>', '<p>safe body</p>');
   assert.ok(html.includes('&lt;img'));
   assert.doesNotMatch(html, /<title><img/);
+});
+
+test('the selected river-to-logo reference keeps all dimensions, evidence and unverified scope', () => {
+  const film = JSON.parse(text('read/films/amazonia.json'));
+  const c = film.cases.find(c => c.id === 'amazonia-broll-01');
+  const annotation = c.visual_annotations;
+  assert.equal(result.index.visual_annotation_count, 1);
+  assert.equal(film.visual_annotation_count, 1);
+  assert.equal(annotation.source.caseId, c.id);
+  assert.equal(annotation.source.start, c.start);
+  assert.equal(annotation.source.end, c.end);
+  assert.deepEqual(annotation.dimensions.map(d => d.key), VISUAL_DIMENSIONS.map(([key]) => key));
+  assert.equal(annotation.dimensions.find(d => d.key === 'subjects').status, 'not_applicable');
+  assert.equal(annotation.dimensions.find(d => d.key === 'aesthetic').status, 'interpretation');
+  assert.ok(annotation.evidenceFrames.every(f => f.time >= c.start && f.time < c.end));
+  assert.match(annotation.evidenceBasis, /没有重新连续播放/);
+  assert.match(c.existing_record.typography, /本段没有地名粗体标题/);
+  assert.equal(film.cases.filter(c => c.visual_annotations).length, 1);
+});
+
+test('annotation search and static details carry visual evidence without needing JavaScript', () => {
+  const c = JSON.parse(text('read/films/amazonia.json')).cases.find(c => c.id === 'amazonia-broll-01');
+  assert.match(annotationSearchText(c.visual_annotations), /卫星影像/);
+  assert.match(annotationSearchText(c.visual_annotations), /深棕/);
+  const indexed = result.index.films.find(v => v.id === 'amazonia').cases.find(x => x.id === c.id);
+  assert.equal(indexed.visual_annotation_available, true);
+  assert.ok(indexed.visual_tags.includes('轮廓描线'));
+  const html = text('read/films/amazonia.html');
+  assert.equal([...html.matchAll(/data-visual-dimension=/g)].length, 12);
+  assert.match(html, /标注依据与待核对项/);
+  assert.doesNotMatch(html, /<script/i);
+});
+
+test('visual descriptions and labels are escaped before rendering', () => {
+  const annotation = structuredClone(JSON.parse(text('read/films/amazonia.json')).cases.find(c => c.visual_annotations).visual_annotations);
+  annotation.summary = '<script>alert(1)</script>';
+  annotation.dimensions[0].description = '<img src=x onerror=alert(1)>';
+  const html = renderVisualAnnotations(annotation);
+  assert.doesNotMatch(html, /<script|<img src=x/i);
+  assert.match(html, /&lt;script&gt;/);
 });
