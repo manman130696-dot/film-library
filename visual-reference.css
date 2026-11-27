@@ -4,8 +4,8 @@
 .detail-overview-title>p{font-size:16px;line-height:1.7;color:#6a7567}
 .detail-facts{display:flex;gap:8px 18px;flex-wrap:wrap;margin:14px 0 20px;font-size:14px;color:#657160}
 .detail-facts strong{font-weight:600;color:#284638}
-.reference-summary{margin:20px 0;padding:18px;border:1px solid #dce4d5;border-radius:10px;background:#f4f7ef}
-.reference-summary h3{font-size:16px;margin:0 0 8px;color:#284638}
+.reference-summary{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:20px 0;padding:18px;border:1px solid #dce4d5;border-radius:10px;background:#f4f7ef}
+.reference-summary h3{font-size:16px;margin:0;color:#284638}
 .reference-summary p{font-size:16px;line-height:1.8;margin:0 0 12px}
 .detail-tabs{overflow-x:auto;flex-shrink:0}
 .detail-tabs button{font-size:14px;padding:17px 10px}

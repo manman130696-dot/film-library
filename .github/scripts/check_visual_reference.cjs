@@ -45,3 +45,22 @@ module.exports = async function checkVisualReference(page) {
   assert.ok((await page.locator('.visual-tags').innerText()).includes('卫星影像'));
   console.log('PASS: visual annotation search, dimensions, evidence frames, time seek, clipboard, case navigation and direct reading');
 };
+
+if (require.main === module) {
+  const {chromium} = require('playwright');
+  const {spawn} = require('node:child_process');
+  (async () => {
+    const server = spawn('python3',['.github/scripts/serve_preview.py'],{stdio:'ignore'});
+    let browser;
+    try {
+      for (let i=0;i<100;i++) {
+        try {if((await fetch('http://127.0.0.1:8765/')).ok)break;}catch{}
+        await new Promise(resolve=>setTimeout(resolve,100));
+      }
+      browser=await chromium.launch({headless:true});
+      const page=await browser.newPage(); const errors=[];
+      page.on('pageerror',error=>errors.push(error.message));
+      await module.exports(page); assert.deepEqual(errors,[]);
+    } finally {if(browser)await browser.close();server.kill();}
+  })().catch(error=>{console.error(error);process.exitCode=1;});
+}

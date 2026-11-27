@@ -2,10 +2,10 @@
   "schema_version": 1,
   "title": "满的片库 · 视觉参考读取入口",
   "updated_at": "2026-11-27",
-  "source_digest": "2af90ae1b21ee73cad8266d09a08c11bce9fe1bb5d455567ce10f0e3ea412358",
+  "source_digest": "09bb696c8778cab4ed83ef3a70aba217cfdc5e51c055d5f71b42aebd7af89bd5",
   "source_files": {
     "archive-loader.js": "08610896017a66893327f18447d91cb5baa6ff3a3f1f3fc3d71ec00b9995e192",
-    "entries/amazonia.json": "bf1361f7bce02d1546741a3ac40493acf48a5f0c7fed3f00d0aef4a7c9410664",
+    "entries/amazonia.json": "3fcf4134edaa26246dc1ba2c49762742585f382b22e051155a07e0cf264c9382",
     "entries/casetify.json": "d241e1c6adfeca6bb9ddc3247b15795a89100d5a8d89172024689a05f0fd4b35",
     "entries/cityride.json": "a49fd1f76e24784f19ac58f5dfe83a238afde9000be5532c113c5b253de62c8b",
     "entries/cognition-gap.json": "ad1173a95df5d4bbc7dc16e4431d6721c9c54f77128c2feb40ca7582a17fc415",
@@ -13,7 +13,7 @@
     "entries/palette-references.json": "df04e09cb317ea15f7dd12c2547a79e761096ecf02f06bdb5d4bdab5f32e2d1a",
     "film-library-public/index.html": "94a77a0757fb8f212ffd73c69df703d4c10acc5bb0c963aef8d4bac10de7ff17",
     "style-references/references.json": "12dff26d5b321a309a2f6ec8670f56232c0f70be92a97dbed9958fba2c53d9e7",
-    "visual-reference.css": "ec5b3c0f63a9f9218fc3196adf269f3ada860a80e8df1f3335fc917972093671",
+    "visual-reference.css": "b0e5b288faf53e317230c603c19a8e922060e0e45dfbfe18723267065206c107",
     "visual-reference.mjs": "a41409469cd7afd73eee23459636b98c84295e119f4cbbc358a2960d00a82c54"
   },
   "scope": "Existing film-library records with selectively supplemented visual annotations; evidence and verification scope are recorded per annotated case.",
@@ -99,7 +99,7 @@
             "图卡并置",
             "深绿与奶油黄"
           ],
-          "search_excerpt": "以真实河流影像为依据，用浅黄有机曲线提炼轮廓；版面退远露出整组图卡，最后只留下深绿底上的流动字标。 视觉风格 材质 配色 构图 动效 文字图形 版面缩放 画面衔接 卫星影像 有机曲线 轮廓描线 素材提炼 图卡并置 深绿与奶油黄 卫星影像与平面矢量曲线叠合，再组织为带来源标注的图卡版面；视觉逻辑从真实轮廓逐步提炼为标志。 摄影与图形叠合 资料图卡 有机曲线 本段没有需要标注的人物造型。主要物件为河流影像图卡与圆润、连续弯折的线形字标。 底图保留林地颗粒与泥粉色河道的影像细节；浅"
+          "search_excerpt": "以真实河流影像为依据，用浅黄有机曲线提炼轮廓；版面退远露出整组图卡，最后只留下深绿底上的流动字标。 视觉风格 材质 配色 构图 动效 文字图形 版面缩放 画面衔接 卫星影像 有机曲线 轮廓描线 素材提炼 图卡并置 深绿与奶油黄 卫星影像与平面矢量曲线叠合，再组织为带来源标注的图卡版面；视觉逻辑从真实轮廓逐步提炼为标志。 摄影与图形叠合 资料图卡 有机曲线 人物造型不适用，本段没有人物。物件以河流影像图卡和圆润、连续弯折的线形字标为主；图卡保留矩形边界，曲线轮廓跨卡片衔接。 底"
         },
         {
           "id": "amazonia-broll-02",

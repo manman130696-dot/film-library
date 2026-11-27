@@ -3194,8 +3194,8 @@
           },
           {
             "key": "subjects",
-            "description": "本段没有需要标注的人物造型。主要物件为河流影像图卡与圆润、连续弯折的线形字标。",
-            "status": "not_applicable",
+            "description": "人物造型不适用，本段没有人物。物件以河流影像图卡和圆润、连续弯折的线形字标为主；图卡保留矩形边界，曲线轮廓跨卡片衔接。",
+            "status": "archived_frames",
             "tags": []
           },
           {

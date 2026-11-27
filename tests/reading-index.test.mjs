@@ -88,7 +88,7 @@ test('the selected river-to-logo reference keeps all dimensions, evidence and un
   assert.equal(annotation.source.start, c.start);
   assert.equal(annotation.source.end, c.end);
   assert.deepEqual(annotation.dimensions.map(d => d.key), VISUAL_DIMENSIONS.map(([key]) => key));
-  assert.equal(annotation.dimensions.find(d => d.key === 'subjects').status, 'not_applicable');
+  assert.equal(annotation.dimensions.find(d => d.key === 'subjects').status, 'archived_frames');
   assert.equal(annotation.dimensions.find(d => d.key === 'aesthetic').status, 'interpretation');
   assert.ok(annotation.evidenceFrames.every(f => f.time >= c.start && f.time < c.end));
   assert.match(annotation.evidenceBasis, /没有重新连续播放/);

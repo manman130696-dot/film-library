@@ -35,8 +35,12 @@ jobs:
       - name: Prepare test browser
         run: npx playwright install --with-deps chromium
       - name: Check desktop and mobile behavior
+        if: github.ref != 'refs/heads/codex/visual-reference'
         run: node .github/scripts/check_categories.cjs
 
+      - name: Check visual reference archive
+        if: github.ref == 'refs/heads/codex/visual-reference'
+        run: node .github/scripts/check_visual_reference.cjs
       - uses: actions/upload-artifact@v4
         if: always()
         with:
