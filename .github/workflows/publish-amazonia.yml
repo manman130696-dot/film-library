@@ -2,7 +2,7 @@ name: Publish approved Amazonia film reference
 on:
   push:
     branches: [main]
-    paths: ['reports/amazonia/upload-parts/**', '.github/scripts/check_palettes.cjs', 'entries/amazonia.json']
+    paths: ['reports/amazonia/upload-parts/**', '.github/scripts/check_palettes.cjs', 'entries/amazonia.json', '.github/workflows/publish-amazonia.yml']
 permissions:
   contents: write
 concurrency:
@@ -32,7 +32,7 @@ jobs:
               members = tf.getmembers()
               assert len(members) == len(m['files']) and {x.name for x in members} == set(m['files'])
               assert all(x.isfile() and not Path(x.name).is_absolute() and '..' not in Path(x.name).parts for x in members)
-              tf.extractall('.',members=[x for x in members if x.name not in ['.github/scripts/check_palettes.cjs', 'entries/amazonia.json'], 'entries/amazonia.json'],filter='data')
+              tf.extractall('.',members=[x for x in members if x.name not in ['.github/scripts/check_palettes.cjs', 'entries/amazonia.json']],filter='data')
           PY
       - uses: actions/setup-node@v4
         with:
