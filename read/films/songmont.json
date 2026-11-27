@@ -1,0 +1,530 @@
+{
+  "id": "songmont",
+  "title": "Songmont",
+  "summary": "它的美感来自三个层面同时成立：人物与环境有自然的小动作，摄影把材料和光拍得可触摸，剪辑再用有限的版式把不同影像编成一本可翻阅的册子。",
+  "subtitle": "摄影、组接与边框美学",
+  "categories": [
+    "商业与音乐影像",
+    "审美短片"
+  ],
+  "tags": [
+    "花字",
+    "留白",
+    "人物抠像",
+    "版式",
+    "摄影"
+  ],
+  "preference": "喜欢截图对应的花字、画面组合、结构与留白；不扩大为喜欢每个单独元素。",
+  "duration": 134.334334,
+  "preview_duration": 10,
+  "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=songmont",
+  "report_url": null,
+  "preview_url": null,
+  "preview_access": "existing_library_viewer",
+  "poster_url": "https://manman130696-dot.github.io/film-library/read/images/7caa560b475a46dda1675bbc.svg",
+  "details_json": "https://manman130696-dot.github.io/film-library/read/films/songmont.json",
+  "details_html": "https://manman130696-dot.github.io/film-library/read/films/songmont.html",
+  "cases": [
+    {
+      "id": "songmont-palette",
+      "videoId": "songmont",
+      "kind": "palette",
+      "title": "配色参考｜苔绿、卡其与皮革棕",
+      "tags": [
+        "配色参考",
+        "包装配色",
+        "B镜"
+      ],
+      "start": 1.968635,
+      "end": 4.069536,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/songmont.html#songmont-palette",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=songmont&case=songmont-palette",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/67ea177f77f996d41eef4385.svg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "低饱和自然色与大块留白，让服装、皮革和人物保持同一气质。",
+        "typography": "背景 #F1F0E8；主标题 #697D4A；主体 #8E866C；文字 #30332C / 背景 #EDEDE5；辅助底色 #A5A393；主体 #8E7D5B；强调 #4C382A；文字 #292D28",
+        "motion": "本条整理配色；动作方法参照各组对应的原包装案例。",
+        "why": "低饱和自然色与大块留白，让服装、皮革和人物保持同一气质。"
+      },
+      "adaptation_suggestion": "依据已归档画面的配色整理；HEX为近似参考色，比例为新作设计建议，均非原片测量或品牌标准。仅视觉，不含声音设计。\n\n苔绿标题＋浅色留白\n对标：松树：有棱角的绿色大字（1.968635–4.069536秒）\n近似参考色：背景 #F1F0E8（暖白留白）；主标题 #697D4A（苔绿大字）；主体 #8E866C（卡其衣物）；文字 #30332C（深灰说明）\n建议暖白65%、卡其20%、苔绿10%、深灰5%。\nB镜用法：用于人物气质、品牌关键词B镜；让标题承担颜色，人物画面保留自然肤色。\n制作提示词：暖白编辑版式，卡其人物剪影与苔绿大字叠放，深灰小字只放辅助信息；标题缓入并停住，人物轮廓保持完整。\n\n卡其＋灰橄榄＋深皮革棕\n对标：蒋奇明：名字是两个人物图层之间的竖轴（19.119119–21.42022秒）\n近似参考色：背景 #EDEDE5（暖白边框）；辅助底色 #A5A393（灰橄榄拼贴底）；主体 #8E7D5B（卡其标题与衣物）；强调 #4C382A（深皮革棕）；文字 #292D28（深色小字）\n建议暖白35%、灰橄榄30%、卡其25%、深棕与小字共10%。\nB镜用法：用于穿搭拆解、人物档案B镜；同色系分层，强调包袋时才加深棕。\n制作提示词：白色编辑页边距，灰橄榄背景，卡其人物双层拼贴，中央竖排姓名，深棕包袋作为小面积视觉锚点；用深浅而非新增亮色区分层级。",
+      "palette": {
+        "note": "依据已归档画面的配色整理；HEX为近似参考色，比例为新作设计建议，均非原片测量或品牌标准。仅视觉，不含声音设计。",
+        "groups": [
+          {
+            "name": "苔绿标题＋浅色留白",
+            "sourceTitle": "松树：有棱角的绿色大字",
+            "observation": "绿色大字是可复用的视觉锚点，浅底与深色人物保持层级。",
+            "colors": [
+              {
+                "role": "背景",
+                "hex": "#F1F0E8",
+                "use": "暖白留白"
+              },
+              {
+                "role": "主标题",
+                "hex": "#697D4A",
+                "use": "苔绿大字"
+              },
+              {
+                "role": "主体",
+                "hex": "#8E866C",
+                "use": "卡其衣物"
+              },
+              {
+                "role": "文字",
+                "hex": "#30332C",
+                "use": "深灰说明"
+              }
+            ],
+            "proportions": "建议暖白65%、卡其20%、苔绿10%、深灰5%。",
+            "broll": "用于人物气质、品牌关键词B镜；让标题承担颜色，人物画面保留自然肤色。",
+            "prompt": "暖白编辑版式，卡其人物剪影与苔绿大字叠放，深灰小字只放辅助信息；标题缓入并停住，人物轮廓保持完整。",
+            "sourceCaseId": "SO01",
+            "image": "https://manman130696-dot.github.io/film-library/read/images/67ea177f77f996d41eef4385.svg",
+            "start": 1.968635,
+            "end": 4.069536,
+            "preview_covers_range": true,
+            "proportions_status": "existing_adaptation_suggestion",
+            "prompt_status": "existing_adaptation_suggestion"
+          },
+          {
+            "name": "卡其＋灰橄榄＋深皮革棕",
+            "sourceTitle": "蒋奇明：名字是两个人物图层之间的竖轴",
+            "observation": "卡其外套、灰橄榄背景和深棕包袋接近同一自然色系；白边降低画面拥挤。",
+            "colors": [
+              {
+                "role": "背景",
+                "hex": "#EDEDE5",
+                "use": "暖白边框"
+              },
+              {
+                "role": "辅助底色",
+                "hex": "#A5A393",
+                "use": "灰橄榄拼贴底"
+              },
+              {
+                "role": "主体",
+                "hex": "#8E7D5B",
+                "use": "卡其标题与衣物"
+              },
+              {
+                "role": "强调",
+                "hex": "#4C382A",
+                "use": "深皮革棕"
+              },
+              {
+                "role": "文字",
+                "hex": "#292D28",
+                "use": "深色小字"
+              }
+            ],
+            "proportions": "建议暖白35%、灰橄榄30%、卡其25%、深棕与小字共10%。",
+            "broll": "用于穿搭拆解、人物档案B镜；同色系分层，强调包袋时才加深棕。",
+            "prompt": "白色编辑页边距，灰橄榄背景，卡其人物双层拼贴，中央竖排姓名，深棕包袋作为小面积视觉锚点；用深浅而非新增亮色区分层级。",
+            "sourceCaseId": "SO02",
+            "image": "https://manman130696-dot.github.io/film-library/read/images/281a45a58b321880a2eb9481.svg",
+            "start": 19.119119,
+            "end": 21.42022,
+            "preview_covers_range": false,
+            "proportions_status": "existing_adaptation_suggestion",
+            "prompt_status": "existing_adaptation_suggestion"
+          }
+        ]
+      },
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "SO02",
+      "title": "蒋奇明：名字是两个人物图层之间的竖轴",
+      "status": "用户明确喜欢此组合",
+      "userQuote": "这种的花字专项，画面的组合，结构和留白，我很喜欢，我觉得很有美感，",
+      "evidenceBasis": "原片代表帧、花字加密采样与已核对的连续帧；具体证据见原报告",
+      "videoId": "songmont",
+      "tags": [
+        "花字",
+        "人物组合",
+        "留白"
+      ],
+      "start": 19.119119,
+      "end": 21.42022,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/songmont.html#SO02",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=songmont&case=SO02",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/281a45a58b321880a2eb9481.svg",
+      "preview_covers_range": false,
+      "existing_record": {
+        "structure": "名字位于中央人像右缘与人物抠像左缘之间，纵向连接脸、外套和包；人物抠像越出原来的图片边界。",
+        "typography": "三字纵排，卡其棕填色呼应外套和包。厚笔画、锐角字腔、浅色柔影，与绿色松树属于相近的造型语言。",
+        "motion": "约19.1秒文字从压缩、部分显露的状态展开为三字竖排；约19.6—19.8秒人物抠像从右侧进入；约20.2秒左侧底图换为看包的状态，名字和右侧剪影继续保持。",
+        "why": "人名参与搭版，既介绍人物，也把局部脸与完整穿搭连接起来。它压到服装层而让出面部，保住人物识读。"
+      },
+      "adaptation_suggestion": "",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "SO01",
+      "title": "松树：有棱角的绿色大字",
+      "status": "分析者建议参考",
+      "userQuote": "",
+      "evidenceBasis": "原片代表帧、花字加密采样与已核对的连续帧；具体证据见原报告",
+      "videoId": "songmont",
+      "tags": [
+        "花字",
+        "图文组合",
+        "留白"
+      ],
+      "start": 1.968635,
+      "end": 4.069536,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/songmont.html#SO01",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=songmont&case=SO01",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/67ea177f77f996d41eef4385.svg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "文字在左下，人物面部在右上。它与细长树干形成粗细对比，眼睛和脸仍可读。",
+        "typography": "笔画厚，字面紧凑，斜切和三角形空隙明显；绿色实心字的右下缘可见浅色柔影。字面不是叶片纹理，植物感主要由颜色和所指内容建立。",
+        "motion": "约1.97—2.30秒，绿色窄片先出现，字面逐步翻开变宽；伞下画面切到树林人像时文字继续展开，随后跨下一机位保持。动作有翻面观感，具体三维旋转或二维形变实现未确认。",
+        "why": "一个名词既成为叙事关键词，也成为构图的大色块。包装跨切镜连续，使几个人物细节被收进同一个主题。"
+      },
+      "adaptation_suggestion": "",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "SO03",
+      "title": "松系穿搭：给群像一块稳定的标题",
+      "status": "分析者建议参考",
+      "userQuote": "",
+      "evidenceBasis": "原片代表帧、花字加密采样与已核对的连续帧；具体证据见原报告",
+      "videoId": "songmont",
+      "tags": [
+        "花字",
+        "图文组合",
+        "留白"
+      ],
+      "start": 32.132132,
+      "end": 33.732533000000004,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/songmont.html#SO03",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=songmont&case=SO03",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/ba0127b5ef7f5bb225200bd3.svg",
+      "preview_covers_range": false,
+      "existing_record": {
+        "structure": "标题横放在群像上方，周围人物的举手与目光、器物形成活跃轮廓；大字把分散的人物重新聚合。",
+        "typography": "四字用深蓝大面积填色，字形粗重且有斜切缺口，浅色外沿把字从较暗的门窗背景中分出来。",
+        "motion": "群像由前一肖像叠合后出现，大标题随后到位并维持；本次未对该标题的每个入场源帧单独标定。",
+        "why": "群体负责丰富，标题负责稳定；深蓝又与多位人物的蓝衣相呼应。较大的字重在多人画面中仍有明确层级。"
+      },
+      "adaptation_suggestion": "",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "SO04",
+      "title": "风生造物：放在白边里的四字竖排",
+      "status": "分析者建议参考",
+      "userQuote": "",
+      "evidenceBasis": "原片代表帧、花字加密采样与已核对的连续帧；具体证据见原报告",
+      "videoId": "songmont",
+      "tags": [
+        "花字",
+        "图文组合",
+        "留白"
+      ],
+      "start": 40.674007,
+      "end": 42.7,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/songmont.html#SO04",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=songmont&case=SO04",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/d1bf5bbb297f0d1f5dd4ad96.svg",
+      "preview_covers_range": false,
+      "existing_record": {
+        "structure": "大字放进左侧白区，旁边细小竖排英文是低一级纹理，中部竖幅留给人物脸和道具。左下角常驻标识、字幕与物字下部相接，空间略紧。",
+        "typography": "深蓝黑实心字，笔画粗、字内三角空隙醒目。白底上字的轮廓已经清晰，浅色边缘不像复杂实拍背景上那样显眼。",
+        "motion": "本段在人物中景转到面部近景时，左侧标题保持，形成稳定的版面锚点；标题自身完整入场轨迹没有单独逐帧校定。",
+        "why": "花字可以利用边框产生的空间，人物靠近镜头时仍能保持标题位置。大字、微型英文和人脸形成三个清楚尺度。"
+      },
+      "adaptation_suggestion": "",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "SO05",
+      "title": "三章标题：同一字形与动作，随材料换色",
+      "status": "分析者建议参考",
+      "userQuote": "",
+      "evidenceBasis": "原片代表帧、花字加密采样与已核对的连续帧；具体证据见原报告",
+      "videoId": "songmont",
+      "tags": [
+        "花字",
+        "图文组合",
+        "留白"
+      ],
+      "start": 44.177511,
+      "end": 81.313447,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/songmont.html#SO05",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=songmont&case=SO05",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/5c38ceb71aa3082ad1eabe69.svg",
+      "preview_covers_range": false,
+      "existing_record": {
+        "structure": "标题横穿空间中部，底层仍可看见桌、木格、裁片墙等本章关键物；小字幕在底部另承担说明。",
+        "typography": "首章用灰绿，后两章用红棕；统一的厚字面、三角切口与浅色柔影维持连续性。长句被组织为一整条横向字带。",
+        "motion": "首章约44.18—44.38秒、第三章约80.11—80.31秒，文字先呈很薄的横条，再向完整字面展开并停稳。第二章已在粗白格线和光带交接中显露，随后转场层退出。",
+        "why": "段落边界由稳定重复的动作被识别，颜色取自本章背景材料。横向大字承担章节重音，停留供阅读。"
+      },
+      "adaptation_suggestion": "",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "SO06",
+      "title": "百纳包：名字、放大圆图与箭头组成一句标注",
+      "status": "分析者建议参考",
+      "userQuote": "",
+      "evidenceBasis": "原片代表帧、花字加密采样与已核对的连续帧；具体证据见原报告",
+      "videoId": "songmont",
+      "tags": [
+        "花字",
+        "图文组合",
+        "留白"
+      ],
+      "start": 59.492826,
+      "end": 60.95976,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/songmont.html#SO06",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=songmont&case=SO06",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/1c5293c70fa9cd9984e4d12e.svg",
+      "preview_covers_range": false,
+      "existing_record": {
+        "structure": "圆形放大图在左，手绘白箭头从身侧弯向图中包，包名连接圆图和人物躯干；脸留在字的上方。",
+        "typography": "米灰棕字配浅色柔影，颜色与浅外套、浅色包相近；厚实的几何字形延续整片系统。",
+        "motion": "约59.49—59.56秒圆图和箭头显现；约59.63—59.76秒包名由薄横片展开并变得完整可读。信息按放大图、指向、名称的顺序聚合。",
+        "why": "花字负责指认具体产品，圆图补足细节，箭头说明正在比较的位置。三者有信息分工。"
+      },
+      "adaptation_suggestion": "",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "SO07",
+      "title": "屋檐包与月弯包：横排、竖排随构图变化",
+      "status": "分析者建议参考",
+      "userQuote": "",
+      "evidenceBasis": "原片代表帧、花字加密采样与已核对的连续帧；具体证据见原报告",
+      "videoId": "songmont",
+      "tags": [
+        "花字",
+        "图文组合",
+        "留白"
+      ],
+      "start": 71.071071,
+      "end": 74.006139,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/songmont.html#SO07",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=songmont&case=SO07",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/9629563ae56ded1fc89eab6d.svg",
+      "preview_covers_range": false,
+      "existing_record": {
+        "structure": "屋檐包横跨三联画下中部；月弯包竖排在双幅接缝附近，左边弧形包、右边圆形装置分别保留识读区域。",
+        "typography": "屋檐包是暗紫棕字，月弯包近黑，两者同样有几何切口和浅色外缘；这种切口和花白边不能直接证明用了哪款字体或什么插件。",
+        "motion": "约71.07—71.34秒，屋檐包从淡、重影较多的轮廓转为完整实心字面；72.806秒换到月弯包双幅时，竖排字直接随新构图出现并保持。",
+        "why": "同一套字形通过排向、颜色和位置适应新图片；包名把建筑、圆弧这些形态关系说清楚。"
+      },
+      "adaptation_suggestion": "",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "SO08",
+      "title": "78块裁片：数字和汉字保持同一重量",
+      "status": "分析者建议参考",
+      "userQuote": "",
+      "evidenceBasis": "原片代表帧、花字加密采样与已核对的连续帧；具体证据见原报告",
+      "videoId": "songmont",
+      "tags": [
+        "花字",
+        "图文组合",
+        "留白"
+      ],
+      "start": 88.121455,
+      "end": 89.52165500000001,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/songmont.html#SO08",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=songmont&case=SO08",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/ad0b1eab6d83fb60ba45a6ae.svg",
+      "preview_covers_range": false,
+      "existing_record": {
+        "structure": "大字位于上部，黑色工具柄在下方形成前景竖向，裁片图案作为信息背景。",
+        "typography": "78是圆弧较饱满的粗数字，后接有角、有切口的汉字；共同采用红棕填色与浅色柔影。",
+        "motion": "约88.12秒先见压得很薄的字面，88.19—88.32秒展开为完整一行，此后停留。字的高度变化明显，不能只用横向滑入概括。",
+        "why": "数字最先抓住目光，汉字说明它是什么；文字风格维持统一，工艺数据因此进入片中视觉系统。数字真实性未独立核实。"
+      },
+      "adaptation_suggestion": "",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "SO09",
+      "title": "260次设计稿：窄图与宽字交叉",
+      "status": "分析者建议参考",
+      "userQuote": "",
+      "evidenceBasis": "原片代表帧、花字加密采样与已核对的连续帧；具体证据见原报告",
+      "videoId": "songmont",
+      "tags": [
+        "花字",
+        "图文组合",
+        "留白"
+      ],
+      "start": 90.156823,
+      "end": 91.623757,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/songmont.html#SO09",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=songmont&case=SO09",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/12c028b008929013c2d0bb5b.svg",
+      "preview_covers_range": false,
+      "existing_record": {
+        "structure": "绿色展柜窄而高，整行标题较宽，延伸到左右白边；横字与竖图方向不同。",
+        "typography": "红棕色粗数字与几何汉字并排，数字的圆形空隙与字内锐角形成细节对照。",
+        "motion": "约90.16—90.42秒，字形从窄片状、局部可读逐步展开成完整字面，最后横向落定。不是数字从0增长到260的计数动画。",
+        "why": "图片外的白区为长信息提供空间，标题与柜内产品之间保留主次。片中数字仅作原片陈述记录。"
+      },
+      "adaptation_suggestion": "",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "SO10",
+      "title": "50与10：两行反向进入，先主后次",
+      "status": "分析者建议参考",
+      "userQuote": "",
+      "evidenceBasis": "原片代表帧、花字加密采样与已核对的连续帧；具体证据见原报告",
+      "videoId": "songmont",
+      "tags": [
+        "花字",
+        "图文组合",
+        "留白"
+      ],
+      "start": 91.891892,
+      "end": 94.893694,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/songmont.html#SO10",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=songmont&case=SO10",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/4a178f296fc06227dc3e36b8.svg",
+      "preview_covers_range": false,
+      "existing_record": {
+        "structure": "设计图、尺子与木桌构成斜向背景，文字最终平放成两行，形成与背景角度不同的阅读层。",
+        "typography": "两行都用红棕字和浅色柔影；50这一行更大，10这一行较小，靠字级而非多种颜色分主次。",
+        "motion": "第一行约91.89秒从右侧进入，92.09—92.56秒带横向拖带向左运动并逐渐清楚；第二行约93.29—93.69秒从左侧进入并向右落定。第一行保持，第二行补入。",
+        "why": "反向交接提供一次节奏变化，分两次读比两行同时出现清楚；这一段连续大字也明显提高说明密度。数字、次数未独立核实。"
+      },
+      "adaptation_suggestion": "",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "SO11",
+      "title": "大肖像＋坐姿整身＋中央小图",
+      "status": "分析者建议参考",
+      "userQuote": "",
+      "evidenceBasis": "既有分析与本次截图复核",
+      "videoId": "songmont",
+      "tags": [
+        "人物组合",
+        "拼贴",
+        "留白"
+      ],
+      "start": 13.14648,
+      "end": 17.717718,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/songmont.html#SO11",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=songmont&case=SO11",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/50f2c32738579d520beff23f.svg",
+      "preview_covers_range": false,
+      "existing_record": {
+        "structure": "左侧较近肖像看脸，右侧坐姿图交代衣服与包，中央小图补尺度；三张图在相同底色中分大小。",
+        "typography": "沿用有限色域与底部小字幕；本案例重点为图片关系。",
+        "motion": "近肖像先进入，坐姿图随后补入，中央小图最后出现；稳定后保留观看时间。",
+        "why": "同一人物的不同观看尺度各有任务，图多但阅读顺序清楚。"
+      },
+      "adaptation_suggestion": "",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "SO12",
+      "title": "三张展览图卷开＋白色手绘框",
+      "status": "分析者建议参考",
+      "userQuote": "",
+      "evidenceBasis": "既有分析与本次截图复核",
+      "videoId": "songmont",
+      "tags": [
+        "转场",
+        "拼贴",
+        "边框"
+      ],
+      "start": 41.908575,
+      "end": 43.910577,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/songmont.html#SO12",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=songmont&case=SO12",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/44cbb40e741c1e3febd7adfb.svg",
+      "preview_covers_range": false,
+      "existing_record": {
+        "structure": "白纸底上三张图横排，细节、结构和工坊互补；粗白线随后围住这一组。",
+        "typography": "沿用有限色域与底部小字幕；本案例重点为图片关系。",
+        "motion": "图卡卷开落定，白线斜穿后形成外框，尾部光带交给下一章。",
+        "why": "目录内容先出现，框再收束，转场与翻阅展册的内容相连。"
+      },
+      "adaptation_suggestion": "",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "SO13",
+      "title": "翻页照片组：稳定外框中的人物接力",
+      "status": "分析者建议参考",
+      "userQuote": "",
+      "evidenceBasis": "既有分析与本次截图复核",
+      "videoId": "songmont",
+      "tags": [
+        "转场",
+        "边框",
+        "人物组合"
+      ],
+      "start": 49.783116,
+      "end": 55.321989,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/songmont.html#SO13",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=songmont&case=SO13",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/d5a0c11ec51b481d2483e0d5.svg",
+      "preview_covers_range": false,
+      "existing_record": {
+        "structure": "白边和图片区域保持，人物照片与现场画面轮换；页角负责跨越不同背景。",
+        "typography": "沿用有限色域与底部小字幕；本案例重点为图片关系。",
+        "motion": "新页卷入，覆盖旧图后显出下一张；页角的运动提供连贯边缘。",
+        "why": "多种来源形态被组织成同一本相册，统一来自版式与交接。"
+      },
+      "adaptation_suggestion": "",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "SO14",
+      "title": "三联画：让动作和轮廓成为节奏",
+      "status": "分析者建议参考",
+      "userQuote": "",
+      "evidenceBasis": "既有分析与本次截图复核",
+      "videoId": "songmont",
+      "tags": [
+        "分屏",
+        "图文组合"
+      ],
+      "start": 8.908909,
+      "end": 10.910911,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/songmont.html#SO14",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=songmont&case=SO14",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/d6efa27e80e5cc030e5a42f9.svg",
+      "preview_covers_range": false,
+      "existing_record": {
+        "structure": "同一人物画面等宽重复三次，竖向分隔与展墙、人物轮廓形成重复。",
+        "typography": "沿用有限色域与底部小字幕；本案例重点为图片关系。",
+        "motion": "底层人物继续抬头、转眼和举手，三个窗口共同变化。",
+        "why": "复制加强轮廓与节律；它主要增加形式感，信息增量较少。"
+      },
+      "adaptation_suggestion": "",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    }
+  ]
+}

@@ -1,0 +1,2661 @@
+{
+  "schema_version": 1,
+  "title": "满的片库 · 视觉参考读取入口",
+  "updated_at": "2026-11-27",
+  "source_digest": "42012ba489558a7f2f4fac83b186ab9725a7a97b5418ee3cb5e88a983db5aa08",
+  "source_files": {
+    "archive-loader.js": "08610896017a66893327f18447d91cb5baa6ff3a3f1f3fc3d71ec00b9995e192",
+    "entries/amazonia.json": "6b87a6f5ae7474135ec9522aba599ce10ce9adc965f82a430169a5d637bdcb84",
+    "entries/casetify.json": "d241e1c6adfeca6bb9ddc3247b15795a89100d5a8d89172024689a05f0fd4b35",
+    "entries/cityride.json": "a49fd1f76e24784f19ac58f5dfe83a238afde9000be5532c113c5b253de62c8b",
+    "entries/cognition-gap.json": "ad1173a95df5d4bbc7dc16e4431d6721c9c54f77128c2feb40ca7582a17fc415",
+    "entries/five-digit-rhythm.json": "1330943d489d67a21fee8a1a0deea8a6b3edcd1d366feae7c0d779254a5a4b45",
+    "entries/palette-references.json": "df04e09cb317ea15f7dd12c2547a79e761096ecf02f06bdb5d4bdab5f32e2d1a",
+    "film-library-public/index.html": "94a77a0757fb8f212ffd73c69df703d4c10acc5bb0c963aef8d4bac10de7ff17",
+    "style-references/references.json": "12dff26d5b321a309a2f6ec8670f56232c0f70be92a97dbed9958fba2c53d9e7"
+  },
+  "scope": "Existing film-library records and reference images; no new visual analysis or 12-dimension annotation backfill.",
+  "usage": [
+    "先读本索引，根据标题、标签和已有描述选择影片，再读取对应详情。",
+    "原片题材不必与分镜相同；对标视觉风格、包装、动效、审美和配色。",
+    "existing_record 是既有分析，未经本次重新审看；adaptation_suggestion 是新作建议。",
+    "visual_annotations 为 null 表示尚未补齐统一视觉标注，不表示没有视觉效果。",
+    "preview_covers_range 为 false 时仍可看截图和记录，但不能声称站内视频覆盖该段。",
+    "技巧资源中的 B 镜动作属于新作建议，不可当作原片动效证据。"
+  ],
+  "film_count": 17,
+  "case_count": 152,
+  "resource_count": 1,
+  "films": [
+    {
+      "id": "amazonia",
+      "title": "巴西亚马逊地区｜地域品牌审美参考",
+      "summary": "53.47秒文旅品牌设计展示。河道轮廓生成字形，再延展为插画海报、实景地名与多材质包装。已整理38个镜头与展示段、10组B镜/包装、5组配色、45个视觉时间窗和9份提示词。",
+      "subtitle": "河流字形 · 地域插画 · B镜与包装配色",
+      "categories": [
+        "审美短片"
+      ],
+      "tags": [
+        "B镜",
+        "镜头包装",
+        "配色参考",
+        "流动字形",
+        "品牌视觉"
+      ],
+      "preference": "用户原话：“这条视频是审美短片，同时看他的b镜以及包装设计，还有配色”。按审美短片收录；明确参考B镜、包装设计、配色。未将本次需求推广为用户喜欢全部元素或认可片中宣传事实。",
+      "duration": 53.466667,
+      "preview_duration": 53.466667,
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=amazonia",
+      "report_url": "https://manman130696-dot.github.io/film-library/reports/amazonia/shots-report.html",
+      "preview_url": "https://manman130696-dot.github.io/film-library/reports/amazonia/preview-web.mp4",
+      "preview_access": "direct_file",
+      "poster_url": "https://manman130696-dot.github.io/film-library/reports/amazonia/frames/S02a.jpg",
+      "details_json": "https://manman130696-dot.github.io/film-library/read/films/amazonia.json",
+      "details_html": "https://manman130696-dot.github.io/film-library/read/films/amazonia.html",
+      "case_count": 11,
+      "cases": [
+        {
+          "id": "amazonia-palette",
+          "title": "配色参考｜深绿浅黄与高饱和色组",
+          "tags": [
+            "配色参考",
+            "包装配色",
+            "B镜"
+          ],
+          "start": 0,
+          "end": 7.266667,
+          "kind": "palette",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/amazonia.html#amazonia-palette",
+          "search_excerpt": "深绿与奶油黄作为共同锚色；红黄、黄蓝、黄紫、紫底浅黄分别服务不同段落。"
+        },
+        {
+          "id": "amazonia-broll-01",
+          "title": "河道描线 → 抽象字标",
+          "tags": [
+            "B镜",
+            "镜头包装",
+            "从来源到概念"
+          ],
+          "start": 0,
+          "end": 7.266667,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/amazonia.html#amazonia-broll-01",
+          "search_excerpt": "卫星图中的粉褐色河道占据前景，奶油黄线沿河弯逐渐显露；画面缩小后露出多张河道图，轮廓共同组成 Amazonia 字样；图像底板退去，留下深绿底上的文字。 流动字形作为共同识别；粗体文字用于地名、标题和名单；小字为来源与注释。中文烧录字幕单独理解。"
+        },
+        {
+          "id": "amazonia-broll-02",
+          "title": "少量档案 → 大量网格",
+          "tags": [
+            "B镜",
+            "镜头包装",
+            "资料量可视化"
+          ],
+          "start": 8.2,
+          "end": 12.033333,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/amazonia.html#amazonia-broll-02",
+          "search_excerpt": "奶油纸色底上，两到三张直幅卫星图片并列；卡片周围有细线、字母和地名小标注，逐步展开更多样本。\n河流卫星图片铺成密集矩阵，每格保留纸色边距与小字；整体取景继续缩小或平移，末段网格位置快速变化后切入红底字形。 流动字形作为共同识别；粗体文字用于地名、标题和名单；小字为来源与注释。中文烧录字幕单独理解。"
+        },
+        {
+          "id": "amazonia-broll-03",
+          "title": "真实图与抽象线并排",
+          "tags": [
+            "B镜",
+            "镜头包装",
+            "形状对应"
+          ],
+          "start": 15.633333,
+          "end": 19.8,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/amazonia.html#amazonia-broll-03",
+          "search_excerpt": "左侧为 Madeira 河的卫星图，右侧为黄底蓝色轮廓；从地形全图转到左右分屏，河道与抽象 A 形建立对应。\n左侧奶油色河流在深绿林地上分叉，右侧深青底上出现橙色竖向 B 形轮廓，两部分宽度接近。\n左侧深色弯曲河道切入，右侧红底黑色线条模仿其转折；地名、字母及角落标注维持资料卡风格。 流动字形作为共同识别；粗体文字用于地名、标题和名单；小字为来源与注释。中文"
+        },
+        {
+          "id": "amazonia-broll-04",
+          "title": "固定界面中的局部字形变化",
+          "tags": [
+            "B镜",
+            "镜头包装",
+            "功能演示"
+          ],
+          "start": 19.8,
+          "end": 24.266667,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/amazonia.html#amazonia-broll-04",
+          "search_excerpt": "纸色外框和棕色浏览器顶栏包住绿色画布；起始为黄色横线，随后形成 Pará，多个字形轮廓局部改变，下方工具条保持。 流动字形作为共同识别；粗体文字用于地名、标题和名单；小字为来源与注释。中文烧录字幕单独理解。"
+        },
+        {
+          "id": "amazonia-broll-05",
+          "title": "高亮名单配代表插画",
+          "tags": [
+            "B镜",
+            "镜头包装",
+            "人物与作品"
+          ],
+          "start": 24.266667,
+          "end": 26.8,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/amazonia.html#amazonia-broll-05",
+          "search_excerpt": "棕底排着多行粗体艺术家姓名，CRISTO 被浅黄高亮，蓝绿衣装的舞蹈人物插画位于名字上方偏右。\n背景换为深绿，WINNY TAPAJÓS 成为亮黄色重点；蝴蝶样纹饰与长条动物图案分置名单周围。\n紫色背景上，多行姓名继续排列，MALU MENEZES 被黄色突出，一只红色鹦鹉插画位于文字上方。 流动字形作为共同识别；粗体文字用于地名、标题和名单；小字为来源与注"
+        },
+        {
+          "id": "amazonia-broll-06",
+          "title": "三联海报展示同一系统",
+          "tags": [
+            "B镜",
+            "镜头包装",
+            "系列展示"
+          ],
+          "start": 26.8,
+          "end": 30.966667,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/amazonia.html#amazonia-broll-06",
+          "search_excerpt": "棕底三张直幅海报并排：左侧红底鱼形与叠字，中间绿底船与黄色粗字，右侧暖棕底头像与大字；顶端标有 CRISTO。\n左为黄绿底植物图，中央绿底粉色建筑，右为蓝底鱼形纹饰；顶部标有 WINNY TAPAJÓS，文字在图形间占据大块面积。\n左蓝底粉色架高房屋，中央黄底紫色食物碗和粗体叠字，右紫底粉色植物果实；顶部可读 MALU MENEZES。 流动字形作为共同识别"
+        },
+        {
+          "id": "amazonia-broll-07",
+          "title": "实景 + 地名粗字 + 流动线",
+          "tags": [
+            "B镜",
+            "镜头包装",
+            "地域与情绪"
+          ],
+          "start": 31.8,
+          "end": 34.933333,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/amazonia.html#amazonia-broll-07",
+          "search_excerpt": "粉紫暮色下的河湾横向展开，浅黄粗体 OIAPOQUE 在中央，粉色流动手写线穿过文字与背景。\n橙色夕阳在天际线上方，水面反光和黑色城市剪影构成背景；中央浅黄 BELÉM 与橙黄曲线叠加。\n蓝天和桌状山体占据上半画面，草地在前景；浅黄 RORAIMA 粗字居中，红色曲线横穿词形。 流动字形作为共同识别；粗体文字用于地名、标题和名单；小字为来源与注释。中文烧录字"
+        },
+        {
+          "id": "amazonia-broll-08",
+          "title": "标志位置匹配的产品快切",
+          "tags": [
+            "B镜",
+            "镜头包装",
+            "一套系统多种应用"
+          ],
+          "start": 34.933333,
+          "end": 37.366667,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/amazonia.html#amazonia-broll-08",
+          "search_excerpt": "深绿色底上，小号粗体 MADE OF 与较大的奶油黄 Amazonia 流动字居中叠排，大面积留白。\n一只手握着浅黄饮料包装，中央橙色矩形标签写有 MADE OF Amazonia，暖光和手指构成真实材质对比。\n紫黑色圆果铺在后方，黄底紫色图案的包装斜置在前；组合字标重复出现。\n橙红针织纹理上缝着白色矩形布标，深绿 MADE OF Amazonia 位于中央"
+        },
+        {
+          "id": "amazonia-broll-09",
+          "title": "多主题主视觉拼贴墙",
+          "tags": [
+            "B镜",
+            "镜头包装",
+            "成果总览"
+          ],
+          "start": 37.366667,
+          "end": 40.033333,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/amazonia.html#amazonia-broll-09",
+          "search_excerpt": "旅游实景、巴西莓、红色眼睛、黄色文案、植物和交通工具海报组成不等大的矩形拼贴；多张海报内部仍有局部变化。 流动字形作为共同识别；粗体文字用于地名、标题和名单；小字为来源与注释。中文烧录字幕单独理解。"
+        },
+        {
+          "id": "amazonia-broll-10",
+          "title": "人物图组 → 风景 → 标志",
+          "tags": [
+            "B镜",
+            "镜头包装",
+            "从人到地域"
+          ],
+          "start": 40.033333,
+          "end": 49.066667,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/amazonia.html#amazonia-broll-10",
+          "search_excerpt": "绿色底上三张人物图卡并置，中间长发人物举紫色衣服，左为浅衣人物，右为眼镜人物；更多人像加入并整体缩小，地名标注展开；随后日落河面占据背景，人物图组退去，奶油黄标志显露，最后过渡回绿色底。 流动字形作为共同识别；粗体文字用于地名、标题和名单；小字为来源与注释。中文烧录字幕单独理解。"
+        }
+      ]
+    },
+    {
+      "id": "five-digit-rhythm",
+      "title": "拳击机挑战｜剪辑节奏参考",
+      "summary": "约77秒的多人拳击机挑战。前面建立玩法，熟悉后用短镜压缩多人尝试；关键挑战重新留出准备、等待、成绩和反应。收录43个画面观察段落，重点参考剪辑结构与节奏。",
+      "subtitle": "重复流程压缩 · 快慢对比 · 结果揭晓与人物反应",
+      "categories": [
+        "Vlog"
+      ],
+      "tags": [
+        "剪辑节奏",
+        "快慢对比",
+        "动作剪辑",
+        "结果揭晓"
+      ],
+      "preference": "用户原话：“这个视频的剪辑节奏很好”。已确认喜欢剪辑节奏；本条不做包装分析，不提供包装提示词，不加入包装与B镜案例。",
+      "duration": 77.177177,
+      "preview_duration": 77.177177,
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=five-digit-rhythm",
+      "report_url": "https://manman130696-dot.github.io/film-library/reports/five-digit-rhythm/online-report.html",
+      "preview_url": "https://manman130696-dot.github.io/film-library/reports/five-digit-rhythm/preview.mp4",
+      "preview_access": "direct_file",
+      "poster_url": "https://manman130696-dot.github.io/film-library/reports/five-digit-rhythm/poster.jpg",
+      "details_json": "https://manman130696-dot.github.io/film-library/read/films/five-digit-rhythm.json",
+      "details_html": "https://manman130696-dot.github.io/film-library/read/films/five-digit-rhythm.html",
+      "case_count": 0,
+      "cases": []
+    },
+    {
+      "id": "casetify",
+      "title": "CASETiFY · 奇想由她，妙趣生花",
+      "summary": "27.57秒创意商业短片。人物头部抠像与花朵呈现奇想，白边照片展开生活切面，再以手机扫过、触屏开花和翻面展示将经历连接到照片手机壳。已整理21个镜头单元、30个制作时间窗、10组包装参考和8份视觉提示词。",
+      "subtitle": "手作拼贴 · 照片收纳 · 翻面揭示 · 10组包装参考",
+      "categories": [
+        "商业与音乐影像",
+        "视觉动效"
+      ],
+      "tags": [
+        "创意短片",
+        "镜头包装",
+        "B镜",
+        "拼贴动效",
+        "照片收纳",
+        "产品揭示"
+      ],
+      "preference": "用户原话：“这个创意短片挺好的”。已确认整体喜欢这条创意短片；手作拼贴、照片收纳等名称为拉片归纳，具体偏好维度未逐项确认。本次明确“不用声音”，只参考画面、镜头、转场与包装方法。",
+      "duration": 27.566667,
+      "preview_duration": 27.566667,
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=casetify",
+      "report_url": "https://manman130696-dot.github.io/film-library/reports/casetify/online-report.html",
+      "preview_url": "https://manman130696-dot.github.io/film-library/reports/casetify/preview.mp4",
+      "preview_access": "direct_file",
+      "poster_url": "https://manman130696-dot.github.io/film-library/reports/casetify/poster.jpg",
+      "details_json": "https://manman130696-dot.github.io/film-library/read/films/casetify.json",
+      "details_html": "https://manman130696-dot.github.io/film-library/read/films/casetify.html",
+      "case_count": 11,
+      "cases": [
+        {
+          "id": "casetify-palette",
+          "title": "配色参考｜奶油白、多色纸花与黄紫反差",
+          "tags": [
+            "配色参考",
+            "包装配色",
+            "B镜"
+          ],
+          "start": 0,
+          "end": 3.7,
+          "kind": "palette",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/casetify.html#casetify-palette",
+          "search_excerpt": "以浅底承托饱和纸花，用软木暖色与黄紫反差让产品成为视觉重点。 背景 #F8F5E9；主体 #006A8A；强调 #E0749D；强调 #E5E63D；文字 #242326 / 背景 #C69538；主体 #E2EB57；辅助 #AAA0C6；文字 #242326；留白 #F5F0DD"
+        },
+        {
+          "id": "casetify-c01",
+          "title": "脑袋开花：让奇想具象化",
+          "tags": [
+            "镜头包装",
+            "B镜",
+            "创意广告",
+            "拼贴动效"
+          ],
+          "start": 0,
+          "end": 3.7,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/casetify.html#casetify-c01",
+          "search_excerpt": "头部在画面中下方，上方留白由小人物和多色花朵逐步占据。 无主要字卡，靠头部表情和花朵颜色建立主次。"
+        },
+        {
+          "id": "casetify-c02",
+          "title": "花形遮罩打开实拍",
+          "tags": [
+            "镜头包装",
+            "B镜",
+            "创意广告",
+            "拼贴动效"
+          ],
+          "start": 3.7,
+          "end": 4.233333,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/casetify.html#casetify-c02",
+          "search_excerpt": "前段的花朵语言接管画框边界，后方揭示真实工作桌。 花形轮廓与白边延续纸片拼贴风格。"
+        },
+        {
+          "id": "casetify-c03",
+          "title": "白边照片快切：展开多面生活",
+          "tags": [
+            "镜头包装",
+            "B镜",
+            "创意广告",
+            "拼贴动效"
+          ],
+          "start": 6.433333,
+          "end": 10.466667,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/casetify.html#casetify-c03",
+          "search_excerpt": "横竖照片交替置于同一软木底，运动、居家与合影轮流出现。 白边、轻微倾斜和暖黄底统一不同来源的照片。"
+        },
+        {
+          "id": "casetify-c04",
+          "title": "照片墙跳步铺开",
+          "tags": [
+            "镜头包装",
+            "B镜",
+            "创意广告",
+            "拼贴动效"
+          ],
+          "start": 10.466667,
+          "end": 14,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/casetify.html#casetify-c04",
+          "search_excerpt": "横向手机在上，白边照片分批组成三行，“每个日常”在下方留白。 黑字白描边、少量彩色细节，字形略有旋转和高低差。"
+        },
+        {
+          "id": "casetify-c05",
+          "title": "手机扫过，照片分批收纳",
+          "tags": [
+            "镜头包装",
+            "B镜",
+            "创意广告",
+            "拼贴动效"
+          ],
+          "start": 14,
+          "end": 16.8,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/casetify.html#casetify-c05",
+          "search_excerpt": "手机由桌面上方被拿起，沿照片行经过；软木纹理保持稳定。 底部“每个日常”交接到上方“都值得被记录”。"
+        },
+        {
+          "id": "casetify-c06",
+          "title": "触屏开花：给操作一个视觉反馈",
+          "tags": [
+            "镜头包装",
+            "B镜",
+            "创意广告",
+            "拼贴动效"
+          ],
+          "start": 17.3,
+          "end": 18.5,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/casetify.html#casetify-c06",
+          "search_excerpt": "持机手在下方支撑，另一手指从边缘接近屏幕，花朵向周边展开。 “从创意中”分散排在手机两侧上方，留出产品与手指区域。"
+        },
+        {
+          "id": "casetify-c07",
+          "title": "翻面揭示照片拼贴壳",
+          "tags": [
+            "镜头包装",
+            "B镜",
+            "创意广告",
+            "拼贴动效"
+          ],
+          "start": 18.5,
+          "end": 19.966667,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/casetify.html#casetify-c07",
+          "search_excerpt": "屏幕与背壳通过同一只手的翻面动作接起来，最后背壳正对镜头。 背壳由密集小照片组成，与前段生活照片呼应。"
+        },
+        {
+          "id": "casetify-c08",
+          "title": "字母珠跳切，完成姓名",
+          "tags": [
+            "镜头包装",
+            "B镜",
+            "创意广告",
+            "拼贴动效"
+          ],
+          "start": 19.966667,
+          "end": 22.266667,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/casetify.html#casetify-c08",
+          "search_excerpt": "黑色编织挂绳在软木上盘绕，彩色方珠成为局部亮点。 蓝A、浅蓝L、粉E、淡黄X沿绳段形成可读字序。"
+        },
+        {
+          "id": "casetify-c09",
+          "title": "产品陈列与错位花字",
+          "tags": [
+            "镜头包装",
+            "B镜",
+            "创意广告",
+            "拼贴动效"
+          ],
+          "start": 22.266667,
+          "end": 23.733333,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/casetify.html#casetify-c09",
+          "search_excerpt": "平板套在上，照片壳在左下，挂绳盘在右下，文字穿插留白。 “探索多元自我”用黑字白边错位排列，避开主要产品图案。"
+        },
+        {
+          "id": "casetify-c10",
+          "title": "回到真人佩戴，完成结果落地",
+          "tags": [
+            "镜头包装",
+            "B镜",
+            "创意广告",
+            "拼贴动效"
+          ],
+          "start": 23.733333,
+          "end": 26.866667,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/casetify.html#casetify-c10",
+          "search_excerpt": "蓝帽白衫人物站在绿黄与粉色块墙前，黑绳斜跨，照片壳在身体一侧。 “即刻出发”接“奇想由她，妙趣生花”，标题让出脸部。"
+        }
+      ]
+    },
+    {
+      "id": "cognition-gap",
+      "title": "父母辈和年轻一代的认知差",
+      "summary": "以灰阶折面人物、建筑与物件拼贴，配合红色重点标签、概念卡、阶段高亮与动态图表解释关系。全片372.9秒，已整理22组包装参考、25份提示词方案和182个检测与修正区间；区间包含复合段，未穷尽全部蒙太奇内部短切点。",
+      "subtitle": "深蓝编辑式拼贴 · 灰阶折面人物 · 22 组包装 B 镜",
+      "categories": [
+        "知识解说",
+        "视觉动效"
+      ],
+      "tags": [
+        "包装风格参考",
+        "B镜",
+        "镜头包装",
+        "动效包装",
+        "编辑式拼贴"
+      ],
+      "preference": "用户原话：“这个动效包装做的很好，可以作为一个包装风格的方向，这种包装风格可以用在b镜里”。已确认：喜欢动效包装，可作为B镜风格方向。深蓝编辑式拼贴、灰阶折面人物等名称是分析归纳，未逐项确认。",
+      "duration": 372.9,
+      "preview_duration": 372.9,
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=cognition-gap",
+      "report_url": "https://manman130696-dot.github.io/film-library/reports/cognition-gap/online-report.html",
+      "preview_url": "https://manman130696-dot.github.io/film-library/reports/cognition-gap/preview.mp4",
+      "preview_access": "direct_file",
+      "poster_url": "https://manman130696-dot.github.io/film-library/reports/cognition-gap/poster.svg",
+      "details_json": "https://manman130696-dot.github.io/film-library/read/films/cognition-gap.json",
+      "details_html": "https://manman130696-dot.github.io/film-library/read/films/cognition-gap.html",
+      "case_count": 22,
+      "cases": [
+        {
+          "id": "cognition-gap-c01",
+          "title": "阵营对比与否定划线",
+          "tags": [
+            "B镜",
+            "镜头包装",
+            "编辑式拼贴",
+            "动效包装"
+          ],
+          "start": 0,
+          "end": 6.7,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/cognition-gap.html#cognition-gap-c01",
+          "search_excerpt": "人物先出现，阵营标签后出现；画面压暗让中心短语接管注意力，红线再划掉短语，最后换成左右对峙。 深蓝底、灰阶折面人物或物件、白色细高衬线感中文，红色用于重点标签；具体字体名称未核实。"
+        },
+        {
+          "id": "cognition-gap-c02",
+          "title": "三枚圆形类比图章",
+          "tags": [
+            "B镜",
+            "镜头包装",
+            "编辑式拼贴",
+            "动效包装"
+          ],
+          "start": 38.066667,
+          "end": 42.9,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/cognition-gap.html#cognition-gap-c02",
+          "search_excerpt": "三个圆形灰阶小场景按先后出现，位置错开，旧元素保留，红色短词对应每张圆图。 深蓝底、灰阶折面人物或物件、白色细高衬线感中文，红色用于重点标签；具体字体名称未核实。"
+        },
+        {
+          "id": "cognition-gap-c03",
+          "title": "暗底实拍上的双行判断",
+          "tags": [
+            "B镜",
+            "镜头包装",
+            "编辑式拼贴",
+            "动效包装"
+          ],
+          "start": 48.266667,
+          "end": 50.9,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/cognition-gap.html#cognition-gap-c03",
+          "search_excerpt": "街头俯拍被压暗，与蓝底融合；红色竖线先作为定位，白色标题分两行加入。 深蓝底、灰阶折面人物或物件、白色细高衬线感中文，红色用于重点标签；具体字体名称未核实。"
+        },
+        {
+          "id": "cognition-gap-c04",
+          "title": "概念来源与人物拼贴",
+          "tags": [
+            "B镜",
+            "镜头包装",
+            "编辑式拼贴",
+            "动效包装"
+          ],
+          "start": 61.566667,
+          "end": 65.8,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/cognition-gap.html#cognition-gap-c04",
+          "search_excerpt": "先大学建筑与来源标题，再让人物图进入；红条横向展开，承担概念的主标题。 深蓝底、灰阶折面人物或物件、白色细高衬线感中文，红色用于重点标签；具体字体名称未核实。"
+        },
+        {
+          "id": "cognition-gap-c05",
+          "title": "图解问题清单",
+          "tags": [
+            "B镜",
+            "镜头包装",
+            "编辑式拼贴",
+            "动效包装"
+          ],
+          "start": 80.033333,
+          "end": 86.533333,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/cognition-gap.html#cognition-gap-c05",
+          "search_excerpt": "城市与道路灰阶拼贴铺底，图形和文字按项累积；红色细横线统一标记。 深蓝底、灰阶折面人物或物件、白色细高衬线感中文，红色用于重点标签；具体字体名称未核实。"
+        },
+        {
+          "id": "cognition-gap-c06",
+          "title": "实拍上的单个关键词",
+          "tags": [
+            "B镜",
+            "镜头包装",
+            "编辑式拼贴",
+            "动效包装"
+          ],
+          "start": 92,
+          "end": 93.533333,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/cognition-gap.html#cognition-gap-c06",
+          "search_excerpt": "工厂背景被压暗，中央半透明红矩形托住白色关键词。 深蓝底、灰阶折面人物或物件、白色细高衬线感中文，红色用于重点标签；具体字体名称未核实。"
+        },
+        {
+          "id": "cognition-gap-c07",
+          "title": "两项结果递进",
+          "tags": [
+            "B镜",
+            "镜头包装",
+            "编辑式拼贴",
+            "动效包装"
+          ],
+          "start": 104.4,
+          "end": 106.9,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/cognition-gap.html#cognition-gap-c07",
+          "search_excerpt": "人物背景压暗后出现两行结果标题，红竖线和蓝横条共同建立层级。 深蓝底、灰阶折面人物或物件、白色细高衬线感中文，红色用于重点标签；具体字体名称未核实。"
+        },
+        {
+          "id": "cognition-gap-c08",
+          "title": "三张概念卡交错入场",
+          "tags": [
+            "B镜",
+            "镜头包装",
+            "编辑式拼贴",
+            "动效包装"
+          ],
+          "start": 111.433333,
+          "end": 116.3,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/cognition-gap.html#cognition-gap-c08",
+          "search_excerpt": "三张红褐纹理卡片在深蓝底上由上至下累积；首卡左来，第二卡右来，第三卡左来。 深蓝底、灰阶折面人物或物件、白色细高衬线感中文，红色用于重点标签；具体字体名称未核实。"
+        },
+        {
+          "id": "cognition-gap-c09",
+          "title": "国家时间跨度对比",
+          "tags": [
+            "B镜",
+            "镜头包装",
+            "编辑式拼贴",
+            "动效包装"
+          ],
+          "start": 124.866667,
+          "end": 146.733333,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/cognition-gap.html#cognition-gap-c09",
+          "search_excerpt": "横向时间条由一行扩展为四行，国旗和端点说明保持固定；前三条青白色，中国短条改为红色。 深蓝底、灰阶折面人物或物件、白色细高衬线感中文，红色用于重点标签；具体字体名称未核实。"
+        },
+        {
+          "id": "cognition-gap-c10",
+          "title": "实拍上的三行标签",
+          "tags": [
+            "B镜",
+            "镜头包装",
+            "编辑式拼贴",
+            "动效包装"
+          ],
+          "start": 164.6,
+          "end": 165.766667,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/cognition-gap.html#cognition-gap-c10",
+          "search_excerpt": "港口全景作为底，红色短标签逐行增加。 深蓝底、灰阶折面人物或物件、白色细高衬线感中文，红色用于重点标签；具体字体名称未核实。"
+        },
+        {
+          "id": "cognition-gap-c11",
+          "title": "三类物件共处同一平台",
+          "tags": [
+            "B镜",
+            "镜头包装",
+            "编辑式拼贴",
+            "动效包装"
+          ],
+          "start": 167.966667,
+          "end": 172.533333,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/cognition-gap.html#cognition-gap-c11",
+          "search_excerpt": "灰阶麦穗、齿轮和工厂、楼群被摆到同一个漂浮平台上，红标签负责分类。 深蓝底、灰阶折面人物或物件、白色细高衬线感中文，红色用于重点标签；具体字体名称未核实。"
+        },
+        {
+          "id": "cognition-gap-c12",
+          "title": "三阶段纵轴与高亮圆",
+          "tags": [
+            "B镜",
+            "镜头包装",
+            "编辑式拼贴",
+            "动效包装"
+          ],
+          "start": 175.633333,
+          "end": 180.3,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/cognition-gap.html#cognition-gap-c12",
+          "search_excerpt": "节点和细线先构成轴，日期与时代文字逐项出现，红粉圆形随后扩大覆盖当前条目。 深蓝底、灰阶折面人物或物件、白色细高衬线感中文，红色用于重点标签；具体字体名称未核实。"
+        },
+        {
+          "id": "cognition-gap-c13",
+          "title": "人物侧边的物件清单",
+          "tags": [
+            "B镜",
+            "镜头包装",
+            "编辑式拼贴",
+            "动效包装"
+          ],
+          "start": 194.033333,
+          "end": 196.466667,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/cognition-gap.html#cognition-gap-c13",
+          "search_excerpt": "灰阶老人位于右侧，粮袋、钱与塑料袋逐项出现于左侧，红线统一标注。 深蓝底、灰阶折面人物或物件、白色细高衬线感中文，红色用于重点标签；具体字体名称未核实。"
+        },
+        {
+          "id": "cognition-gap-c14",
+          "title": "人物数量随观点增加",
+          "tags": [
+            "B镜",
+            "镜头包装",
+            "编辑式拼贴",
+            "动效包装"
+          ],
+          "start": 202.433333,
+          "end": 205.3,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/cognition-gap.html#cognition-gap-c14",
+          "search_excerpt": "新人图像先成立，红标题随后新增；更小人物在两侧补入。 深蓝底、灰阶折面人物或物件、白色细高衬线感中文，红色用于重点标签；具体字体名称未核实。"
+        },
+        {
+          "id": "cognition-gap-c15",
+          "title": "同一时间轴切换高亮",
+          "tags": [
+            "B镜",
+            "镜头包装",
+            "编辑式拼贴",
+            "动效包装"
+          ],
+          "start": 214.966667,
+          "end": 218.133333,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/cognition-gap.html#cognition-gap-c15",
+          "search_excerpt": "三阶段的文字位置不变，高亮圆从祖辈转到父辈，旧重点退下。 深蓝底、灰阶折面人物或物件、白色细高衬线感中文，红色用于重点标签；具体字体名称未核实。"
+        },
+        {
+          "id": "cognition-gap-c16",
+          "title": "标题跨实拍切镜累积",
+          "tags": [
+            "B镜",
+            "镜头包装",
+            "编辑式拼贴",
+            "动效包装"
+          ],
+          "start": 218.133333,
+          "end": 226.3,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/cognition-gap.html#cognition-gap-c16",
+          "search_excerpt": "底层换了多个实拍场景，竖向红标签不断新增，旧标签跨背景切镜保留。 深蓝底、灰阶折面人物或物件、白色细高衬线感中文，红色用于重点标签；具体字体名称未核实。"
+        },
+        {
+          "id": "cognition-gap-c17",
+          "title": "人物身份与环境成套替换",
+          "tags": [
+            "B镜",
+            "镜头包装",
+            "编辑式拼贴",
+            "动效包装"
+          ],
+          "start": 226.3,
+          "end": 233.3,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/cognition-gap.html#cognition-gap-c17",
+          "search_excerpt": "灰阶人物和折面场景共用深蓝底；路牌、行李、房屋、服装与标签一同改变。 深蓝底、灰阶折面人物或物件、白色细高衬线感中文，红色用于重点标签；具体字体名称未核实。"
+        },
+        {
+          "id": "cognition-gap-c18",
+          "title": "阶段高亮转三项压力再转数据图",
+          "tags": [
+            "B镜",
+            "镜头包装",
+            "编辑式拼贴",
+            "动效包装"
+          ],
+          "start": 260.933333,
+          "end": 273.4,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/cognition-gap.html#cognition-gap-c18",
+          "search_excerpt": "旧时间轴移动高亮到年轻人；原底压暗后出现三项高字标题，再更换为两红圆和百分比图。 深蓝底、灰阶折面人物或物件、白色细高衬线感中文，红色用于重点标签；具体字体名称未核实。"
+        },
+        {
+          "id": "cognition-gap-c19",
+          "title": "两个时间数字的上下对比",
+          "tags": [
+            "B镜",
+            "镜头包装",
+            "编辑式拼贴",
+            "动效包装"
+          ],
+          "start": 310.9,
+          "end": 312.3,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/cognition-gap.html#cognition-gap-c19",
+          "search_excerpt": "红色十年先出现，白色五年在下方以竖向拖影加入，背景为暗色城市合成。 深蓝底、灰阶折面人物或物件、白色细高衬线感中文，红色用于重点标签；具体字体名称未核实。"
+        },
+        {
+          "id": "cognition-gap-c20",
+          "title": "重返人物关系并改写中心结论",
+          "tags": [
+            "B镜",
+            "镜头包装",
+            "编辑式拼贴",
+            "动效包装"
+          ],
+          "start": 320.533333,
+          "end": 325.766667,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/cognition-gap.html#cognition-gap-c20",
+          "search_excerpt": "两侧灰阶人物重现，中间先是代沟和红圆，接问号，再换成两行结论。 深蓝底、灰阶折面人物或物件、白色细高衬线感中文，红色用于重点标签；具体字体名称未核实。"
+        },
+        {
+          "id": "cognition-gap-c21",
+          "title": "逐行引言与红引号",
+          "tags": [
+            "B镜",
+            "镜头包装",
+            "编辑式拼贴",
+            "动效包装"
+          ],
+          "start": 352.7,
+          "end": 359,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/cognition-gap.html#cognition-gap-c21",
+          "search_excerpt": "暗山坡底图留出左上文字区，红引号先出现，白色细高字逐行补齐，最后闭引号落定。 深蓝底、灰阶折面人物或物件、白色细高衬线感中文，红色用于重点标签；具体字体名称未核实。"
+        },
+        {
+          "id": "cognition-gap-c22",
+          "title": "灰阶人物片尾名片",
+          "tags": [
+            "B镜",
+            "镜头包装",
+            "编辑式拼贴",
+            "动效包装"
+          ],
+          "start": 369.866667,
+          "end": 372.9,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/cognition-gap.html#cognition-gap-c22",
+          "search_excerpt": "灰阶人物从下方加入，城市底图和大标题构成背景，胸前红条形成最后动作。 深蓝底、灰阶折面人物或物件、白色细高衬线感中文，红色用于重点标签；具体字体名称未核实。"
+        }
+      ]
+    },
+    {
+      "id": "cityride",
+      "title": "城市中的艺术有很多面 · City Ride",
+      "summary": "暖阳、红砖与绿荫、低位骑行，人物发现与相机拍摄结果交替。已整理114个镜头／复合包装段、15组B镜和127个摄影时间窗。完整视频、截图和逐镜报告已公开；声音仍待试听。",
+      "subtitle": "暖阳城市骑摄 · 15 组 B 镜 · 摄影与动效拆解",
+      "categories": [
+        "Vlog",
+        "审美短片",
+        "商业与音乐影像"
+      ],
+      "tags": [
+        "喜欢的风格",
+        "B镜",
+        "摄影与剪辑",
+        "照片拼贴"
+      ],
+      "preference": "用户原话：“我很喜欢这种风格”“这个片子有些镜头可以用作b镜”。本次归纳：暖色城市生活感、人物稳定的跟拍、低机位细节、白边照片与圆角视窗。具体维度尚未逐项获得用户确认。",
+      "duration": 172.172172,
+      "preview_duration": 172.172172,
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=cityride",
+      "report_url": "https://manman130696-dot.github.io/film-library/reports/cityride/online-report.html",
+      "preview_url": "https://manman130696-dot.github.io/film-library/reports/cityride/preview-web.mp4",
+      "preview_access": "direct_file",
+      "poster_url": "https://manman130696-dot.github.io/film-library/reports/cityride/frames/S09a.svg",
+      "details_json": "https://manman130696-dot.github.io/film-library/read/films/cityride.json",
+      "details_html": "https://manman130696-dot.github.io/film-library/read/films/cityride.html",
+      "case_count": 21,
+      "cases": [
+        {
+          "id": "cityride-palette",
+          "title": "配色参考｜木纹暖橙、照片白边与城市灰绿",
+          "tags": [
+            "配色参考",
+            "包装配色",
+            "B镜"
+          ],
+          "start": 72.806139,
+          "end": 75.608942,
+          "kind": "palette",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/cityride.html#cityride-palette",
+          "search_excerpt": "照片段用木纹暖橙与白边统一版式，产品展示段保留白相机和偏冷的城市层次。 背景 #C58D46；照片边 #F3F1E6；辅助 #BCD8DD；文字 #263C3E / 背景 #C8844B；文字／边框 #FBF8ED；主体 #33433B / 背景 #687D77；辅助 #2E4C53；主体 #E6E5D5；次要 #947D65"
+        },
+        {
+          "id": "cityride-b01",
+          "title": "石板路车轮与脚步",
+          "tags": [
+            "B镜",
+            "动作连接"
+          ],
+          "start": 11.511512,
+          "end": 13.013013,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/cityride.html#cityride-b01",
+          "search_excerpt": "石板地面占大部，细车轮和踏动的鞋从边缘进入。 保留原片已有字幕或边框；新作可重拍干净素材，避免覆盖已有信息。"
+        },
+        {
+          "id": "cityride-b02",
+          "title": "灯笼通道中的穿行",
+          "tags": [
+            "B镜",
+            "地点交代"
+          ],
+          "start": 14.547881,
+          "end": 15.415415,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/cityride.html#cityride-b02",
+          "search_excerpt": "暗红通道与两侧灯笼形成前景框，亮处街道位于远端。 保留原片已有字幕或边框；新作可重拍干净素材，避免覆盖已有信息。"
+        },
+        {
+          "id": "cityride-b03",
+          "title": "砖拱门里的骑行者",
+          "tags": [
+            "B镜",
+            "地点交代"
+          ],
+          "start": 15.415415,
+          "end": 16.149483,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/cityride.html#cityride-b03",
+          "search_excerpt": "深色砖拱在前景围住亮院落，骑行者位于远处。 保留原片已有字幕或边框；新作可重拍干净素材，避免覆盖已有信息。"
+        },
+        {
+          "id": "cityride-b04",
+          "title": "车架粉色飘带",
+          "tags": [
+            "B镜",
+            "动作细节"
+          ],
+          "start": 19.185853,
+          "end": 20.387054,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/cityride.html#cityride-b04",
+          "search_excerpt": "粉色活动标签位于画面中央，车架和蓝天形成色块。 保留原片已有字幕或边框；新作可重拍干净素材，避免覆盖已有信息。"
+        },
+        {
+          "id": "cityride-b05",
+          "title": "仰看的绿色树冠",
+          "tags": [
+            "B镜",
+            "环境换气"
+          ],
+          "start": 20.387054,
+          "end": 20.920921,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/cityride.html#cityride-b05",
+          "search_excerpt": "阳光穿过绿色叶片，树冠覆盖画面，天空从缝隙露出。 保留原片已有字幕或边框；新作可重拍干净素材，避免覆盖已有信息。"
+        },
+        {
+          "id": "cityride-b06",
+          "title": "逆光街角与长阴影",
+          "tags": [
+            "B镜",
+            "氛围定场"
+          ],
+          "start": 25.892559,
+          "end": 28.061395,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/cityride.html#cityride-b06",
+          "search_excerpt": "红砖商业街与露台桌椅围成开阔路面，树梢透出太阳。 保留原片已有字幕或边框；新作可重拍干净素材，避免覆盖已有信息。"
+        },
+        {
+          "id": "cityride-b07",
+          "title": "手压平野餐垫",
+          "tags": [
+            "B镜",
+            "动作连接"
+          ],
+          "start": 37.804471,
+          "end": 38.571905,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/cityride.html#cityride-b07",
+          "search_excerpt": "两只手压在蓝棕相接的布面上，白色细线构成图案。 保留原片已有字幕或边框；新作可重拍干净素材，避免覆盖已有信息。"
+        },
+        {
+          "id": "cityride-b08",
+          "title": "从女孩跟到飘散泡泡",
+          "tags": [
+            "B镜",
+            "感官与情绪"
+          ],
+          "start": 46.046046,
+          "end": 48.214882,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/cityride.html#cityride-b08",
+          "search_excerpt": "粉色上衣女孩拿泡泡玩具站在草坪，泡泡从她身前飘向绿篱。 保留原片已有字幕或边框；新作可重拍干净素材，避免覆盖已有信息。"
+        },
+        {
+          "id": "cityride-b09",
+          "title": "水面亮点拉成散景",
+          "tags": [
+            "B镜",
+            "情绪过桥"
+          ],
+          "start": 63.463463,
+          "end": 64.964965,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/cityride.html#cityride-b09",
+          "search_excerpt": "河面亮点、远岸与红色浮标形成纵深。 保留原片已有字幕或边框；新作可重拍干净素材，避免覆盖已有信息。"
+        },
+        {
+          "id": "cityride-b10",
+          "title": "近处粉色标签与远处人物",
+          "tags": [
+            "B镜",
+            "前后景层次"
+          ],
+          "start": 131.498165,
+          "end": 133.800467,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/cityride.html#cityride-b10",
+          "search_excerpt": "粉色标签在左前景清楚，远处女子与车旁店门较虚。 保留原片已有字幕或边框；新作可重拍干净素材，避免覆盖已有信息。"
+        },
+        {
+          "id": "cityride-b11",
+          "title": "圆角窗里的水面焦点变化",
+          "tags": [
+            "B镜",
+            "包装式 B 镜"
+          ],
+          "start": 136.136136,
+          "end": 138.171505,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/cityride.html#cityride-b11",
+          "search_excerpt": "黑底圆角窗内水面先虚后实，亮点密布并显出红色浮标。 保留原片已有字幕或边框；新作可重拍干净素材，避免覆盖已有信息。"
+        },
+        {
+          "id": "cityride-b12",
+          "title": "水上栈道航拍",
+          "tags": [
+            "B镜",
+            "尺度打开"
+          ],
+          "start": 143.910577,
+          "end": 146.746747,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/cityride.html#cityride-b12",
+          "search_excerpt": "几条长栈道斜跨平静水面，浅色桥面与倒影形成几何。 保留原片已有字幕或边框；新作可重拍干净素材，避免覆盖已有信息。"
+        },
+        {
+          "id": "cityride-b13",
+          "title": "绿地小路垂直俯拍",
+          "tags": [
+            "B镜",
+            "行进过桥"
+          ],
+          "start": 148.615282,
+          "end": 150.483817,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/cityride.html#cityride-b13",
+          "search_excerpt": "浅灰小路纵向穿过深浅两片绿色植被，微小骑行者在中部。 保留原片已有字幕或边框；新作可重拍干净素材，避免覆盖已有信息。"
+        },
+        {
+          "id": "cityride-b14",
+          "title": "落叶前的车轮经过",
+          "tags": [
+            "B镜",
+            "动作重音"
+          ],
+          "start": 153.920587,
+          "end": 154.788121,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/cityride.html#cityride-b14",
+          "search_excerpt": "几片干叶在地面前景，车轮与鞋从上方和后方穿过。 保留原片已有字幕或边框；新作可重拍干净素材，避免覆盖已有信息。"
+        },
+        {
+          "id": "cityride-b15",
+          "title": "晚霞栈道与倒影",
+          "tags": [
+            "B镜",
+            "情绪收束"
+          ],
+          "start": 158.091425,
+          "end": 162.4,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/cityride.html#cityride-b15",
+          "search_excerpt": "晚霞倒映在大水面，栈道横向延伸，微小骑行者沿桥通过。 保留原片已有字幕或边框；新作可重拍干净素材，避免覆盖已有信息。"
+        },
+        {
+          "id": "cityride-motion01",
+          "title": "篮球连拍：中央大图与周边网格",
+          "tags": [
+            "包装",
+            "动效",
+            "风格参考"
+          ],
+          "start": 51.484818,
+          "end": 53.019686,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/cityride.html#cityride-motion01",
+          "search_excerpt": "中心竖幅照片较大，四周同场球员照片按网格重复。 边框与底板保持统一，字阶以画面原有排版为依据。"
+        },
+        {
+          "id": "cityride-motion02",
+          "title": "木纹底人像照片拼贴",
+          "tags": [
+            "包装",
+            "动效",
+            "风格参考"
+          ],
+          "start": 72.806139,
+          "end": 75.608942,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/cityride.html#cityride-motion02",
+          "search_excerpt": "暖色木纹底上叠放多张白边人像照片，中央竖图最大。 边框与底板保持统一，字阶以画面原有排版为依据。"
+        },
+        {
+          "id": "cityride-motion03",
+          "title": "白相机锁中与背景旋转",
+          "tags": [
+            "包装",
+            "动效",
+            "风格参考"
+          ],
+          "start": 79.479479,
+          "end": 81.314648,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/cityride.html#cityride-motion03",
+          "search_excerpt": "白色相机镜头始终靠近中轴，商场背景呈环向模糊。 边框与底板保持统一，字阶以画面原有排版为依据。"
+        },
+        {
+          "id": "cityride-motion04",
+          "title": "宠物功能卡：文字左、样张右",
+          "tags": [
+            "包装",
+            "动效",
+            "风格参考"
+          ],
+          "start": 114.781448,
+          "end": 118.318318,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/cityride.html#cityride-motion04",
+          "search_excerpt": "暖橙到珊瑚红的纹理底上，左侧写 EOS R50 创意辅助鱼眼效果，右侧白边宠物照片堆叠。 EOS R50；创意辅助鱼眼效果；“大”一点（画面文字）。"
+        },
+        {
+          "id": "cityride-motion05",
+          "title": "固定圆角窗里的日常组接",
+          "tags": [
+            "包装",
+            "动效",
+            "风格参考"
+          ],
+          "start": 138.171505,
+          "end": 139.305973,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/cityride.html#cityride-motion05",
+          "search_excerpt": "同一圆角边框内依次出现旋转木马、小狗、柳树边女子与拍摄动作。 边框与底板保持统一，字阶以画面原有排版为依据。"
+        }
+      ]
+    },
+    {
+      "id": "autumn",
+      "title": "秋游团综",
+      "summary": "用拼贴片头、栏目组件和人物反应，把一次秋游组织成一集团综。",
+      "subtitle": "综艺包装、拼贴片头与人物反应",
+      "categories": [
+        "Vlog",
+        "综艺包装",
+        "视觉动效",
+        "商业与音乐影像"
+      ],
+      "tags": [
+        "片头",
+        "B镜",
+        "镜头包装",
+        "综艺花字",
+        "剪纸拼贴"
+      ],
+      "preference": "喜欢前10秒片头和整套包装；只作为可选制作方式之一，不设默认风格。",
+      "duration": 122.233333,
+      "preview_duration": 122.233333,
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=autumn",
+      "report_url": null,
+      "preview_url": null,
+      "preview_access": "existing_library_viewer",
+      "poster_url": "https://manman130696-dot.github.io/film-library/read/images/b62f0ce177b7612b02d579e3.svg",
+      "details_json": "https://manman130696-dot.github.io/film-library/read/films/autumn.json",
+      "details_html": "https://manman130696-dot.github.io/film-library/read/films/autumn.html",
+      "case_count": 4,
+      "cases": [
+        {
+          "id": "AU01",
+          "title": "公路、唱片与人物拼贴片头",
+          "tags": [
+            "片头",
+            "剪纸拼贴",
+            "人物抠像"
+          ],
+          "start": 0,
+          "end": 8.9,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/autumn.html#AU01",
+          "search_excerpt": "先揭示公路与小巴，再穿过唱片孔补齐人物，瓶贴遮挡后落下主标题。 白边抠像、报纸网点和纸张撕边统一材质。"
+        },
+        {
+          "id": "AU02",
+          "title": "时间牌与综艺姓名条",
+          "tags": [
+            "姓名条",
+            "时间牌",
+            "镜头包装"
+          ],
+          "start": 55.433333,
+          "end": 63.833333,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/autumn.html#AU02",
+          "search_excerpt": "姓名和到场时间保持固定坐标，人物行为位于画面主体。 青色时间条、线框箭头与小型招呼字形成稳定层级。"
+        },
+        {
+          "id": "AU03",
+          "title": "瓜的拟人五官与反应小窗",
+          "tags": [
+            "物体拟人",
+            "B镜",
+            "反应小窗"
+          ],
+          "start": 85.133333,
+          "end": 87.7,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/autumn.html#AU03",
+          "search_excerpt": "俯拍桌上食物，把瓜与人物小窗联系起来。 弧形“哈哈哈”、叹号与“就我的最大！”放大物品体积差异。"
+        },
+        {
+          "id": "AU04",
+          "title": "局部去色与汗滴反应",
+          "tags": [
+            "局部去色",
+            "人物反应",
+            "镜头包装"
+          ],
+          "start": 100.733333,
+          "end": 102.566667,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/autumn.html#AU04",
+          "search_excerpt": "背景大面积去色，人物和果盒仍保留部分颜色。 “尴尬”与蓝色汗滴围绕人物空位出现。"
+        }
+      ]
+    },
+    {
+      "id": "appads",
+      "title": "跳跳广告",
+      "summary": "把开屏、误点、摇一摇等机制变成可跟随的动作；截图中的“安徽大爷”位于开头。",
+      "subtitle": "手机广告解说 · B镜与解释型包装",
+      "categories": [
+        "知识解说",
+        "视觉动效"
+      ],
+      "tags": [
+        "B镜",
+        "MG动画",
+        "人物档案",
+        "画面组合",
+        "章节包装"
+      ],
+      "preference": "用户指定本片B镜做法可供以后需要时借鉴。",
+      "duration": 992.7,
+      "preview_duration": 10,
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=appads",
+      "report_url": null,
+      "preview_url": null,
+      "preview_access": "existing_library_viewer",
+      "poster_url": "https://manman130696-dot.github.io/film-library/read/images/857129be65a79afa2d2cfa71.svg",
+      "details_json": "https://manman130696-dot.github.io/film-library/read/films/appads.json",
+      "details_html": "https://manman130696-dot.github.io/film-library/read/films/appads.html",
+      "case_count": 29,
+      "cases": [
+        {
+          "id": "AD01",
+          "title": "人物模型＋真实视频：把案例做成一张动态档案",
+          "tags": [
+            "人物组合",
+            "资料卡",
+            "结构"
+          ],
+          "start": 0,
+          "end": 15.95,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD01",
+          "search_excerpt": "左边负责“谁”，右边负责“发生了什么”。模型手机附近的小红框把视线引向右侧的大视频框；30s内放左上，20+放右下，形成两个角上的信息锚点。黑色空处给标签留位置，灰白人物降低色彩干扰，让真实素材和红标签更突出。 灰白模型压低色彩干扰，红标强调姓名和数字，细框统一模型与实拍。"
+        },
+        {
+          "id": "AD02",
+          "title": "证据墙：从总目录推入第一章",
+          "tags": [
+            "章节",
+            "拼贴",
+            "结构"
+          ],
+          "start": 46.5,
+          "end": 52.2,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD02",
+          "search_excerpt": "软木板是大容器，里面的报纸是章节卡；桌面、灯和电脑提供前后层次。全景时看“问题很多”，推近后只读“偷走你的注意力”。细节密集，但层级由取景范围控制。 报纸、图钉与红线组织资料，Part.1与注意力形成章节字阶。"
+        },
+        {
+          "id": "AD03",
+          "title": "左上章节签：让 A 镜和 B 镜属于同一小节",
+          "tags": [
+            "章节",
+            "花字",
+            "留白"
+          ],
+          "start": 53,
+          "end": 79.35,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD03",
+          "search_excerpt": "它占用左上角小面积，避开讲述者脸、手和底部字幕。图标、红底和细长字形成一块固定的小标题。 小图标、红底细长字，避开脸、手和底部字幕。"
+        },
+        {
+          "id": "AD04",
+          "title": "手机示意动画：把误点机制演成追逐过程",
+          "tags": [
+            "关系图",
+            "图文组合",
+            "花字"
+          ],
+          "start": 60.9,
+          "end": 76.2,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD04",
+          "search_excerpt": "手机始终是核心锚点。两句花字在手机两侧，解释操作时退出，让空间交给按钮。背景虽动，主体和按钮具有更清楚的边界；最后把结论装在手机轮廓内，沿用同一视觉容器。 黑白手机与手形、灰色占位图；红底强调态度，结尾跳过与广告拉开字阶。"
+        },
+        {
+          "id": "AD05",
+          "title": "晃手机／买东西？：让花字站在人物两侧",
+          "tags": [
+            "花字",
+            "留白",
+            "人物组合"
+          ],
+          "start": 80.4,
+          "end": 83.45,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD05",
+          "search_excerpt": "人物是中轴，两块字占两侧负空间，脸部保持可见。短词分区，字号拉大也不需要覆盖整个画面。 细长白色大字分在人物两侧，中心让出面部。"
+        },
+        {
+          "id": "AD06",
+          "title": "单例接三分屏：让不同处境汇到同一结果",
+          "tags": [
+            "分屏",
+            "结构"
+          ],
+          "start": 98.7,
+          "end": 104.35,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD06",
+          "search_excerpt": "三块画面直接铺满横向宽度，分别保留完整手机及一部分环境。共同的竖向手机让并排比较成立，环境差别说明它们是不同处境。 三路实拍以竖向手机对齐，不额外堆大字。"
+        },
+        {
+          "id": "AD07",
+          "title": "角度尺＋冰火两侧：把敏感度比喻变成空间",
+          "tags": [
+            "关系图",
+            "图文组合",
+            "结构"
+          ],
+          "start": 104.35,
+          "end": 115.2,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD07",
+          "search_excerpt": "手机在前层，弧尺在中层，冷暖材质在后层。左右的颜色、图标、纹理和文字一一对应，中心手机在两端之间比较。画面后期填得较满，仍靠左右分区维持关系。 弧尺白线，左蓝字配霜纹，右红字配火焰，手机在前层。"
+        },
+        {
+          "id": "AD08",
+          "title": "手机阵列→公式→柱图→人物贴图：把一个数字讲出尺度",
+          "tags": [
+            "信息图",
+            "结构",
+            "花字"
+          ],
+          "start": 312.15,
+          "end": 326.45,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD08",
+          "search_excerpt": "先用中间最大最亮的手机建立层级；公式阶段将手机移向左侧，右侧腾出足够留白；柱图阶段移走多余对象，只保留比较。人物贴图进入时图表缩到右边，读图与情绪分区。 沿用黑白灰、红色强调；具体字阶、配色与图文关系见本条结构描述和截图。"
+        },
+        {
+          "id": "AD09",
+          "title": "付款界面与重复弹窗：让人经历一次被纠缠",
+          "tags": [
+            "关系图",
+            "图文组合"
+          ],
+          "start": 339.8,
+          "end": 350.05,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD09",
+          "search_excerpt": "用浅背景、灰选项条、黑色主控件和红勾选降低界面复杂度。弹窗遮住底层但不完全抹掉它，读者仍知道自己被挡在付款流程上。层叠卡边提示“还有下一层”。 沿用黑白灰、红色强调；具体字阶、配色与图文关系见本条结构描述和截图。"
+        },
+        {
+          "id": "AD10",
+          "title": "推销很热闹，扣款很安静，取消很繁琐：同一手机演出反差",
+          "tags": [
+            "结构",
+            "信息图"
+          ],
+          "start": 357.5,
+          "end": 372.3,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD10",
+          "search_excerpt": "推销阶段是左边类别、右边示例；扣款阶段清掉外围元素，回到孤立的手机；取消阶段保持机身稳定，只换屏幕内容。留白和密度本身也参与表达。 沿用黑白灰、红色强调；具体字阶、配色与图文关系见本条结构描述和截图。"
+        },
+        {
+          "id": "AD11",
+          "title": "概念标题→研究资料→原文高亮→解释卡",
+          "tags": [
+            "资料卡",
+            "图文组合",
+            "花字"
+          ],
+          "start": 400.2,
+          "end": 413.4,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD11",
+          "search_excerpt": "手机扇形排列，中间最大，作为多个例子的共同归类；概念标题以中文大、英文小建立字阶，白字下部渐暗。资料页阶段先让观众知道是什么文件，再给原文局部；黑卡提供可读摘要，人物贴纸在卡片上缘形成层次。 沿用黑白灰、红色强调；具体字阶、配色与图文关系见本条结构描述和截图。"
+        },
+        {
+          "id": "AD12",
+          "title": "支付方式围绕人物补齐：一张图逐步长成结论",
+          "tags": [
+            "拼贴",
+            "关系图",
+            "结构"
+          ],
+          "start": 413.4,
+          "end": 430.7,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD12",
+          "search_excerpt": "灰度背景提供现实场景并压低竞争，前景白色剪贴图配少量红色底块与红下划线。图标从左侧向上方及右侧扩展，围着下方中心的人物排成环状；先出现的对象保留，右侧留白等待后续条件。 沿用黑白灰、红色强调；具体字阶、配色与图文关系见本条结构描述和截图。"
+        },
+        {
+          "id": "AD13",
+          "title": "证据墙下移→报纸局部→手机：章节与正文接在一起",
+          "tags": [
+            "章节",
+            "转场"
+          ],
+          "start": 430.7,
+          "end": 435.85,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD13",
+          "search_excerpt": "图钉、报纸、红色标题继续构成章节系统。正文示例位于章节报纸内部，先作为图，再放大成为下一段主体，避免章节页和正文互不相干。 沿用黑白灰、红色强调；具体字阶、配色与图文关系见本条结构描述和截图。"
+        },
+        {
+          "id": "AD14",
+          "title": "砍一刀：把接近完成与永不结束同时演出来",
+          "tags": [
+            "信息图",
+            "结构"
+          ],
+          "start": 435.85,
+          "end": 449.8,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD14",
+          "search_excerpt": "外壳保持统一，商品、倒计时与大号剩余值建立紧迫感；红色进度条几乎填满，而未完成的数字仍被放大。黑底把注意力压在红色控件、刀和数值上。 沿用黑白灰、红色强调；具体字阶、配色与图文关系见本条结构描述和截图。"
+        },
+        {
+          "id": "AD15",
+          "title": "手机＋纸条＋人物：把平台成本转成你的人情成本",
+          "tags": [
+            "拼贴",
+            "人物组合",
+            "关系图"
+          ],
+          "start": 466.8,
+          "end": 472.35,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD15",
+          "search_excerpt": "左侧是界面，中央是提炼出来的记录，右侧是承担结果的人。黑灰背景、白纸和人物保持同一色调，红章与红箭头突出关键关系。纸条和人物之间的空隙给箭头留出通路，联系卡再填入周边。 沿用黑白灰、红色强调；具体字阶、配色与图文关系见本条结构描述和截图。"
+        },
+        {
+          "id": "AD16",
+          "title": "老电脑＋蓝色“互联”：用熟悉的物件建立前提",
+          "tags": [
+            "图文组合",
+            "花字"
+          ],
+          "start": 578.05,
+          "end": 581.25,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD16",
+          "search_excerpt": "显示器在中间，左右各留一个字的位置。机身白、背景黑，屏幕保留少量色彩；蓝字把这段与后面的红色阻拦词区别开。 沿用黑白灰、红色强调；具体字阶、配色与图文关系见本条结构描述和截图。"
+        },
+        {
+          "id": "AD17",
+          "title": "链接打不开＋图标变签证：文字与图像各做一次比喻",
+          "tags": [
+            "图文组合",
+            "关系图",
+            "结构"
+          ],
+          "start": 581.25,
+          "end": 590.2,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD17",
+          "search_excerpt": "手机前置，红色长句在后层，文字可越出画面边缘并被机身遮挡；左上角小签给出完整类别。下一阶段清掉大字，回到单机和大块黑色留白，变化集中在图标里。 沿用黑白灰、红色强调；具体字阶、配色与图文关系见本条结构描述和截图。"
+        },
+        {
+          "id": "AD18",
+          "title": "网页→下载→注册→闲置：同一手机演出不必要的绕路",
+          "tags": [
+            "信息图",
+            "结构"
+          ],
+          "start": 602.8,
+          "end": 616.6,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD18",
+          "search_excerpt": "一部手机固定在前层，背景只提供质感；灰色占位图与线条简化内容，红色始终落在被要求执行的步骤上。最后手机缩小，让两边有地方放“占内存、吃后台、偷偷发推送”。 沿用黑白灰、红色强调；具体字阶、配色与图文关系见本条结构描述和截图。"
+        },
+        {
+          "id": "AD19",
+          "title": "一部变满屏，互联加上“不”：从单例推向整体判断",
+          "tags": [
+            "分屏",
+            "花字",
+            "结构"
+          ],
+          "start": 616.6,
+          "end": 624.9,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD19",
+          "search_excerpt": "先是一眼可辨的单个对象，再成为铺满画面的群体。阵列阶段减少外围留白，强化数量；大字压在网格前层，后面再缩成顶部一行，为连线留空间。红色从单个图标转为语义中的“不”和关系中的叉。 沿用黑白灰、红色强调；具体字阶、配色与图文关系见本条结构描述和截图。"
+        },
+        {
+          "id": "AD20",
+          "title": "会员台阶→四部手机：让限制逐项留下来",
+          "tags": [
+            "图文组合",
+            "结构",
+            "累积"
+          ],
+          "start": 682.3,
+          "end": 693.4,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD20",
+          "search_excerpt": "柱体用灰阶与长投影交代高度，皇冠负责等级识别。手机从一个主体逐渐排成四列，旧手机向左让位，新手机从右进入，留白随着论据增加而被占用。 三个白色小人依次站上高低不同的柱体，配VIP、SVIP与星钻皇冠、中文会员标签；这组移出后，手机逐部进入，分别保留清晰度、设备数、额外付费和会员广告的示例。"
+        },
+        {
+          "id": "AD21",
+          "title": "红叉→资料→绿勾→再受阻：同一关系图讲前后变化",
+          "tags": [
+            "关系图",
+            "资料卡",
+            "前后对比"
+          ],
+          "start": 697.4,
+          "end": 713.8,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD21",
+          "search_excerpt": "两边手机略倾，中间正对观众，连接线穿过空隙表达关系。资料阶段由黑封面作目录、白网页作正文；封面让出主体，留在左边缘。回关系图时保持原节点位置，让红绿变化直接可比。 单手机演示链接打不开，再拉成三部手机，中间用红色竖线与叉表示阻断。黑色资料封面和新闻页面进入，标题与段落加黄底。资料离开后，原来的三手机位置恢复，连线和勾改为绿色；最后靠近中间手机，重新出现红色限"
+        },
+        {
+          "id": "AD22",
+          "title": "旧新闻在后、电脑在前：让资料与事件演示分工",
+          "tags": [
+            "资料卡",
+            "结构",
+            "图文组合"
+          ],
+          "start": 713.8,
+          "end": 725.65,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD22",
+          "search_excerpt": "后层报纸说明“这是旧事件”，前层显示器演事件，最前层图标解释使用后果。电脑边缘遮住部分报纸，避免四张文章同时争主角；画面周边虽密，中心有明确焦点。 四张旧新闻页面先铺到四周，电脑显示器进入中间，屏幕里两个软件窗口相遇，短暂出现漫画爆炸图形。随后大弹窗覆盖桌面，底部增加“360→QQ”的图标关系，QQ处再叠禁止符号；最后转入另一组黑封面和白色通报页面，黄底标关"
+        },
+        {
+          "id": "AD23",
+          "title": "排名悬念＋容量倒退：固定版式让数字承担动作",
+          "tags": [
+            "信息图",
+            "数字",
+            "结构"
+          ],
+          "start": 741.8,
+          "end": 752.4,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD23",
+          "search_excerpt": "机身、标签和数字栏位置固定，周围大块黑色留白。问号把普通列表变成提问；转入详情后，画面让观众盯住同一数值位置观察变化。 手机从下方进入，存储排行滚到59.61GB在首位，应用名先显示问号，再露出绿色图标；点入详情后显示App大小与文稿数据两行，版本号和数值快速倒退，最后停在1.0.0、457.0KB，再给457.0KB红底强调。"
+        },
+        {
+          "id": "AD24",
+          "title": "手机内容换、周围花字留：把功能膨胀累积成版面",
+          "tags": [
+            "花字",
+            "留白",
+            "累积"
+          ],
+          "start": 768,
+          "end": 779.3,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD24",
+          "search_excerpt": "细长中文字体、不同大小与错开的位置围绕手机，橙、赭、白、黄把几组来源分开。手机是稳定主轴，文字向两侧填充；初始留白逐步减少，最终形成包围。 竖手机居中，内部先后换购物、短视频、直播、短剧、小游戏、小说、视频、外卖等界面。周围“购物平台、刷视频、看直播、追短剧、玩小游戏、小说软件、看短剧、视频平台、塞购物、外卖软件、打游戏、借钱”等词依次加入，前面的词保留。"
+        },
+        {
+          "id": "AD25",
+          "title": "横屏游戏＋一进一出的巨型标题：同容器快速分类",
+          "tags": [
+            "花字",
+            "边框",
+            "结构"
+          ],
+          "start": 781.5,
+          "end": 790.6,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD25",
+          "search_excerpt": "横手机为不同色彩和复杂程度的游戏画面提供统一边界。大字细长、浅灰，置于机身后层，底部字幕单独占一行；文字尺度很大，但不以厚重字面压过屏幕。 横屏手机进入黑底中央，游戏内容先定位，随后上方和后层的大字依次更换“大逃杀、打麻将、学院社交、种菜、玩自走棋、斗地主”，屏幕内素材也同步替换。"
+        },
+        {
+          "id": "AD26",
+          "title": "单机→多阶段横排→继续复制：把恶性循环演成流水线",
+          "tags": [
+            "流程",
+            "结构",
+            "循环"
+          ],
+          "start": 905.4,
+          "end": 916.1,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD26",
+          "search_excerpt": "机身大小、纵向位置和页面模板基本一致，红环表示警告，绿色按钮与进度条提供动作焦点，灰色图标降低细节干扰。单机时留白充足；过程展开后两侧空间被阶段占满，左边旧手机部分出画。 黑色纹理底上先给一部灰色图标手机，清理警告页盖上桌面：红色98%圆环、绿色安装按钮。随后复制出第二部手机，按钮变成进度条；再补第三部，回到桌面并增添图标；又出现同类警告页。更多手机继续从右"
+        },
+        {
+          "id": "AD27",
+          "title": "黑场→红橙漏光→亮白→黑场：换段落而非连续推镜",
+          "tags": [
+            "转场",
+            "材质",
+            "断句"
+          ],
+          "start": 928.4,
+          "end": 929.45,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD27",
+          "search_excerpt": "转场覆盖全屏，暂时清空人物与字幕。偏暖漏光和胶片划痕式质感，与前后清楚的实拍及规整窗口形成材质差异。 A镜结束后短暂变黑，随后出现红橙色模糊色块、亮边和细竖划痕，逐渐过曝成黄白，再暗下去，切到带窗口框的小品片段。"
+        },
+        {
+          "id": "AD28",
+          "title": "小品仍在同一窗口里：内层对白、外层评论分开排",
+          "tags": [
+            "边框",
+            "留白",
+            "字幕分区"
+          ],
+          "start": 929.45,
+          "end": 941.65,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD28",
+          "search_excerpt": "深灰标题栏、三色圆点、细边缘和黑纹理底与U01统一。窗口内的剪辑换景别，但窗口本身不变。原素材对白在窗口内下方，主片评论在外部暗边，形成两层阅读区。 窗口内先是体检接待场景，随后换近景，再换抽血场景。内层保留小品自己的对白字幕；主片在窗口下方给“互联网体检”等评论字幕。"
+        },
+        {
+          "id": "AD29",
+          "title": "提线木偶＋四种图标：把抽象处境变成空间关系",
+          "tags": [
+            "比喻",
+            "人物组合",
+            "关系图"
+          ],
+          "start": 944.3,
+          "end": 948.45,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD29",
+          "search_excerpt": "浅绿人物和白线在暗蓝背景上最醒目，外围手部低对比退后。线条从各处向中心聚集，把“受到多方牵引”画成可见关系。四个图标在人物周围错位分布，避免全挤在脸部与底部字幕。 蓝灰色画面中，浅绿色人物被来自四周和上方的细线连接；外围是暗色手部形状。人物摆动，评论气泡、点赞、图片与黄色购物袋图标依次加入。"
+        }
+      ]
+    },
+    {
+      "id": "songmont",
+      "title": "Songmont",
+      "summary": "它的美感来自三个层面同时成立：人物与环境有自然的小动作，摄影把材料和光拍得可触摸，剪辑再用有限的版式把不同影像编成一本可翻阅的册子。",
+      "subtitle": "摄影、组接与边框美学",
+      "categories": [
+        "商业与音乐影像",
+        "审美短片"
+      ],
+      "tags": [
+        "花字",
+        "留白",
+        "人物抠像",
+        "版式",
+        "摄影"
+      ],
+      "preference": "喜欢截图对应的花字、画面组合、结构与留白；不扩大为喜欢每个单独元素。",
+      "duration": 134.334334,
+      "preview_duration": 10,
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=songmont",
+      "report_url": null,
+      "preview_url": null,
+      "preview_access": "existing_library_viewer",
+      "poster_url": "https://manman130696-dot.github.io/film-library/read/images/7caa560b475a46dda1675bbc.svg",
+      "details_json": "https://manman130696-dot.github.io/film-library/read/films/songmont.json",
+      "details_html": "https://manman130696-dot.github.io/film-library/read/films/songmont.html",
+      "case_count": 15,
+      "cases": [
+        {
+          "id": "songmont-palette",
+          "title": "配色参考｜苔绿、卡其与皮革棕",
+          "tags": [
+            "配色参考",
+            "包装配色",
+            "B镜"
+          ],
+          "start": 1.968635,
+          "end": 4.069536,
+          "kind": "palette",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/songmont.html#songmont-palette",
+          "search_excerpt": "低饱和自然色与大块留白，让服装、皮革和人物保持同一气质。 背景 #F1F0E8；主标题 #697D4A；主体 #8E866C；文字 #30332C / 背景 #EDEDE5；辅助底色 #A5A393；主体 #8E7D5B；强调 #4C382A；文字 #292D28"
+        },
+        {
+          "id": "SO02",
+          "title": "蒋奇明：名字是两个人物图层之间的竖轴",
+          "tags": [
+            "花字",
+            "人物组合",
+            "留白"
+          ],
+          "start": 19.119119,
+          "end": 21.42022,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/songmont.html#SO02",
+          "search_excerpt": "名字位于中央人像右缘与人物抠像左缘之间，纵向连接脸、外套和包；人物抠像越出原来的图片边界。 三字纵排，卡其棕填色呼应外套和包。厚笔画、锐角字腔、浅色柔影，与绿色松树属于相近的造型语言。"
+        },
+        {
+          "id": "SO01",
+          "title": "松树：有棱角的绿色大字",
+          "tags": [
+            "花字",
+            "图文组合",
+            "留白"
+          ],
+          "start": 1.968635,
+          "end": 4.069536,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/songmont.html#SO01",
+          "search_excerpt": "文字在左下，人物面部在右上。它与细长树干形成粗细对比，眼睛和脸仍可读。 笔画厚，字面紧凑，斜切和三角形空隙明显；绿色实心字的右下缘可见浅色柔影。字面不是叶片纹理，植物感主要由颜色和所指内容建立。"
+        },
+        {
+          "id": "SO03",
+          "title": "松系穿搭：给群像一块稳定的标题",
+          "tags": [
+            "花字",
+            "图文组合",
+            "留白"
+          ],
+          "start": 32.132132,
+          "end": 33.732533000000004,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/songmont.html#SO03",
+          "search_excerpt": "标题横放在群像上方，周围人物的举手与目光、器物形成活跃轮廓；大字把分散的人物重新聚合。 四字用深蓝大面积填色，字形粗重且有斜切缺口，浅色外沿把字从较暗的门窗背景中分出来。"
+        },
+        {
+          "id": "SO04",
+          "title": "风生造物：放在白边里的四字竖排",
+          "tags": [
+            "花字",
+            "图文组合",
+            "留白"
+          ],
+          "start": 40.674007,
+          "end": 42.7,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/songmont.html#SO04",
+          "search_excerpt": "大字放进左侧白区，旁边细小竖排英文是低一级纹理，中部竖幅留给人物脸和道具。左下角常驻标识、字幕与物字下部相接，空间略紧。 深蓝黑实心字，笔画粗、字内三角空隙醒目。白底上字的轮廓已经清晰，浅色边缘不像复杂实拍背景上那样显眼。"
+        },
+        {
+          "id": "SO05",
+          "title": "三章标题：同一字形与动作，随材料换色",
+          "tags": [
+            "花字",
+            "图文组合",
+            "留白"
+          ],
+          "start": 44.177511,
+          "end": 81.313447,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/songmont.html#SO05",
+          "search_excerpt": "标题横穿空间中部，底层仍可看见桌、木格、裁片墙等本章关键物；小字幕在底部另承担说明。 首章用灰绿，后两章用红棕；统一的厚字面、三角切口与浅色柔影维持连续性。长句被组织为一整条横向字带。"
+        },
+        {
+          "id": "SO06",
+          "title": "百纳包：名字、放大圆图与箭头组成一句标注",
+          "tags": [
+            "花字",
+            "图文组合",
+            "留白"
+          ],
+          "start": 59.492826,
+          "end": 60.95976,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/songmont.html#SO06",
+          "search_excerpt": "圆形放大图在左，手绘白箭头从身侧弯向图中包，包名连接圆图和人物躯干；脸留在字的上方。 米灰棕字配浅色柔影，颜色与浅外套、浅色包相近；厚实的几何字形延续整片系统。"
+        },
+        {
+          "id": "SO07",
+          "title": "屋檐包与月弯包：横排、竖排随构图变化",
+          "tags": [
+            "花字",
+            "图文组合",
+            "留白"
+          ],
+          "start": 71.071071,
+          "end": 74.006139,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/songmont.html#SO07",
+          "search_excerpt": "屋檐包横跨三联画下中部；月弯包竖排在双幅接缝附近，左边弧形包、右边圆形装置分别保留识读区域。 屋檐包是暗紫棕字，月弯包近黑，两者同样有几何切口和浅色外缘；这种切口和花白边不能直接证明用了哪款字体或什么插件。"
+        },
+        {
+          "id": "SO08",
+          "title": "78块裁片：数字和汉字保持同一重量",
+          "tags": [
+            "花字",
+            "图文组合",
+            "留白"
+          ],
+          "start": 88.121455,
+          "end": 89.52165500000001,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/songmont.html#SO08",
+          "search_excerpt": "大字位于上部，黑色工具柄在下方形成前景竖向，裁片图案作为信息背景。 78是圆弧较饱满的粗数字，后接有角、有切口的汉字；共同采用红棕填色与浅色柔影。"
+        },
+        {
+          "id": "SO09",
+          "title": "260次设计稿：窄图与宽字交叉",
+          "tags": [
+            "花字",
+            "图文组合",
+            "留白"
+          ],
+          "start": 90.156823,
+          "end": 91.623757,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/songmont.html#SO09",
+          "search_excerpt": "绿色展柜窄而高，整行标题较宽，延伸到左右白边；横字与竖图方向不同。 红棕色粗数字与几何汉字并排，数字的圆形空隙与字内锐角形成细节对照。"
+        },
+        {
+          "id": "SO10",
+          "title": "50与10：两行反向进入，先主后次",
+          "tags": [
+            "花字",
+            "图文组合",
+            "留白"
+          ],
+          "start": 91.891892,
+          "end": 94.893694,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/songmont.html#SO10",
+          "search_excerpt": "设计图、尺子与木桌构成斜向背景，文字最终平放成两行，形成与背景角度不同的阅读层。 两行都用红棕字和浅色柔影；50这一行更大，10这一行较小，靠字级而非多种颜色分主次。"
+        },
+        {
+          "id": "SO11",
+          "title": "大肖像＋坐姿整身＋中央小图",
+          "tags": [
+            "人物组合",
+            "拼贴",
+            "留白"
+          ],
+          "start": 13.14648,
+          "end": 17.717718,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/songmont.html#SO11",
+          "search_excerpt": "左侧较近肖像看脸，右侧坐姿图交代衣服与包，中央小图补尺度；三张图在相同底色中分大小。 沿用有限色域与底部小字幕；本案例重点为图片关系。"
+        },
+        {
+          "id": "SO12",
+          "title": "三张展览图卷开＋白色手绘框",
+          "tags": [
+            "转场",
+            "拼贴",
+            "边框"
+          ],
+          "start": 41.908575,
+          "end": 43.910577,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/songmont.html#SO12",
+          "search_excerpt": "白纸底上三张图横排，细节、结构和工坊互补；粗白线随后围住这一组。 沿用有限色域与底部小字幕；本案例重点为图片关系。"
+        },
+        {
+          "id": "SO13",
+          "title": "翻页照片组：稳定外框中的人物接力",
+          "tags": [
+            "转场",
+            "边框",
+            "人物组合"
+          ],
+          "start": 49.783116,
+          "end": 55.321989,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/songmont.html#SO13",
+          "search_excerpt": "白边和图片区域保持，人物照片与现场画面轮换；页角负责跨越不同背景。 沿用有限色域与底部小字幕；本案例重点为图片关系。"
+        },
+        {
+          "id": "SO14",
+          "title": "三联画：让动作和轮廓成为节奏",
+          "tags": [
+            "分屏",
+            "图文组合"
+          ],
+          "start": 8.908909,
+          "end": 10.910911,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/songmont.html#SO14",
+          "search_excerpt": "同一人物画面等宽重复三次，竖向分隔与展墙、人物轮廓形成重复。 沿用有限色域与底部小字幕；本案例重点为图片关系。"
+        }
+      ]
+    },
+    {
+      "id": "whale",
+      "title": "座头鲸与虎鲸",
+      "summary": "低多边形折纸造型与微缩海底布景，把动物关系和知识点变成可见动作。",
+      "subtitle": "纸艺动画与知识解释",
+      "categories": [
+        "知识解说",
+        "视觉动效"
+      ],
+      "tags": [
+        "纸艺",
+        "动画",
+        "拟人化",
+        "道具解释"
+      ],
+      "preference": "用户明确喜欢这篇视频的动画；纸艺等具体特点是分析归纳。",
+      "duration": 183.666667,
+      "preview_duration": 10,
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=whale",
+      "report_url": null,
+      "preview_url": null,
+      "preview_access": "existing_library_viewer",
+      "poster_url": "https://manman130696-dot.github.io/film-library/read/images/d04f531189b5275aeb92d5d6.svg",
+      "details_json": "https://manman130696-dot.github.io/film-library/read/films/whale.json",
+      "details_html": "https://manman130696-dot.github.io/film-library/read/films/whale.html",
+      "case_count": 6,
+      "cases": [
+        {
+          "id": "whale-palette",
+          "title": "配色参考｜纸艺场景的暖橙、蓝橙与深海蓝",
+          "tags": [
+            "配色参考",
+            "包装配色",
+            "B镜"
+          ],
+          "start": 19,
+          "end": 21,
+          "kind": "palette",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/whale.html#whale-palette",
+          "search_excerpt": "同一纸艺材质随情绪换色：暖橙建立戏剧舞台，蓝橙强调吵闹，深蓝与白纸放大爆发。 背景 #D66526；辅助 #A53A24；主体 #25282B；文字底 #ECE7DB；强调 #254C42 / 背景 #BEC8D4；主体 #39404B；文字底 #F2F2EF / 背景 #1D5B78；辅助 #4E9CAE；强调 #EB963F；主体 #25282B；留白 "
+        },
+        {
+          "id": "WH01",
+          "title": "纸条口号＋纸艺人物舞台",
+          "tags": [
+            "花字",
+            "纸艺",
+            "人物组合"
+          ],
+          "start": 19,
+          "end": 21,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/whale.html#WH01",
+          "search_excerpt": "人物在中央、对手在两侧，顶部纸条分片承托口号，夕阳放射纹构成背景。 每字像纸牌，白纸与黑字延续纸艺材质。"
+        },
+        {
+          "id": "WH02",
+          "title": "角色旁的身高标尺与脑部图示",
+          "tags": [
+            "信息图",
+            "纸艺",
+            "结构"
+          ],
+          "start": 34,
+          "end": 39.5,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/whale.html#WH02",
+          "search_excerpt": "标尺在角色侧面，上部标数值；后续脑部罩与高智商标题接替。 数字用清楚的大字，标题像折纸标签。"
+        },
+        {
+          "id": "WH03",
+          "title": "折纸饼图＋竖向说明",
+          "tags": [
+            "信息图",
+            "纸艺",
+            "留白"
+          ],
+          "start": 122,
+          "end": 125,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/whale.html#WH03",
+          "search_excerpt": "大圆饼占主面积，竖向说明贴近一侧，底部保留常规字幕。 纸艺分块色与立体折痕延续全片外观，大字覆盖主要扇区。"
+        },
+        {
+          "id": "WH04",
+          "title": "标点符号密度表示吵闹",
+          "tags": [
+            "符号",
+            "纸艺",
+            "情绪"
+          ],
+          "start": 164.5,
+          "end": 168.3,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/whale.html#WH04",
+          "search_excerpt": "角色与桌面保持，橙色问号、井号、感叹号散布在头顶与上方空区。 大大小小的符号共享颜色与纸片轮廓。"
+        },
+        {
+          "id": "WH05",
+          "title": "碎纸爆发与中央张嘴角色",
+          "tags": [
+            "纸艺",
+            "情绪",
+            "结构"
+          ],
+          "start": 175.8,
+          "end": 177.3,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/whale.html#WH05",
+          "search_excerpt": "角色居中，桌面在下，碎纸沿周围扩散，深色帘幕托住高亮白纸。 碎片承担主要强调，底部字幕维持说明。"
+        }
+      ]
+    },
+    {
+      "id": "sapeur",
+      "title": "食贫道 · 萨普",
+      "summary": "用异常行为先建立问题，再放慢节奏，让口述与动作细节递进揭示人物。",
+      "subtitle": "预告钩子、节奏与声音搭配",
+      "categories": [
+        "纪录片"
+      ],
+      "tags": [
+        "开头钩子",
+        "节奏",
+        "预告",
+        "声音参考"
+      ],
+      "preference": "喜欢本片节奏、配音与音效搭配，希望以后用于类似前奏；具体声音听辨仍待补。",
+      "duration": 64.68,
+      "preview_duration": 10,
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=sapeur",
+      "report_url": null,
+      "preview_url": null,
+      "preview_access": "existing_library_viewer",
+      "poster_url": "https://manman130696-dot.github.io/film-library/read/images/bf4cd9fc41469ed49732fb22.svg",
+      "details_json": "https://manman130696-dot.github.io/film-library/read/films/sapeur.json",
+      "details_html": "https://manman130696-dot.github.io/film-library/read/films/sapeur.html",
+      "case_count": 2,
+      "cases": [
+        {
+          "id": "SP01",
+          "title": "固定前提标题＋中部实拍＋变化字幕",
+          "tags": [
+            "预告",
+            "花字",
+            "结构"
+          ],
+          "start": 0,
+          "end": 59.32,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/sapeur.html#SP01",
+          "search_excerpt": "竖向文件上部固定两行标题，中部是人物与衣装，下部一行对白字幕；三个区块各有职责。 黄白大字分出两句前提，画面内品牌标识较小。"
+        },
+        {
+          "id": "SP02",
+          "title": "黑场衣架片名：用减层收尾",
+          "tags": [
+            "片名",
+            "留白"
+          ],
+          "start": 59.32,
+          "end": 64.68,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/sapeur.html#SP02",
+          "search_excerpt": "黑底中只留衣架与片名字组，四周留白很大。 白色中文片名与小英文集中，衣架线条连接服装主题。"
+        }
+      ]
+    },
+    {
+      "id": "home",
+      "title": "纯过日子时代",
+      "summary": "空房迅速变成完整家，主题字与家具价格标签共同承担开头的信息组织。",
+      "subtitle": "空间组装、绿色大字与价格标签",
+      "categories": [
+        "知识解说",
+        "视觉动效"
+      ],
+      "tags": [
+        "片头",
+        "空间演示",
+        "动态图卡",
+        "价格标签"
+      ],
+      "preference": "用户确认“整体组合都喜欢”：空房分层装满、绿色中英字与家具价格标签的组合。",
+      "duration": 295.633333,
+      "preview_duration": 10,
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=home",
+      "report_url": null,
+      "preview_url": null,
+      "preview_access": "existing_library_viewer",
+      "poster_url": "https://manman130696-dot.github.io/film-library/read/images/8c99e60001b5e72afb7c5f4a.svg",
+      "details_json": "https://manman130696-dot.github.io/film-library/read/films/home.json",
+      "details_html": "https://manman130696-dot.github.io/film-library/read/films/home.html",
+      "case_count": 3,
+      "cases": [
+        {
+          "id": "home-palette",
+          "title": "配色参考｜奶油白、原木与橄榄绿",
+          "tags": [
+            "配色参考",
+            "包装配色",
+            "B镜"
+          ],
+          "start": 2.2,
+          "end": 7.5,
+          "kind": "palette",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/home.html#home-palette",
+          "search_excerpt": "空间以暖白和木色为主，植物与绿色标签提供小面积重点。 背景 #E7DEC4；留白 #F6F3E8；主体 #B09261；辅助 #7E8365；文字 #2D3024 / 背景 #E7DEC4；主标题 #6E862D；文字 #2D3024；标签底 #F6F3E8"
+        },
+        {
+          "id": "HO01",
+          "title": "空房组装＋绿色中英标题",
+          "tags": [
+            "空间演示",
+            "花字",
+            "开头"
+          ],
+          "start": 0,
+          "end": 2.2,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/home.html#HO01",
+          "search_excerpt": "同一窗户和透视保持，地、墙、灯、家具逐组补齐；绿色两行字放在后部窗口区域，前景家具保留深度。 绿色中文粗字承担题目，短英文在其间快换，底部说明字幕另占一行。"
+        },
+        {
+          "id": "HO03",
+          "title": "家具价格标签：信息跟随空间",
+          "tags": [
+            "标签",
+            "空间演示",
+            "留白"
+          ],
+          "start": 2.2,
+          "end": 7.5,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/home.html#HO03",
+          "search_excerpt": "标签依附家具附近的空处，名称与绿色金额上下分层；同一房间继续推进。 白色名称与绿色金额分主次，底部讲解字幕维持原有位置。"
+        }
+      ]
+    },
+    {
+      "id": "capital",
+      "title": "资本不只是钱",
+      "summary": "用解释缺口、双向反例、递进追问与隐喻，组织复杂概念和案例的关系。",
+      "subtitle": "布迪厄 · 叙事与文案",
+      "categories": [
+        "知识解说"
+      ],
+      "tags": [
+        "叙事",
+        "文案",
+        "案例递进",
+        "复杂观点解释"
+      ],
+      "preference": "用户觉得有深度；重点研究叙事与文案的开头、案例、递进和收束。",
+      "duration": 822.1,
+      "preview_duration": 10,
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=capital",
+      "report_url": null,
+      "preview_url": null,
+      "preview_access": "existing_library_viewer",
+      "poster_url": "https://manman130696-dot.github.io/film-library/read/images/9be3d95c2f7d8a711d65c75a.svg",
+      "details_json": "https://manman130696-dot.github.io/film-library/read/films/capital.json",
+      "details_html": "https://manman130696-dot.github.io/film-library/read/films/capital.html",
+      "case_count": 3,
+      "cases": [
+        {
+          "id": "CA01",
+          "title": "橙白观点字＋半透明双线框",
+          "tags": [
+            "花字",
+            "观点",
+            "边框"
+          ],
+          "start": 0,
+          "end": 3.54,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/capital.html#CA01",
+          "search_excerpt": "实拍人物在后，中部框承托两行观点，框的圆角与细线维持边界。 橙字标重要词，白字补句子，底部字幕承担完整讲解。"
+        },
+        {
+          "id": "CA02",
+          "title": "中心硬币＋四周数据框",
+          "tags": [
+            "关系图",
+            "信息卡",
+            "留白"
+          ],
+          "start": 81.67,
+          "end": 86.67,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/capital.html#CA02",
+          "search_excerpt": "硬币在中轴，四周数据框围绕它，深色颗粒背景减少干扰。 数字和币种采用白色，边框用细点线，统一视觉重量。"
+        },
+        {
+          "id": "CA03",
+          "title": "大概念框包住三个条件框",
+          "tags": [
+            "关系图",
+            "信息卡",
+            "结构"
+          ],
+          "start": 196.03,
+          "end": 203.37,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/capital.html#CA03",
+          "search_excerpt": "大框表示场域，里面三个小框横排，实拍人物压在后层。 场域字号最大，三个条件次之，浅色框和白字保持一致。"
+        }
+      ]
+    },
+    {
+      "id": "sail",
+      "title": "帆船环游世界",
+      "summary": "从人物冷开场到航海体验，用过程、地图、章节卡和同伴反应串起旅行。",
+      "subtitle": "短片Vlog的风格、群像与包装",
+      "categories": [
+        "Vlog"
+      ],
+      "tags": [
+        "短片",
+        "群像",
+        "地图",
+        "手绘包装",
+        "声音参考"
+      ],
+      "preference": "喜欢整体风格、音乐音效、包装与动效；作为短片或Vlog本身学习，不预设套内容。",
+      "duration": 2041.241241,
+      "preview_duration": 10,
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=sail",
+      "report_url": null,
+      "preview_url": null,
+      "preview_access": "existing_library_viewer",
+      "poster_url": "https://manman130696-dot.github.io/film-library/read/images/801d39f3e620f45f5525c173.svg",
+      "details_json": "https://manman130696-dot.github.io/film-library/read/films/sail.json",
+      "details_html": "https://manman130696-dot.github.io/film-library/read/films/sail.html",
+      "case_count": 7,
+      "cases": [
+        {
+          "id": "SA01",
+          "title": "实景船队＋地图轮廓与尺度缩放",
+          "tags": [
+            "地图",
+            "图文组合"
+          ],
+          "start": 32.77,
+          "end": 35.6,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/sail.html#SA01",
+          "search_excerpt": "海面与船队作为底片，蓝色大陆覆盖其上，白色地名随尺度变化出现。 地图填色与白色小地名有明度区别，底部字幕保持解释职能。"
+        },
+        {
+          "id": "SA02",
+          "title": "主题形象→小字快换→系列标志",
+          "tags": [
+            "花字",
+            "片名",
+            "开头"
+          ],
+          "start": 132,
+          "end": 137.6,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/sail.html#SA02",
+          "search_excerpt": "倾斜海面和白帆提供构图方向，大型主题字先居中；后续字号收小，最后系列标志稳定。 大形象、小字与标志分三个字级，白字依靠较暗海面获得识读。"
+        },
+        {
+          "id": "SA04",
+          "title": "升帆大字＋悬赏海报＋尾浪底片",
+          "tags": [
+            "章节卡",
+            "花字",
+            "人物组合"
+          ],
+          "start": 453.4,
+          "end": 459.23,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/sail.html#SA04",
+          "search_excerpt": "左右巨大升、帆两字留出中间槽位，悬赏海报占中轴，Part.2在顶端小一层；海浪仍在后方。 两侧白字很大，中间海报偏黄，与蓝灰尾浪形成色块对照。"
+        },
+        {
+          "id": "SA05",
+          "title": "人物对谈＋蓝紫引语条",
+          "tags": [
+            "引语",
+            "标签",
+            "留白"
+          ],
+          "start": 1368.4,
+          "end": 1371,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/sail.html#SA05",
+          "search_excerpt": "人物与海面占主体，左下蓝紫底条承托引号、两行观点和小署名。 引号最大，正文次之，署名较小，卡片与底部常规字幕有所区隔。"
+        },
+        {
+          "id": "SA06",
+          "title": "暗舱与DAY 2小字",
+          "tags": [
+            "章节卡",
+            "留白"
+          ],
+          "start": 1688.5,
+          "end": 1694.1,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/sail.html#SA06",
+          "search_excerpt": "窄窗提供横向亮线，身体和床在暗部，DAY 2只占左下一个小区域。 白色短字与暗底形成足够对比，无需占满屏幕。"
+        },
+        {
+          "id": "SA07",
+          "title": "海面底片＋手绘箭头＋地点手写字",
+          "tags": [
+            "地点",
+            "箭头",
+            "花字"
+          ],
+          "start": 1745.6,
+          "end": 1748,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/sail.html#SA07",
+          "search_excerpt": "海天线和岸边提供大留白，白线从画面中部弯向远处，地点字在其上。 手写感地名与箭头成组，底部字幕继续解释位置。"
+        },
+        {
+          "id": "SA08",
+          "title": "固定作者边栏＋照片＋现场对谈",
+          "tags": [
+            "资料卡",
+            "人物组合",
+            "留白"
+          ],
+          "start": 1937.5,
+          "end": 1940.5,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/sail.html#SA08",
+          "search_excerpt": "窄栏占左侧，文字在上、黑白照片在下，右侧保留现场人物与海面。 粉紫渐变资料区与黑白照片分层，现场字幕另在底部。"
+        }
+      ]
+    },
+    {
+      "id": "harbin",
+      "title": "哈尔滨，你真的太多元！",
+      "summary": "带着电影里的哈尔滨出发，在找地点、问人、参与和赴约中逐渐修正印象，再把不同人的感受放回同一座城市。",
+      "subtitle": "叙事风格与包装的配合",
+      "categories": [
+        "Vlog",
+        "纪录片"
+      ],
+      "tags": [
+        "叙事",
+        "实景",
+        "资料引用",
+        "包装配合"
+      ],
+      "preference": "喜欢叙事风格，以及包装与叙事的配合；不需要提示词。",
+      "duration": 2181.32,
+      "preview_duration": 10,
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=harbin",
+      "report_url": null,
+      "preview_url": null,
+      "preview_access": "existing_library_viewer",
+      "poster_url": "https://manman130696-dot.github.io/film-library/read/images/77a6aa379283d3d255587f9d.svg",
+      "details_json": "https://manman130696-dot.github.io/film-library/read/films/harbin.json",
+      "details_html": "https://manman130696-dot.github.io/film-library/read/films/harbin.html",
+      "case_count": 12,
+      "cases": [
+        {
+          "id": "HA01",
+          "title": "地图叠在实景上",
+          "tags": [
+            "图文组合",
+            "留白"
+          ],
+          "start": 54,
+          "end": 64,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/harbin.html#HA01",
+          "search_excerpt": "蓝色城市实景承底，细线地图轻叠上方；远处天际线仍然能读。 地图线与小地名强度低于城市主体。"
+        },
+        {
+          "id": "HA02",
+          "title": "影视海报依次进入",
+          "tags": [
+            "图文组合",
+            "资料卡"
+          ],
+          "start": 74,
+          "end": 84,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/harbin.html#HA02",
+          "search_excerpt": "城市剪影作共同背景，竖向电影海报依次占据中央，周围留出色块和天空。 海报保留自身文字，底部小片名负责确认。"
+        },
+        {
+          "id": "HA03",
+          "title": "第一章文字覆盖行进画面",
+          "tags": [
+            "图文组合",
+            "花字"
+          ],
+          "start": 115,
+          "end": 122,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/harbin.html#HA03",
+          "search_excerpt": "路牌框和电线仍在实拍里，红色章序、地点与片名按大小排成纵向结构。 章序较小，核心白日焰火大一层，红字延续后续章节。"
+        },
+        {
+          "id": "HA04",
+          "title": "老照片、资料页、影像和红色批注",
+          "tags": [
+            "图文组合",
+            "资料卡"
+          ],
+          "start": 275,
+          "end": 360,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/harbin.html#HA04",
+          "search_excerpt": "现今桥面上叠一张有白边的旧照片，上方红色日期独占一行。 红批注与黑白资料分工，底部原字幕继续说明。"
+        },
+        {
+          "id": "HA05",
+          "title": "现场与电影原片的框景对照",
+          "tags": [
+            "图文组合",
+            "资料卡"
+          ],
+          "start": 378,
+          "end": 415,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/harbin.html#HA05",
+          "search_excerpt": "灰粉底包围绿色圆角画框，电影原片标识在框外上方，底片保持独立。 小字明确素材层，彩色边框区分现场与电影。"
+        },
+        {
+          "id": "HA06",
+          "title": "圆形局部强调",
+          "tags": [
+            "图文组合",
+            "留白"
+          ],
+          "start": 802,
+          "end": 812,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/harbin.html#HA06",
+          "search_excerpt": "实景被一圈白线选中局部，周围人物仍在完整画面里。 无需再加一块大标题，线圈本身已经指出重点。"
+        },
+        {
+          "id": "HA07",
+          "title": "“犹豫不决中……”贴在门口",
+          "tags": [
+            "图文组合",
+            "花字"
+          ],
+          "start": 1139,
+          "end": 1153,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/harbin.html#HA07",
+          "search_excerpt": "门口、空地和室内活动保留，犹豫不决中……小红字放在中央空处。 字小且与现场色彩有差别，像旁注。"
+        },
+        {
+          "id": "HA08",
+          "title": "“文艺之都”接在人物回答之后",
+          "tags": [
+            "图文组合",
+            "花字"
+          ],
+          "start": 1390,
+          "end": 1413,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/harbin.html#HA08",
+          "search_excerpt": "夕照城市全景作底，第二章在上，文艺之都在下，横纵间距充足。 深红字与天空、建筑的明暗相分离，沿用同套章名字形。"
+        },
+        {
+          "id": "HA09",
+          "title": "音乐厅画面加作者小窗",
+          "tags": [
+            "图文组合",
+            "留白"
+          ],
+          "start": 1505,
+          "end": 1518,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/harbin.html#HA09",
+          "search_excerpt": "音乐厅与座椅占大画面，作者脸的小窗在右下，顶部一条小字说明现场状态。 小窗与说明字各占一角，场所仍是主视觉。"
+        },
+        {
+          "id": "HA10",
+          "title": "“人情味”覆盖早市动作",
+          "tags": [
+            "图文组合",
+            "花字"
+          ],
+          "start": 1584,
+          "end": 1600,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/harbin.html#HA10",
+          "search_excerpt": "锅、盆和制作动作铺满背景，第三章与人情味红字叠在中部。 章序、章名分行，小字与大字有明确差别。"
+        },
+        {
+          "id": "HA11",
+          "title": "早市主画面与自拍小窗",
+          "tags": [
+            "图文组合",
+            "留白"
+          ],
+          "start": 1630,
+          "end": 1645,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/harbin.html#HA11",
+          "search_excerpt": "制作煎饼的手与锅在主屏，右下小窗显示作者现场体验。 人物小窗缩小，食物细节留作主要观看对象。"
+        },
+        {
+          "id": "HA12",
+          "title": "旧照片与现在建筑叠合",
+          "tags": [
+            "图文组合",
+            "资料卡"
+          ],
+          "start": 1960,
+          "end": 1998,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/harbin.html#HA12",
+          "search_excerpt": "旧建筑图与当代街景叠在一个暗框里，顶部资料文字较轻。 资料字保持低于主要图像的强度。"
+        }
+      ]
+    },
+    {
+      "id": "gold",
+      "title": "世界另一页 · 黄金矿区",
+      "summary": "围绕黄金矿区的人物与处境，保存了结构初读、来源记录和参考片段。",
+      "subtitle": "人物、财富与纪录片结构",
+      "categories": [
+        "纪录片"
+      ],
+      "tags": [
+        "结构",
+        "人物",
+        "纪实",
+        "参考片段"
+      ],
+      "preference": "具体喜欢的片段、节奏与声音维度仍待确认。",
+      "duration": 2080.33033,
+      "preview_duration": 10,
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=gold",
+      "report_url": null,
+      "preview_url": null,
+      "preview_access": "existing_library_viewer",
+      "poster_url": "https://manman130696-dot.github.io/film-library/read/images/48fbd914f8ded2ecee16085b.svg",
+      "details_json": "https://manman130696-dot.github.io/film-library/read/films/gold.json",
+      "details_html": "https://manman130696-dot.github.io/film-library/read/films/gold.html",
+      "case_count": 2,
+      "cases": [
+        {
+          "id": "GO01",
+          "title": "人像两侧的白色笔触主标题",
+          "tags": [
+            "人物组合",
+            "花字",
+            "留白"
+          ],
+          "start": 45,
+          "end": 56,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/gold.html#GO01",
+          "search_excerpt": "蒙面矿工的眼睛在中央，黄金和矿工分列脸部两侧，较小英文分别在下。 中文有明显笔触与不规则轮廓，白中文字和黄色英文区分层级。"
+        },
+        {
+          "id": "GO02",
+          "title": "章序＋笔触中文＋小英文跨实景保持",
+          "tags": [
+            "章节卡",
+            "花字"
+          ],
+          "start": 1619.5,
+          "end": 1627,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/gold.html#GO02",
+          "search_excerpt": "章序在上，黄金交易链为主要字组，小英文在下，实景道路与航拍继续变化。 白色主字有笔触，字号差建立章序、章名、译文三层。"
+        }
+      ]
+    },
+    {
+      "id": "africa",
+      "title": "在非洲，我和死亡只隔一扇车窗",
+      "summary": "已有原片和测量底稿；包装参考集中保存了已看清的照片组合与动物资料卡。",
+      "subtitle": "旅行叙述与画面资料",
+      "categories": [
+        "Vlog",
+        "纪录片"
+      ],
+      "tags": [
+        "自然",
+        "动物资料卡",
+        "照片版面"
+      ],
+      "preference": "尚未记录可独立确认的具体偏好。",
+      "duration": 945.378712,
+      "preview_duration": 10,
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=africa",
+      "report_url": null,
+      "preview_url": null,
+      "preview_access": "existing_library_viewer",
+      "poster_url": "https://manman130696-dot.github.io/film-library/read/images/9a0482b4744a77b44647f317.svg",
+      "details_json": "https://manman130696-dot.github.io/film-library/read/films/africa.json",
+      "details_html": "https://manman130696-dot.github.io/film-library/read/films/africa.html",
+      "case_count": 4,
+      "cases": [
+        {
+          "id": "africa-palette",
+          "title": "配色参考｜中性灰、照片白边与灰粉地图",
+          "tags": [
+            "配色参考",
+            "包装配色",
+            "B镜"
+          ],
+          "start": 225,
+          "end": 228,
+          "kind": "palette",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/africa.html#africa-palette",
+          "search_excerpt": "灰底与白边让动物照片独立成组，灰粉用于分布信息，土色来自实拍主体。 背景 #D7D7D5；照片边 #F6F6F2；主体 #262729；辅助 #8B9568 / 背景 #D7D7D5；留白 #F6F6F2；主体 #8D735D；信息强调 #AD777A；文字 #262729"
+        },
+        {
+          "id": "AF01",
+          "title": "野生动物照片＋灰底与白色照片边",
+          "tags": [
+            "边框",
+            "留白",
+            "照片组合"
+          ],
+          "start": 225,
+          "end": 228,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/africa.html#AF01",
+          "search_excerpt": "照片缩进浅灰大底，图片下方留一条白色信息边，动物作为主要视觉集中在照片内部。 小型器材与标识位于白条，正文字幕处在较低位置；这些字属于片中现有内容。"
+        },
+        {
+          "id": "AF02",
+          "title": "动物实拍照片＋抠像＋分布图资料页",
+          "tags": [
+            "资料卡",
+            "拼贴",
+            "结构"
+          ],
+          "start": 255,
+          "end": 558,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/africa.html#AF02",
+          "search_excerpt": "一侧放大照片，另一侧容纳名称、分布图和说明，另有动物抠像越出资料块；两组动物案例交换左右位置。 白灰底与黑色资料字保持中性，物种名更大，拉丁字小一层。"
+        },
+        {
+          "id": "AF03",
+          "title": "黄色标题框＋动物头部抠像的收集卡",
+          "tags": [
+            "信息卡",
+            "抠像组合",
+            "结构"
+          ],
+          "start": 600,
+          "end": 722,
+          "kind": "case",
+          "details_url": "https://manman130696-dot.github.io/film-library/read/films/africa.html#AF03",
+          "search_excerpt": "黑底承托黄色框与非洲五霸标题，动物头像围绕框上沿与两侧，框内保留大块空区。 主标题最大，底部小标签较小，黄色细线提供边界。"
+        }
+      ]
+    },
+    {
+      "id": "deepseek",
+      "title": "DeepSeek与互联网巨头",
+      "summary": "已有原片、预览和测量底稿；未找到完成的交互报告或主题分析。",
+      "subtitle": "AI时代的产业叙述",
+      "categories": [
+        "知识解说"
+      ],
+      "tags": [
+        "科技",
+        "产业",
+        "AI"
+      ],
+      "preference": "尚未记录可独立确认的具体偏好。",
+      "duration": 561.633333,
+      "preview_duration": 10,
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=deepseek",
+      "report_url": null,
+      "preview_url": null,
+      "preview_access": "existing_library_viewer",
+      "poster_url": "https://manman130696-dot.github.io/film-library/read/images/93a77f8b681bb7d1bdc1c45f.svg",
+      "details_json": "https://manman130696-dot.github.io/film-library/read/films/deepseek.json",
+      "details_html": "https://manman130696-dot.github.io/film-library/read/films/deepseek.html",
+      "case_count": 0,
+      "cases": []
+    }
+  ],
+  "resources": [
+    {
+      "id": "landmark-postcards",
+      "title": "地标冰箱贴 × 旅行照片",
+      "summary": "从真实风景里提取地标，做成小巧的白边冰箱贴，放在与照片呼应的纯色背景上；下半区保留实景，上下配对形成一张旅行卡。可借用于地点揭示、旅行转场和B镜信息卡。",
+      "uses": [
+        "创意动效",
+        "综艺动效",
+        "B镜"
+      ],
+      "note": "参考图为教程原画面压缩截图，可能带原字幕；主色为近似参考。图片提示词按教程整理并加入可替换的地点、年份，B镜动效为新作建议。",
+      "sample_count": 10,
+      "details_json": "https://manman130696-dot.github.io/film-library/read/resources/landmark-postcards.json",
+      "details_html": "https://manman130696-dot.github.io/film-library/read/resources/landmark-postcards.html"
+    }
+  ]
+}

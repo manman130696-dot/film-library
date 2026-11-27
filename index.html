@@ -38,6 +38,7 @@
 /* Creative resources have their own navigation, outside video categories. */
 a.nav-button{text-decoration:none}.sidebar{overflow-y:auto}.resource-label{margin-top:24px}
 </style>
+<link rel="alternate" type="application/json" href="read/index.json" title="片库视觉参考索引">
 </head>
 <body>
 <svg class="icon-definitions" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><defs>
@@ -65,7 +66,7 @@ a.nav-button{text-decoration:none}.sidebar{overflow-y:auto}.resource-label{margi
   </nav>
   <div class="sidebar-section-label resource-label">创作资源</div>
   <nav class="main-nav" aria-label="创作资源">
-    <a class="nav-button" href="tools.html"><svg aria-hidden="true"><use href="#i-layers"/></svg><span>动效工具</span></a><a class="nav-button" href="packaging.html"><svg aria-hidden="true"><use href="#i-layers"/></svg><span>包装设计</span></a><a class="nav-button" href="style-references.html"><svg aria-hidden="true"><use href="#i-file"/></svg><span>风格图片参考</span></a>
+    <a class="nav-button" href="tools.html"><svg aria-hidden="true"><use href="#i-layers"/></svg><span>动效工具</span></a><a class="nav-button" href="packaging.html"><svg aria-hidden="true"><use href="#i-layers"/></svg><span>包装设计</span></a><a class="nav-button" href="style-references.html"><svg aria-hidden="true"><use href="#i-file"/></svg><span>风格图片参考</span></a><a class="nav-button" href="read/"><svg aria-hidden="true"><use href="#i-file"/></svg><span>参考目录</span></a>
   </nav>
   <div class="sidebar-section-label category-label">影片分类</div>
   <nav class="category-nav" aria-label="影片分类"><button type="button" data-direction="all" aria-pressed="true" class="active"><span class="category-dot" style="background:#8b9484"></span><span>全部分类</span><span class="category-count" aria-label="12 部作品">12</span></button>
@@ -291,6 +292,12 @@ ${c.apply||'根据新片的叙事重点调整元素、版式与节奏。'}
   document.addEventListener('keydown',e=>{if(e.key==='/'&&!['INPUT','TEXTAREA'].includes(e.target.tagName)&&!detail.open){e.preventDefault();$('#search').focus();}});
   $('#hero-stats').innerHTML=`<div><strong>${videos.length}</strong><span>部作品</span></div><div><strong>${data.cases.length}</strong><span>个包装案例</span></div><div><strong>${videos.filter(v=>v.status!=='draft').length}</strong><span>部有研究笔记</span></div>`;
   $('#featured-image').src=asset(byId.autumn.poster);render();
+  const linkedReference = new URLSearchParams(location.search);
+  const linkedVideo = linkedReference.get('video');
+  if (videos.some(v=>v.id===linkedVideo)) {
+    const linkedCase = data.cases.find(c=>c.id===linkedReference.get('case')&&c.videoId===linkedVideo);
+    openVideo(linkedVideo,linkedCase?.id);
+  }
 })();
 </script></body></html>
 

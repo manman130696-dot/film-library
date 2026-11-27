@@ -1,0 +1,194 @@
+{
+  "id": "home",
+  "title": "纯过日子时代",
+  "summary": "空房迅速变成完整家，主题字与家具价格标签共同承担开头的信息组织。",
+  "subtitle": "空间组装、绿色大字与价格标签",
+  "categories": [
+    "知识解说",
+    "视觉动效"
+  ],
+  "tags": [
+    "片头",
+    "空间演示",
+    "动态图卡",
+    "价格标签"
+  ],
+  "preference": "用户确认“整体组合都喜欢”：空房分层装满、绿色中英字与家具价格标签的组合。",
+  "duration": 295.633333,
+  "preview_duration": 10,
+  "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=home",
+  "report_url": null,
+  "preview_url": null,
+  "preview_access": "existing_library_viewer",
+  "poster_url": "https://manman130696-dot.github.io/film-library/read/images/8c99e60001b5e72afb7c5f4a.svg",
+  "details_json": "https://manman130696-dot.github.io/film-library/read/films/home.json",
+  "details_html": "https://manman130696-dot.github.io/film-library/read/films/home.html",
+  "cases": [
+    {
+      "id": "home-palette",
+      "videoId": "home",
+      "kind": "palette",
+      "title": "配色参考｜奶油白、原木与橄榄绿",
+      "tags": [
+        "配色参考",
+        "包装配色",
+        "B镜"
+      ],
+      "start": 2.2,
+      "end": 7.5,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/home.html#home-palette",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=home&case=home-palette",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/6010652f70713c29d28a7bf4.svg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "空间以暖白和木色为主，植物与绿色标签提供小面积重点。",
+        "typography": "背景 #E7DEC4；留白 #F6F3E8；主体 #B09261；辅助 #7E8365；文字 #2D3024 / 背景 #E7DEC4；主标题 #6E862D；文字 #2D3024；标签底 #F6F3E8",
+        "motion": "本条整理配色；动作方法参照各组对应的原包装案例。",
+        "why": "空间以暖白和木色为主，植物与绿色标签提供小面积重点。"
+      },
+      "adaptation_suggestion": "依据已归档画面的配色整理；HEX为近似参考色，比例为新作设计建议，均非原片测量或品牌标准。仅视觉，不含声音设计。\n\n自然空间暖白＋原木＋植物绿\n对标：家具价格标签：信息跟随空间（2.2–7.5秒）\n近似参考色：背景 #E7DEC4（奶油墙面）；留白 #F6F3E8（窗边与标签底）；主体 #B09261（木色家具）；辅助 #7E8365（植物与灰橄榄）；文字 #2D3024（深色注释）\n建议奶油白与暖白70%、木色20%、植物绿7%、深字3%。\nB镜用法：用于空间改造、家具清单B镜；用暖白标签承接信息，保留室内自然光。\n制作提示词：固定空间镜头，奶油白墙面和原木家具，少量橄榄绿植物，暖白价格标签跟随家具出现，深色文字清楚可读；标签位置避开窗景和家具轮廓。\n\n绿色中英标题\n对标：空房组装＋绿色中英标题（0–2.2秒）\n近似参考色：背景 #E7DEC4（室内暖底）；主标题 #6E862D（绿色中英字）；文字 #2D3024（辅助说明）；标签底 #F6F3E8（浅色信息区）\n建议室内原画85%、浅标签10%、绿标题与深字共5%。\nB镜用法：用于风格命名、改造前后总结B镜；只让标题变绿，不给整个室内统一染绿。\n制作提示词：保留奶油与木色的原始空间，绿色中英短标题分两级排版，深色小字放在暖白留白区；家具依次建立后标题出现。",
+      "palette": {
+        "note": "依据已归档画面的配色整理；HEX为近似参考色，比例为新作设计建议，均非原片测量或品牌标准。仅视觉，不含声音设计。",
+        "groups": [
+          {
+            "name": "自然空间暖白＋原木＋植物绿",
+            "sourceTitle": "家具价格标签：信息跟随空间",
+            "observation": "室内奶油墙面与窗边亮部占大面，原木家具和绿色植物提供层次；标签应借用空间已有颜色。",
+            "colors": [
+              {
+                "role": "背景",
+                "hex": "#E7DEC4",
+                "use": "奶油墙面"
+              },
+              {
+                "role": "留白",
+                "hex": "#F6F3E8",
+                "use": "窗边与标签底"
+              },
+              {
+                "role": "主体",
+                "hex": "#B09261",
+                "use": "木色家具"
+              },
+              {
+                "role": "辅助",
+                "hex": "#7E8365",
+                "use": "植物与灰橄榄"
+              },
+              {
+                "role": "文字",
+                "hex": "#2D3024",
+                "use": "深色注释"
+              }
+            ],
+            "proportions": "建议奶油白与暖白70%、木色20%、植物绿7%、深字3%。",
+            "broll": "用于空间改造、家具清单B镜；用暖白标签承接信息，保留室内自然光。",
+            "prompt": "固定空间镜头，奶油白墙面和原木家具，少量橄榄绿植物，暖白价格标签跟随家具出现，深色文字清楚可读；标签位置避开窗景和家具轮廓。",
+            "sourceCaseId": "HO03",
+            "image": "https://manman130696-dot.github.io/film-library/read/images/6010652f70713c29d28a7bf4.svg",
+            "start": 2.2,
+            "end": 7.5,
+            "preview_covers_range": true,
+            "proportions_status": "existing_adaptation_suggestion",
+            "prompt_status": "existing_adaptation_suggestion"
+          },
+          {
+            "name": "绿色中英标题",
+            "sourceTitle": "空房组装＋绿色中英标题",
+            "observation": "空间底色保持安静，绿色标题是额外增加的信息层。",
+            "colors": [
+              {
+                "role": "背景",
+                "hex": "#E7DEC4",
+                "use": "室内暖底"
+              },
+              {
+                "role": "主标题",
+                "hex": "#6E862D",
+                "use": "绿色中英字"
+              },
+              {
+                "role": "文字",
+                "hex": "#2D3024",
+                "use": "辅助说明"
+              },
+              {
+                "role": "标签底",
+                "hex": "#F6F3E8",
+                "use": "浅色信息区"
+              }
+            ],
+            "proportions": "建议室内原画85%、浅标签10%、绿标题与深字共5%。",
+            "broll": "用于风格命名、改造前后总结B镜；只让标题变绿，不给整个室内统一染绿。",
+            "prompt": "保留奶油与木色的原始空间，绿色中英短标题分两级排版，深色小字放在暖白留白区；家具依次建立后标题出现。",
+            "sourceCaseId": "HO01",
+            "image": "https://manman130696-dot.github.io/film-library/read/images/7eb4cb17e56c09e05aec72ca.svg",
+            "start": 0,
+            "end": 2.2,
+            "preview_covers_range": true,
+            "proportions_status": "existing_adaptation_suggestion",
+            "prompt_status": "existing_adaptation_suggestion"
+          }
+        ]
+      },
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "HO01",
+      "title": "空房组装＋绿色中英标题",
+      "status": "用户明确喜欢整体组合",
+      "userQuote": "整体组合都喜欢",
+      "evidenceBasis": "既有0—3.2秒逐源帧观察与本次截图复核",
+      "videoId": "home",
+      "tags": [
+        "空间演示",
+        "花字",
+        "开头"
+      ],
+      "start": 0,
+      "end": 2.2,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/home.html#HO01",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=home&case=HO01",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/7eb4cb17e56c09e05aec72ca.svg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "同一窗户和透视保持，地、墙、灯、家具逐组补齐；绿色两行字放在后部窗口区域，前景家具保留深度。",
+        "typography": "绿色中文粗字承担题目，短英文在其间快换，底部说明字幕另占一行。",
+        "motion": "家具尚在补齐时字组开始；主题合体后变淡，注意力随后交给成品和标签。",
+        "why": "变化基准、完整结果和主题字依次接力，整体组合比单独追逐一款字效更有表达内容。"
+      },
+      "adaptation_suggestion": "",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "HO03",
+      "title": "家具价格标签：信息跟随空间",
+      "status": "用户明确喜欢整体组合",
+      "userQuote": "整体组合都喜欢",
+      "evidenceBasis": "既有分析与本次截图复核",
+      "videoId": "home",
+      "tags": [
+        "标签",
+        "空间演示",
+        "留白"
+      ],
+      "start": 2.2,
+      "end": 7.5,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/home.html#HO03",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=home&case=HO03",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/6010652f70713c29d28a7bf4.svg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "标签依附家具附近的空处，名称与绿色金额上下分层；同一房间继续推进。",
+        "typography": "白色名称与绿色金额分主次，底部讲解字幕维持原有位置。",
+        "motion": "主题字先退，立柜标签先入，沙发等标签再接；随视点前移逐渐退出。",
+        "why": "标题和标签错开占用注意力，信息有对象、有位置，房间依然可看。"
+      },
+      "adaptation_suggestion": "",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    }
+  ]
+}

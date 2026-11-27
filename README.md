@@ -1,5 +1,13 @@
 # 满的公开片库
 
+## 直接读取参考资料
+
+静态目录：[`read/`](https://manman130696-dot.github.io/film-library/read/)；结构化索引：[`read/index.json`](https://manman130696-dot.github.io/film-library/read/index.json)。目录与单片详情无需运行页面脚本，提供现有案例、原有截图、时间位置及可播放范围；新作建议与既有原片记录分开。此次不补写 12 维视觉标注。
+
+源资料变动后执行 `node scripts/build-reading-index.mjs`，提交生成的 `read/`；`node scripts/build-reading-index.mjs --check` 检查是否与源资料一致。生成器沿用 `archive-loader.js` 的合并规则，不复制视频。检查流程会检测目录遗漏或过期。
+
+片段链接可使用 `index.html?video=影片编号&case=案例编号`，直接打开原有影片及案例。超出站内预览的片段仍明确提示范围限制。
+
 [打开片库](https://manman130696-dot.github.io/film-library/)
 
 影像片段、拉片分析、包装动效设计和制作提示词。

@@ -1,0 +1,82 @@
+{
+  "id": "gold",
+  "title": "世界另一页 · 黄金矿区",
+  "summary": "围绕黄金矿区的人物与处境，保存了结构初读、来源记录和参考片段。",
+  "subtitle": "人物、财富与纪录片结构",
+  "categories": [
+    "纪录片"
+  ],
+  "tags": [
+    "结构",
+    "人物",
+    "纪实",
+    "参考片段"
+  ],
+  "preference": "具体喜欢的片段、节奏与声音维度仍待确认。",
+  "duration": 2080.33033,
+  "preview_duration": 10,
+  "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=gold",
+  "report_url": null,
+  "preview_url": null,
+  "preview_access": "existing_library_viewer",
+  "poster_url": "https://manman130696-dot.github.io/film-library/read/images/48fbd914f8ded2ecee16085b.svg",
+  "details_json": "https://manman130696-dot.github.io/film-library/read/films/gold.json",
+  "details_html": "https://manman130696-dot.github.io/film-library/read/films/gold.html",
+  "cases": [
+    {
+      "id": "GO01",
+      "title": "人像两侧的白色笔触主标题",
+      "status": "分析者建议参考",
+      "userQuote": "",
+      "evidenceBasis": "既有分析与本次截图复核",
+      "videoId": "gold",
+      "tags": [
+        "人物组合",
+        "花字",
+        "留白"
+      ],
+      "start": 45,
+      "end": 56,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/gold.html#GO01",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=gold&case=GO01",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/d3855c91bd349cecc6c9f67d.svg",
+      "preview_covers_range": false,
+      "existing_record": {
+        "structure": "蒙面矿工的眼睛在中央，黄金和矿工分列脸部两侧，较小英文分别在下。",
+        "typography": "中文有明显笔触与不规则轮廓，白中文字和黄色英文区分层级。",
+        "motion": "完整字组在人像两侧保持，后段逐渐淡出；精确入场曲线未确认。",
+        "why": "面部关键区域留出，字把人物围成标题中心，英文补充而不争同一级。"
+      },
+      "adaptation_suggestion": "",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "GO02",
+      "title": "章序＋笔触中文＋小英文跨实景保持",
+      "status": "分析者建议参考",
+      "userQuote": "",
+      "evidenceBasis": "既有分析与本次截图复核",
+      "videoId": "gold",
+      "tags": [
+        "章节卡",
+        "花字"
+      ],
+      "start": 1619.5,
+      "end": 1627,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/gold.html#GO02",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=gold&case=GO02",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/c229bacc2d32db69c7b13a33.svg",
+      "preview_covers_range": false,
+      "existing_record": {
+        "structure": "章序在上，黄金交易链为主要字组，小英文在下，实景道路与航拍继续变化。",
+        "typography": "白色主字有笔触，字号差建立章序、章名、译文三层。",
+        "motion": "约1619.5秒字组透明度升高，跨不同实景保持，约1624.5秒开始离开。",
+        "why": "章节识别与场景转换同时完成，字不必为每次换镜重新进场。"
+      },
+      "adaptation_suggestion": "",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    }
+  ]
+}

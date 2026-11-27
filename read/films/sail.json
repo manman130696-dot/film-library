@@ -1,0 +1,222 @@
+{
+  "id": "sail",
+  "title": "帆船环游世界",
+  "summary": "从人物冷开场到航海体验，用过程、地图、章节卡和同伴反应串起旅行。",
+  "subtitle": "短片Vlog的风格、群像与包装",
+  "categories": [
+    "Vlog"
+  ],
+  "tags": [
+    "短片",
+    "群像",
+    "地图",
+    "手绘包装",
+    "声音参考"
+  ],
+  "preference": "喜欢整体风格、音乐音效、包装与动效；作为短片或Vlog本身学习，不预设套内容。",
+  "duration": 2041.241241,
+  "preview_duration": 10,
+  "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=sail",
+  "report_url": null,
+  "preview_url": null,
+  "preview_access": "existing_library_viewer",
+  "poster_url": "https://manman130696-dot.github.io/film-library/read/images/801d39f3e620f45f5525c173.svg",
+  "details_json": "https://manman130696-dot.github.io/film-library/read/films/sail.json",
+  "details_html": "https://manman130696-dot.github.io/film-library/read/films/sail.html",
+  "cases": [
+    {
+      "id": "SA01",
+      "title": "实景船队＋地图轮廓与尺度缩放",
+      "status": "分析者建议参考",
+      "userQuote": "",
+      "evidenceBasis": "既有分析与本次截图复核",
+      "videoId": "sail",
+      "tags": [
+        "地图",
+        "图文组合"
+      ],
+      "start": 32.77,
+      "end": 35.6,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/sail.html#SA01",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=sail&case=SA01",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/a8dbabf59d9adcd5f4e4cc3c.svg",
+      "preview_covers_range": false,
+      "existing_record": {
+        "structure": "海面与船队作为底片，蓝色大陆覆盖其上，白色地名随尺度变化出现。",
+        "typography": "地图填色与白色小地名有明度区别，底部字幕保持解释职能。",
+        "motion": "世界轮廓先出现，地图填实并放大到欧洲与非洲附近，再落地名。",
+        "why": "地理定位在实拍中完成，背景没有被完全抹掉，旅行的连续感仍在。"
+      },
+      "adaptation_suggestion": "",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "SA02",
+      "title": "主题形象→小字快换→系列标志",
+      "status": "分析者建议参考",
+      "userQuote": "",
+      "evidenceBasis": "既有分析与本次截图复核",
+      "videoId": "sail",
+      "tags": [
+        "花字",
+        "片名",
+        "开头"
+      ],
+      "start": 132,
+      "end": 137.6,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/sail.html#SA02",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=sail&case=SA02",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/b93c88f990a4d7acc27b1ae7.svg",
+      "preview_covers_range": false,
+      "existing_record": {
+        "structure": "倾斜海面和白帆提供构图方向，大型主题字先居中；后续字号收小，最后系列标志稳定。",
+        "typography": "大形象、小字与标志分三个字级，白字依靠较暗海面获得识读。",
+        "motion": "主题先出现，约133秒后收成小字快速换词，约135秒定为清单人生。",
+        "why": "信息密度有换挡，前奏从经历想象收束到系列身份。"
+      },
+      "adaptation_suggestion": "",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "SA04",
+      "title": "升帆大字＋悬赏海报＋尾浪底片",
+      "status": "分析者建议参考",
+      "userQuote": "",
+      "evidenceBasis": "既有分析与本次截图复核",
+      "videoId": "sail",
+      "tags": [
+        "章节卡",
+        "花字",
+        "人物组合"
+      ],
+      "start": 453.4,
+      "end": 459.23,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/sail.html#SA04",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=sail&case=SA04",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/904fdcc1c22e17ad3a708a5d.svg",
+      "preview_covers_range": false,
+      "existing_record": {
+        "structure": "左右巨大升、帆两字留出中间槽位，悬赏海报占中轴，Part.2在顶端小一层；海浪仍在后方。",
+        "typography": "两侧白字很大，中间海报偏黄，与蓝灰尾浪形成色块对照。",
+        "motion": "先立两侧字，再由很窄的海报侧面翻展成正面，之后保持。",
+        "why": "活动名、人物和章节序号各有位置，留白是为下一元素预留的实际空间。"
+      },
+      "adaptation_suggestion": "",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "SA05",
+      "title": "人物对谈＋蓝紫引语条",
+      "status": "分析者建议参考",
+      "userQuote": "",
+      "evidenceBasis": "既有分析与本次截图复核",
+      "videoId": "sail",
+      "tags": [
+        "引语",
+        "标签",
+        "留白"
+      ],
+      "start": 1368.4,
+      "end": 1371,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/sail.html#SA05",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=sail&case=SA05",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/4189c232775d1735f4bcd581.svg",
+      "preview_covers_range": false,
+      "existing_record": {
+        "structure": "人物与海面占主体，左下蓝紫底条承托引号、两行观点和小署名。",
+        "typography": "引号最大，正文次之，署名较小，卡片与底部常规字幕有所区隔。",
+        "motion": "底条先搭出，引号随后出现，文字逐步补齐；切镜后卡片延续。",
+        "why": "一句话得到可停留阅读的位置，人物脸和对谈环境仍有足够空间。"
+      },
+      "adaptation_suggestion": "",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "SA06",
+      "title": "暗舱与DAY 2小字",
+      "status": "分析者建议参考",
+      "userQuote": "",
+      "evidenceBasis": "既有分析与本次截图复核",
+      "videoId": "sail",
+      "tags": [
+        "章节卡",
+        "留白"
+      ],
+      "start": 1688.5,
+      "end": 1694.1,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/sail.html#SA06",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=sail&case=SA06",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/2697dd9697fbe1a90c6e907a.svg",
+      "preview_covers_range": false,
+      "existing_record": {
+        "structure": "窄窗提供横向亮线，身体和床在暗部，DAY 2只占左下一个小区域。",
+        "typography": "白色短字与暗底形成足够对比，无需占满屏幕。",
+        "motion": "从海面进入暗舱，DAY 2出现并保持一段，再退出。",
+        "why": "场景先给出清晨与醒来的感觉，小字完成时间确认，形成与大章节卡不同的强度。"
+      },
+      "adaptation_suggestion": "",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "SA07",
+      "title": "海面底片＋手绘箭头＋地点手写字",
+      "status": "分析者建议参考",
+      "userQuote": "",
+      "evidenceBasis": "既有分析与本次截图复核",
+      "videoId": "sail",
+      "tags": [
+        "地点",
+        "箭头",
+        "花字"
+      ],
+      "start": 1745.6,
+      "end": 1748,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/sail.html#SA07",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=sail&case=SA07",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/40f242e6828cf60e24634a06.svg",
+      "preview_covers_range": false,
+      "existing_record": {
+        "structure": "海天线和岸边提供大留白，白线从画面中部弯向远处，地点字在其上。",
+        "typography": "手写感地名与箭头成组，底部字幕继续解释位置。",
+        "motion": "白点先出现，线延长并成箭头，地名字再从浅到实。",
+        "why": "先给视线一个方向，再确认名称。片内地名存在范围疑问，仅参考形式。"
+      },
+      "adaptation_suggestion": "",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "SA08",
+      "title": "固定作者边栏＋照片＋现场对谈",
+      "status": "分析者建议参考",
+      "userQuote": "",
+      "evidenceBasis": "既有分析与本次截图复核",
+      "videoId": "sail",
+      "tags": [
+        "资料卡",
+        "人物组合",
+        "留白"
+      ],
+      "start": 1937.5,
+      "end": 1940.5,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/sail.html#SA08",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=sail&case=SA08",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/84f5716ab05c4bf9516d830a.svg",
+      "preview_covers_range": false,
+      "existing_record": {
+        "structure": "窄栏占左侧，文字在上、黑白照片在下，右侧保留现场人物与海面。",
+        "typography": "粉紫渐变资料区与黑白照片分层，现场字幕另在底部。",
+        "motion": "窄栏先立住，下方照片区域再展开；对谈画面继续。",
+        "why": "作者资料有独立阅读位置，现场人物的动作没有被整个盖住。"
+      },
+      "adaptation_suggestion": "",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "id": "autumn",
+  "title": "秋游团综",
+  "summary": "用拼贴片头、栏目组件和人物反应，把一次秋游组织成一集团综。",
+  "subtitle": "综艺包装、拼贴片头与人物反应",
+  "categories": [
+    "Vlog",
+    "综艺包装",
+    "视觉动效",
+    "商业与音乐影像"
+  ],
+  "tags": [
+    "片头",
+    "B镜",
+    "镜头包装",
+    "综艺花字",
+    "剪纸拼贴"
+  ],
+  "preference": "喜欢前10秒片头和整套包装；只作为可选制作方式之一，不设默认风格。",
+  "duration": 122.233333,
+  "preview_duration": 122.233333,
+  "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=autumn",
+  "report_url": null,
+  "preview_url": null,
+  "preview_access": "existing_library_viewer",
+  "poster_url": "https://manman130696-dot.github.io/film-library/read/images/b62f0ce177b7612b02d579e3.svg",
+  "details_json": "https://manman130696-dot.github.io/film-library/read/films/autumn.json",
+  "details_html": "https://manman130696-dot.github.io/film-library/read/films/autumn.html",
+  "cases": [
+    {
+      "id": "AU01",
+      "videoId": "autumn",
+      "title": "公路、唱片与人物拼贴片头",
+      "tags": [
+        "片头",
+        "剪纸拼贴",
+        "人物抠像"
+      ],
+      "start": 0,
+      "end": 8.9,
+      "status": "用户喜欢本片包装；作为可选方式",
+      "userQuote": "不用参考，当一个选择就好",
+      "evidenceBasis": "原报告的全片0.5秒取样和局部密集采样；未实际听辨声音。",
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/autumn.html#AU01",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=autumn&case=AU01",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/a00f933f5bd2421e5425cace.svg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "先揭示公路与小巴，再穿过唱片孔补齐人物，瓶贴遮挡后落下主标题。",
+        "typography": "白边抠像、报纸网点和纸张撕边统一材质。",
+        "motion": "云雾退开→小巴趋近唱片→人物错峰亮相→瓶贴铺满→主标题落定。",
+        "why": "主题物件同时承担构图与转场，素材按顺序接力。"
+      },
+      "adaptation_suggestion": "适用于片头的可选做法；按新主题更换物件，不设为默认风格。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "AU02",
+      "videoId": "autumn",
+      "title": "时间牌与综艺姓名条",
+      "tags": [
+        "姓名条",
+        "时间牌",
+        "镜头包装"
+      ],
+      "start": 55.433333,
+      "end": 63.833333,
+      "status": "用户喜欢本片包装；作为可选方式",
+      "userQuote": "不用参考，当一个选择就好",
+      "evidenceBasis": "原报告的全片0.5秒取样和局部密集采样；未实际听辨声音。",
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/autumn.html#AU02",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=autumn&case=AU02",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/62fc1022065d7f58d0f65b34.svg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "姓名和到场时间保持固定坐标，人物行为位于画面主体。",
+        "typography": "青色时间条、线框箭头与小型招呼字形成稳定层级。",
+        "motion": "朋友依次到场，时间从14:10递进到15:00，配合招手和短线强调。",
+        "why": "栏目组件解释谁、何时到场，并兑现前文迟到的预期。"
+      },
+      "adaptation_suggestion": "固定一套信息组件，再根据真实行为选择少量反应图形。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "AU03",
+      "videoId": "autumn",
+      "title": "瓜的拟人五官与反应小窗",
+      "tags": [
+        "物体拟人",
+        "B镜",
+        "反应小窗"
+      ],
+      "start": 85.133333,
+      "end": 87.7,
+      "status": "用户喜欢本片包装；作为可选方式",
+      "userQuote": "不用参考，当一个选择就好",
+      "evidenceBasis": "原报告的全片0.5秒取样和局部密集采样；未实际听辨声音。",
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/autumn.html#AU03",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=autumn&case=AU03",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/c0443770bd4c6fc46b9b1840.svg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "俯拍桌上食物，把瓜与人物小窗联系起来。",
+        "typography": "弧形“哈哈哈”、叹号与“就我的最大！”放大物品体积差异。",
+        "motion": "瓜先落桌，五官再出现，并跟随实物位置调整。",
+        "why": "物品差异、图形评价与人物反应形成笑点闭环。"
+      },
+      "adaptation_suggestion": "先拍清楚物品差异，再添加拟人图形和反应小窗。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "AU04",
+      "videoId": "autumn",
+      "title": "局部去色与汗滴反应",
+      "tags": [
+        "局部去色",
+        "人物反应",
+        "镜头包装"
+      ],
+      "start": 100.733333,
+      "end": 102.566667,
+      "status": "用户喜欢本片包装；作为可选方式",
+      "userQuote": "不用参考，当一个选择就好",
+      "evidenceBasis": "原报告的全片0.5秒取样和局部密集采样；未实际听辨声音。",
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/autumn.html#AU04",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=autumn&case=AU04",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/631427d2815310a45b8817f5.svg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "背景大面积去色，人物和果盒仍保留部分颜色。",
+        "typography": "“尴尬”与蓝色汗滴围绕人物空位出现。",
+        "motion": "在三人同款之后切到男生反应，汗滴随表情变化调整。",
+        "why": "用颜色层级和情绪图形集中注意力。"
+      },
+      "adaptation_suggestion": "只作为可选反应包装，先有画面依据再加图形评价。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    }
+  ]
+}

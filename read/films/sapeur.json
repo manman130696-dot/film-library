@@ -1,0 +1,82 @@
+{
+  "id": "sapeur",
+  "title": "食贫道 · 萨普",
+  "summary": "用异常行为先建立问题，再放慢节奏，让口述与动作细节递进揭示人物。",
+  "subtitle": "预告钩子、节奏与声音搭配",
+  "categories": [
+    "纪录片"
+  ],
+  "tags": [
+    "开头钩子",
+    "节奏",
+    "预告",
+    "声音参考"
+  ],
+  "preference": "喜欢本片节奏、配音与音效搭配，希望以后用于类似前奏；具体声音听辨仍待补。",
+  "duration": 64.68,
+  "preview_duration": 10,
+  "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=sapeur",
+  "report_url": null,
+  "preview_url": null,
+  "preview_access": "existing_library_viewer",
+  "poster_url": "https://manman130696-dot.github.io/film-library/read/images/bf4cd9fc41469ed49732fb22.svg",
+  "details_json": "https://manman130696-dot.github.io/film-library/read/films/sapeur.json",
+  "details_html": "https://manman130696-dot.github.io/film-library/read/films/sapeur.html",
+  "cases": [
+    {
+      "id": "SP01",
+      "title": "固定前提标题＋中部实拍＋变化字幕",
+      "status": "分析者建议参考",
+      "userQuote": "",
+      "evidenceBasis": "既有分析与本次截图复核",
+      "videoId": "sapeur",
+      "tags": [
+        "预告",
+        "花字",
+        "结构"
+      ],
+      "start": 0,
+      "end": 59.32,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/sapeur.html#SP01",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=sapeur&case=SP01",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/459b57da11fd1700f8ad80bd.svg",
+      "preview_covers_range": false,
+      "existing_record": {
+        "structure": "竖向文件上部固定两行标题，中部是人物与衣装，下部一行对白字幕；三个区块各有职责。",
+        "typography": "黄白大字分出两句前提，画面内品牌标识较小。",
+        "motion": "前提保持，人物与动作持续更换，底部字幕接着推进信息。",
+        "why": "固定信息降低理解成本。此文件包含分享版式，原节目与分享包装归属尚未分开。"
+      },
+      "adaptation_suggestion": "",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "SP02",
+      "title": "黑场衣架片名：用减层收尾",
+      "status": "分析者建议参考",
+      "userQuote": "",
+      "evidenceBasis": "既有分析与本次截图复核",
+      "videoId": "sapeur",
+      "tags": [
+        "片名",
+        "留白"
+      ],
+      "start": 59.32,
+      "end": 64.68,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/sapeur.html#SP02",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=sapeur&case=SP02",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/d83abf19bf52c08e43628dc0.svg",
+      "preview_covers_range": false,
+      "existing_record": {
+        "structure": "黑底中只留衣架与片名字组，四周留白很大。",
+        "typography": "白色中文片名与小英文集中，衣架线条连接服装主题。",
+        "motion": "片名字组渐亮，实拍与其他信息退出。",
+        "why": "预告结束时减少层次，让最后一次识别集中在片名上。"
+      },
+      "adaptation_suggestion": "",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    }
+  ]
+}

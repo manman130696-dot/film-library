@@ -1,0 +1,38 @@
+name: Check direct reading index
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'archive-loader.js'
+      - 'film-library-public/index.html'
+      - 'entries/**'
+      - 'style-references/references.json'
+      - 'read/**'
+      - 'scripts/build-reading-index.mjs'
+      - 'tests/reading-index.test.mjs'
+      - '.github/workflows/check-reading.yml'
+  pull_request:
+    paths:
+      - 'archive-loader.js'
+      - 'film-library-public/index.html'
+      - 'entries/**'
+      - 'style-references/references.json'
+      - 'read/**'
+      - 'scripts/build-reading-index.mjs'
+      - 'tests/reading-index.test.mjs'
+      - '.github/workflows/check-reading.yml'
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --test tests/reading-index.test.mjs
+      - run: node scripts/build-reading-index.mjs --check

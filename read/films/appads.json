@@ -1,0 +1,834 @@
+{
+  "id": "appads",
+  "title": "跳跳广告",
+  "summary": "把开屏、误点、摇一摇等机制变成可跟随的动作；截图中的“安徽大爷”位于开头。",
+  "subtitle": "手机广告解说 · B镜与解释型包装",
+  "categories": [
+    "知识解说",
+    "视觉动效"
+  ],
+  "tags": [
+    "B镜",
+    "MG动画",
+    "人物档案",
+    "画面组合",
+    "章节包装"
+  ],
+  "preference": "用户指定本片B镜做法可供以后需要时借鉴。",
+  "duration": 992.7,
+  "preview_duration": 10,
+  "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=appads",
+  "report_url": null,
+  "preview_url": null,
+  "preview_access": "existing_library_viewer",
+  "poster_url": "https://manman130696-dot.github.io/film-library/read/images/857129be65a79afa2d2cfa71.svg",
+  "details_json": "https://manman130696-dot.github.io/film-library/read/films/appads.json",
+  "details_html": "https://manman130696-dot.github.io/film-library/read/films/appads.html",
+  "cases": [
+    {
+      "id": "AD01",
+      "title": "人物模型＋真实视频：把案例做成一张动态档案",
+      "status": "用户指定后续借鉴本片B镜做法",
+      "userQuote": "我觉得你也可以学习研究一下他这个b镜的做法，假如以后我需要的话你可以借鉴一下",
+      "evidenceBasis": "2026-11-21前两分钟专项分析；已查看0.5秒连续帧及关键区域0.1秒样本；模型呈现三维外观，但不能仅凭成片确定它是实时三维、预渲染素材，或具体由哪个软件制作。来源标签中的说法是原片呈现，不等于本报告独立核实了事件。",
+      "videoId": "appads",
+      "tags": [
+        "人物组合",
+        "资料卡",
+        "结构"
+      ],
+      "start": 0,
+      "end": 15.95,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD01",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=appads&case=AD01",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/b23ed87533cde5eb2eb58839.svg",
+      "preview_covers_range": false,
+      "existing_record": {
+        "structure": "左边负责“谁”，右边负责“发生了什么”。模型手机附近的小红框把视线引向右侧的大视频框；30s内放左上，20+放右下，形成两个角上的信息锚点。黑色空处给标签留位置，灰白人物降低色彩干扰，让真实素材和红标签更突出。",
+        "typography": "灰白模型压低色彩干扰，红标强调姓名和数字，细框统一模型与实拍。",
+        "motion": "约0.3–0.9秒：细框与名签展开，并短暂红白反色；约2.0–2.4秒：人物快速放大，右侧视频以带斜边的显露过程展开为矩形；约4.6–5.0秒：30s内出现；约6.0–6.4秒：20+出现。约9.6–10.3秒更换人物，后续按叙述补“高速开车”“开屏+摇一摇”“差点出车祸”。这些是镜内分步加信息。",
+        "why": "一个陌生案例同时具备人物索引、现场证据和结果摘要。观众不用在模型和资料视频之间猜关系。第二个案例复用骨架，降低重新理解版面的成本。"
+      },
+      "adaptation_suggestion": "最值得记的是“人物／实证／结论”的三层组合。更换故事时，先确定这三层各自占哪里，再决定用模型、抠像或照片。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "AD02",
+      "title": "证据墙：从总目录推入第一章",
+      "status": "用户指定后续借鉴本片B镜做法",
+      "userQuote": "我觉得你也可以学习研究一下他这个b镜的做法，假如以后我需要的话你可以借鉴一下",
+      "evidenceBasis": "2026-11-21前两分钟专项分析；已查看0.5秒连续帧及关键区域0.1秒样本；成片能确认空间推进与透视变化，不能确认实际三维场景与二维分层合成的分工。",
+      "videoId": "appads",
+      "tags": [
+        "章节",
+        "拼贴",
+        "结构"
+      ],
+      "start": 46.5,
+      "end": 52.2,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD02",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=appads&case=AD02",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/13010223ab28d1d800940c81.svg",
+      "preview_covers_range": false,
+      "existing_record": {
+        "structure": "软木板是大容器，里面的报纸是章节卡；桌面、灯和电脑提供前后层次。全景时看“问题很多”，推近后只读“偷走你的注意力”。细节密集，但层级由取景范围控制。",
+        "typography": "报纸、图钉与红线组织资料，Part.1与注意力形成章节字阶。",
+        "motion": "约46.5–49.5秒先建立整套场景；约49.6–50.3秒明显向第一张卡片推进，带透视变化；之后停留给章节标题阅读。没有观察到报纸逐张飞入组装的过程。",
+        "why": "把“钉在耻辱柱上”的字幕说法转成具体场景，也把目录和章节入口合在同一段运动里。"
+      },
+      "adaptation_suggestion": "可借鉴“先看全局，再进入其中一项”。地图、调查档案、旅行路线、资料桌面都能用这条关系；不需要照搬侦探房间。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "AD03",
+      "title": "左上章节签：让 A 镜和 B 镜属于同一小节",
+      "status": "用户指定后续借鉴本片B镜做法",
+      "userQuote": "我觉得你也可以学习研究一下他这个b镜的做法，假如以后我需要的话你可以借鉴一下",
+      "evidenceBasis": "2026-11-21前两分钟专项分析；已查看0.5秒连续帧及关键区域0.1秒样本；这是附着在 A、B 两类画面上的包装，并非一个独立 B 镜。",
+      "videoId": "appads",
+      "tags": [
+        "章节",
+        "花字",
+        "留白"
+      ],
+      "start": 53,
+      "end": 79.35,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD03",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=appads&case=AD03",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/2bb968d5840fabf5b98bfb8a.svg",
+      "preview_covers_range": false,
+      "existing_record": {
+        "structure": "它占用左上角小面积，避开讲述者脸、手和底部字幕。图标、红底和细长字形成一块固定的小标题。",
+        "typography": "小图标、红底细长字，避开脸、手和底部字幕。",
+        "motion": "先有图标，再伸出底条，文字随之显露，约半秒建立完成。完成后主要保持稳定，承担持续定位。",
+        "why": "角标把不同来源的画面串成同一个章节，换镜头时观众仍知道正在讲哪件事。"
+      },
+      "adaptation_suggestion": "这是低成本、很实用的统一手法。章节签稳定后，B镜可以自由切换，不必每次重新用大标题交代。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "AD04",
+      "title": "手机示意动画：把误点机制演成追逐过程",
+      "status": "用户指定后续借鉴本片B镜做法",
+      "userQuote": "我觉得你也可以学习研究一下他这个b镜的做法，假如以后我需要的话你可以借鉴一下",
+      "evidenceBasis": "2026-11-21前两分钟专项分析；已查看0.5秒连续帧及关键区域0.1秒样本；白点是合成的操作提示，不等于真实触控记录。按钮尺寸和移动只是片中示意，不作为具体应用行为或实测参数。",
+      "videoId": "appads",
+      "tags": [
+        "关系图",
+        "图文组合",
+        "花字"
+      ],
+      "start": 60.9,
+      "end": 76.2,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD04",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=appads&case=AD04",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/1afb394c8a7a9478ab7f7aa5.svg",
+      "preview_covers_range": false,
+      "existing_record": {
+        "structure": "手机始终是核心锚点。两句花字在手机两侧，解释操作时退出，让空间交给按钮。背景虽动，主体和按钮具有更清楚的边界；最后把结论装在手机轮廓内，沿用同一视觉容器。",
+        "typography": "黑白手机与手形、灰色占位图；红底强调态度，结尾跳过与广告拉开字阶。",
+        "motion": "60.9–63.9秒：手机由斜趋正，红条分步补句；64.0–64.8秒：移走侧字并放大手机；65秒后白色操作点出现，约66.9–68.2秒“跳过”沿屏幕边缘换位，白点追随；约68.5–71秒增加邻近的假按钮；约71–73.9秒继续靠近右上控件；74.0–74.6秒拉回并切入手机内的大字结论，保持至离场。",
+        "why": "这段最值得学：它把“按钮难找、容易误点”拆成目标、操作和反馈，观众可以跟着白点经历一次失败操作。画面变化由论证推进，而不是任意增加效果。"
+      },
+      "adaptation_suggestion": "讲软件机制、流程陷阱、规则冲突时，先画出最少的操作对象，再用“想做什么→阻碍是什么→最后发生什么”编排。每个阶段只强调一个新问题。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "AD05",
+      "title": "晃手机／买东西？：让花字站在人物两侧",
+      "status": "用户指定后续借鉴本片B镜做法",
+      "userQuote": "我觉得你也可以学习研究一下他这个b镜的做法，假如以后我需要的话你可以借鉴一下",
+      "evidenceBasis": "2026-11-21前两分钟专项分析；已查看0.5秒连续帧及关键区域0.1秒样本；这是 A 镜包装，单独列出是因为它直接对应你关心的花字、组合和留白。具体字体名称未确认。",
+      "videoId": "appads",
+      "tags": [
+        "花字",
+        "留白",
+        "人物组合"
+      ],
+      "start": 80.4,
+      "end": 83.45,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD05",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=appads&case=AD05",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/f967029bb10fe3ba17034f16.svg",
+      "preview_covers_range": false,
+      "existing_record": {
+        "structure": "人物是中轴，两块字占两侧负空间，脸部保持可见。短词分区，字号拉大也不需要覆盖整个画面。",
+        "typography": "细长白色大字分在人物两侧，中心让出面部。",
+        "motion": "词组按意思前后进入，形成动作与结果的问句关系；字显示后保持供阅读。",
+        "why": "它把荒谬的因果摆到人物两边，表情和文字可以同时被读到。"
+      },
+      "adaptation_suggestion": "可借鉴两侧对举的布局。拍口播时先给两边留位置，后期才不必把字硬压在脸或手上。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "AD06",
+      "title": "单例接三分屏：让不同处境汇到同一结果",
+      "status": "用户指定后续借鉴本片B镜做法",
+      "userQuote": "我觉得你也可以学习研究一下他这个b镜的做法，假如以后我需要的话你可以借鉴一下",
+      "evidenceBasis": "2026-11-21前两分钟专项分析；已查看0.5秒连续帧及关键区域0.1秒样本；分屏经过剪辑，不能据此认定三次操作真实同时发生。",
+      "videoId": "appads",
+      "tags": [
+        "分屏",
+        "结构"
+      ],
+      "start": 98.7,
+      "end": 104.35,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD06",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=appads&case=AD06",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/d57f67b2b63be2fa5c76f396.svg",
+      "preview_covers_range": false,
+      "existing_record": {
+        "structure": "三块画面直接铺满横向宽度，分别保留完整手机及一部分环境。共同的竖向手机让并排比较成立，环境差别说明它们是不同处境。",
+        "typography": "三路实拍以竖向手机对齐，不额外堆大字。",
+        "motion": "先逐一认识例子，再并排汇总；各路屏幕仍继续变化，最后让相似结果同屏可见。",
+        "why": "从“发生过一次”推进到“几种日常动作都可能触发”。并排承担比较和归纳功能。"
+      },
+      "adaptation_suggestion": "分屏前先给单例，分屏后给共同结果。不要只把三个毫无关系的画面排在一起。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "AD07",
+      "title": "角度尺＋冰火两侧：把敏感度比喻变成空间",
+      "status": "用户指定后续借鉴本片B镜做法",
+      "userQuote": "我觉得你也可以学习研究一下他这个b镜的做法，假如以后我需要的话你可以借鉴一下",
+      "evidenceBasis": "2026-11-21前两分钟专项分析；已查看0.5秒连续帧及关键区域0.1秒样本；刻度没有可确认的数值标定，它是修辞示意，不是角度测量结果。最后约115.2–120秒回到讲述者，本次分析在120秒停止。",
+      "videoId": "appads",
+      "tags": [
+        "关系图",
+        "图文组合",
+        "结构"
+      ],
+      "start": 104.35,
+      "end": 115.2,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD07",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=appads&case=AD07",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/78592d779b6cba44a4159efb.svg",
+      "preview_covers_range": false,
+      "existing_record": {
+        "structure": "手机在前层，弧尺在中层，冷暖材质在后层。左右的颜色、图标、纹理和文字一一对应，中心手机在两端之间比较。画面后期填得较满，仍靠左右分区维持关系。",
+        "typography": "弧尺白线，左蓝字配霜纹，右红字配火焰，手机在前层。",
+        "motion": "约105.9–106.7秒弧线和刻度展开；107.5秒后手机左偏并触发红屏，霜纹跟上，约108.6–108.9秒补蓝字；约109.4秒后转向另一侧，火焰出现，约110.7秒补红字。随后手机在黑屏与红屏之间切换，维持“找不到恰好不触发的位置”的视觉意思。",
+        "why": "把抽象的灵敏度用“偏一点就过头”的生活比喻解释。文字、材质和手机动作共同组成一张关系图。"
+      },
+      "adaptation_suggestion": "适合讲阈值、两难、过量不足等关系。先画一条有意义的轴，再安排主体怎样跨越它；冰火只在本段比喻中有用。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "AD08",
+      "title": "手机阵列→公式→柱图→人物贴图：把一个数字讲出尺度",
+      "status": "分析者建议参考",
+      "userQuote": "",
+      "evidenceBasis": "05:00–08:00专项报告，已查看连续帧；仅检视片中展示。0.03%×365=10.95%的算术成立，属于简单年化表达；片中房贷3%、消费贷4%等未被本报告核实为当前市场值。柱图未见坐标轴，视觉比例不作为精确测量。人物贴图也不表示本人认可这些说法。",
+      "videoId": "appads",
+      "tags": [
+        "信息图",
+        "结构",
+        "花字"
+      ],
+      "start": 312.15,
+      "end": 326.45,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD08",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=appads&case=AD08",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/706d3bacaef2a3217688f529.svg",
+      "preview_covers_range": false,
+      "existing_record": {
+        "structure": "先用中间最大最亮的手机建立层级；公式阶段将手机移向左侧，右侧腾出足够留白；柱图阶段移走多余对象，只保留比较。人物贴图进入时图表缩到右边，读图与情绪分区。",
+        "typography": "沿用黑白灰、红色强调；具体字阶、配色与图文关系见本条结构描述和截图。",
+        "motion": "约313.75–314.15秒阵列退出主体位置、公式区建立；314.15–315.75秒分步显示日息与百分数；316.95–319.95秒写换算并红圈结果；320.55秒后红色柱顶出现，柱体向上长起，再依次补两根对比柱；323.95秒后人物与橙底进入，图表重新排位。",
+        "why": "连续回答“数字是什么→怎么换算→差别有多大→作者怎样评价”。同一段内部完成多次信息递进，旧元素也会让位。"
+      },
+      "adaptation_suggestion": "最值得借鉴的是表示方式的接力：原始界面、计算、比较、情绪。每一阶段保留一个视觉锚点，并给下一阶段清出位置。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "AD09",
+      "title": "付款界面与重复弹窗：让人经历一次被纠缠",
+      "status": "分析者建议参考",
+      "userQuote": "",
+      "evidenceBasis": "05:00–08:00专项报告，已查看连续帧；这是概括性的示意界面，不是应用逐帧录屏或真实触控日志。错层边缘支持重复与堆叠的观感，但不逐个断言完整关掉了多少层。",
+      "videoId": "appads",
+      "tags": [
+        "关系图",
+        "图文组合"
+      ],
+      "start": 339.8,
+      "end": 350.05,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD09",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=appads&case=AD09",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/d1ee74059991b56aae1167d9.svg",
+      "preview_covers_range": false,
+      "existing_record": {
+        "structure": "用浅背景、灰选项条、黑色主控件和红勾选降低界面复杂度。弹窗遮住底层但不完全抹掉它，读者仍知道自己被挡在付款流程上。层叠卡边提示“还有下一层”。",
+        "typography": "沿用黑白灰、红色强调；具体字阶、配色与图文关系见本条结构描述和截图。",
+        "motion": "339.9–340.9秒卡片从手机内升出并放大；约341.3秒起两项依次勾选；342.5秒后黑窗弹出，指纹换为面容；光标点右上关闭时可见卡边错层；345.3秒后转浅色免密窗，346秒后光标在拒绝处反复操作，卡片产生错层；348.6秒后转向同意，约349秒变红。",
+        "why": "这段把“反复诱导开通”变成可跟随的操作。重复动作带着后果，不只靠字幕说它很烦。"
+      },
+      "adaptation_suggestion": "讲反复失败、流程阻拦、默认选择时，可以设计“目标→操作→新阻碍→再操作→妥协”。减少无关UI，只保留解释这条因果所需的对象。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "AD10",
+      "title": "推销很热闹，扣款很安静，取消很繁琐：同一手机演出反差",
+      "status": "分析者建议参考",
+      "userQuote": "",
+      "evidenceBasis": "05:00–08:00专项报告，已查看连续帧；界面是概括示意，不是具体应用的完整操作教程；这里只分析视频怎样构造对比。",
+      "videoId": "appads",
+      "tags": [
+        "结构",
+        "信息图"
+      ],
+      "start": 357.5,
+      "end": 372.3,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD10",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=appads&case=AD10",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/d8a1bb040227214325a790a8.svg",
+      "preview_covers_range": false,
+      "existing_record": {
+        "structure": "推销阶段是左边类别、右边示例；扣款阶段清掉外围元素，回到孤立的手机；取消阶段保持机身稳定，只换屏幕内容。留白和密度本身也参与表达。",
+        "typography": "沿用黑白灰、红色强调；具体字阶、配色与图文关系见本条结构描述和截图。",
+        "motion": "357.5–359.8秒为上一轮已核对的开头；360秒后红点、通知与震动线叠加。约363.4秒外围信息退出，364.8秒后扣款单出现；366.4–368.2秒开通与绿色勾确认完成；368.4秒后搜索、应用设置、订阅、会员详情和自动续费管理快速接续，约371.4秒显示取消按钮。",
+        "why": "三个阶段比较的是同一件事在不同目的下的主动程度。同一手机让比较成立，界面数量与视觉密度让“繁琐”变得可见。"
+      },
+      "adaptation_suggestion": "讲办理与退出、加入与离开、购买与退款的差异时，用同一容器演示两条不同路径。可以通过对象多少、步骤和停顿建立反差。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "AD11",
+      "title": "概念标题→研究资料→原文高亮→解释卡",
+      "status": "分析者建议参考",
+      "userQuote": "",
+      "evidenceBasis": "05:00–08:00专项报告，已查看连续帧；本次只分析引用的视觉组织，没有核验论文全文或视频的神经科学推论；论文页出现不等于结论已被独立验证。",
+      "videoId": "appads",
+      "tags": [
+        "资料卡",
+        "图文组合",
+        "花字"
+      ],
+      "start": 400.2,
+      "end": 413.4,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD11",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=appads&case=AD11",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/def16f60e6bb28eda144c214.svg",
+      "preview_covers_range": false,
+      "existing_record": {
+        "structure": "手机扇形排列，中间最大，作为多个例子的共同归类；概念标题以中文大、英文小建立字阶，白字下部渐暗。资料页阶段先让观众知道是什么文件，再给原文局部；黑卡提供可读摘要，人物贴纸在卡片上缘形成层次。",
+        "typography": "沿用黑白灰、红色强调；具体字阶、配色与图文关系见本条结构描述和截图。",
+        "motion": "约402.3秒手机整体下移并腾出标题区；403.7–404.2秒标题缩小、纸页从下方进入；404.7–405.2秒进入英文内页；约406秒解释卡与贴纸上升进入，高亮随后建立；约409.4秒摘要内容更换。",
+        "why": "从“几个现象”进入“共同概念”，再进入“资料依据与解释”。大幅英文原文承担出处感，观众实际阅读的重点由高亮和中文卡承担。"
+      },
+      "adaptation_suggestion": "讲论文、新闻或报告时，可按“完整资料识别→具体位置→摘要解释”处理。高亮区域与摘要应对应，先检查文字可读，再加入人物或贴纸。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "AD12",
+      "title": "支付方式围绕人物补齐：一张图逐步长成结论",
+      "status": "分析者建议参考",
+      "userQuote": "",
+      "evidenceBasis": "05:00–08:00专项报告，已查看连续帧；图中顺序是视频的解释结构，不作为支付技术的完整历史时间线；用户认知变化的主张属于原片论述。",
+      "videoId": "appads",
+      "tags": [
+        "拼贴",
+        "关系图",
+        "结构"
+      ],
+      "start": 413.4,
+      "end": 430.7,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD12",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=appads&case=AD12",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/e365a8a9a02d2a67efab2a81.svg",
+      "preview_covers_range": false,
+      "existing_record": {
+        "structure": "灰度背景提供现实场景并压低竞争，前景白色剪贴图配少量红色底块与红下划线。图标从左侧向上方及右侧扩展，围着下方中心的人物排成环状；先出现的对象保留，右侧留白等待后续条件。",
+        "typography": "沿用黑白灰、红色强调；具体字阶、配色与图文关系见本条结构描述和截图。",
+        "motion": "约418.4–419.6秒标题从右向左收掉；419.6–420.6秒现金缩到左下，人物进入；420.8–422.2秒依次补刷卡、扫码、免密；约426.4–427.2秒补分期、借贷，同时人物转为扶头。完成后停留供比较。",
+        "why": "观众先跟着顺序认识支付方式，再看到它们共同围住一个人。人物状态变化把抽象的认知负担转成可见后果。"
+      },
+      "adaptation_suggestion": "适合展示因素增加、工具演变、选择负担。先定好最终版面的槽位，再按叙述填入；人物或物件状态变化要由新增因素触发。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "AD13",
+      "title": "证据墙下移→报纸局部→手机：章节与正文接在一起",
+      "status": "分析者建议参考",
+      "userQuote": "",
+      "evidenceBasis": "05:00–08:00专项报告，已查看连续帧；能观察到碎斑与遮罩的显露过程，无法确认作者采用的具体粒子插件、三维场景或二维实现。",
+      "videoId": "appads",
+      "tags": [
+        "章节",
+        "转场"
+      ],
+      "start": 430.7,
+      "end": 435.85,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD13",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=appads&case=AD13",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/9835ee1fb094e936e87cabe8.svg",
+      "preview_covers_range": false,
+      "existing_record": {
+        "structure": "图钉、报纸、红色标题继续构成章节系统。正文示例位于章节报纸内部，先作为图，再放大成为下一段主体，避免章节页和正文互不相干。",
+        "typography": "沿用黑白灰、红色强调；具体字阶、配色与图文关系见本条结构描述和截图。",
+        "motion": "约432.0–432.6秒向下一张资料移动并收稳；434.1秒后再次推近；434.7秒前后手机开始从纸面区域显露，伴随黑白碎斑式遮罩，约435.5秒进入手机场景。",
+        "why": "空间方向表达“到了下一章”，嵌在报纸里的具体图像又成为正文入口。两种衔接连续发生。"
+      },
+      "adaptation_suggestion": "可以在章节卡、地图或资料桌里预先嵌入下一段图像，再靠近并接进正文，让章节切换也增加信息。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "AD14",
+      "title": "砍一刀：把接近完成与永不结束同时演出来",
+      "status": "分析者建议参考",
+      "userQuote": "",
+      "evidenceBasis": "05:00–08:00专项报告，已查看连续帧；这是概括与夸张的演示，不作为任何平台实时规则、真实砍价记录或概率证据。刀具是语义道具，不涉及伤人动作。",
+      "videoId": "appads",
+      "tags": [
+        "信息图",
+        "结构"
+      ],
+      "start": 435.85,
+      "end": 449.8,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD14",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=appads&case=AD14",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/fa64b4f0a03e91a774b32256.svg",
+      "preview_covers_range": false,
+      "existing_record": {
+        "structure": "外壳保持统一，商品、倒计时与大号剩余值建立紧迫感；红色进度条几乎填满，而未完成的数字仍被放大。黑底把注意力压在红色控件、刀和数值上。",
+        "typography": "沿用黑白灰、红色强调；具体字阶、配色与图文关系见本条结构描述和截图。",
+        "motion": "约440秒弹窗退出并短暂拉回整机，再靠近进度区域；443.8–446.1秒连续出现几轮刀具挥动与数值变化；448.1秒后同一动作加速重复，附带极小扣减数字，主要余额未见归零。",
+        "why": "动作每次都像在推进，结果却始终未完成。这段不是简单重复，而是重复中改变数量级，让“还差一点”成为可见的循环。"
+      },
+      "adaptation_suggestion": "讲目标不断后退、任务反复延长、越接近越难时，固定一个完成指标，让每次操作产生更小的推进。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "AD15",
+      "title": "手机＋纸条＋人物：把平台成本转成你的人情成本",
+      "status": "分析者建议参考",
+      "userQuote": "",
+      "evidenceBasis": "05:00–08:00专项报告，已查看连续帧；这是对原片观点的视觉拆解，不能由图示直接证明平台的实际获客成本。人物身份与素材来源未确认。",
+      "videoId": "appads",
+      "tags": [
+        "拼贴",
+        "人物组合",
+        "关系图"
+      ],
+      "start": 466.8,
+      "end": 472.35,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD15",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=appads&case=AD15",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/6344888485d155fa145fc198.svg",
+      "preview_covers_range": false,
+      "existing_record": {
+        "structure": "左侧是界面，中央是提炼出来的记录，右侧是承担结果的人。黑灰背景、白纸和人物保持同一色调，红章与红箭头突出关键关系。纸条和人物之间的空隙给箭头留出通路，联系卡再填入周边。",
+        "typography": "沿用黑白灰、红色强调；具体字阶、配色与图文关系见本条结构描述和截图。",
+        "motion": "466.9–467.3秒手机、纸条、人物分区建立；468.9秒前后红章出现；约470.2秒箭头显露，470.4–471.0秒联系卡分批移向人物；之后停留供读结论。",
+        "why": "这组最适合收藏：它把一个界面记录提炼成一张纸，再将抽象的成本关系指向具体的人。每个新增元素都有语义任务。"
+      },
+      "adaptation_suggestion": "解释责任、时间、风险或成本从谁转给谁时，先分出两端，再用中间凭据、方向箭头和落在人身上的对象表达转移。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "AD16",
+      "title": "老电脑＋蓝色“互联”：用熟悉的物件建立前提",
+      "status": "分析者建议参考",
+      "userQuote": "",
+      "evidenceBasis": "09:30–11:00专项报告，已查看连续帧；能看到模拟旧桌面与窗口，但不据此认定这是当年的真实上网录屏。蓝色含义是本段组合关系的解释，不是全片通用规定。",
+      "videoId": "appads",
+      "tags": [
+        "图文组合",
+        "花字"
+      ],
+      "start": 578.05,
+      "end": 581.25,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD16",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=appads&case=AD16",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/5b70dcda1c8b40e03b4a85b6.svg",
+      "preview_covers_range": false,
+      "existing_record": {
+        "structure": "显示器在中间，左右各留一个字的位置。机身白、背景黑，屏幕保留少量色彩；蓝字把这段与后面的红色阻拦词区别开。",
+        "typography": "沿用黑白灰、红色强调；具体字阶、配色与图文关系见本条结构描述和截图。",
+        "motion": "578.05–578.65秒设备由小变大；约579.05秒连接窗口出现；580.15–580.55秒两字短暂明暗变化后完整显示；580.95–581.45秒整组旋转离开，并由手机接入。",
+        "why": "先给“互联”一个具体、可辨的视觉记忆，再换设备进入另一种体验，为后面反差建立参照。"
+      },
+      "adaptation_suggestion": "比较旧做法与新做法、承诺与实际时，让两组各有一个代表物件，再保持相似中心位置接替。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "AD17",
+      "title": "链接打不开＋图标变签证：文字与图像各做一次比喻",
+      "status": "分析者建议参考",
+      "userQuote": "",
+      "evidenceBasis": "09:30–11:00专项报告，已查看连续帧；后层大字承担强调，完整阅读依赖角标和字幕；不能将这种裁切方式用于必须独立读清的唯一标题。具体应用限制与平台政策未核实。",
+      "videoId": "appads",
+      "tags": [
+        "图文组合",
+        "关系图",
+        "结构"
+      ],
+      "start": 581.25,
+      "end": 590.2,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD17",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=appads&case=AD17",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/23d1b00119a54e3eab9cd8a5.svg",
+      "preview_covers_range": false,
+      "existing_record": {
+        "structure": "手机前置，红色长句在后层，文字可越出画面边缘并被机身遮挡；左上角小签给出完整类别。下一阶段清掉大字，回到单机和大块黑色留白，变化集中在图标里。",
+        "typography": "沿用黑白灰、红色强调；具体字阶、配色与图文关系见本条结构描述和截图。",
+        "motion": "约582.65秒链接页滑入；583.25–583.65秒角标与后层大字展开；584.85–585.25秒链接页收回、大字退出，机身保留；约587.75–588.05秒图标切换成徽章状符号。",
+        "why": "先展示不能直接打开的操作结果，再用“签证”比喻多个应用之间的门槛。前者是动作演示，后者是视觉修辞，分工不同。"
+      },
+      "adaptation_suggestion": "比喻可以在原有画面内部发生：保留手机外形和图标位置，只替换符号，就能让同一对象多一层意思。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "AD18",
+      "title": "网页→下载→注册→闲置：同一手机演出不必要的绕路",
+      "status": "分析者建议参考",
+      "userQuote": "",
+      "evidenceBasis": "09:30–11:00专项报告，已查看连续帧；这些是概括示意界面；存储、后台与通知状态不是实测性能报告。旁白中的平台动机也不由界面动画直接证明。",
+      "videoId": "appads",
+      "tags": [
+        "信息图",
+        "结构"
+      ],
+      "start": 602.8,
+      "end": 616.6,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD18",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=appads&case=AD18",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/bfffdd93592d122d4d8a75e8.svg",
+      "preview_covers_range": false,
+      "existing_record": {
+        "structure": "一部手机固定在前层，背景只提供质感；灰色占位图与线条简化内容，红色始终落在被要求执行的步骤上。最后手机缩小，让两边有地方放“占内存、吃后台、偷偷发推送”。",
+        "typography": "沿用黑白灰、红色强调；具体字阶、配色与图文关系见本条结构描述和截图。",
+        "motion": "602.8–605.4秒网页向上滚动；605.8秒前后下载卡升出；606.8–608.8秒下载、安装、注册、内容页依次横向接续；609.4–610.8秒拉回并回到桌面；613.6秒后进入状态页，两侧词组按顺序补齐。",
+        "why": "目标本来只是看内容，画面却不断增加步骤，最后还留下一个图标。整段把“做得过多”具体化。"
+      },
+      "adaptation_suggestion": "可以借鉴“原目标→新增步骤→终于完成→留下副作用”的结构，用于申请、购物、出行或软件流程。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "AD19",
+      "title": "一部变满屏，互联加上“不”：从单例推向整体判断",
+      "status": "分析者建议参考",
+      "userQuote": "",
+      "evidenceBasis": "09:30–11:00专项报告，已查看连续帧；阵列是视觉概括，不能拿手机数量当作统计样本；“行业默契”属于作者的判断，画面本身不证明存在共同协议或真实串通。反相闪白的声音未听辨。",
+      "videoId": "appads",
+      "tags": [
+        "分屏",
+        "花字",
+        "结构"
+      ],
+      "start": 616.6,
+      "end": 624.9,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD19",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=appads&case=AD19",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/db7fcda0954bbe4d6b5b44f6.svg",
+      "preview_covers_range": false,
+      "existing_record": {
+        "structure": "先是一眼可辨的单个对象，再成为铺满画面的群体。阵列阶段减少外围留白，强化数量；大字压在网格前层，后面再缩成顶部一行，为连线留空间。红色从单个图标转为语义中的“不”和关系中的叉。",
+        "typography": "沿用黑白灰、红色强调；具体字阶、配色与图文关系见本条结构描述和截图。",
+        "motion": "616.6–617.6秒多部手机从周边进入并逐渐排满；619.0–619.3秒反相明暗短闪；约621.4秒巨型标题退出，621.5秒后顶部出现“互联网”；约623.5–624.1秒连线、红叉与红色“不”补入。624.6秒后向阵列局部靠近，接回单机。",
+        "why": "数量变化对应论点范围扩大，插字与红叉对应“连接受阻”的反转。一个观点同时由字义和空间关系表达。"
+      },
+      "adaptation_suggestion": "这是本段最值得迁移的一组：先讲清一个例子，再扩成群体，最后用一个明确的字或关系变化落结论。阵列不能只为好看，每个阶段要承担新信息。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "AD20",
+      "title": "会员台阶→四部手机：让限制逐项留下来",
+      "status": "分析者建议参考",
+      "userQuote": "",
+      "evidenceBasis": "11:00–13:20专项，连续帧已查看；柱高是修辞，不是会员价格的比例图。四列最终的细字很小，主要作用是保存例子；必须读清的细节应在单机阶段完成。平台规则未独立核验。",
+      "videoId": "appads",
+      "tags": [
+        "图文组合",
+        "结构",
+        "累积"
+      ],
+      "start": 682.3,
+      "end": 693.4,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD20",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=appads&case=AD20",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/12def9ce96f15dd5917dacba.svg",
+      "preview_covers_range": false,
+      "existing_record": {
+        "structure": "柱体用灰阶与长投影交代高度，皇冠负责等级识别。手机从一个主体逐渐排成四列，旧手机向左让位，新手机从右进入，留白随着论据增加而被占用。",
+        "typography": "三个白色小人依次站上高低不同的柱体，配VIP、SVIP与星钻皇冠、中文会员标签；这组移出后，手机逐部进入，分别保留清晰度、设备数、额外付费和会员广告的示例。",
+        "motion": "682.3–684.3秒柱体、皇冠、标签错峰出现；684.7–685.1秒台阶组向左离场，单手机接入；686.3秒第二机、687.9秒第三机、690.3秒第四机进入，至691秒左右形成四列。",
+        "why": "前半把等级变成空间高差，后半把限制变成可同时看见的清单。观众会感觉限制一项项增加，因为前面的例子没有被删掉。"
+      },
+      "adaptation_suggestion": "当口播要表达“还有、还要、甚至”时，可以逐项累积对象，每次只引入一个新证据，并为旧对象重新分配位置。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "AD21",
+      "title": "红叉→资料→绿勾→再受阻：同一关系图讲前后变化",
+      "status": "分析者建议参考",
+      "userQuote": "",
+      "evidenceBasis": "11:00–13:20专项，连续帧已查看；红绿之外还同时用了叉与勾，不仅靠颜色区分。原片引用的会议、报道及政策效果未作独立史实核验，图示不代表当前所有平台。",
+      "videoId": "appads",
+      "tags": [
+        "关系图",
+        "资料卡",
+        "前后对比"
+      ],
+      "start": 697.4,
+      "end": 713.8,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD21",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=appads&case=AD21",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/56347070a2b77e5e105b5dad.svg",
+      "preview_covers_range": false,
+      "existing_record": {
+        "structure": "两边手机略倾，中间正对观众，连接线穿过空隙表达关系。资料阶段由黑封面作目录、白网页作正文；封面让出主体，留在左边缘。回关系图时保持原节点位置，让红绿变化直接可比。",
+        "typography": "单手机演示链接打不开，再拉成三部手机，中间用红色竖线与叉表示阻断。黑色资料封面和新闻页面进入，标题与段落加黄底。资料离开后，原来的三手机位置恢复，连线和勾改为绿色；最后靠近中间手机，重新出现红色限制页面。",
+        "motion": "约701秒单机缩小并补两侧手机，702.4–702.6秒红色阻断符号形成；703.8秒资料组从下方进入，704.4–704.6秒封面让开，705.6秒起黄底逐处出现；707.8–708.2秒资料退出；708.4–708.8秒连线与勾变绿；710.4秒后转回单机，711秒左右再给红色限制。",
+        "why": "原状、干预、改善和仍有问题不是四个无关画面，而是在同一空间关系中先后发生。中间资料负责说明依据，前后图负责让结论容易比较。"
+      },
+      "adaptation_suggestion": "讲流程整改、交通疏通或协作关系时，保留相同节点，只改变连接状态；需要引用资料时临时插入，再回到原图。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "AD22",
+      "title": "旧新闻在后、电脑在前：让资料与事件演示分工",
+      "status": "分析者建议参考",
+      "userQuote": "",
+      "evidenceBasis": "11:00–13:20专项，连续帧已查看；桌面演示是成片中的示意，不能叫真实历史屏幕记录。爆炸图形是修辞；尚未试听，不能描述其配套音效。资料文字与历史责任未独立核实。",
+      "videoId": "appads",
+      "tags": [
+        "资料卡",
+        "结构",
+        "图文组合"
+      ],
+      "start": 713.8,
+      "end": 725.65,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD22",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=appads&case=AD22",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/729f97d043bb2f19eb3cd250.svg",
+      "preview_covers_range": false,
+      "existing_record": {
+        "structure": "后层报纸说明“这是旧事件”，前层显示器演事件，最前层图标解释使用后果。电脑边缘遮住部分报纸，避免四张文章同时争主角；画面周边虽密，中心有明确焦点。",
+        "typography": "四张旧新闻页面先铺到四周，电脑显示器进入中间，屏幕里两个软件窗口相遇，短暂出现漫画爆炸图形。随后大弹窗覆盖桌面，底部增加“360→QQ”的图标关系，QQ处再叠禁止符号；最后转入另一组黑封面和白色通报页面，黄底标关键句。",
+        "motion": "713.8–716.5秒新闻页陆续排开；716.7秒电脑接入，约717秒出现爆炸图形；719.5秒左右弹窗占中心；721.5秒出现底部图标链，722秒左右补禁止符号；723.5秒换资料封面，724秒正文展开，724.5秒起出现黄底。",
+        "why": "纯资料容易静，纯动画又容易失去来源感。这一组把档案、模拟过程和后果图解放进同一层次清楚的版面。"
+      },
+      "adaptation_suggestion": "回顾争议或历史事件，可用“后层档案＋前层事件容器＋最前层结果符号”，但每一层只承担一个任务。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "AD23",
+      "title": "排名悬念＋容量倒退：固定版式让数字承担动作",
+      "status": "分析者建议参考",
+      "userQuote": "",
+      "evidenceBasis": "11:00–13:20专项，连续帧已查看；59.61GB含App及文稿数据，457KB由字幕称安装包，两者口径不同。不能把二者直接相除当安装包膨胀倍数。中间版本和数值仅视为动画呈现，不认定是完整准确的历史数据。",
+      "videoId": "appads",
+      "tags": [
+        "信息图",
+        "数字",
+        "结构"
+      ],
+      "start": 741.8,
+      "end": 752.4,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD23",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=appads&case=AD23",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/b299eaebd19fd515eac08c27.svg",
+      "preview_covers_range": false,
+      "existing_record": {
+        "structure": "机身、标签和数字栏位置固定，周围大块黑色留白。问号把普通列表变成提问；转入详情后，画面让观众盯住同一数值位置观察变化。",
+        "typography": "手机从下方进入，存储排行滚到59.61GB在首位，应用名先显示问号，再露出绿色图标；点入详情后显示App大小与文稿数据两行，版本号和数值快速倒退，最后停在1.0.0、457.0KB，再给457.0KB红底强调。",
+        "motion": "741.8–743.6秒机身升入、列表滚动；744.4秒出现问号，745.6–746秒揭示应用；746.8–747.2秒详情横向接入；749–750.2秒版本和数值依次回退；751–751.2秒红底向右展开覆盖关键数值，随后停留供阅读。",
+        "why": "悬念解决“先看哪里”，固定位置解决“怎么比较”，快速倒退表达回到过去，最后停稳让终点可读。"
+      },
+      "adaptation_suggestion": "介绍历史变化时可以固定同一张卡，只变年份、版本与关键值；中间快、起点终点慢，清楚标示真实数据或示意。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "AD24",
+      "title": "手机内容换、周围花字留：把功能膨胀累积成版面",
+      "status": "分析者建议参考",
+      "userQuote": "",
+      "evidenceBasis": "11:00–13:20专项，连续帧已查看；此处密度高是有目的的，但最终不适合要求观众逐字细读。字体、字号和配色是本片观察，不代表用户已逐项认可；在自己的片子中需要保证小屏可读。",
+      "videoId": "appads",
+      "tags": [
+        "花字",
+        "留白",
+        "累积"
+      ],
+      "start": 768,
+      "end": 779.3,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD24",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=appads&case=AD24",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/b32b43c69f988333adebf06a.svg",
+      "preview_covers_range": false,
+      "existing_record": {
+        "structure": "细长中文字体、不同大小与错开的位置围绕手机，橙、赭、白、黄把几组来源分开。手机是稳定主轴，文字向两侧填充；初始留白逐步减少，最终形成包围。",
+        "typography": "竖手机居中，内部先后换购物、短视频、直播、短剧、小游戏、小说、视频、外卖等界面。周围“购物平台、刷视频、看直播、追短剧、玩小游戏、小说软件、看短剧、视频平台、塞购物、外卖软件、打游戏、借钱”等词依次加入，前面的词保留。",
+        "motion": "768–768.4秒手机升入并收稳；随后手机内容不断换页，每讲到一个新功能就补一个词。新词先暗后亮，并有轻微尺度变化；原词多数保留在已经分配的位置，最终留下一整片累积痕迹。",
+        "why": "普通字幕说过就走，这里的字会留下。观众既看当前例子，也看见之前已经塞进了多少功能，画面密度就是论点的一部分。"
+      },
+      "adaptation_suggestion": "适合表达不断增加的需求、功能、成本或负担。先定中心容器与两侧字位，再让文字随内容逐项加入；结束时可用满版落结论。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "AD25",
+      "title": "横屏游戏＋一进一出的巨型标题：同容器快速分类",
+      "status": "分析者建议参考",
+      "userQuote": "",
+      "evidenceBasis": "11:00–13:20专项，连续帧已查看；具体游戏功能与当前版本未核验；原片部分字下缘被设备遮挡，不能把这种做法用于必须完整呈现的唯一正文。",
+      "videoId": "appads",
+      "tags": [
+        "花字",
+        "边框",
+        "结构"
+      ],
+      "start": 781.5,
+      "end": 790.6,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD25",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=appads&case=AD25",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/1d383f4b650b20d4b95e27d3.svg",
+      "preview_covers_range": false,
+      "existing_record": {
+        "structure": "横手机为不同色彩和复杂程度的游戏画面提供统一边界。大字细长、浅灰，置于机身后层，底部字幕单独占一行；文字尺度很大，但不以厚重字面压过屏幕。",
+        "typography": "横屏手机进入黑底中央，游戏内容先定位，随后上方和后层的大字依次更换“大逃杀、打麻将、学院社交、种菜、玩自走棋、斗地主”，屏幕内素材也同步替换。",
+        "motion": "781.5秒后设备进入并收稳；约785秒起各类别大字依次更换，上一类退出再给下一类，屏幕素材与其接续；790.6秒回到A镜。",
+        "why": "这里需要的是快速认出当前是什么类型，因此采用逐项替换。与T10周围文字不断累积相比，最终版面保持简洁。"
+      },
+      "adaptation_suggestion": "同一容器可有两种语法：累积适合表达“越来越多”，替换适合逐个分类。后层大字可以提升尺度感，但要留下足够字形保证识读。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "AD26",
+      "title": "单机→多阶段横排→继续复制：把恶性循环演成流水线",
+      "status": "分析者建议参考",
+      "userQuote": "",
+      "evidenceBasis": "15:00–16:00专项，连续帧已查看；这是机制概括，不是对具体软件的独立取证。98%和新增软件数量是片内示意与字幕，不作为真实测量。最终多机细字不适合逐页阅读，关键因果须在前面的单机和双机阶段读清。",
+      "videoId": "appads",
+      "tags": [
+        "流程",
+        "结构",
+        "循环"
+      ],
+      "start": 905.4,
+      "end": 916.1,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD26",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=appads&case=AD26",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/b90fba2414fb0daf3302d017.svg",
+      "preview_covers_range": false,
+      "existing_record": {
+        "structure": "机身大小、纵向位置和页面模板基本一致，红环表示警告，绿色按钮与进度条提供动作焦点，灰色图标降低细节干扰。单机时留白充足；过程展开后两侧空间被阶段占满，左边旧手机部分出画。",
+        "typography": "黑色纹理底上先给一部灰色图标手机，清理警告页盖上桌面：红色98%圆环、绿色安装按钮。随后复制出第二部手机，按钮变成进度条；再补第三部，回到桌面并增添图标；又出现同类警告页。更多手机继续从右边接入，既有阶段向左移动。",
+        "motion": "905.4–905.9秒从桌面转到警告页；907.9–908.3秒第二机从前层接入并排，随后按钮转进度；909.9–910.5秒第三机进入，910.7–911.5秒页面收回桌面，图标补入；911.7–912.3秒整体向左让位，再补同类警告；914.1秒左右再次复制、左移，至916.1秒切回口播。",
+        "why": "这组并排对象主要表示同一过程的不同阶段，不是四个不同用户或四项独立问题。旧阶段留下、新阶段继续出现，让“清理造成更多安装，安装又触发清理”的循环在空间中可见。"
+      },
+      "adaptation_suggestion": "讲越补越乱、反复审批、重复消费等自我强化过程时，可以先演清一轮，再复制关键阶段、让画面继续向一个方向延伸。第二轮只保留足以识别循环的动作。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "AD27",
+      "title": "黑场→红橙漏光→亮白→黑场：换段落而非连续推镜",
+      "status": "分析者建议参考",
+      "userQuote": "",
+      "evidenceBasis": "15:00–16:00专项，连续帧已查看；这里只能确认成片外观，不知道是否使用现成转场素材、插件或自行制作；也不能从画面推断有胶片、倒带或呼啸音效。",
+      "videoId": "appads",
+      "tags": [
+        "转场",
+        "材质",
+        "断句"
+      ],
+      "start": 928.4,
+      "end": 929.45,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD27",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=appads&case=AD27",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/212d35194226947b3ba66469.svg",
+      "preview_covers_range": false,
+      "existing_record": {
+        "structure": "转场覆盖全屏，暂时清空人物与字幕。偏暖漏光和胶片划痕式质感，与前后清楚的实拍及规整窗口形成材质差异。",
+        "typography": "A镜结束后短暂变黑，随后出现红橙色模糊色块、亮边和细竖划痕，逐渐过曝成黄白，再暗下去，切到带窗口框的小品片段。",
+        "motion": "928.4–928.45秒黑场；928.5–928.9秒红橙模糊与划痕；928.95–929.1秒强亮黄白；929.15秒起亮部退出，929.35–929.4秒近黑；929.45秒窗口素材切入。",
+        "why": "在情绪口播之后、引入另一段引用之前，先把视觉场清空，形成明确的段落停顿。它没有把A镜里的某个物体连续变成B镜。"
+      },
+      "adaptation_suggestion": "需要换叙述层或引用材料时，可以用短暂材质转场作标点；长度要服务段落，不能每次换镜都插一段完整漏光。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "AD28",
+      "title": "小品仍在同一窗口里：内层对白、外层评论分开排",
+      "status": "分析者建议参考",
+      "userQuote": "",
+      "evidenceBasis": "15:00–16:00专项，连续帧已查看；引用片段是喜剧比喻，不能当真实医疗或互联网服务的事实记录。小品名、作者及使用来源本次未核实，也不推断片段由本片作者原创。",
+      "videoId": "appads",
+      "tags": [
+        "边框",
+        "留白",
+        "字幕分区"
+      ],
+      "start": 929.45,
+      "end": 941.65,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD28",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=appads&case=AD28",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/83fae60b0f2c59b5fe775f57.svg",
+      "preview_covers_range": false,
+      "existing_record": {
+        "structure": "深灰标题栏、三色圆点、细边缘和黑纹理底与U01统一。窗口内的剪辑换景别，但窗口本身不变。原素材对白在窗口内下方，主片评论在外部暗边，形成两层阅读区。",
+        "typography": "窗口内先是体检接待场景，随后换近景，再换抽血场景。内层保留小品自己的对白字幕；主片在窗口下方给“互联网体检”等评论字幕。",
+        "motion": "929.45秒窗口直接出现，没有观察到完整的窗口弹开动作；内部镜头在接待全景、人物近景和抽血场景之间切换，941.65秒切回讲述者。",
+        "why": "窗口明确区分正在引用的内容与主片的评论。观众不必把两层字幕混成同一说话者，也不需要每换一个小品镜头重新适应版式。"
+      },
+      "adaptation_suggestion": "引用影视、访谈或旧视频时，让容器稳定；把原素材字幕和自己的说明安排在不同区域。素材剪辑负责事件，外框负责统一视觉身份。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "AD29",
+      "title": "提线木偶＋四种图标：把抽象处境变成空间关系",
+      "status": "分析者建议参考",
+      "userQuote": "",
+      "evidenceBasis": "15:00–16:00专项，连续帧已查看；不把它称为已确认的原创动画或真实后台关系图。多线相交的阅读负担较高，适合概括情绪与关系，不适合精确说明每根线的起终点。未听辨其声音。",
+      "videoId": "appads",
+      "tags": [
+        "比喻",
+        "人物组合",
+        "关系图"
+      ],
+      "start": 944.3,
+      "end": 948.45,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/appads.html#AD29",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=appads&case=AD29",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/5f477a53aa28b873193b5b0c.svg",
+      "preview_covers_range": false,
+      "existing_record": {
+        "structure": "浅绿人物和白线在暗蓝背景上最醒目，外围手部低对比退后。线条从各处向中心聚集，把“受到多方牵引”画成可见关系。四个图标在人物周围错位分布，避免全挤在脸部与底部字幕。",
+        "typography": "蓝灰色画面中，浅绿色人物被来自四周和上方的细线连接；外围是暗色手部形状。人物摆动，评论气泡、点赞、图片与黄色购物袋图标依次加入。",
+        "motion": "从944.3秒起人物姿态与线条持续变化；945.1秒左右气泡出现，945.9秒左右点赞加入，946.7秒左右图片加入，947.7秒左右购物袋加入。948.45秒切回A镜。",
+        "why": "它把“用户被当作流量和变现工具”的作者观点变成一个不需要大量文字的比喻。图标逐项加入，把社交、内容、消费等含义补到同一关系里。"
+      },
+      "adaptation_suggestion": "先把抽象关系翻成具体动作，再用少量符号补细分含义。视觉上应先保证中心人物与牵引关系可读，再增加图标；不必给每条线再加文字。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    }
+  ]
+}

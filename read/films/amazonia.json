@@ -1,0 +1,459 @@
+{
+  "id": "amazonia",
+  "title": "巴西亚马逊地区｜地域品牌审美参考",
+  "summary": "53.47秒文旅品牌设计展示。河道轮廓生成字形，再延展为插画海报、实景地名与多材质包装。已整理38个镜头与展示段、10组B镜/包装、5组配色、45个视觉时间窗和9份提示词。",
+  "subtitle": "河流字形 · 地域插画 · B镜与包装配色",
+  "categories": [
+    "审美短片"
+  ],
+  "tags": [
+    "B镜",
+    "镜头包装",
+    "配色参考",
+    "流动字形",
+    "品牌视觉"
+  ],
+  "preference": "用户原话：“这条视频是审美短片，同时看他的b镜以及包装设计，还有配色”。按审美短片收录；明确参考B镜、包装设计、配色。未将本次需求推广为用户喜欢全部元素或认可片中宣传事实。",
+  "duration": 53.466667,
+  "preview_duration": 53.466667,
+  "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=amazonia",
+  "report_url": "https://manman130696-dot.github.io/film-library/reports/amazonia/shots-report.html",
+  "preview_url": "https://manman130696-dot.github.io/film-library/reports/amazonia/preview-web.mp4",
+  "preview_access": "direct_file",
+  "poster_url": "https://manman130696-dot.github.io/film-library/reports/amazonia/frames/S02a.jpg",
+  "details_json": "https://manman130696-dot.github.io/film-library/read/films/amazonia.json",
+  "details_html": "https://manman130696-dot.github.io/film-library/read/films/amazonia.html",
+  "cases": [
+    {
+      "id": "amazonia-palette",
+      "videoId": "amazonia",
+      "kind": "palette",
+      "title": "配色参考｜深绿浅黄与高饱和色组",
+      "start": 0,
+      "end": 7.266667,
+      "tags": [
+        "配色参考",
+        "包装配色",
+        "B镜"
+      ],
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/amazonia.html#amazonia-palette",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=amazonia&case=amazonia-palette",
+      "image_url": "https://manman130696-dot.github.io/film-library/reports/amazonia/frames/S01b.jpg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "深绿与奶油黄作为共同锚色；红黄、黄蓝、黄紫、紫底浅黄分别服务不同段落。",
+        "typography": "",
+        "motion": "",
+        "why": "将配色按可回看片段分组，保留主底、主字与点缀的层级。"
+      },
+      "adaptation_suggestion": "近似参考色：色值来自压缩成片的代表像素或视觉近似，受画面压缩与显示影响，不是官方品牌色。面积比例是新作设计建议，不是原片精确统计。\n\n深绿 × 奶油黄\n对标：河道描线，拼成地域标志（0.0–7.266667秒）\n近似参考色：主底 #153214（深绿整片色面）；主字 #F8F1B9（浅色流动字形）\n新作建议：深绿约80%，浅黄约15%，其余约5%留给小字和低对比纹理。\nB镜用法：适合概念成立后的停读页、地域片头、成果收束。\n制作提示词（设计建议）：用深绿大色面承载原创奶油黄流动字；先让字形显露，再保持，避免加入无关闪光。\n\n红 × 浅黄\n对标：红底浅黄流动字（12.033333–12.933333秒）\n近似参考色：主底 #EA0003（鲜红色底）；主字 #F5DC9A（浅黄色连续曲线）\n新作建议：红底约85%，浅黄曲线约12%，注释约3%。\nB镜用法：适合突出一个关键词、展示提炼后的图形，作为短促强调页。\n制作提示词（设计建议）：红色底只放一个浅黄色主词；横向基线固定，笔画保持圆润连续，先完成轮廓再停读。\n\n赭黄 × 蓝线\n对标：赭黄底蓝色字形与控制框（12.933333–15.633333秒）\n近似参考色：主底 #D69106（赭黄色底）；曲线 #366FAA（中蓝色线条）\n新作建议：暖黄约88%，蓝线约10%，辅助框与小字约2%。\nB镜用法：适合解释路径、形状、可变规则；需要更强阅读时加粗线条。\n制作提示词（设计建议）：暖黄平面上展示原创蓝色有机线字，固定基线，仅局部轮廓变化；辅助框只在解释时出现。\n\n黄橙 × 紫\n对标：紫色果实与黄紫包装（35.7–35.866667秒）\n近似参考色：标签主底 #E6901E（黄橙色包装标签）；标志与插画 #5A0160（紫色文字和装饰）；素材暗部 #060102（紫黑果实与阴影）\n新作建议：产品图保留自然明暗；图形区黄橙约65%、紫约30%、其余约5%。\nB镜用法：适合食品、材料、产地或产品系列的应用展示。\n制作提示词（设计建议）：使用真实产品底图，黄橙色标签配紫色原创标志；文字随标签透视，保留果实纹理、暗部和自然高光。\n\n深紫 × 奶油黄 × 局部粉色\n对标：深紫底奶油黄字与文化插画（49.766667–50.466667秒）\n近似参考色：主底 #11002D（深紫色背景）；主字 #F6F2C4（奶油黄色主字）；点缀 #D52D83（粉色插画细节，视觉近似）\n新作建议：深紫约70%，奶油黄约15%，插画色合计约15%；主字留出完整轮廓。\nB镜用法：适合文化主题片头、地方元素拼贴、系列欢迎页。\n制作提示词（设计建议）：深紫大底上排原创浅黄流动字；粉色与其他插画色只放在周围主题元素中，让主字先可读，再显现细节。",
+      "palette": {
+        "note": "近似参考色：色值来自压缩成片的代表像素或视觉近似，受画面压缩与显示影响，不是官方品牌色。面积比例是新作设计建议，不是原片精确统计。",
+        "groups": [
+          {
+            "name": "深绿 × 奶油黄",
+            "start": 0,
+            "end": 7.266667,
+            "sampleTime": 5.5,
+            "image": "https://manman130696-dot.github.io/film-library/reports/amazonia/frames/S01b.jpg",
+            "sourceTitle": "河道描线，拼成地域标志",
+            "observation": "绿色底面积最大，奶油黄只用于标志与少量信息。",
+            "colors": [
+              {
+                "role": "主底",
+                "hex": "#153214",
+                "use": "深绿整片色面"
+              },
+              {
+                "role": "主字",
+                "hex": "#F8F1B9",
+                "use": "浅色流动字形"
+              }
+            ],
+            "proportions": "新作建议：深绿约80%，浅黄约15%，其余约5%留给小字和低对比纹理。",
+            "broll": "适合概念成立后的停读页、地域片头、成果收束。",
+            "prompt": "用深绿大色面承载原创奶油黄流动字；先让字形显露，再保持，避免加入无关闪光。",
+            "sourceShotId": "S01",
+            "preview_covers_range": true,
+            "proportions_status": "existing_adaptation_suggestion",
+            "prompt_status": "existing_adaptation_suggestion"
+          },
+          {
+            "name": "红 × 浅黄",
+            "start": 12.033333,
+            "end": 12.933333,
+            "sampleTime": 12.5,
+            "image": "https://manman130696-dot.github.io/film-library/reports/amazonia/frames/S05a.jpg",
+            "sourceTitle": "红底浅黄流动字",
+            "observation": "鲜红底与浅黄曲线形成强烈前后关系，小注释退到边缘。",
+            "colors": [
+              {
+                "role": "主底",
+                "hex": "#EA0003",
+                "use": "鲜红色底"
+              },
+              {
+                "role": "主字",
+                "hex": "#F5DC9A",
+                "use": "浅黄色连续曲线"
+              }
+            ],
+            "proportions": "新作建议：红底约85%，浅黄曲线约12%，注释约3%。",
+            "broll": "适合突出一个关键词、展示提炼后的图形，作为短促强调页。",
+            "prompt": "红色底只放一个浅黄色主词；横向基线固定，笔画保持圆润连续，先完成轮廓再停读。",
+            "sourceShotId": "S05",
+            "preview_covers_range": true,
+            "proportions_status": "existing_adaptation_suggestion",
+            "prompt_status": "existing_adaptation_suggestion"
+          },
+          {
+            "name": "赭黄 × 蓝线",
+            "start": 12.933333,
+            "end": 15.633333,
+            "sampleTime": 13.5,
+            "image": "https://manman130696-dot.github.io/film-library/reports/amazonia/frames/S06a.jpg",
+            "sourceTitle": "赭黄底蓝色字形与控制框",
+            "observation": "暖黄底上以相对冷的蓝色线条表现词形，细控制框存在感较弱。",
+            "colors": [
+              {
+                "role": "主底",
+                "hex": "#D69106",
+                "use": "赭黄色底"
+              },
+              {
+                "role": "曲线",
+                "hex": "#366FAA",
+                "use": "中蓝色线条"
+              }
+            ],
+            "proportions": "新作建议：暖黄约88%，蓝线约10%，辅助框与小字约2%。",
+            "broll": "适合解释路径、形状、可变规则；需要更强阅读时加粗线条。",
+            "prompt": "暖黄平面上展示原创蓝色有机线字，固定基线，仅局部轮廓变化；辅助框只在解释时出现。",
+            "sourceShotId": "S06",
+            "preview_covers_range": true,
+            "proportions_status": "existing_adaptation_suggestion",
+            "prompt_status": "existing_adaptation_suggestion"
+          },
+          {
+            "name": "黄橙 × 紫",
+            "start": 35.7,
+            "end": 35.866667,
+            "sampleTime": 35.733333,
+            "image": "https://manman130696-dot.github.io/film-library/reports/amazonia/frames/S23a.jpg",
+            "sourceTitle": "紫色果实与黄紫包装",
+            "observation": "前景标签明亮，紫字与紫黑色果实形成关联；不是把整张照片统一涂成黄紫色。",
+            "colors": [
+              {
+                "role": "标签主底",
+                "hex": "#E6901E",
+                "use": "黄橙色包装标签"
+              },
+              {
+                "role": "标志与插画",
+                "hex": "#5A0160",
+                "use": "紫色文字和装饰"
+              },
+              {
+                "role": "素材暗部",
+                "hex": "#060102",
+                "use": "紫黑果实与阴影"
+              }
+            ],
+            "proportions": "新作建议：产品图保留自然明暗；图形区黄橙约65%、紫约30%、其余约5%。",
+            "broll": "适合食品、材料、产地或产品系列的应用展示。",
+            "prompt": "使用真实产品底图，黄橙色标签配紫色原创标志；文字随标签透视，保留果实纹理、暗部和自然高光。",
+            "sourceShotId": "S23",
+            "preview_covers_range": true,
+            "proportions_status": "existing_adaptation_suggestion",
+            "prompt_status": "existing_adaptation_suggestion"
+          },
+          {
+            "name": "深紫 × 奶油黄 × 局部粉色",
+            "start": 49.766667,
+            "end": 50.466667,
+            "sampleTime": 50,
+            "image": "https://manman130696-dot.github.io/film-library/reports/amazonia/frames/S36a.jpg",
+            "sourceTitle": "深紫底奶油黄字与文化插画",
+            "observation": "深紫背景让浅色流动字跳出，多色插画围绕主字分布。",
+            "colors": [
+              {
+                "role": "主底",
+                "hex": "#11002D",
+                "use": "深紫色背景"
+              },
+              {
+                "role": "主字",
+                "hex": "#F6F2C4",
+                "use": "奶油黄色主字"
+              },
+              {
+                "role": "点缀",
+                "hex": "#D52D83",
+                "use": "粉色插画细节，视觉近似"
+              }
+            ],
+            "proportions": "新作建议：深紫约70%，奶油黄约15%，插画色合计约15%；主字留出完整轮廓。",
+            "broll": "适合文化主题片头、地方元素拼贴、系列欢迎页。",
+            "prompt": "深紫大底上排原创浅黄流动字；粉色与其他插画色只放在周围主题元素中，让主字先可读，再显现细节。",
+            "sourceShotId": "S36",
+            "preview_covers_range": true,
+            "proportions_status": "existing_adaptation_suggestion",
+            "prompt_status": "existing_adaptation_suggestion"
+          }
+        ]
+      },
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "amazonia-broll-01",
+      "videoId": "amazonia",
+      "title": "河道描线 → 抽象字标",
+      "start": 0,
+      "end": 7.266667,
+      "tags": [
+        "B镜",
+        "镜头包装",
+        "从来源到概念"
+      ],
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/amazonia.html#amazonia-broll-01",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=amazonia&case=amazonia-broll-01",
+      "image_url": "https://manman130696-dot.github.io/film-library/reports/amazonia/frames/S01a.jpg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "卫星图中的粉褐色河道占据前景，奶油黄线沿河弯逐渐显露；画面缩小后露出多张河道图，轮廓共同组成 Amazonia 字样；图像底板退去，留下深绿底上的文字。",
+        "typography": "流动字形作为共同识别；粗体文字用于地名、标题和名单；小字为来源与注释。中文烧录字幕单独理解。",
+        "motion": "卫星图中的粉褐色河道占据前景，奶油黄线沿河弯逐渐显露；画面缩小后露出多张河道图，轮廓共同组成 Amazonia 字样；图像底板退去，留下深绿底上的文字。",
+        "why": "把素材中真实形状变成视觉符号，适合解释设计、灵感来源、地域特征。"
+      },
+      "adaptation_suggestion": "新作设计建议：先给真实纹理，再用路径遮罩描出轮廓，缩小拼成一个词；最后去掉底图，让观众看清提炼结果。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "amazonia-broll-02",
+      "videoId": "amazonia",
+      "title": "少量档案 → 大量网格",
+      "start": 8.2,
+      "end": 12.033333,
+      "tags": [
+        "B镜",
+        "镜头包装",
+        "资料量可视化"
+      ],
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/amazonia.html#amazonia-broll-02",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=amazonia&case=amazonia-broll-02",
+      "image_url": "https://manman130696-dot.github.io/film-library/reports/amazonia/frames/S03a.jpg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "奶油纸色底上，两到三张直幅卫星图片并列；卡片周围有细线、字母和地名小标注，逐步展开更多样本。\n河流卫星图片铺成密集矩阵，每格保留纸色边距与小字；整体取景继续缩小或平移，末段网格位置快速变化后切入红底字形。",
+        "typography": "流动字形作为共同识别；粗体文字用于地名、标题和名单；小字为来源与注释。中文烧录字幕单独理解。",
+        "motion": "奶油纸色底上，两到三张直幅卫星图片并列；卡片周围有细线、字母和地名小标注，逐步展开更多样本。\n河流卫星图片铺成密集矩阵，每格保留纸色边距与小字；整体取景继续缩小或平移，末段网格位置快速变化后切入红底字形。",
+        "why": "用从两三张卡片到密集矩阵的变化说明覆盖面与素材积累。"
+      },
+      "adaptation_suggestion": "新作设计建议：用统一卡片和小号编号展示素材来源；先展示少量大图，再展开证据集合。\n新作设计建议：同一网格只控制整体尺度和位置，保持卡片边距；让数量增加承担“资料丰富”的解释任务。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "amazonia-broll-03",
+      "videoId": "amazonia",
+      "title": "真实图与抽象线并排",
+      "start": 15.633333,
+      "end": 19.8,
+      "tags": [
+        "B镜",
+        "镜头包装",
+        "形状对应"
+      ],
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/amazonia.html#amazonia-broll-03",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=amazonia&case=amazonia-broll-03",
+      "image_url": "https://manman130696-dot.github.io/film-library/reports/amazonia/frames/S07a.jpg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "左侧为 Madeira 河的卫星图，右侧为黄底蓝色轮廓；从地形全图转到左右分屏，河道与抽象 A 形建立对应。\n左侧奶油色河流在深绿林地上分叉，右侧深青底上出现橙色竖向 B 形轮廓，两部分宽度接近。\n左侧深色弯曲河道切入，右侧红底黑色线条模仿其转折；地名、字母及角落标注维持资料卡风格。",
+        "typography": "流动字形作为共同识别；粗体文字用于地名、标题和名单；小字为来源与注释。中文烧录字幕单独理解。",
+        "motion": "左侧为 Madeira 河的卫星图，右侧为黄底蓝色轮廓；从地形全图转到左右分屏，河道与抽象 A 形建立对应。\n左侧奶油色河流在深绿林地上分叉，右侧深青底上出现橙色竖向 B 形轮廓，两部分宽度接近。\n左侧深色弯曲河道切入，右侧红底黑色线条模仿其转折；地名、字母及角落标注维持资料卡风格。",
+        "why": "让观众同时看到原型和提炼结果，不必只听抽象描述。"
+      },
+      "adaptation_suggestion": "新作设计建议：先显示来源，再让纯色板占据一半，把提炼轮廓放在相同朝向和近似比例的位置。\n新作设计建议：相同的竖向主干与弯折是匹配锚点；切换素材时同时更换与之对应的轮廓。\n新作设计建议：用相同弯折方向连接真实素材和矢量线；为新内容重新描线，不直接套用不相关的轮廓。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "amazonia-broll-04",
+      "videoId": "amazonia",
+      "title": "固定界面中的局部字形变化",
+      "start": 19.8,
+      "end": 24.266667,
+      "tags": [
+        "B镜",
+        "镜头包装",
+        "功能演示"
+      ],
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/amazonia.html#amazonia-broll-04",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=amazonia&case=amazonia-broll-04",
+      "image_url": "https://manman130696-dot.github.io/film-library/reports/amazonia/frames/S10a.jpg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "纸色外框和棕色浏览器顶栏包住绿色画布；起始为黄色横线，随后形成 Pará，多个字形轮廓局部改变，下方工具条保持。",
+        "typography": "流动字形作为共同识别；粗体文字用于地名、标题和名单；小字为来源与注释。中文烧录字幕单独理解。",
+        "motion": "纸色外框和棕色浏览器顶栏包住绿色画布；起始为黄色横线，随后形成 Pará，多个字形轮廓局部改变，下方工具条保持。",
+        "why": "适合解释可变规则、个性化和“同一结构不同选择”。"
+      },
+      "adaptation_suggestion": "新作设计建议：以固定容器承载变化，先直线再成字，再做局部形变；界面控件只为说明功能，不需逐项仿制。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "amazonia-broll-05",
+      "videoId": "amazonia",
+      "title": "高亮名单配代表插画",
+      "start": 24.266667,
+      "end": 26.8,
+      "tags": [
+        "B镜",
+        "镜头包装",
+        "人物与作品"
+      ],
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/amazonia.html#amazonia-broll-05",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=amazonia&case=amazonia-broll-05",
+      "image_url": "https://manman130696-dot.github.io/film-library/reports/amazonia/frames/S11a.jpg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "棕底排着多行粗体艺术家姓名，CRISTO 被浅黄高亮，蓝绿衣装的舞蹈人物插画位于名字上方偏右。\n背景换为深绿，WINNY TAPAJÓS 成为亮黄色重点；蝴蝶样纹饰与长条动物图案分置名单周围。\n紫色背景上，多行姓名继续排列，MALU MENEZES 被黄色突出，一只红色鹦鹉插画位于文字上方。",
+        "typography": "流动字形作为共同识别；粗体文字用于地名、标题和名单；小字为来源与注释。中文烧录字幕单独理解。",
+        "motion": "棕底排着多行粗体艺术家姓名，CRISTO 被浅黄高亮，蓝绿衣装的舞蹈人物插画位于名字上方偏右。\n背景换为深绿，WINNY TAPAJÓS 成为亮黄色重点；蝴蝶样纹饰与长条动物图案分置名单周围。\n紫色背景上，多行姓名继续排列，MALU MENEZES 被黄色突出，一只红色鹦鹉插画位于文字上方。",
+        "why": "固定名单骨架，作者、底色与代表作成组切换。"
+      },
+      "adaptation_suggestion": "新作设计建议：纵向名单里每次只亮一行，配一幅代表作品；其余姓名降亮度，给视线一个明确落点。\n新作设计建议：固定名单布局，切换一组背景色与作者作品，形成系列而非重新设计每一页。\n新作设计建议：在同一名单骨架里改变强调行和插画，让作者介绍形成可预测的视觉节奏。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "amazonia-broll-06",
+      "videoId": "amazonia",
+      "title": "三联海报展示同一系统",
+      "start": 26.8,
+      "end": 30.966667,
+      "tags": [
+        "B镜",
+        "镜头包装",
+        "系列展示"
+      ],
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/amazonia.html#amazonia-broll-06",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=amazonia&case=amazonia-broll-06",
+      "image_url": "https://manman130696-dot.github.io/film-library/reports/amazonia/frames/S14a.jpg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "棕底三张直幅海报并排：左侧红底鱼形与叠字，中间绿底船与黄色粗字，右侧暖棕底头像与大字；顶端标有 CRISTO。\n左为黄绿底植物图，中央绿底粉色建筑，右为蓝底鱼形纹饰；顶部标有 WINNY TAPAJÓS，文字在图形间占据大块面积。\n左蓝底粉色架高房屋，中央黄底紫色食物碗和粗体叠字，右紫底粉色植物果实；顶部可读 MALU MENEZES。",
+        "typography": "流动字形作为共同识别；粗体文字用于地名、标题和名单；小字为来源与注释。中文烧录字幕单独理解。",
+        "motion": "棕底三张直幅海报并排：左侧红底鱼形与叠字，中间绿底船与黄色粗字，右侧暖棕底头像与大字；顶端标有 CRISTO。\n左为黄绿底植物图，中央绿底粉色建筑，右为蓝底鱼形纹饰；顶部标有 WINNY TAPAJÓS，文字在图形间占据大块面积。\n左蓝底粉色架高房屋，中央黄底紫色食物碗和粗体叠字，右紫底粉色植物果实；顶部可读 MALU MENEZES。",
+        "why": "统一外层网格，内部允许鲜明色彩与不同主题。"
+      },
+      "adaptation_suggestion": "新作设计建议：用等宽三列展示同一系统的不同主题；各海报内部允许色彩变化，外层对齐保持一致。\n新作设计建议：让植物、建筑、鱼各承担一张卡片主题；用同一字形标志连接不同插画风格。\n新作设计建议：为多主题建立固定网格，强色对比集中在单张海报内部；跨卡片重复标题位置。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "amazonia-broll-07",
+      "videoId": "amazonia",
+      "title": "实景 + 地名粗字 + 流动线",
+      "start": 31.8,
+      "end": 34.933333,
+      "tags": [
+        "B镜",
+        "镜头包装",
+        "地域与情绪"
+      ],
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/amazonia.html#amazonia-broll-07",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=amazonia&case=amazonia-broll-07",
+      "image_url": "https://manman130696-dot.github.io/film-library/reports/amazonia/frames/S18a.jpg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "粉紫暮色下的河湾横向展开，浅黄粗体 OIAPOQUE 在中央，粉色流动手写线穿过文字与背景。\n橙色夕阳在天际线上方，水面反光和黑色城市剪影构成背景；中央浅黄 BELÉM 与橙黄曲线叠加。\n蓝天和桌状山体占据上半画面，草地在前景；浅黄 RORAIMA 粗字居中，红色曲线横穿词形。",
+        "typography": "流动字形作为共同识别；粗体文字用于地名、标题和名单；小字为来源与注释。中文烧录字幕单独理解。",
+        "motion": "粉紫暮色下的河湾横向展开，浅黄粗体 OIAPOQUE 在中央，粉色流动手写线穿过文字与背景。\n橙色夕阳在天际线上方，水面反光和黑色城市剪影构成背景；中央浅黄 BELÉM 与橙黄曲线叠加。\n蓝天和桌状山体占据上半画面，草地在前景；浅黄 RORAIMA 粗字居中，红色曲线横穿词形。",
+        "why": "实景提供气氛，地名负责信息，曲线维持共同风格。"
+      },
+      "adaptation_suggestion": "新作设计建议：实景先承担气氛，粗体地名负责识别，细长有机线负责品牌连接；文字避开关键地景。\n新作设计建议：以落日与建筑剪影作为明暗底板，奶油黄文字保持高对比，曲线颜色与夕阳呼应。\n新作设计建议：选轮廓清晰的地景作底，重复同一粗体地名和手写曲线结构，只替换环境与强调色。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "amazonia-broll-08",
+      "videoId": "amazonia",
+      "title": "标志位置匹配的产品快切",
+      "start": 34.933333,
+      "end": 37.366667,
+      "tags": [
+        "B镜",
+        "镜头包装",
+        "一套系统多种应用"
+      ],
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/amazonia.html#amazonia-broll-08",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=amazonia&case=amazonia-broll-08",
+      "image_url": "https://manman130696-dot.github.io/film-library/reports/amazonia/frames/S21a.jpg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "深绿色底上，小号粗体 MADE OF 与较大的奶油黄 Amazonia 流动字居中叠排，大面积留白。\n一只手握着浅黄饮料包装，中央橙色矩形标签写有 MADE OF Amazonia，暖光和手指构成真实材质对比。\n紫黑色圆果铺在后方，黄底紫色图案的包装斜置在前；组合字标重复出现。\n橙红针织纹理上缝着白色矩形布标，深绿 MADE OF Amazonia 位于中央，织物细节清晰。\n模糊绿叶后景前挂着灰褐色异形吊牌，表面印有深色组合字标，上方连接一条带子。\n浅绿包装袋占据画面，紫色图形和字标落在中部，边缘有锯齿封口，下面露出暖色手部或承托局部。\n深绿色圆形吊牌垂挂在偏灰织物前，浅黄 MADE OF Amazonia 居中，悬绳从上方连接。\n浅色织物上放着棕色牛皮纸吊牌，黑色细绳打结，白色组合字标位于标签上部。\n棕纸包装上方是 A、B、C、D、E 彩色信息格，下方是黑色组合字标和小字信息，背景带浅粉暖调。\n装有浅色块状食品的透明罐右侧可见，左侧棕纸围标印有紫色组合字标和营养信息，后景偏绿。\n暖色虚化背景前是白色纸袋，黑色 MADE OF Amazonia 位于上方偏中位置，纸面亮部较柔和。\n黄色织带横跨绿色织物，绿色 MADE OF Amazonia 印在织带中部，边缘缝线与弯曲带出真实体积。",
+        "typography": "流动字形作为共同识别；粗体文字用于地名、标题和名单；小字为来源与注释。中文烧录字幕单独理解。",
+        "motion": "深绿色底上，小号粗体 MADE OF 与较大的奶油黄 Amazonia 流动字居中叠排，大面积留白。\n一只手握着浅黄饮料包装，中央橙色矩形标签写有 MADE OF Amazonia，暖光和手指构成真实材质对比。\n紫黑色圆果铺在后方，黄底紫色图案的包装斜置在前；组合字标重复出现。\n橙红针织纹理上缝着白色矩形布标，深绿 MADE OF Amazonia 位于中央，织物细节清晰。\n模糊绿叶后景前挂着灰褐色异形吊牌，表面印有深色组合字标，上方连接一条带子。\n浅绿包装袋占据画面，紫色图形和字标落在中部，边缘有锯齿封口，下面露出暖色手部或承托局部。\n深绿色圆形吊牌垂挂在偏灰织物前，浅黄 MADE OF Amazonia 居中，悬绳从上方连接。\n浅色织物上放着棕色牛皮纸吊牌，黑色细绳打结，白色组合字标位于标签上部。\n棕纸包装上方是 A、B、C、D、E 彩色信息格，下方是黑色组合字标和小字信息，背景带浅粉暖调。\n装有浅色块状食品的透明罐右侧可见，左侧棕纸围标印有紫色组合字标和营养信息，后景偏绿。\n暖色虚化背景前是白色纸袋，黑色 MADE OF Amazonia 位于上方偏中位置，纸面亮部较柔和。\n黄色织带横跨绿色织物，绿色 MADE OF Amazonia 印在织带中部，边缘缝线与弯曲带出真实体积。",
+        "why": "保留近似中心和组合字标，以材料变化显示广度；需要阅读时延长镜长。"
+      },
+      "adaptation_suggestion": "新作设计建议：先用简单标志页给观众记忆位置，再进入不同材质上的应用；保证组合字标整体可读。\n新作设计建议：保留原有产品素材，用平面跟踪让组合字标贴在包装标签区域；新片可延长至标签可读。\n新作设计建议：标志保持近似中心位置，替换果实与包装底图；紫色环境与黄色标签形成成对对比。\n新作设计建议：用织物凹凸、缝线和自然阴影说明标志落在实体上；保留平面透视与布面形变。\n新作设计建议：以浅景深素材托住吊牌；替换字标时继承纸板肌理，不把字标做成发光悬浮物。\n新作设计建议：平面图案跟随软包装褶皱；控制字标在快速组接中的视线位置。\n新作设计建议：同一组合字标切换到圆形标签，留足安全边距，延续绿色作为品牌锚色。\n新作设计建议：让白字跟随纸牌透视，保留纸纤维和细绳投影；借材质变化展示系统适配性。\n新作设计建议：把品牌标志与功能信息分层：上方表格、下方标志，不让手写轮廓侵入重要数据。\n新作设计建议：沿瓶身弧面做标签贴合，保留透明容器折射；保持组合字标作为跨产品的识别点。\n新作设计建议：同一字标用单色黑印在浅色材料上，检验小尺寸和低成本印刷的可读性。\n新作设计建议：字标随织带弯曲和光照变化；不要让字号变小到只剩装饰线。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "amazonia-broll-09",
+      "videoId": "amazonia",
+      "title": "多主题主视觉拼贴墙",
+      "start": 37.366667,
+      "end": 40.033333,
+      "tags": [
+        "B镜",
+        "镜头包装",
+        "成果总览"
+      ],
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/amazonia.html#amazonia-broll-09",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=amazonia&case=amazonia-broll-09",
+      "image_url": "https://manman130696-dot.github.io/film-library/reports/amazonia/frames/S33a.jpg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "旅游实景、巴西莓、红色眼睛、黄色文案、植物和交通工具海报组成不等大的矩形拼贴；多张海报内部仍有局部变化。",
+        "typography": "流动字形作为共同识别；粗体文字用于地名、标题和名单；小字为来源与注释。中文烧录字幕单独理解。",
+        "motion": "旅游实景、巴西莓、红色眼睛、黄色文案、植物和交通工具海报组成不等大的矩形拼贴；多张海报内部仍有局部变化。",
+        "why": "将前面分开看的成果重新组织成满幅矩形墙。"
+      },
+      "adaptation_suggestion": "新作设计建议：将既有单张主视觉重新排成总览墙；固定分隔关系，局部轮换，避免全画面同时乱动。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "amazonia-broll-10",
+      "videoId": "amazonia",
+      "title": "人物图组 → 风景 → 标志",
+      "start": 40.033333,
+      "end": 49.066667,
+      "tags": [
+        "B镜",
+        "镜头包装",
+        "从人到地域"
+      ],
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/amazonia.html#amazonia-broll-10",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=amazonia&case=amazonia-broll-10",
+      "image_url": "https://manman130696-dot.github.io/film-library/reports/amazonia/frames/S34a.jpg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "绿色底上三张人物图卡并置，中间长发人物举紫色衣服，左为浅衣人物，右为眼镜人物；更多人像加入并整体缩小，地名标注展开；随后日落河面占据背景，人物图组退去，奶油黄标志显露，最后过渡回绿色底。",
+        "typography": "流动字形作为共同识别；粗体文字用于地名、标题和名单；小字为来源与注释。中文烧录字幕单独理解。",
+        "motion": "绿色底上三张人物图卡并置，中间长发人物举紫色衣服，左为浅衣人物，右为眼镜人物；更多人像加入并整体缩小，地名标注展开；随后日落河面占据背景，人物图组退去，奶油黄标志显露，最后过渡回绿色底。",
+        "why": "用图卡扩展、整体退远和后景接管连接人物、环境与品牌概念。"
+      },
+      "adaptation_suggestion": "新作设计建议：先让一个代表人物占大图，再扩成群体；群体退远后用环境接管画面，最后只保留标志完成收束。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    }
+  ]
+}

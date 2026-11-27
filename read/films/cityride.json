@@ -1,0 +1,666 @@
+{
+  "id": "cityride",
+  "title": "城市中的艺术有很多面 · City Ride",
+  "summary": "暖阳、红砖与绿荫、低位骑行，人物发现与相机拍摄结果交替。已整理114个镜头／复合包装段、15组B镜和127个摄影时间窗。完整视频、截图和逐镜报告已公开；声音仍待试听。",
+  "subtitle": "暖阳城市骑摄 · 15 组 B 镜 · 摄影与动效拆解",
+  "categories": [
+    "Vlog",
+    "审美短片",
+    "商业与音乐影像"
+  ],
+  "tags": [
+    "喜欢的风格",
+    "B镜",
+    "摄影与剪辑",
+    "照片拼贴"
+  ],
+  "preference": "用户原话：“我很喜欢这种风格”“这个片子有些镜头可以用作b镜”。本次归纳：暖色城市生活感、人物稳定的跟拍、低机位细节、白边照片与圆角视窗。具体维度尚未逐项获得用户确认。",
+  "duration": 172.172172,
+  "preview_duration": 172.172172,
+  "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=cityride",
+  "report_url": "https://manman130696-dot.github.io/film-library/reports/cityride/online-report.html",
+  "preview_url": "https://manman130696-dot.github.io/film-library/reports/cityride/preview-web.mp4",
+  "preview_access": "direct_file",
+  "poster_url": "https://manman130696-dot.github.io/film-library/reports/cityride/frames/S09a.svg",
+  "details_json": "https://manman130696-dot.github.io/film-library/read/films/cityride.json",
+  "details_html": "https://manman130696-dot.github.io/film-library/read/films/cityride.html",
+  "cases": [
+    {
+      "id": "cityride-palette",
+      "videoId": "cityride",
+      "kind": "palette",
+      "title": "配色参考｜木纹暖橙、照片白边与城市灰绿",
+      "tags": [
+        "配色参考",
+        "包装配色",
+        "B镜"
+      ],
+      "start": 72.806139,
+      "end": 75.608942,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/cityride.html#cityride-palette",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=cityride&case=cityride-palette",
+      "image_url": "https://manman130696-dot.github.io/film-library/reports/cityride/frames/S57a.svg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "照片段用木纹暖橙与白边统一版式，产品展示段保留白相机和偏冷的城市层次。",
+        "typography": "背景 #C58D46；照片边 #F3F1E6；辅助 #BCD8DD；文字 #263C3E / 背景 #C8844B；文字／边框 #FBF8ED；主体 #33433B / 背景 #687D77；辅助 #2E4C53；主体 #E6E5D5；次要 #947D65",
+        "motion": "本条整理配色；动作方法参照各组对应的原包装案例。",
+        "why": "照片段用木纹暖橙与白边统一版式，产品展示段保留白相机和偏冷的城市层次。"
+      },
+      "adaptation_suggestion": "依据已归档画面的配色整理；HEX为近似参考色，比例为新作设计建议，均非原片测量或品牌标准。仅视觉，不含声音设计。\n\n木纹暖黄＋白边照片\n对标：木纹底人像照片拼贴（72.806139–75.608942秒）\n近似参考色：背景 #C58D46（暖黄木纹）；照片边 #F3F1E6（暖白相纸）；辅助 #BCD8DD（照片内天空）；文字 #263C3E（深色注释）\n建议木纹60%、照片30%、白边8%、小字2%；照片内部不按此比例重新着色。\nB镜用法：用于旅行成果、连续动作B镜；背景统一，照片错位变化即可。\n制作提示词：暖黄木纹底图，暖白边框的人像照片错角连续叠放，照片内保留浅蓝天空与自然肤色，深色小字靠下；照片分批弹入后停留。\n\n暖橙功能卡＋白色文字\n对标：宠物功能卡：文字左、样张右（114.781448–118.318318秒）\n近似参考色：背景 #C8844B（暖橙纹理）；文字／边框 #FBF8ED（暖白标题与相纸）；主体 #33433B（照片内深部）\n建议橙底60%、样张30%、白字与边框10%。\nB镜用法：用于产品功能、拍摄前后对照B镜；每次只替换样张和短标题。\n制作提示词：暖橙纹理功能卡，左侧白色短标题与一行说明，右侧白边宠物照片，先标题后样张；保持白字对比，纹理过亮时在文字下局部压暗。\n\n城市灰绿＋白色产品\n对标：白相机锁中与背景旋转（79.479479–81.314648秒）\n近似参考色：背景 #687D77（灰绿城市中间调）；辅助 #2E4C53（蓝灰暗部）；主体 #E6E5D5（白相机亮部）；次要 #947D65（街景暖色）\n建议灰绿蓝灰背景70%、白色产品25%、街景暖色5%；比例随构图调整。\nB镜用法：用于产品锁中、环境切换B镜；颜色围绕白色产品降饱和，不给产品加统一色偏。\n制作提示词：白色相机锁定中央且轮廓清晰，背景城市以灰绿和蓝灰流动，少量暖街景保留；运动集中在背景，产品展示停留后再切下个信息。",
+      "palette": {
+        "note": "依据已归档画面的配色整理；HEX为近似参考色，比例为新作设计建议，均非原片测量或品牌标准。仅视觉，不含声音设计。",
+        "groups": [
+          {
+            "name": "木纹暖黄＋白边照片",
+            "sourceTitle": "木纹底人像照片拼贴",
+            "observation": "暖木纹是固定底图，白边照片形成轻快连续感，照片内的天空与人物保留自然色。",
+            "colors": [
+              {
+                "role": "背景",
+                "hex": "#C58D46",
+                "use": "暖黄木纹"
+              },
+              {
+                "role": "照片边",
+                "hex": "#F3F1E6",
+                "use": "暖白相纸"
+              },
+              {
+                "role": "辅助",
+                "hex": "#BCD8DD",
+                "use": "照片内天空"
+              },
+              {
+                "role": "文字",
+                "hex": "#263C3E",
+                "use": "深色注释"
+              }
+            ],
+            "proportions": "建议木纹60%、照片30%、白边8%、小字2%；照片内部不按此比例重新着色。",
+            "broll": "用于旅行成果、连续动作B镜；背景统一，照片错位变化即可。",
+            "prompt": "暖黄木纹底图，暖白边框的人像照片错角连续叠放，照片内保留浅蓝天空与自然肤色，深色小字靠下；照片分批弹入后停留。",
+            "sourceCaseId": "cityride-motion02",
+            "image": "https://manman130696-dot.github.io/film-library/reports/cityride/frames/S57a.svg",
+            "start": 72.806139,
+            "end": 75.608942,
+            "preview_covers_range": true,
+            "proportions_status": "existing_adaptation_suggestion",
+            "prompt_status": "existing_adaptation_suggestion"
+          },
+          {
+            "name": "暖橙功能卡＋白色文字",
+            "sourceTitle": "宠物功能卡：文字左、样张右",
+            "observation": "暖橙纹理底与白色标题、白边样张保持一致；宠物照片承载细节。",
+            "colors": [
+              {
+                "role": "背景",
+                "hex": "#C8844B",
+                "use": "暖橙纹理"
+              },
+              {
+                "role": "文字／边框",
+                "hex": "#FBF8ED",
+                "use": "暖白标题与相纸"
+              },
+              {
+                "role": "主体",
+                "hex": "#33433B",
+                "use": "照片内深部"
+              }
+            ],
+            "proportions": "建议橙底60%、样张30%、白字与边框10%。",
+            "broll": "用于产品功能、拍摄前后对照B镜；每次只替换样张和短标题。",
+            "prompt": "暖橙纹理功能卡，左侧白色短标题与一行说明，右侧白边宠物照片，先标题后样张；保持白字对比，纹理过亮时在文字下局部压暗。",
+            "sourceCaseId": "cityride-motion04",
+            "image": "https://manman130696-dot.github.io/film-library/reports/cityride/frames/S80a.svg",
+            "start": 114.781448,
+            "end": 118.318318,
+            "preview_covers_range": true,
+            "proportions_status": "existing_adaptation_suggestion",
+            "prompt_status": "existing_adaptation_suggestion"
+          },
+          {
+            "name": "城市灰绿＋白色产品",
+            "sourceTitle": "白相机锁中与背景旋转",
+            "observation": "白相机是稳定焦点，城市背景偏灰绿与蓝灰，流动背景的杂色不应变成新增花字。",
+            "colors": [
+              {
+                "role": "背景",
+                "hex": "#687D77",
+                "use": "灰绿城市中间调"
+              },
+              {
+                "role": "辅助",
+                "hex": "#2E4C53",
+                "use": "蓝灰暗部"
+              },
+              {
+                "role": "主体",
+                "hex": "#E6E5D5",
+                "use": "白相机亮部"
+              },
+              {
+                "role": "次要",
+                "hex": "#947D65",
+                "use": "街景暖色"
+              }
+            ],
+            "proportions": "建议灰绿蓝灰背景70%、白色产品25%、街景暖色5%；比例随构图调整。",
+            "broll": "用于产品锁中、环境切换B镜；颜色围绕白色产品降饱和，不给产品加统一色偏。",
+            "prompt": "白色相机锁定中央且轮廓清晰，背景城市以灰绿和蓝灰流动，少量暖街景保留；运动集中在背景，产品展示停留后再切下个信息。",
+            "sourceCaseId": "cityride-motion03",
+            "image": "https://manman130696-dot.github.io/film-library/reports/cityride/frames/S60a.svg",
+            "start": 79.479479,
+            "end": 81.314648,
+            "preview_covers_range": true,
+            "proportions_status": "existing_adaptation_suggestion",
+            "prompt_status": "existing_adaptation_suggestion"
+          }
+        ]
+      },
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "cityride-b01",
+      "videoId": "cityride",
+      "start": 11.511512,
+      "end": 13.013013,
+      "title": "石板路车轮与脚步",
+      "tags": [
+        "B镜",
+        "动作连接"
+      ],
+      "sourceShotId": "S11",
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/cityride.html#cityride-b01",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=cityride&case=cityride-b01",
+      "image_url": "https://manman130696-dot.github.io/film-library/reports/cityride/frames/S11a.svg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "石板地面占大部，细车轮和踏动的鞋从边缘进入。",
+        "typography": "保留原片已有字幕或边框；新作可重拍干净素材，避免覆盖已有信息。",
+        "motion": "轮子由画外滚入，脚持续踩踏，地面纹理从轮旁流过。 低机位跟随车轮，背景地面相对滑动；动作并非相机自行旋转。",
+        "why": "补“出发、继续上路”的身体细节；可遮盖人物段落接缝。"
+      },
+      "adaptation_suggestion": "贴地侧跟轮子，保留踩踏与轮胎触地，头尾各多拍一秒。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "cityride-b02",
+      "videoId": "cityride",
+      "start": 14.547881,
+      "end": 15.415415,
+      "title": "灯笼通道中的穿行",
+      "tags": [
+        "B镜",
+        "地点交代"
+      ],
+      "sourceShotId": "S13",
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/cityride.html#cityride-b02",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=cityride&case=cityride-b02",
+      "image_url": "https://manman130696-dot.github.io/film-library/reports/cityride/frames/S13a.svg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "暗红通道与两侧灯笼形成前景框，亮处街道位于远端。",
+        "typography": "保留原片已有字幕或边框；新作可重拍干净素材，避免覆盖已有信息。",
+        "motion": "骑行者从通道尽头的亮处横穿，暗前景基本保持。 稳定框景借远处人物运动建立深度。",
+        "why": "作为进入街巷、走进另一段经历的框景。"
+      },
+      "adaptation_suggestion": "暗通道作前景，亮出口作主体舞台，等人物完整横穿。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "cityride-b03",
+      "videoId": "cityride",
+      "start": 15.415415,
+      "end": 16.149483,
+      "title": "砖拱门里的骑行者",
+      "tags": [
+        "B镜",
+        "地点交代"
+      ],
+      "sourceShotId": "S14",
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/cityride.html#cityride-b03",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=cityride&case=cityride-b03",
+      "image_url": "https://manman130696-dot.github.io/film-library/reports/cityride/frames/S14a.svg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "深色砖拱在前景围住亮院落，骑行者位于远处。",
+        "typography": "保留原片已有字幕或边框；新作可重拍干净素材，避免覆盖已有信息。",
+        "motion": "人物从拱门内的画面一侧骑到另一侧，院落仍清晰。 前景拱形固定，用人物的小尺度交代建筑空间。",
+        "why": "把建筑和人物尺度一次交代清楚。"
+      },
+      "adaptation_suggestion": "固定拱门构图，人物从远端经过，控制亮院落曝光。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "cityride-b04",
+      "videoId": "cityride",
+      "start": 19.185853,
+      "end": 20.387054,
+      "title": "车架粉色飘带",
+      "tags": [
+        "B镜",
+        "动作细节"
+      ],
+      "sourceShotId": "S18",
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/cityride.html#cityride-b04",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=cityride&case=cityride-b04",
+      "image_url": "https://manman130696-dot.github.io/film-library/reports/cityride/frames/S18a.svg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "粉色活动标签位于画面中央，车架和蓝天形成色块。",
+        "typography": "保留原片已有字幕或边框；新作可重拍干净素材，避免覆盖已有信息。",
+        "motion": "标签随骑行摆动，建筑从后景横向经过。 近物相对稳定、远景变化，突出附着车身的细节。",
+        "why": "接骑行或活动信息，为大景补颜色与风感。"
+      },
+      "adaptation_suggestion": "车架旁近拍飘带，保持车体真实连接，不做悬浮道具。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "cityride-b05",
+      "videoId": "cityride",
+      "start": 20.387054,
+      "end": 20.920921,
+      "title": "仰看的绿色树冠",
+      "tags": [
+        "B镜",
+        "环境换气"
+      ],
+      "sourceShotId": "S19",
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/cityride.html#cityride-b05",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=cityride&case=cityride-b05",
+      "image_url": "https://manman130696-dot.github.io/film-library/reports/cityride/frames/S19a.svg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "阳光穿过绿色叶片，树冠覆盖画面，天空从缝隙露出。",
+        "typography": "保留原片已有字幕或边框；新作可重拍干净素材，避免覆盖已有信息。",
+        "motion": "叶片与枝条随取景移过，接回骑行的人物。 抬头取树冠并轻移，不能据高像素变化认定剧烈抖动。",
+        "why": "补“经过绿荫、天气晴朗”的感官层。"
+      },
+      "adaptation_suggestion": "缓慢抬头取枝叶与天空缝隙，人物方向可由上一镜承接。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "cityride-b06",
+      "videoId": "cityride",
+      "start": 25.892559,
+      "end": 28.061395,
+      "title": "逆光街角与长阴影",
+      "tags": [
+        "B镜",
+        "氛围定场"
+      ],
+      "sourceShotId": "S24",
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/cityride.html#cityride-b06",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=cityride&case=cityride-b06",
+      "image_url": "https://manman130696-dot.github.io/film-library/reports/cityride/frames/S24a.svg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "红砖商业街与露台桌椅围成开阔路面，树梢透出太阳。",
+        "typography": "保留原片已有字幕或边框；新作可重拍干净素材，避免覆盖已有信息。",
+        "motion": "人物从街角远处骑入，长阴影与薄雾状眩光保持。 稳定大全景让人从小到大，光线本身承担氛围。",
+        "why": "接城市午后、放慢脚步或到达街角。"
+      },
+      "adaptation_suggestion": "选择侧逆光，先等空景再让人物进入，太阳不过曝。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "cityride-b07",
+      "videoId": "cityride",
+      "start": 37.804471,
+      "end": 38.571905,
+      "title": "手压平野餐垫",
+      "tags": [
+        "B镜",
+        "动作连接"
+      ],
+      "sourceShotId": "S33",
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/cityride.html#cityride-b07",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=cityride&case=cityride-b07",
+      "image_url": "https://manman130696-dot.github.io/film-library/reports/cityride/frames/S33a.svg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "两只手压在蓝棕相接的布面上，白色细线构成图案。",
+        "typography": "保留原片已有字幕或边框；新作可重拍干净素材，避免覆盖已有信息。",
+        "motion": "手掌压下并向外抚平，布纹由鼓起变平。 机位贴近布面，动作完整性来自手与褶皱同步变化。",
+        "why": "补休息、安顿、开始一次停留。"
+      },
+      "adaptation_suggestion": "近拍手压下和向外抚平，拍清布纹变化与手离开。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "cityride-b08",
+      "videoId": "cityride",
+      "start": 46.046046,
+      "end": 48.214882,
+      "title": "从女孩跟到飘散泡泡",
+      "tags": [
+        "B镜",
+        "感官与情绪"
+      ],
+      "sourceShotId": "S40",
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/cityride.html#cityride-b08",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=cityride&case=cityride-b08",
+      "image_url": "https://manman130696-dot.github.io/film-library/reports/cityride/frames/S40a.svg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "粉色上衣女孩拿泡泡玩具站在草坪，泡泡从她身前飘向绿篱。",
+        "typography": "保留原片已有字幕或边框；新作可重拍干净素材，避免覆盖已有信息。",
+        "motion": "她举着玩具转向，泡泡持续生成；相机向一侧跟泡泡，女孩离开画面而泡泡成为主体。 连续帧证实人物到泡泡的注意力转移是同镜平移，不额外加刀。",
+        "why": "适合“看见日常美好”的叙述；镜尾可只取泡泡段。"
+      },
+      "adaptation_suggestion": "先拍玩具产生泡泡，再顺漂移方向横摇，别先拍空泡泡再倒填因果。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "cityride-b09",
+      "videoId": "cityride",
+      "start": 63.463463,
+      "end": 64.964965,
+      "title": "水面亮点拉成散景",
+      "tags": [
+        "B镜",
+        "情绪过桥"
+      ],
+      "sourceShotId": "S52",
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/cityride.html#cityride-b09",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=cityride&case=cityride-b09",
+      "image_url": "https://manman130696-dot.github.io/film-library/reports/cityride/frames/S52a.svg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "河面亮点、远岸与红色浮标形成纵深。",
+        "typography": "保留原片已有字幕或边框；新作可重拍干净素材，避免覆盖已有信息。",
+        "motion": "起初可读的水纹逐渐化成虚焦光斑，画面转柔。 机位基本保持，清晰度变化支持焦点转移，不是推进镜头的必然证据。",
+        "why": "人物停下、回想或换场时提供柔和停顿。"
+      },
+      "adaptation_suggestion": "固定构图改变焦点，把清楚水纹过渡成光斑；也可为新片反向设计。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "cityride-b10",
+      "videoId": "cityride",
+      "start": 131.498165,
+      "end": 133.800467,
+      "title": "近处粉色标签与远处人物",
+      "tags": [
+        "B镜",
+        "前后景层次"
+      ],
+      "sourceShotId": "S95",
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/cityride.html#cityride-b10",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=cityride&case=cityride-b10",
+      "image_url": "https://manman130696-dot.github.io/film-library/reports/cityride/frames/S95a.svg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "粉色标签在左前景清楚，远处女子与车旁店门较虚。",
+        "typography": "保留原片已有字幕或边框；新作可重拍干净素材，避免覆盖已有信息。",
+        "motion": "后景人物抬臂与移动，前景标签保持位置，形成近静远动。 焦点偏向标签，主体层次倒置；不把后景模糊当人缺席。",
+        "why": "给道具或目的地一层主次变化，后景动作仍可承接人物。"
+      },
+      "adaptation_suggestion": "前景小物清楚，后景人物只做一次转身或举臂。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "cityride-b11",
+      "videoId": "cityride",
+      "start": 136.136136,
+      "end": 138.171505,
+      "title": "圆角窗里的水面焦点变化",
+      "tags": [
+        "B镜",
+        "包装式 B 镜"
+      ],
+      "sourceShotId": "S97",
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/cityride.html#cityride-b11",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=cityride&case=cityride-b11",
+      "image_url": "https://manman130696-dot.github.io/film-library/reports/cityride/frames/S97a.svg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "黑底圆角窗内水面先虚后实，亮点密布并显出红色浮标。",
+        "typography": "保留原片已有字幕或边框；新作可重拍干净素材，避免覆盖已有信息。",
+        "motion": "焦点从柔光斑转为水纹，边框及点线装饰保持。 窗口内焦点转移与窗口外图形层是两种独立设计。",
+        "why": "适合相册或回忆段；成片已带圆角与点线外框。"
+      },
+      "adaptation_suggestion": "重拍干净水面后再套统一外框，窗内拉焦、窗外不动。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "cityride-b12",
+      "videoId": "cityride",
+      "start": 143.910577,
+      "end": 146.746747,
+      "title": "水上栈道航拍",
+      "tags": [
+        "B镜",
+        "尺度打开"
+      ],
+      "sourceShotId": "S104",
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/cityride.html#cityride-b12",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=cityride&case=cityride-b12",
+      "image_url": "https://manman130696-dot.github.io/film-library/reports/cityride/frames/S104a.svg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "几条长栈道斜跨平静水面，浅色桥面与倒影形成几何。",
+        "typography": "保留原片已有字幕或边框；新作可重拍干净素材，避免覆盖已有信息。",
+        "motion": "高机位沿栈道移动，微小骑行身影在桥面上行进。 航拍式缓移与水面静态形成速度对比，远景人物身份不可核实。",
+        "why": "建立目的地、换气，或从人物经验转向城市整体。"
+      },
+      "adaptation_suggestion": "缓慢俯移，栈道完整，微小人物保留尺度。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "cityride-b13",
+      "videoId": "cityride",
+      "start": 148.615282,
+      "end": 150.483817,
+      "title": "绿地小路垂直俯拍",
+      "tags": [
+        "B镜",
+        "行进过桥"
+      ],
+      "sourceShotId": "S106",
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/cityride.html#cityride-b13",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=cityride&case=cityride-b13",
+      "image_url": "https://manman130696-dot.github.io/film-library/reports/cityride/frames/S106a.svg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "浅灰小路纵向穿过深浅两片绿色植被，微小骑行者在中部。",
+        "typography": "保留原片已有字幕或边框；新作可重拍干净素材，避免覆盖已有信息。",
+        "motion": "骑行身影沿路推进，大片植被保持几何分区。 垂直俯拍把行动简化成线与点，主体身份无法靠此镜确认。",
+        "why": "适合“继续前进、换一条路线”的叙述。"
+      },
+      "adaptation_suggestion": "垂直俯拍路线和骑行点，保持道路完整延伸。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "cityride-b14",
+      "videoId": "cityride",
+      "start": 153.920587,
+      "end": 154.788121,
+      "title": "落叶前的车轮经过",
+      "tags": [
+        "B镜",
+        "动作重音"
+      ],
+      "sourceShotId": "S111",
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/cityride.html#cityride-b14",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=cityride&case=cityride-b14",
+      "image_url": "https://manman130696-dot.github.io/film-library/reports/cityride/frames/S111a.svg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "几片干叶在地面前景，车轮与鞋从上方和后方穿过。",
+        "typography": "保留原片已有字幕或边框；新作可重拍干净素材，避免覆盖已有信息。",
+        "motion": "车轮进入、越过镜头前方并骑远，落叶留在原处。 固定贴地机位用主体经过产生强烈近大远小。",
+        "why": "连接秋日街景与人物继续骑行，镜头短但过程清楚。"
+      },
+      "adaptation_suggestion": "贴地固定，先拍叶片，再等轮子越过并骑远。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "cityride-b15",
+      "videoId": "cityride",
+      "start": 158.091425,
+      "end": 162.4,
+      "title": "晚霞栈道与倒影",
+      "tags": [
+        "B镜",
+        "情绪收束"
+      ],
+      "sourceShotId": "S114",
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/cityride.html#cityride-b15",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=cityride&case=cityride-b15",
+      "image_url": "https://manman130696-dot.github.io/film-library/reports/cityride/frames/S114a.svg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "晚霞倒映在大水面，栈道横向延伸，微小骑行者沿桥通过。",
+        "typography": "保留原片已有字幕或边框；新作可重拍干净素材，避免覆盖已有信息。",
+        "motion": "航拍视角缓慢变化，人物缩小；活动标题随后叠入并保持到结束。 长段以缓移与图形叠字收束；当前抽帧未把视角渐变额外认作硬切。",
+        "why": "适合段落结束、回望一天；选段止于片尾大字前。"
+      },
+      "adaptation_suggestion": "大远景缓移，让人很小，先留空景和倒影，再决定片名字卡。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "cityride-motion01",
+      "videoId": "cityride",
+      "start": 51.484818,
+      "end": 53.019686,
+      "title": "篮球连拍：中央大图与周边网格",
+      "tags": [
+        "包装",
+        "动效",
+        "风格参考"
+      ],
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/cityride.html#cityride-motion01",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=cityride&case=cityride-motion01",
+      "image_url": "https://manman130696-dot.github.io/film-library/reports/cityride/frames/S45a.svg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "中心竖幅照片较大，四周同场球员照片按网格重复。",
+        "typography": "边框与底板保持统一，字阶以画面原有排版为依据。",
+        "motion": "侧边照片建立底板，中心大图改变动作阶段并压住背景。",
+        "why": "中心大图承担动作峰值，周边重复小图保留运动记忆。"
+      },
+      "adaptation_suggestion": "用统一边框铺周边小图，再叠中央竖图；不同时移动所有图层。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "cityride-motion02",
+      "videoId": "cityride",
+      "start": 72.806139,
+      "end": 75.608942,
+      "title": "木纹底人像照片拼贴",
+      "tags": [
+        "包装",
+        "动效",
+        "风格参考"
+      ],
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/cityride.html#cityride-motion02",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=cityride&case=cityride-motion02",
+      "image_url": "https://manman130696-dot.github.io/film-library/reports/cityride/frames/S57a.svg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "暖色木纹底上叠放多张白边人像照片，中央竖图最大。",
+        "typography": "边框与底板保持统一，字阶以画面原有排版为依据。",
+        "motion": "小图先形成横排与周边层次，大图叠入，人物的手向镜头伸近。",
+        "why": "照片错角叠放，中央近图接手势，让成果像一本翻开的相册。"
+      },
+      "adaptation_suggestion": "先统一色调与白边，小图先成组，主图后叠入并停读。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "cityride-motion03",
+      "videoId": "cityride",
+      "start": 79.479479,
+      "end": 81.314648,
+      "title": "白相机锁中与背景旋转",
+      "tags": [
+        "包装",
+        "动效",
+        "风格参考"
+      ],
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/cityride.html#cityride-motion03",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=cityride&case=cityride-motion03",
+      "image_url": "https://manman130696-dot.github.io/film-library/reports/cityride/frames/S60a.svg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "白色相机镜头始终靠近中轴，商场背景呈环向模糊。",
+        "typography": "边框与底板保持统一，字阶以画面原有排版为依据。",
+        "motion": "相机相对稳定，周围场景旋转或径向扫动，随后人物从机身后出现。",
+        "why": "强运动集中在背景，产品留在注意中心；实拍与合成的占比未知。"
+      },
+      "adaptation_suggestion": "先锁产品中心，再试背景旋转与径向模糊，最后接持握人物。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "cityride-motion04",
+      "videoId": "cityride",
+      "start": 114.781448,
+      "end": 118.318318,
+      "title": "宠物功能卡：文字左、样张右",
+      "tags": [
+        "包装",
+        "动效",
+        "风格参考"
+      ],
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/cityride.html#cityride-motion04",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=cityride&case=cityride-motion04",
+      "image_url": "https://manman130696-dot.github.io/film-library/reports/cityride/frames/S80a.svg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "暖橙到珊瑚红的纹理底上，左侧写 EOS R50 创意辅助鱼眼效果，右侧白边宠物照片堆叠。",
+        "typography": "EOS R50；创意辅助鱼眼效果；“大”一点（画面文字）。",
+        "motion": "狗照先出现并更换，后接猫照；照片叠层与底色一起变化，产品文字保持阅读锚点。",
+        "why": "固定文字锚点，犬猫图替换和橙红底色变化传达拍摄结果。"
+      },
+      "adaptation_suggestion": "先定字阶、对齐和照片区，再设计照片叠入、替换与停读。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "cityride-motion05",
+      "videoId": "cityride",
+      "start": 138.171505,
+      "end": 139.305973,
+      "title": "固定圆角窗里的日常组接",
+      "tags": [
+        "包装",
+        "动效",
+        "风格参考"
+      ],
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/cityride.html#cityride-motion05",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=cityride&case=cityride-motion05",
+      "image_url": "https://manman130696-dot.github.io/film-library/reports/cityride/frames/S98a.svg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "同一圆角边框内依次出现旋转木马、小狗、柳树边女子与拍摄动作。",
+        "typography": "边框与底板保持统一，字阶以画面原有排版为依据。",
+        "motion": "画面内容多次切换，边框保留；人物、宠物与城市细节形成回忆组。",
+        "why": "固定容器把孩子、宠物、人物与相机组成回忆，内部仍有独立剪辑。"
+      },
+      "adaptation_suggestion": "先定外框与点线装饰，再按动作结果切换内部素材。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    }
+  ]
+}

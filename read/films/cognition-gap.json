@@ -1,0 +1,601 @@
+{
+  "id": "cognition-gap",
+  "title": "父母辈和年轻一代的认知差",
+  "summary": "以灰阶折面人物、建筑与物件拼贴，配合红色重点标签、概念卡、阶段高亮与动态图表解释关系。全片372.9秒，已整理22组包装参考、25份提示词方案和182个检测与修正区间；区间包含复合段，未穷尽全部蒙太奇内部短切点。",
+  "subtitle": "深蓝编辑式拼贴 · 灰阶折面人物 · 22 组包装 B 镜",
+  "categories": [
+    "知识解说",
+    "视觉动效"
+  ],
+  "tags": [
+    "包装风格参考",
+    "B镜",
+    "镜头包装",
+    "动效包装",
+    "编辑式拼贴"
+  ],
+  "preference": "用户原话：“这个动效包装做的很好，可以作为一个包装风格的方向，这种包装风格可以用在b镜里”。已确认：喜欢动效包装，可作为B镜风格方向。深蓝编辑式拼贴、灰阶折面人物等名称是分析归纳，未逐项确认。",
+  "duration": 372.9,
+  "preview_duration": 372.9,
+  "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=cognition-gap",
+  "report_url": "https://manman130696-dot.github.io/film-library/reports/cognition-gap/online-report.html",
+  "preview_url": "https://manman130696-dot.github.io/film-library/reports/cognition-gap/preview.mp4",
+  "preview_access": "direct_file",
+  "poster_url": "https://manman130696-dot.github.io/film-library/reports/cognition-gap/poster.svg",
+  "details_json": "https://manman130696-dot.github.io/film-library/read/films/cognition-gap.json",
+  "details_html": "https://manman130696-dot.github.io/film-library/read/films/cognition-gap.html",
+  "cases": [
+    {
+      "id": "cognition-gap-c01",
+      "videoId": "cognition-gap",
+      "start": 0,
+      "end": 6.7,
+      "title": "阵营对比与否定划线",
+      "tags": [
+        "B镜",
+        "镜头包装",
+        "编辑式拼贴",
+        "动效包装"
+      ],
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/cognition-gap.html#cognition-gap-c01",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=cognition-gap&case=cognition-gap-c01",
+      "image_url": "https://manman130696-dot.github.io/film-library/reports/cognition-gap/case-frames/C01.svg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "人物先出现，阵营标签后出现；画面压暗让中心短语接管注意力，红线再划掉短语，最后换成左右对峙。",
+        "typography": "深蓝底、灰阶折面人物或物件、白色细高衬线感中文，红色用于重点标签；具体字体名称未核实。",
+        "motion": "约0–1.3秒建立父母形象；1.6–2.7秒青年与斜红分区加入；2.9–4.0秒压暗、短语与划线；4.3秒后城市和对峙人物接管。",
+        "why": "人物关系、两种观点、冲突开场"
+      },
+      "adaptation_suggestion": "做一段6秒的关系对比B镜。竖屏9:16，深海军蓝渐变背景；两组经过授权的人物素材处理成灰阶折面雕塑感，保留清楚轮廓。0–1.5秒A组由下方上移并缓停，红色细高标题【A组】落在人物前；1.5–2.8秒B组与斜红色分区从另一侧进入，两组分区同时可见；2.8–4秒背景压暗，中心白色【待否定观点】清晰出现，红线由左向右一次划过；4–6秒更换为左右面对的两个人物，中央用红白两级标题写【关系关键词】，停留阅读。人物板层只轻移或缩放，不让静态雕塑突然开口表演；每次只突出一个信息。不制作声音。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "cognition-gap-c02",
+      "videoId": "cognition-gap",
+      "start": 38.066667,
+      "end": 42.9,
+      "title": "三枚圆形类比图章",
+      "tags": [
+        "B镜",
+        "镜头包装",
+        "编辑式拼贴",
+        "动效包装"
+      ],
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/cognition-gap.html#cognition-gap-c02",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=cognition-gap&case=cognition-gap-c02",
+      "image_url": "https://manman130696-dot.github.io/film-library/reports/cognition-gap/case-frames/C02.svg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "三个圆形灰阶小场景按先后出现，位置错开，旧元素保留，红色短词对应每张圆图。",
+        "typography": "深蓝底、灰阶折面人物或物件、白色细高衬线感中文，红色用于重点标签；具体字体名称未核实。",
+        "motion": "约39秒有第一枚，40秒第二枚，41秒第三枚，42秒整组保持。",
+        "why": "三类担忧、三个相同结构的例子"
+      },
+      "adaptation_suggestion": "制作5秒的三点类比B镜，深蓝背景，三张独立的灰阶场景图片裁为圆形，按左上、右中、左下排布。先让第一枚小幅放大落定并显示红色关键词【A】；间隔约1秒加入第二枚【B】，再加入第三枚【C】；最后三枚同时保持至少1秒。图片数量与关键词一一对应，不画额外圆图，不让先前圆图退场。不制作声音。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "cognition-gap-c03",
+      "videoId": "cognition-gap",
+      "start": 48.266667,
+      "end": 50.9,
+      "title": "暗底实拍上的双行判断",
+      "tags": [
+        "B镜",
+        "镜头包装",
+        "编辑式拼贴",
+        "动效包装"
+      ],
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/cognition-gap.html#cognition-gap-c03",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=cognition-gap&case=cognition-gap-c03",
+      "image_url": "https://manman130696-dot.github.io/film-library/reports/cognition-gap/case-frames/C03.svg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "街头俯拍被压暗，与蓝底融合；红色竖线先作为定位，白色标题分两行加入。",
+        "typography": "深蓝底、灰阶折面人物或物件、白色细高衬线感中文，红色用于重点标签；具体字体名称未核实。",
+        "motion": "约49秒第一行可读，50秒第二行出现，背景继续运动。",
+        "why": "解释两个因素、快速提出常见看法"
+      },
+      "adaptation_suggestion": "在一段街头或工作场景上制作3秒解释B镜。原视频保持正常速度，叠深蓝透明遮罩压低背景。画面上中部先出现细红色竖线，白色细高衬线标题【因素一】从短距离侧移入位并缓停；0.8秒后在下方错开加入【因素二】，两行左边缘关系清楚，保持到结束。正文字幕留在下方，不与标题重叠。不制作声音。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "cognition-gap-c04",
+      "videoId": "cognition-gap",
+      "start": 61.566667,
+      "end": 65.8,
+      "title": "概念来源与人物拼贴",
+      "tags": [
+        "B镜",
+        "镜头包装",
+        "编辑式拼贴",
+        "动效包装"
+      ],
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/cognition-gap.html#cognition-gap-c04",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=cognition-gap&case=cognition-gap-c04",
+      "image_url": "https://manman130696-dot.github.io/film-library/reports/cognition-gap/case-frames/C04.svg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "先大学建筑与来源标题，再让人物图进入；红条横向展开，承担概念的主标题。",
+        "typography": "深蓝底、灰阶折面人物或物件、白色细高衬线感中文，红色用于重点标签；具体字体名称未核实。",
+        "motion": "62秒来源建筑成立，63秒下方人物进入，64–65秒红条与概念落定。",
+        "why": "提出概念、介绍来源"
+      },
+      "adaptation_suggestion": "制作4秒概念介绍B镜：深蓝底，上半部放一张灰阶建筑或文献拼贴，标小号【来源】；下半部放经授权的研究者或讲述者灰阶半身像。先来源、后人物，最后在两者之间展开一条红色矩形，矩形落定后揭示白字【核心概念】。背景建筑对比低于人物，人物低于红条主标题；结束时所有元素稳住供阅读。来源和人物按实际资料替换，不凭空生成署名。不制作声音。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "cognition-gap-c05",
+      "videoId": "cognition-gap",
+      "start": 80.033333,
+      "end": 86.533333,
+      "title": "图解问题清单",
+      "tags": [
+        "B镜",
+        "镜头包装",
+        "编辑式拼贴",
+        "动效包装"
+      ],
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/cognition-gap.html#cognition-gap-c05",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=cognition-gap&case=cognition-gap-c05",
+      "image_url": "https://manman130696-dot.github.io/film-library/reports/cognition-gap/case-frames/C05.svg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "城市与道路灰阶拼贴铺底，图形和文字按项累积；红色细横线统一标记。",
+        "typography": "深蓝底、灰阶折面人物或物件、白色细高衬线感中文，红色用于重点标签；具体字体名称未核实。",
+        "motion": "约81–82秒先列两项，83–86秒继续新增并组成总览。",
+        "why": "并列问题、连续列举后形成总览"
+      },
+      "adaptation_suggestion": "制作6秒的问题清单B镜，深蓝底放低对比的灰阶城市与道路拼贴。预先定义【问题A/B/C/D】四项，每项包含一张真实或自制灰阶物件图、一句短标题、一条红色横线。按左上、左中、下部两列依次出现，每次相隔约1秒，前项保留；完成后留2秒给全组阅读。图形应能解释问题，不用无关图标堆满画面。不制作声音。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "cognition-gap-c06",
+      "videoId": "cognition-gap",
+      "start": 92,
+      "end": 93.533333,
+      "title": "实拍上的单个关键词",
+      "tags": [
+        "B镜",
+        "镜头包装",
+        "编辑式拼贴",
+        "动效包装"
+      ],
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/cognition-gap.html#cognition-gap-c06",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=cognition-gap&case=cognition-gap-c06",
+      "image_url": "https://manman130696-dot.github.io/film-library/reports/cognition-gap/case-frames/C06.svg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "工厂背景被压暗，中央半透明红矩形托住白色关键词。",
+        "typography": "深蓝底、灰阶折面人物或物件、白色细高衬线感中文，红色用于重点标签；具体字体名称未核实。",
+        "motion": "92–93秒中心标题保持，底部字幕与主标题分开。",
+        "why": "长句中只有一个重点、需要观众立刻抓住"
+      },
+      "adaptation_suggestion": "用3秒强调一个关键词：保留原视频，先加轻微深蓝压暗层，随后在主体留白处横向展开半透明暗红矩形，白色细高字【唯一关键词】稍后出现；停留约1.5秒，再整组淡出。不要同时出现第二句标题，不覆盖关键动作与面部；原有字幕独立保留。不制作声音。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "cognition-gap-c07",
+      "videoId": "cognition-gap",
+      "start": 104.4,
+      "end": 106.9,
+      "title": "两项结果递进",
+      "tags": [
+        "B镜",
+        "镜头包装",
+        "编辑式拼贴",
+        "动效包装"
+      ],
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/cognition-gap.html#cognition-gap-c07",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=cognition-gap&case=cognition-gap-c07",
+      "image_url": "https://manman130696-dot.github.io/film-library/reports/cognition-gap/case-frames/C07.svg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "人物背景压暗后出现两行结果标题，红竖线和蓝横条共同建立层级。",
+        "typography": "深蓝底、灰阶折面人物或物件、白色细高衬线感中文，红色用于重点标签；具体字体名称未核实。",
+        "motion": "105秒第一项结果，106秒第二项加入。",
+        "why": "解释后果、从第一层推到第二层"
+      },
+      "adaptation_suggestion": "制作3秒结果递进B镜，在能表达【事件背景】的实拍上叠深蓝压暗。上方先出现白色【结果一】并配短红竖线；0.8秒后，下方出现【结果二】和较短蓝色横条。两项均清楚可读，进入后迅速减速收稳；最后同时保持。图层先后对应信息先后，不额外加入第三项。不制作声音。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "cognition-gap-c08",
+      "videoId": "cognition-gap",
+      "start": 111.433333,
+      "end": 116.3,
+      "title": "三张概念卡交错入场",
+      "tags": [
+        "B镜",
+        "镜头包装",
+        "编辑式拼贴",
+        "动效包装"
+      ],
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/cognition-gap.html#cognition-gap-c08",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=cognition-gap&case=cognition-gap-c08",
+      "image_url": "https://manman130696-dot.github.io/film-library/reports/cognition-gap/case-frames/C08.svg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "三张红褐纹理卡片在深蓝底上由上至下累积；首卡左来，第二卡右来，第三卡左来。",
+        "typography": "深蓝底、灰阶折面人物或物件、白色细高衬线感中文，红色用于重点标签；具体字体名称未核实。",
+        "motion": "约111.7–112秒首卡落定；112.8–113.4秒第二卡从右入位；114.1–114.6秒第三卡从左入位；115–116秒全组阅读。",
+        "why": "三个概念并存、三种制度或状态叠加"
+      },
+      "adaptation_suggestion": "制作5秒的概念分层B镜。深蓝渐变底，三张等宽暗红纹理卡片按上中下排版，白色细高衬线字分别写【概念A】【概念B】【概念C】。0–1秒A卡从左侧滑入并减速；1–2秒B卡从右侧滑入，与A卡对齐；2–3秒C卡从左侧补入；3–5秒三卡完整停留。纹理可以来自与概念有关的低对比照片，字比纹理更清楚。保留行间距，不做大幅弹跳。不制作声音。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "cognition-gap-c09",
+      "videoId": "cognition-gap",
+      "start": 124.866667,
+      "end": 146.733333,
+      "title": "国家时间跨度对比",
+      "tags": [
+        "B镜",
+        "镜头包装",
+        "编辑式拼贴",
+        "动效包装"
+      ],
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/cognition-gap.html#cognition-gap-c09",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=cognition-gap&case=cognition-gap-c09",
+      "image_url": "https://manman130696-dot.github.io/film-library/reports/cognition-gap/case-frames/C09.svg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "横向时间条由一行扩展为四行，国旗和端点说明保持固定；前三条青白色，中国短条改为红色。",
+        "typography": "深蓝底、灰阶折面人物或物件、白色细高衬线感中文，红色用于重点标签；具体字体名称未核实。",
+        "motion": "约127–132秒建立首行及两端；133–137秒阶段标题与150年数字；138–140秒新增两行；141–146秒最后一行及短跨度成为重点。",
+        "why": "多对象用时比较、长短差异"
+      },
+      "adaptation_suggestion": "制作8秒的横向时间对比B镜。深蓝底，四行对象使用相同对齐基准：左侧【对象名】，中间横条，上方或两端标【起点/终点】。0–2秒第一条由左到右展开并显示【跨度A】；2–4秒第二、第三条依次补入；4–6秒最后一条用红色展开，其他条用低饱和青白色；6–8秒全组保持。条长按提供的真实数据和统一比例绘制；若只做示意，明确标示意，不随意编数据。每次新增一行，已经出现的行留在画面中。不制作声音。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "cognition-gap-c10",
+      "videoId": "cognition-gap",
+      "start": 164.6,
+      "end": 165.766667,
+      "title": "实拍上的三行标签",
+      "tags": [
+        "B镜",
+        "镜头包装",
+        "编辑式拼贴",
+        "动效包装"
+      ],
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/cognition-gap.html#cognition-gap-c10",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=cognition-gap&case=cognition-gap-c10",
+      "image_url": "https://manman130696-dot.github.io/film-library/reports/cognition-gap/case-frames/C10.svg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "港口全景作为底，红色短标签逐行增加。",
+        "typography": "深蓝底、灰阶折面人物或物件、白色细高衬线感中文，红色用于重点标签；具体字体名称未核实。",
+        "motion": "164.8秒第一行，165.6秒三行完整。",
+        "why": "给实拍加分类、快速归纳三种方式"
+      },
+      "adaptation_suggestion": "制作3秒分类B镜，选择主体不在画面中央的真实场景作为底，压低底图对比。居中按顺序叠三张红底白字短标签【类别A】【类别B】【类别C】，每张间隔约0.5秒、固定行距；前项保留，最后全组阅读1秒。标签宽度随文字统一设置，禁止忽大忽小挤压字幕。不制作声音。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "cognition-gap-c11",
+      "videoId": "cognition-gap",
+      "start": 167.966667,
+      "end": 172.533333,
+      "title": "三类物件共处同一平台",
+      "tags": [
+        "B镜",
+        "镜头包装",
+        "编辑式拼贴",
+        "动效包装"
+      ],
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/cognition-gap.html#cognition-gap-c11",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=cognition-gap&case=cognition-gap-c11",
+      "image_url": "https://manman130696-dot.github.io/film-library/reports/cognition-gap/case-frames/C11.svg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "灰阶麦穗、齿轮和工厂、楼群被摆到同一个漂浮平台上，红标签负责分类。",
+        "typography": "深蓝底、灰阶折面人物或物件、白色细高衬线感中文，红色用于重点标签；具体字体名称未核实。",
+        "motion": "约171秒平台和主要物件成立，172秒三类标签可读。",
+        "why": "抽象分类具象化、三种生产方式并存"
+      },
+      "adaptation_suggestion": "制作5秒的物件拼贴B镜：深蓝空间，中央一个灰阶折面平台，三组物件分别代表【类别A】【类别B】【类别C】。先平台，再依次放入三组物件；保持统一的俯视角、光向和灰阶折面材质。每组物件上方补一张小红标签，最终形成稳定的三组并置；结尾留至少1秒。物件数量、类别和位置预先锁定，不在运动中不断变形。建议先制作静态完整布局，再分层做入场动画。不制作声音。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "cognition-gap-c12",
+      "videoId": "cognition-gap",
+      "start": 175.633333,
+      "end": 180.3,
+      "title": "三阶段纵轴与高亮圆",
+      "tags": [
+        "B镜",
+        "镜头包装",
+        "编辑式拼贴",
+        "动效包装"
+      ],
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/cognition-gap.html#cognition-gap-c12",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=cognition-gap&case=cognition-gap-c12",
+      "image_url": "https://manman130696-dot.github.io/film-library/reports/cognition-gap/case-frames/C12.svg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "节点和细线先构成轴，日期与时代文字逐项出现，红粉圆形随后扩大覆盖当前条目。",
+        "typography": "深蓝底、灰阶折面人物或物件、白色细高衬线感中文，红色用于重点标签；具体字体名称未核实。",
+        "motion": "175.6–176.5秒线与节点；176.7–177.5秒文字补齐；177.8–178.3秒首个红圆扩张；之后停留。",
+        "why": "阶段解释、不同人处在不同环境"
+      },
+      "adaptation_suggestion": "制作5秒的三阶段说明B镜。深蓝底，角落使用裁出画面的浅蓝大圆装饰。先从一个小节点向上下拉出细竖线，再依次显示三个节点；每节点左侧放【时间】，右侧放【阶段名称】和一行小解释。前三秒完成结构，随后一个红粉渐变圆在当前阶段标题后由小变大，缓停后保持。圆形不遮住日期，不改变原来的文字坐标。适用于阶段、流程、版本、成长环境比较。不制作声音。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "cognition-gap-c13",
+      "videoId": "cognition-gap",
+      "start": 194.033333,
+      "end": 196.466667,
+      "title": "人物侧边的物件清单",
+      "tags": [
+        "B镜",
+        "镜头包装",
+        "编辑式拼贴",
+        "动效包装"
+      ],
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/cognition-gap.html#cognition-gap-c13",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=cognition-gap&case=cognition-gap-c13",
+      "image_url": "https://manman130696-dot.github.io/film-library/reports/cognition-gap/case-frames/C13.svg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "灰阶老人位于右侧，粮袋、钱与塑料袋逐项出现于左侧，红线统一标注。",
+        "typography": "深蓝底、灰阶折面人物或物件、白色细高衬线感中文，红色用于重点标签；具体字体名称未核实。",
+        "motion": "195秒老人和第一项可见；196秒左侧三项形成完整纵列。",
+        "why": "解释某类人的习惯、动机或偏好"
+      },
+      "adaptation_suggestion": "制作4秒人物解释B镜。深蓝细颗粒底，将一位经授权的人物灰阶剪影放在右侧，标【人物类别】。左侧依次放三件能代表真实习惯的灰阶物件【物件A/B/C】，每件下方有短红线和白色短词。0–1秒人物成立，1–3秒三物件错峰加入，3–4秒整体保持；人物不需要做新动作，物件不围着人物乱飞。不制作声音。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "cognition-gap-c14",
+      "videoId": "cognition-gap",
+      "start": 202.433333,
+      "end": 205.3,
+      "title": "人物数量随观点增加",
+      "tags": [
+        "B镜",
+        "镜头包装",
+        "编辑式拼贴",
+        "动效包装"
+      ],
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/cognition-gap.html#cognition-gap-c14",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=cognition-gap&case=cognition-gap-c14",
+      "image_url": "https://manman130696-dot.github.io/film-library/reports/cognition-gap/case-frames/C14.svg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "新人图像先成立，红标题随后新增；更小人物在两侧补入。",
+        "typography": "深蓝底、灰阶折面人物或物件、白色细高衬线感中文，红色用于重点标签；具体字体名称未核实。",
+        "motion": "203–204秒新人及第一标题，205秒第二标题与更多人物可见。",
+        "why": "家庭结构、人数变化、从一人到多人的解释"
+      },
+      "adaptation_suggestion": "制作4秒数量变化B镜。深蓝底先放【初始人物组合】灰阶全身素材，保持统一地面与比例。先出现红底白字【状态一】，再在指定位置增加【新增人数】并显示【状态二】；结尾把全组稳住。新增人物与原人物在同一光向和材质中，不能只复制同一张脸；数量按内容提供。不制作声音。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "cognition-gap-c15",
+      "videoId": "cognition-gap",
+      "start": 214.966667,
+      "end": 218.133333,
+      "title": "同一时间轴切换高亮",
+      "tags": [
+        "B镜",
+        "镜头包装",
+        "编辑式拼贴",
+        "动效包装"
+      ],
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/cognition-gap.html#cognition-gap-c15",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=cognition-gap&case=cognition-gap-c15",
+      "image_url": "https://manman130696-dot.github.io/film-library/reports/cognition-gap/case-frames/C15.svg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "三阶段的文字位置不变，高亮圆从祖辈转到父辈，旧重点退下。",
+        "typography": "深蓝底、灰阶折面人物或物件、白色细高衬线感中文，红色用于重点标签；具体字体名称未核实。",
+        "motion": "215秒上部仍是重点；216–217秒父辈圆形成；218秒父辈稳定。",
+        "why": "同一系统内转到第二个对象"
+      },
+      "adaptation_suggestion": "沿用既有三阶段时间轴制作3秒的第二次出现B镜。所有节点、文字、日期和背景位置与上一次完全相同。红粉高亮圆从【前一节点】缩退，在【下一节点】背后扩大并缓停；总共只保留一个主要高亮，其他节点减弱。最后保持新重点供阅读，不重新播放整套入场。不制作声音。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "cognition-gap-c16",
+      "videoId": "cognition-gap",
+      "start": 218.133333,
+      "end": 226.3,
+      "title": "标题跨实拍切镜累积",
+      "tags": [
+        "B镜",
+        "镜头包装",
+        "编辑式拼贴",
+        "动效包装"
+      ],
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/cognition-gap.html#cognition-gap-c16",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=cognition-gap&case=cognition-gap-c16",
+      "image_url": "https://manman130696-dot.github.io/film-library/reports/cognition-gap/case-frames/C16.svg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "底层换了多个实拍场景，竖向红标签不断新增，旧标签跨背景切镜保留。",
+        "typography": "深蓝底、灰阶折面人物或物件、白色细高衬线感中文，红色用于重点标签；具体字体名称未核实。",
+        "motion": "约220秒第一条；221–224秒每次新增一条，225–226秒五条清单完整。",
+        "why": "连续列举机会、条件或原因"
+      },
+      "adaptation_suggestion": "制作6秒清单B镜，底层选三段与内容相关的实拍，每段约2秒，以清晰硬切连接。顶层在同一固定坐标依次加入五张红底白字标签【条件A/B/C/D/E】；背景切镜时标题保持原位，不全部清空重来。每次只新增一项，最后全组停留约1秒；背景对比低于文字，避免人脸从文字后方反复干扰阅读。不制作声音。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "cognition-gap-c17",
+      "videoId": "cognition-gap",
+      "start": 226.3,
+      "end": 233.3,
+      "title": "人物身份与环境成套替换",
+      "tags": [
+        "B镜",
+        "镜头包装",
+        "编辑式拼贴",
+        "动效包装"
+      ],
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/cognition-gap.html#cognition-gap-c17",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=cognition-gap&case=cognition-gap-c17",
+      "image_url": "https://manman130696-dot.github.io/film-library/reports/cognition-gap/case-frames/C17.svg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "灰阶人物和折面场景共用深蓝底；路牌、行李、房屋、服装与标签一同改变。",
+        "typography": "深蓝底、灰阶折面人物或物件、白色细高衬线感中文，红色用于重点标签；具体字体名称未核实。",
+        "motion": "226.3–228.3秒进城人物；228.8–230.3秒楼房与人物替换；230.8秒后另一个人物由布衣形象换为老板形象。",
+        "why": "成长、职业变化、处境前后对比"
+      },
+      "adaptation_suggestion": "制作6秒角色处境变化B镜。深蓝底，锁定一位原创角色的脸型、发型与身高，灰阶折面雕塑感。0–2秒角色带包站在【起始环境】，红色标签写【状态一】；2–4秒将环境板替换为【结果环境】，同步改变与情境相关的服装或道具，并显示【状态二】；4–6秒保持结果，用轻微整体放大强调。人物、道具和背景必须成套更新；若换为第二个人，给清楚切镜，不用换脸冒充连续成长。建议用两张静态关键画面做分层动画。不制作声音。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "cognition-gap-c18",
+      "videoId": "cognition-gap",
+      "start": 260.933333,
+      "end": 273.4,
+      "title": "阶段高亮转三项压力再转数据图",
+      "tags": [
+        "B镜",
+        "镜头包装",
+        "编辑式拼贴",
+        "动效包装"
+      ],
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/cognition-gap.html#cognition-gap-c18",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=cognition-gap&case=cognition-gap-c18",
+      "image_url": "https://manman130696-dot.github.io/film-library/reports/cognition-gap/case-frames/C18.svg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "旧时间轴移动高亮到年轻人；原底压暗后出现三项高字标题，再更换为两红圆和百分比图。",
+        "typography": "深蓝底、灰阶折面人物或物件、白色细高衬线感中文，红色用于重点标签；具体字体名称未核实。",
+        "motion": "260.9–263.4秒转移高亮；263.9–266.4秒三项黑底标题累积；266.9秒后更换为圆形对比图。",
+        "why": "从对象切换到特点，再给量级对比"
+      },
+      "adaptation_suggestion": "制作8秒递进解释B镜。0–2秒沿用三阶段时间轴，只把红粉高亮移到【当前对象】；2–4秒保持原图为低对比背景，依次加入【特点A/B/C】三张黑底标签，把每张的首个字设为红色，其余白色；4–6秒清空到深蓝底，在统一坐标显示两个红色圆和经过核对的【数值A/B】，数值用虚线与圆相连；6–8秒整体保持。若数值用圆面积编码，按正确面积比例计算，不用半径直接代表数值。所有数据先由用户提供，不生成虚构统计。不制作声音。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "cognition-gap-c19",
+      "videoId": "cognition-gap",
+      "start": 310.9,
+      "end": 312.3,
+      "title": "两个时间数字的上下对比",
+      "tags": [
+        "B镜",
+        "镜头包装",
+        "编辑式拼贴",
+        "动效包装"
+      ],
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/cognition-gap.html#cognition-gap-c19",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=cognition-gap&case=cognition-gap-c19",
+      "image_url": "https://manman130696-dot.github.io/film-library/reports/cognition-gap/case-frames/C19.svg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "红色十年先出现，白色五年在下方以竖向拖影加入，背景为暗色城市合成。",
+        "typography": "深蓝底、灰阶折面人物或物件、白色细高衬线感中文，红色用于重点标签；具体字体名称未核实。",
+        "motion": "311秒首个数字稳住，311.4秒第二个数字由拖影收稳，312秒两者同屏。",
+        "why": "周期缩短、期限变化"
+      },
+      "adaptation_suggestion": "制作3秒期限对比B镜。蓝绿色城市画面做低对比背景，中部加柔和横向亮带。上方红色【原周期】先用短距离竖向位移进入；0.8秒后，下方白色【新周期】带轻微竖向运动模糊进入，迅速收稳；两者保持至少1秒。只给两个数据，不混入更多数字；文字必须在收稳后清楚可读。不制作声音。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "cognition-gap-c20",
+      "videoId": "cognition-gap",
+      "start": 320.533333,
+      "end": 325.766667,
+      "title": "重返人物关系并改写中心结论",
+      "tags": [
+        "B镜",
+        "镜头包装",
+        "编辑式拼贴",
+        "动效包装"
+      ],
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/cognition-gap.html#cognition-gap-c20",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=cognition-gap&case=cognition-gap-c20",
+      "image_url": "https://manman130696-dot.github.io/film-library/reports/cognition-gap/case-frames/C20.svg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "两侧灰阶人物重现，中间先是代沟和红圆，接问号，再换成两行结论。",
+        "typography": "深蓝底、灰阶折面人物或物件、白色细高衬线感中文，红色用于重点标签；具体字体名称未核实。",
+        "motion": "321–322秒关系标题成立，323秒问号出现，324秒中心强调，325秒结论文字替换。",
+        "why": "提出问题后给转折、回扣开场"
+      },
+      "adaptation_suggestion": "制作5秒回扣式关系B镜，沿用开场两个人物的外观和左右位置。先在中间放【原问题】与红色圆形标记；1.5秒后用白色问号短暂接管中心；随后让中心标题退下，改为两行【结论一】【结论二】，左侧保留细红竖线。人物只轻微整体缩放，最后停留1秒。中心结论改变，人物身份与站位连续。不制作声音。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "cognition-gap-c21",
+      "videoId": "cognition-gap",
+      "start": 352.7,
+      "end": 359,
+      "title": "逐行引言与红引号",
+      "tags": [
+        "B镜",
+        "镜头包装",
+        "编辑式拼贴",
+        "动效包装"
+      ],
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/cognition-gap.html#cognition-gap-c21",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=cognition-gap&case=cognition-gap-c21",
+      "image_url": "https://manman130696-dot.github.io/film-library/reports/cognition-gap/case-frames/C21.svg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "暗山坡底图留出左上文字区，红引号先出现，白色细高字逐行补齐，最后闭引号落定。",
+        "typography": "深蓝底、灰阶折面人物或物件、白色细高衬线感中文，红色用于重点标签；具体字体名称未核实。",
+        "motion": "353–354秒先给前两行，355–356秒补后两行与右下引号，357–358秒保持阅读。",
+        "why": "观点收束、情绪落版"
+      },
+      "adaptation_suggestion": "制作6秒观点落版B镜。选择一张人物不占文字区域的暗色环境图，叠深蓝遮罩；文字区域放在左上或中上。先出现红色开引号，再按意思分行揭示白色细高衬线文字【第一行/第二行/第三行/第四行】，每行约0.6秒，全部出现后加红色闭引号并停留至少2秒。字数按时长缩减，不让文字滚动离开屏幕；不要用大幅运镜破坏阅读。不制作声音。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "cognition-gap-c22",
+      "videoId": "cognition-gap",
+      "start": 369.866667,
+      "end": 372.9,
+      "title": "灰阶人物片尾名片",
+      "tags": [
+        "B镜",
+        "镜头包装",
+        "编辑式拼贴",
+        "动效包装"
+      ],
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/cognition-gap.html#cognition-gap-c22",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=cognition-gap&case=cognition-gap-c22",
+      "image_url": "https://manman130696-dot.github.io/film-library/reports/cognition-gap/case-frames/C22.svg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "灰阶人物从下方加入，城市底图和大标题构成背景，胸前红条形成最后动作。",
+        "typography": "深蓝底、灰阶折面人物或物件、白色细高衬线感中文，红色用于重点标签；具体字体名称未核实。",
+        "motion": "370秒人物进入，371秒标题和物件完整，372秒红色关注条保持。",
+        "why": "栏目收束、创作者介绍"
+      },
+      "adaptation_suggestion": "制作4秒片尾名片：深蓝渐变底叠低对比灰阶城市剪影，一位经授权的灰阶半身人物从下方上移缓停；随后上方白色栏目名【栏目标题】出现，两侧只放两件与主题有关的灰阶物件；最后胸前一条红色短条揭示【行动文案】。人物轮廓与文本清楚，结尾保持1秒。不制作声音。",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    }
+  ]
+}

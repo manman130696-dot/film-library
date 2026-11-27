@@ -1,0 +1,111 @@
+{
+  "id": "capital",
+  "title": "资本不只是钱",
+  "summary": "用解释缺口、双向反例、递进追问与隐喻，组织复杂概念和案例的关系。",
+  "subtitle": "布迪厄 · 叙事与文案",
+  "categories": [
+    "知识解说"
+  ],
+  "tags": [
+    "叙事",
+    "文案",
+    "案例递进",
+    "复杂观点解释"
+  ],
+  "preference": "用户觉得有深度；重点研究叙事与文案的开头、案例、递进和收束。",
+  "duration": 822.1,
+  "preview_duration": 10,
+  "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=capital",
+  "report_url": null,
+  "preview_url": null,
+  "preview_access": "existing_library_viewer",
+  "poster_url": "https://manman130696-dot.github.io/film-library/read/images/9be3d95c2f7d8a711d65c75a.svg",
+  "details_json": "https://manman130696-dot.github.io/film-library/read/films/capital.json",
+  "details_html": "https://manman130696-dot.github.io/film-library/read/films/capital.html",
+  "cases": [
+    {
+      "id": "CA01",
+      "title": "橙白观点字＋半透明双线框",
+      "status": "分析者建议参考",
+      "userQuote": "",
+      "evidenceBasis": "既有分析与本次截图复核",
+      "videoId": "capital",
+      "tags": [
+        "花字",
+        "观点",
+        "边框"
+      ],
+      "start": 0,
+      "end": 3.54,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/capital.html#CA01",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=capital&case=CA01",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/3d782c6b46892783e69a08fd.svg",
+      "preview_covers_range": true,
+      "existing_record": {
+        "structure": "实拍人物在后，中部框承托两行观点，框的圆角与细线维持边界。",
+        "typography": "橙字标重要词，白字补句子，底部字幕承担完整讲解。",
+        "motion": "旧报纸纹理退出后显出实拍，观点文字分行形成。",
+        "why": "重点词与完整解释分开，实拍仍提供人的动作与时代质感。"
+      },
+      "adaptation_suggestion": "",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "CA02",
+      "title": "中心硬币＋四周数据框",
+      "status": "分析者建议参考",
+      "userQuote": "",
+      "evidenceBasis": "既有分析与本次截图复核",
+      "videoId": "capital",
+      "tags": [
+        "关系图",
+        "信息卡",
+        "留白"
+      ],
+      "start": 81.67,
+      "end": 86.67,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/capital.html#CA02",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=capital&case=CA02",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/b81fe4b1d5cbf8daffb62ab5.svg",
+      "preview_covers_range": false,
+      "existing_record": {
+        "structure": "硬币在中轴，四周数据框围绕它，深色颗粒背景减少干扰。",
+        "typography": "数字和币种采用白色，边框用细点线，统一视觉重量。",
+        "motion": "硬币先给中心，周围框逐步补充，最后形成辐射结构。",
+        "why": "图形直接表达一个对象与多种关系，不需要所有信息排成长段字幕。"
+      },
+      "adaptation_suggestion": "",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    },
+    {
+      "id": "CA03",
+      "title": "大概念框包住三个条件框",
+      "status": "分析者建议参考",
+      "userQuote": "",
+      "evidenceBasis": "既有分析与本次截图复核",
+      "videoId": "capital",
+      "tags": [
+        "关系图",
+        "信息卡",
+        "结构"
+      ],
+      "start": 196.03,
+      "end": 203.37,
+      "details_url": "https://manman130696-dot.github.io/film-library/read/films/capital.html#CA03",
+      "viewer_url": "https://manman130696-dot.github.io/film-library/index.html?video=capital&case=CA03",
+      "image_url": "https://manman130696-dot.github.io/film-library/read/images/120ec0cdbc2461fa20285271.svg",
+      "preview_covers_range": false,
+      "existing_record": {
+        "structure": "大框表示场域，里面三个小框横排，实拍人物压在后层。",
+        "typography": "场域字号最大，三个条件次之，浅色框和白字保持一致。",
+        "motion": "条件分步补齐，大框把它们归拢，画面在换角度后仍可延续关系。",
+        "why": "视觉包含关系帮助理解定义，留白用于区分条件。片内理论陈述未在此核查。"
+      },
+      "adaptation_suggestion": "",
+      "evidence_status": "existing_archive_record_not_reverified_by_this_build",
+      "visual_annotations": null
+    }
+  ]
+}
