@@ -1,0 +1,18 @@
+{
+  "structuralValidation": "passed: 38 shots, 45 windows",
+  "sourceHash": "82583d76d1770af195b15105985e6a94b02b95dfdfa1ae1495a2654f5b94fb6f",
+  "visualReview": "All 0.5s overview samples and representative frames inspected; focused source-frame reviews recorded.",
+  "portraits": "Real group/hand crops checked",
+  "continuousPlayback": "Passed in Chrome: played from 0 to 53.47 seconds, final state S38 and full playback completed.",
+  "audio": "Preserved source mixture; not listened",
+  "reportBrowser": "Desktop passed: layout, color section, timestamp seek to S06 at13.50s, search one/zero/all results, frame enlargement and close, prompt switching.",
+  "narrowViewport": "Not tested; user desktop-only preference.",
+  "clipboard": "Copy button and success feedback verified; exact clipboard text not independently read.",
+  "remainingChecks": [
+    "cast filtering",
+    "category/sort interactions",
+    "single-shot stop boundary",
+    "media switching: portable edition embeds one original source"
+  ],
+  "publication": "User requested synchronization to the public film website on 2026-11-27."
+}

@@ -19,7 +19,7 @@ window.FILM_LIBRARY_READY = (async () => {
     video.subjects = [...video.categories];
     if (config.assignments[video.id]) video.categories = config.assignments[video.id];
   }
-  const entryPaths = ['entries/cityride.json', 'entries/cognition-gap.json', 'entries/casetify.json', 'entries/five-digit-rhythm.json'];
+  const entryPaths = ['entries/cityride.json', 'entries/cognition-gap.json', 'entries/casetify.json', 'entries/five-digit-rhythm.json', 'entries/amazonia.json'];
   const additions = await Promise.all(entryPaths.map(async path => {
     const addition = await fetch(new URL(path, document.baseURI));
     if (!addition.ok) throw new Error('Film entry HTTP ' + addition.status + ': ' + path);
@@ -56,7 +56,7 @@ window.FILM_LIBRARY_READY = (async () => {
     data.cases = [palette, ...data.cases.filter(item => item.id !== palette.id)];
   }
   data.categories = config.categories;
-  data.updatedAt = '2026-11-25';
+  data.updatedAt = '2026-11-27';
   window.FILM_LIBRARY = data;
   window.FILM_PROMPTS = prompts;
   window.FILM_ASSETS = assets;

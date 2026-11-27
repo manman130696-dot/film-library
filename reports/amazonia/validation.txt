@@ -1,0 +1,18 @@
+Fredtalk Shots bundle validation
+✓ metadata: 通过
+✓ timeline: 通过
+✓ cut provenance: 通过
+✓ taxonomy and ids: 通过
+✓ cast and categories: 通过
+✓ frame descriptions: 通过
+✓ rhythm: 通过
+✓ measurement track: 通过
+✓ measured motion: 通过
+✓ frame images and timestamps: 通过
+⚠ engine: S22: 固定机位标注的画面差分较高；复核稳定背景与主体运动。
+⚠ engine: S25: 固定机位标注的画面差分较高；复核稳定背景与主体运动。
+⚠ engine: S28: 固定机位标注的画面差分较高；复核稳定背景与主体运动。
+⚠ engine: S31: 固定机位标注的画面差分较高；复核稳定背景与主体运动。
+⚠ engine: S38: 固定机位标注的画面差分较高；复核稳定背景与主体运动。
+✓ Extended report inputs passed
+Machine checks cover measured source data, local assets, report structure and prompt timing. They do not verify visual identity, action interpretation, sound understanding or continuous playback; visual review is still required.
